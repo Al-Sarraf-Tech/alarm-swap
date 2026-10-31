@@ -1,0 +1,9 @@
+<section class="sources" aria-labelledby="sources-h">
+  <h2 id="sources-h">Sources</h2>
+  <ol>
+  {%- for s in sources %}
+    <li id="src-{{ s.n }}"><a href="{{ s.url }}" rel="nofollow noopener" data-pagefind-ignore>{{ s.title }}</a> <span class="checked">checked {{ s.checked }}</span></li>
+  {%- endfor %}
+  </ol>
+  <p class="muted">Facts are restated in our own words. If a source page changes, the "checked" date tells you how fresh our reading is. Spot something out of date? Open an issue on <a href="{{ site.repo }}/issues">GitHub</a>.</p>
+</section>

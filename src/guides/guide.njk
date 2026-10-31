@@ -1,0 +1,50 @@
+---js
+{
+  pagination: { data: "guides", size: 1, alias: "g", resolve: "values", addAllPagesToCollections: true },
+  permalink: (data) => `/guides/${data.g.slug}/`,
+  layout: "layouts/base.njk",
+  eleventyComputed: {
+    title: (data) => data.g.title,
+    description: (data) => data.g.description
+  }
+}
+---
+{%- set sources = g | guideFacts | sourcesFor -%}
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="/guides/">Guides</a> › {{ g.short_title or g.title }}</nav>
+<article class="guide">
+  <header>
+    <p class="kicker">Guide</p>
+    <h1>{{ g.title }}</h1>
+    <p class="lede">{{ g.intro }}</p>
+  </header>
+  {%- for sec in g.sections %}
+  <section>
+    <h2>{{ sec.heading }}</h2>
+    {% if sec.body %}<p>{{ sec.body }}</p>{% endif %}
+    {% if sec.facts %}
+    <ul class="factlist">
+    {%- for f in sec.facts %}
+      <li>{{ f.value }}{% include "partials/cite.njk" %}</li>
+    {%- endfor %}
+    </ul>
+    {% endif %}
+    {% if sec.rows %}
+    <div class="brands">
+    {%- for row in sec.rows %}
+      <div class="brand-card">
+        <h3>{{ row.brand }}</h3>
+        <dl>
+        {%- for f in row.facts %}
+          <dt>{{ f.label }}</dt><dd>{{ f.value }}{% include "partials/cite.njk" %}</dd>
+        {%- endfor %}
+        </dl>
+        {% if row.models %}<p class="models-line">Model pages: {% for s in row.models %}{% set rm = models[s] %}{% if rm %}<a href="/models/{{ rm.slug }}/">{{ rm.model }}</a>{% if not loop.last %}, {% endif %}{% endif %}{% endfor %}</p>{% endif %}
+      </div>
+    {%- endfor %}
+    </div>
+    {% endif %}
+  </section>
+  {%- endfor %}
+  {% include "partials/sources.njk" %}
+  <p class="muted updated">Published {{ g.published }}.</p>
+</article>

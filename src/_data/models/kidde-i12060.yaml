@@ -1,0 +1,114 @@
+# One file per alarm model. Every entry under `facts` MUST carry
+# source_url, source_title and checked (YYYY-MM-DD). `npm run check` enforces it.
+slug: kidde-i12060
+brand: Kidde
+model: i12060
+aliases: [i12060A]
+kind: Hardwired smoke alarm
+title: "Kidde i12060 / i12060A: age, expiry and what replaces it"
+description: "Kidde i12060 hardwired ionization smoke alarm: where the date code is, when it is due for replacement, its backup battery, interconnect limits and the Kidde adapter that fits its old wiring plug."
+published: "2026-10-31"
+summary: >-
+  A hardwired ionization smoke alarm from Kidde with a front-loading 9-volt
+  backup battery. If yours is ten years past the date code on its back, it is
+  due for replacement. Kidde sells a plug adapter (20-9003) so a newer Kidde
+  alarm can use the wiring plug already in your ceiling.
+facts:
+  - id: sensor
+    label: Sensor type
+    value: "Ionization"
+    source_url: https://www.kidde.com/products/smoke-alarms/ac-hardwired-smoke-alarm
+    source_title: "Kidde — AC Hardwired Smoke Alarm i12060 (product page)"
+    checked: "2026-10-31"
+  - id: power
+    label: Power
+    value: "Wired to 120 V AC household power, with a 9 V battery as backup"
+    source_url: https://www.kidde.com/products/smoke-alarms/ac-hardwired-smoke-alarm
+    source_title: "Kidde — AC Hardwired Smoke Alarm i12060 (product page)"
+    checked: "2026-10-31"
+  - id: battery-types
+    label: Backup battery
+    value: "The user guide names the 9 V batteries to use (for example Energizer 522 or Duracell MN1604/MX1604) and says not to use lithium batteries in this unit"
+    source_url: https://brand.kidde.com/m/345f6673c28436a/original/UG_i12060A.pdf
+    source_title: "Kidde — i12060A Smoke Alarm User Guide (PDF)"
+    checked: "2026-10-31"
+  - id: date-location
+    label: Where the date is
+    value: "The date code is printed on the back of the alarm; the model number is on the back as well"
+    source_url: https://brand.kidde.com/m/345f6673c28436a/original/UG_i12060A.pdf
+    source_title: "Kidde — i12060A Smoke Alarm User Guide (PDF)"
+    checked: "2026-10-31"
+  - id: lifespan
+    label: When to replace
+    value: "Ten years from the date code, per both Kidde and NFPA as quoted in the user guide"
+    source_url: https://brand.kidde.com/m/345f6673c28436a/original/UG_i12060A.pdf
+    source_title: "Kidde — i12060A Smoke Alarm User Guide (PDF)"
+    checked: "2026-10-31"
+  - id: low-battery
+    label: Low-battery signal
+    value: "A chirp roughly every 30–40 seconds, kept up for at least seven days"
+    source_url: https://brand.kidde.com/m/345f6673c28436a/original/UG_i12060A.pdf
+    source_title: "Kidde — i12060A Smoke Alarm User Guide (PDF)"
+    checked: "2026-10-31"
+  - id: fault
+    label: Sensor-fault signal
+    value: "A chirp about 20 seconds after the red light flashes means the sensing chamber is not working normally; Kidde says to replace the alarm"
+    source_url: https://brand.kidde.com/m/345f6673c28436a/original/UG_i12060A.pdf
+    source_title: "Kidde — i12060A Smoke Alarm User Guide (PDF)"
+    checked: "2026-10-31"
+  - id: interconnect
+    label: Interconnect
+    value: "Up to 24 Kidde devices on one wired loop, of which 18 can trigger the others (smoke, CO and heat alarms)"
+    source_url: https://www.kidde.com/products/smoke-alarms/ac-hardwired-smoke-alarm
+    source_title: "Kidde — AC Hardwired Smoke Alarm i12060 (product page)"
+    checked: "2026-10-31"
+  - id: nfpa-limit
+    label: Smoke-alarm limit per loop
+    value: "The guide says not to exceed NFPA's limit of 12 smoke alarms (18 alarms in total) on one interconnected system"
+    source_url: https://brand.kidde.com/m/345f6673c28436a/original/UG_i12060A.pdf
+    source_title: "Kidde — i12060A Smoke Alarm User Guide (PDF)"
+    checked: "2026-10-31"
+  - id: warranty
+    label: Warranty
+    value: "10-year limited"
+    source_url: https://www.kidde.com/products/smoke-alarms/ac-hardwired-smoke-alarm
+    source_title: "Kidde — AC Hardwired Smoke Alarm i12060 (product page)"
+    checked: "2026-10-31"
+  - id: part-number
+    label: Ordering number
+    value: "21006376"
+    source_url: https://www.kidde.com/products/smoke-alarms/ac-hardwired-smoke-alarm
+    source_title: "Kidde — AC Hardwired Smoke Alarm i12060 (product page)"
+    checked: "2026-10-31"
+replacement:
+  - id: named-replacement
+    label: Replacement named by Kidde
+    value: "Kidde's product page did not name a replacement model when we checked. Use Kidde's model search or support line to confirm the current equivalent."
+    source_url: https://www.kidde.com/support/smoke-alarms/alarm-replacement-guide
+    source_title: "Kidde — Alarm Replacement Guide"
+    checked: "2026-10-31"
+  - id: adapter
+    label: Keep the old wiring plug
+    value: "Kidde's 20-9003 adapter lists i12060 and i12060A among the older Kidde harnesses it connects to new Kidde alarms that use the newer connector, with no rewiring"
+    source_url: https://brand.kidde.com/m/275e008037c43807/original/Product_UG_20-9003.pdf
+    source_title: "Kidde — 20-9003 Wiring Adapter User Guide (PDF)"
+    checked: "2026-10-31"
+  - id: adapter-not-universal
+    label: Check the pairing first
+    value: "Kidde says the 20-9003 is not universal: confirm both your old model and the new Kidde model in its user guide or compatibility guide before buying"
+    source_url: https://www.kidde.com/products/safety-accessories/quick-connect-adapter-for-hardwired-smoke-carbon-monoxide-alarms
+    source_title: "Kidde — Quick Connect Adapter 20-9003 (product page)"
+    checked: "2026-10-31"
+  - id: other-brands
+    label: Mixing brands on one loop
+    value: "Kidde says its alarms interconnect with Kidde, Fyrnetics, Nighthawk, Silhouette and Lifesaver alarms plus a specific list of tested Firex, First Alert and BRK models; anything not on that list is not compatible"
+    source_url: https://www.kidde.com/support/smoke-alarms/kidde-interconnectivity
+    source_title: "Kidde — What Other Products Will Kidde Alarms Interconnect With?"
+    checked: "2026-10-31"
+  - id: recalls
+    label: Recalls
+    value: "Search CPSC's recall list for your exact model before reusing or reselling an alarm"
+    source_url: https://www.cpsc.gov/Recalls
+    source_title: "CPSC — Recalls & Product Safety Warnings"
+    checked: "2026-10-31"
+related: [kidde-i12040, firex-i4618]

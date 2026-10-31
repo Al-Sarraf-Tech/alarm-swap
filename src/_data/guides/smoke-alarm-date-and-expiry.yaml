@@ -1,0 +1,165 @@
+# Guide pages: prose lives in `intro`/`body` (no numbers or claims that aren't
+# backed by a fact on the same page); every factual statement is a `facts` item
+# with its own source. `npm run check` enforces source_url/source_title/checked.
+slug: smoke-alarm-date-and-expiry
+title: "How to find your smoke alarm's date and when it expires, by brand"
+short_title: "Find your alarm's date & expiry"
+description: "Where each brand prints the manufacture date on a smoke or CO alarm, how many years each maker gives it, and what to do when the date is missing. Kidde, First Alert, Google Nest Protect, X-Sense, USI and Firex, with links to each maker."
+published: "2026-10-31"
+intro: >-
+  Smoke alarms don't show an expiry date the way milk does. Most show the day
+  they were made, and the makers tell you how many years to count from there.
+  Here is where to look on each brand and how long each one gives you.
+  Every line links to the maker, NFPA or USFA.
+sections:
+  - heading: "The short answer"
+    facts:
+      - id: nfpa-10
+        value: "NFPA says every smoke alarm has to be replaced 10 years after the date it was made."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-10-31"
+      - id: usfa-back
+        value: "USFA's 'Check the Date' handout says to take the alarm down and read the manufacture date on its back, then put it back up only if it is under 10 years old."
+        source_url: https://www.usfa.fema.gov/downloads/pdf/publications/dont-wait-check-the-date-handout.pdf
+        source_title: "USFA — Don't Wait, Check the Date! (PDF handout)"
+        checked: "2026-10-31"
+      - id: nfpa-chirp
+        value: "NFPA says chirping that carries on after a fresh battery means the alarm has reached the end of its life and the whole unit needs replacing."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-10-31"
+  - heading: "Before you take a wired alarm down"
+    body: >-
+      Hardwired alarms run on household power, so the order matters.
+    facts:
+      - id: kidde-power-off
+        value: "Kidde says to switch off the circuit breaker (or pull the fuse) before removing an installed alarm from its bracket, and to restore power only after every alarm is back up."
+        source_url: https://www.kidde.com/support/smoke-alarms/kidde-interconnectivity
+        source_title: "Kidde — What Other Products Will Kidde Alarms Interconnect With?"
+        checked: "2026-10-31"
+      - id: nfpa-electrician
+        value: "NFPA advises that only qualified electricians install hardwired smoke alarms."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-10-31"
+  - heading: "By brand"
+    body: >-
+      Find the logo on the front of the alarm, then look at its row.
+    rows:
+      - brand: Kidde
+        facts:
+          - id: kidde-date
+            label: Where the date is
+            value: "Stamped on the label on the back of the alarm."
+            source_url: https://www.kidde.com/support/smoke-alarms/manufacture-date-location
+            source_title: "Kidde — How to Find the Date of Manufacture on an Alarm"
+            checked: "2026-10-31"
+          - id: kidde-life
+            label: How long it lasts
+            value: "Smoke and heat alarms: replace every 10 years. CO and combination smoke/CO alarms: every 7–10 years, depending on the model."
+            source_url: https://www.kidde.com/support/smoke-alarms/alarm-replacement-guide
+            source_title: "Kidde — Alarm Replacement Guide"
+            checked: "2026-10-31"
+        models: [kidde-i12060, kidde-i12040]
+      - brand: First Alert
+        facts:
+          - id: fa-date
+            label: Where the date is
+            value: "The manufacture date is on the back of the smoke or CO alarm."
+            source_url: https://www.firstalert.com/pages/10year
+            source_title: "First Alert — 10-Year Battery Alarms (How to check your alarms)"
+            checked: "2026-10-31"
+          - id: fa-life
+            label: How long it lasts
+            value: "Replace once it is 10 years old or older, and right away if it fails its test."
+            source_url: https://www.firstalert.com/pages/10year
+            source_title: "First Alert — 10-Year Battery Alarms (How to check your alarms)"
+            checked: "2026-10-31"
+      - brand: Google Nest Protect
+        facts:
+          - id: nest-life
+            label: How long it lasts
+            value: "2nd-generation Nest Protect: 10 years from the date it was made. 1st generation: 7 years."
+            source_url: https://support.google.com/googlenest/answer/9249296
+            source_title: "Google Nest Help — When to replace your Nest Protect"
+            checked: "2026-10-31"
+          - id: nest-date
+            label: Where the date is
+            value: "In the Nest or Google Home app: open the Protect's settings and look for the 'Replace by' date under its technical information."
+            source_url: https://support.google.com/googlenest/answer/9249296
+            source_title: "Google Nest Help — When to replace your Nest Protect"
+            checked: "2026-10-31"
+          - id: nest-chirp
+            label: When it has expired
+            value: "It double-chirps once a minute until it is replaced."
+            source_url: https://support.google.com/googlehome/answer/9243107
+            source_title: "Google Nest Help — Nest Protect lights and sounds"
+            checked: "2026-10-31"
+      - brand: X-Sense
+        facts:
+          - id: xs-life
+            label: How long it lasts
+            value: "X-Sense's FAQ gives smoke alarms a life of 8 to 10 years, then says to replace the whole unit."
+            source_url: https://www.x-sense.com/blogs/tips/smoke-detector-fire-alarms-faq
+            source_title: "X-Sense — Smoke Detector Fire Alarms FAQ"
+            checked: "2026-10-31"
+          - id: xs-nodate
+            label: No date on it?
+            value: "X-Sense says to throw out and replace an alarm that shows no manufacturing date."
+            source_url: https://www.x-sense.com/blogs/tips/smoke-detector-fire-alarms-faq
+            source_title: "X-Sense — Smoke Detector Fire Alarms FAQ"
+            checked: "2026-10-31"
+      - brand: Universal Security Instruments (USI)
+        facts:
+          - id: usi-life
+            label: How long it lasts
+            value: "USI recommends replacing smoke, CO and natural-gas alarms at least every 10 years, or sooner if they act up."
+            source_url: https://support.universalsecurity.com/hc/en-us/articles/34001763205015-Smoke-Fire-Safety-FAQ-s
+            source_title: "Universal Security Instruments — Smoke & Fire Safety FAQs"
+            checked: "2026-10-31"
+          - id: usi-sealed
+            label: Sealed batteries
+            value: "Many USI alarms have a sealed 10-year battery that is never replaced during the alarm's life; batteries in other models should be changed at least yearly."
+            source_url: https://support.universalsecurity.com/hc/en-us/articles/34001763205015-Smoke-Fire-Safety-FAQ-s
+            source_title: "Universal Security Instruments — Smoke & Fire Safety FAQs"
+            checked: "2026-10-31"
+      - brand: Firex
+        facts:
+          - id: firex-replace
+            label: What Kidde says
+            value: "Kidde, which bought the maker of Firex alarms in 2009, says Firex owners should replace them with a current Kidde model."
+            source_url: https://www.kidde.com/support/smoke-alarms/kidde-interconnectivity
+            source_title: "Kidde — What Other Products Will Kidde Alarms Interconnect With?"
+            checked: "2026-10-31"
+        models: [firex-i4618]
+  - heading: "Can't read the date?"
+    body: >-
+      Labels fade, get painted over, or were never printed. A fresh battery
+      does not change how old the alarm is.
+    facts:
+      - id: xs-nodate-2
+        value: "X-Sense: an alarm with no manufacturing date should be discarded and replaced."
+        source_url: https://www.x-sense.com/blogs/tips/smoke-detector-fire-alarms-faq
+        source_title: "X-Sense — Smoke Detector Fire Alarms FAQ"
+        checked: "2026-10-31"
+      - id: nfpa-test
+        value: "NFPA: test every alarm monthly with its button; if it stays silent, change the battery, or replace the whole unit if it is over 10 years old."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-10-31"
+  - heading: "Replacing one alarm in a linked set"
+    body: >-
+      If your alarms all go off together, they share an interconnect wire, and
+      not every new alarm can join an old loop.
+    facts:
+      - id: kidde-mixing
+        value: "Kidde warns that putting unlisted brands or models on its interconnect wire could cause nuisance alarms, failure to alarm, or damage."
+        source_url: https://www.kidde.com/support/smoke-alarms/kidde-interconnectivity
+        source_title: "Kidde — What Other Products Will Kidde Alarms Interconnect With?"
+        checked: "2026-10-31"
+      - id: cpsc
+        value: "Before reusing or giving away an old alarm, search CPSC's recall list for its model."
+        source_url: https://www.cpsc.gov/Recalls
+        source_title: "CPSC — Recalls & Product Safety Warnings"
+        checked: "2026-10-31"

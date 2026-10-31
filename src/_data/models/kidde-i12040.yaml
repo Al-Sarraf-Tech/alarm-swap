@@ -1,0 +1,118 @@
+slug: kidde-i12040
+brand: Kidde
+model: i12040
+aliases: [i12040A]
+kind: Hardwired smoke alarm
+title: "Kidde i12040 / i12040A: age, expiry and what replaces it"
+description: "Kidde i12040 hardwired ionization smoke alarm with Hush: date code location, ten-year replacement, approved 9 V backup batteries, interconnect limits and the 20-9003 plug adapter."
+published: "2026-10-31"
+summary: >-
+  Kidde's hardwired ionization smoke alarm with a single Test/Hush button and a
+  9-volt backup battery. It shares a user guide with the i12080A (the same alarm
+  plus a battery-powered safety light). Replace it ten years after the date code
+  on its back; the 20-9003 adapter lets a newer Kidde alarm reuse its wiring plug.
+facts:
+  - id: sensor
+    label: Sensor type
+    value: "Ionization"
+    source_url: https://www.kidde.com/products/smoke-alarms/ac-hardwired-interconnect-smoke-alarm-with-hush
+    source_title: "Kidde — AC Hardwired Interconnect Smoke Alarm with Hush i12040 (product page)"
+    checked: "2026-10-31"
+  - id: power
+    label: Power
+    value: "Wired to 120 V AC household power, with a 9 V backup battery included"
+    source_url: https://www.kidde.com/products/smoke-alarms/ac-hardwired-interconnect-smoke-alarm-with-hush
+    source_title: "Kidde — AC Hardwired Interconnect Smoke Alarm with Hush i12040 (product page)"
+    checked: "2026-10-31"
+  - id: sibling
+    label: Same guide covers
+    value: "i12040A and i12080A; the i12080A adds a battery-powered LED safety light"
+    source_url: https://brand.kidde.com/m/79d343435488dfc/original/Product_UG_i12040A-i12080A-User-Guide_En.pdf
+    source_title: "Kidde — i12040A / i12080A Smoke Alarm User Guide (PDF)"
+    checked: "2026-10-31"
+  - id: battery-types
+    label: Backup battery
+    value: "The guide lists the approved 9 V batteries (for example Energizer 522 or Duracell MN1604/MX1604) and rules out lithium batteries"
+    source_url: https://brand.kidde.com/m/79d343435488dfc/original/Product_UG_i12040A-i12080A-User-Guide_En.pdf
+    source_title: "Kidde — i12040A / i12080A Smoke Alarm User Guide (PDF)"
+    checked: "2026-10-31"
+  - id: date-location
+    label: Where the date is
+    value: "The date code is printed on the back of the alarm, as is the model number"
+    source_url: https://brand.kidde.com/m/79d343435488dfc/original/Product_UG_i12040A-i12080A-User-Guide_En.pdf
+    source_title: "Kidde — i12040A / i12080A Smoke Alarm User Guide (PDF)"
+    checked: "2026-10-31"
+  - id: lifespan
+    label: When to replace
+    value: "Ten years from the date code, the interval the guide attributes to both Kidde and NFPA"
+    source_url: https://brand.kidde.com/m/79d343435488dfc/original/Product_UG_i12040A-i12080A-User-Guide_En.pdf
+    source_title: "Kidde — i12040A / i12080A Smoke Alarm User Guide (PDF)"
+    checked: "2026-10-31"
+  - id: low-battery
+    label: Low-battery signal
+    value: "A chirp about every 30–40 seconds when the backup battery runs low"
+    source_url: https://brand.kidde.com/m/79d343435488dfc/original/Product_UG_i12040A-i12080A-User-Guide_En.pdf
+    source_title: "Kidde — i12040A / i12080A Smoke Alarm User Guide (PDF)"
+    checked: "2026-10-31"
+  - id: low-battery-hush
+    label: Silencing a low-battery chirp
+    value: "The guide describes a low-battery Hush that quiets the chirp for about 13 hours; it is a reminder window, not a fix"
+    source_url: https://brand.kidde.com/m/79d343435488dfc/original/Product_UG_i12040A-i12080A-User-Guide_En.pdf
+    source_title: "Kidde — i12040A / i12080A Smoke Alarm User Guide (PDF)"
+    checked: "2026-10-31"
+  - id: interconnect
+    label: Interconnect
+    value: "Up to 24 Kidde devices on one wired loop, 18 of which can set off the rest (smoke, CO and heat alarms)"
+    source_url: https://www.kidde.com/products/smoke-alarms/ac-hardwired-interconnect-smoke-alarm-with-hush
+    source_title: "Kidde — AC Hardwired Interconnect Smoke Alarm with Hush i12040 (product page)"
+    checked: "2026-10-31"
+  - id: nfpa-limit
+    label: Smoke-alarm limit per loop
+    value: "No more than 12 smoke alarms (18 alarms in total) on one system, which the guide gives as the NFPA limit"
+    source_url: https://brand.kidde.com/m/79d343435488dfc/original/Product_UG_i12040A-i12080A-User-Guide_En.pdf
+    source_title: "Kidde — i12040A / i12080A Smoke Alarm User Guide (PDF)"
+    checked: "2026-10-31"
+  - id: warranty
+    label: Warranty
+    value: "10-year limited"
+    source_url: https://www.kidde.com/products/smoke-alarms/ac-hardwired-interconnect-smoke-alarm-with-hush
+    source_title: "Kidde — AC Hardwired Interconnect Smoke Alarm with Hush i12040 (product page)"
+    checked: "2026-10-31"
+  - id: part-number
+    label: Ordering number
+    value: "21006378"
+    source_url: https://www.kidde.com/products/smoke-alarms/ac-hardwired-interconnect-smoke-alarm-with-hush
+    source_title: "Kidde — AC Hardwired Interconnect Smoke Alarm with Hush i12040 (product page)"
+    checked: "2026-10-31"
+replacement:
+  - id: named-replacement
+    label: Replacement named by Kidde
+    value: "Kidde's i12040 page did not name a replacement model when we checked. Kidde's replacement guide says discontinued models show their replacement on the product page found through its model search."
+    source_url: https://www.kidde.com/support/smoke-alarms/alarm-replacement-guide
+    source_title: "Kidde — Alarm Replacement Guide"
+    checked: "2026-10-31"
+  - id: adapter
+    label: Keep the old wiring plug
+    value: "The 20-9003 adapter guide lists i12040 and i12040A as older Kidde harnesses it can connect to a new Kidde alarm with the newer connector"
+    source_url: https://brand.kidde.com/m/275e008037c43807/original/Product_UG_20-9003.pdf
+    source_title: "Kidde — 20-9003 Wiring Adapter User Guide (PDF)"
+    checked: "2026-10-31"
+  - id: adapter-not-universal
+    label: Check the pairing first
+    value: "Kidde warns the adapter only works for listed old/new model pairs; do not go by plug shape or brand alone"
+    source_url: https://www.kidde.com/products/safety-accessories/quick-connect-adapter-for-hardwired-smoke-carbon-monoxide-alarms
+    source_title: "Kidde — Quick Connect Adapter 20-9003 (product page)"
+    checked: "2026-10-31"
+  - id: other-brands
+    label: Mixing brands on one loop
+    value: "Only alarms on Kidde's tested list should share the interconnect wire; Kidde says unlisted equipment could cause nuisance alarms, failure to alarm, or damage"
+    source_url: https://www.kidde.com/support/smoke-alarms/kidde-interconnectivity
+    source_title: "Kidde — What Other Products Will Kidde Alarms Interconnect With?"
+    checked: "2026-10-31"
+  - id: recalls
+    label: Recalls
+    value: "Search CPSC's recall list for your exact model before reusing or reselling an alarm"
+    source_url: https://www.cpsc.gov/Recalls
+    source_title: "CPSC — Recalls & Product Safety Warnings"
+    checked: "2026-10-31"
+related: [kidde-i12060, firex-i4618]

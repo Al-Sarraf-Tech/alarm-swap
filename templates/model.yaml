@@ -1,0 +1,34 @@
+# Copy to src/_data/models/<brand>-<model>.yaml (lowercase, hyphens), then fill in.
+# Rules: facts only from the maker, NFPA, USFA or CPSC pages you opened today;
+# write every value in your own words; quote dates; never guess.
+slug: brand-model            # must equal the file name without .yaml
+brand: Brand
+model: MODEL
+aliases: []                  # other numbers printed on the same alarm, e.g. [MODELA]
+kind: Hardwired smoke alarm  # or: Hardwired smoke + CO alarm, Battery smoke alarm, ...
+title: "Brand MODEL: age, expiry and what replaces it"
+description: "One sentence, under ~160 characters, saying what the page answers."
+published: "YYYY-MM-DD"
+summary: >-
+  Two or three plain sentences. Only restate things that appear as facts below.
+facts:                       # at least 3
+  - id: sensor
+    label: Sensor type
+    value: "..."
+    source_url: https://maker.example/product-page
+    source_title: "Maker — Product name MODEL (product page)"
+    checked: "YYYY-MM-DD"
+replacement:                 # at least 1; say plainly if the maker names none
+  - id: named-replacement
+    label: Replacement named by Maker
+    value: "..."
+    source_url: https://maker.example/support-page
+    source_title: "Maker — Page title"
+    checked: "YYYY-MM-DD"
+  - id: recalls
+    label: Recalls
+    value: "Search CPSC's recall list for your exact model before reusing or reselling an alarm"
+    source_url: https://www.cpsc.gov/Recalls
+    source_title: "CPSC — Recalls & Product Safety Warnings"
+    checked: "YYYY-MM-DD"
+related: []                  # slugs of existing model pages

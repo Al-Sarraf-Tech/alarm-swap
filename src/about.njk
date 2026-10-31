@@ -1,0 +1,35 @@
+---
+layout: layouts/base.njk
+title: "About AlarmSwap & how we source"
+description: "Who runs AlarmSwap, which sources we accept, how facts are checked, and how to report a mistake."
+permalink: /about/
+---
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › About &amp; sources</nav>
+<h1>About AlarmSwap &amp; how we source</h1>
+<p class="lede">AlarmSwap is a small, independent reference for one job: working out whether the smoke or CO alarm on your ceiling is due for replacement, and what can replace it without guesswork.</p>
+
+<h2>What counts as a source</h2>
+<p>A fact goes on this site only if we read it on one of these, and every fact links to the exact page or PDF:</p>
+<ul>
+  <li><strong>The alarm's maker</strong>: product pages, user guides and support articles published by the brand itself (for example Kidde, First Alert, Google Nest, X-Sense, Universal Security Instruments).</li>
+  <li><strong>NFPA</strong>, the National Fire Protection Association.</li>
+  <li><strong>USFA</strong>, the U.S. Fire Administration (part of FEMA).</li>
+  <li><strong>CPSC</strong>, the U.S. Consumer Product Safety Commission, for recalls.</li>
+</ul>
+<p>We don't use retailer listings, forums or other directories as sources, and we don't copy text, tables or images. Facts are restated in our own words.</p>
+
+<h2>How a page is checked</h2>
+<ul>
+  <li>Every fact is stored with its <code>source_url</code>, <code>source_title</code> and the date we <code>checked</code> it.</li>
+  <li>The site will not build if any fact is missing one of those, or if a source isn't on the list above.</li>
+  <li>When a maker doesn't state something (for example, no replacement model named on a discontinued product), the page says that plainly.</li>
+</ul>
+
+<h2>What this site is not</h2>
+<p>It is not installation or electrical advice, and it is not an emergency resource. Wiring work belongs to a qualified electrician, and the alarm's own manual wins over anything here.</p>
+
+<h2>Corrections</h2>
+<p>If a maker changes a page or we got something wrong, please <a href="{{ site.repo }}/issues">open an issue on GitHub</a> with the model and the source link. We re-check the page and update its "checked" dates.</p>
+
+<h2>Money</h2>
+<p>See the <a href="/disclosure/">disclosure</a>. Right now the site has no affiliate links and no ads.</p>

@@ -1,0 +1,13 @@
+---
+layout: layouts/base.njk
+title: "Guides"
+description: "Short, sourced guides to dating, replacing and matching smoke and CO alarms."
+permalink: /guides/
+---
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › Guides</nav>
+<h1>Guides</h1>
+<ul class="cards">
+{%- for g in guides | byPublished %}
+  <li><a href="/guides/{{ g.slug }}/"><strong>{{ g.title }}</strong> <span>{{ g.published }}</span></a></li>
+{%- endfor %}
+</ul>

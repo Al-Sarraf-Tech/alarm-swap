@@ -1,0 +1,112 @@
+slug: firex-i4618
+brand: Firex
+model: i4618
+aliases: [i4618A, i4618AC]
+kind: Hardwired smoke alarm
+title: "Firex i4618 / i4618AC: discontinued — what replaces it"
+description: "Firex i4618 and i4618AC hardwired ionization smoke alarms are discontinued. Kidde's named upgrade (20SAR), the 20-9003 adapter for the old Firex plug, interconnect notes and the ten-year rule."
+published: "2026-10-31"
+summary: >-
+  Firex is a brand Kidde took over; Kidde now lists the i4618AC as discontinued
+  and points to its 20SAR hardwired alarm as the upgrade. Kidde's 20-9003 adapter
+  names the i4618 family among the older plugs it can connect to a newer Kidde
+  alarm, so the ceiling wiring can usually stay — confirm the exact pairing first.
+facts:
+  - id: status
+    label: Status
+    value: "Kidde marks the Firex i4618AC as discontinued"
+    source_url: https://www.kidde.com/products/smoke-alarms/firex-hardwired-smoke-alarm
+    source_title: "Kidde — Firex Hardwired Smoke Alarm i4618AC (product page)"
+    checked: "2026-10-31"
+  - id: firex-owners
+    label: Kidde's advice to Firex owners
+    value: "Kidde bought the maker of Firex alarms in 2009, says Firex products are no longer made or supported by their former maker, and advises replacing them with a current Kidde model"
+    source_url: https://www.kidde.com/support/smoke-alarms/kidde-interconnectivity
+    source_title: "Kidde — What Other Products Will Kidde Alarms Interconnect With?"
+    checked: "2026-10-31"
+  - id: sensor
+    label: Sensor type
+    value: "Ionization"
+    source_url: https://www.kidde.com/products/smoke-alarms/firex-hardwired-smoke-alarm
+    source_title: "Kidde — Firex Hardwired Smoke Alarm i4618AC (product page)"
+    checked: "2026-10-31"
+  - id: power
+    label: Power
+    value: "Wired to 120 V AC household power, with a 9 V backup battery"
+    source_url: https://www.kidde.com/products/smoke-alarms/firex-hardwired-smoke-alarm
+    source_title: "Kidde — Firex Hardwired Smoke Alarm i4618AC (product page)"
+    checked: "2026-10-31"
+  - id: battery-types
+    label: Backup battery
+    value: "The guide lists approved 9 V batteries (for example Energizer 522 or Duracell MN1604/MX1604) and says not to fit lithium batteries"
+    source_url: https://brand.kidde.com/m/3a0be371fcc801d5/original/UG_FireX_SmokeAla.pdf
+    source_title: "Kidde — Smoke Alarm User Guide, i4618AC / i4718AC / i5000AC Series (PDF)"
+    checked: "2026-10-31"
+  - id: low-battery
+    label: Low-battery signal
+    value: "A chirp about every 30–40 seconds for at least seven days"
+    source_url: https://brand.kidde.com/m/3a0be371fcc801d5/original/UG_FireX_SmokeAla.pdf
+    source_title: "Kidde — Smoke Alarm User Guide, i4618AC / i4718AC / i5000AC Series (PDF)"
+    checked: "2026-10-31"
+  - id: lifespan
+    label: When to replace
+    value: "NFPA says every smoke alarm must be replaced 10 years after its manufacturing date"
+    source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+    source_title: "NFPA — Smoke Alarm Information"
+    checked: "2026-10-31"
+  - id: interconnect
+    label: Interconnect
+    value: "Up to 24 devices on one loop, 18 of which can trigger the rest (smoke, CO and heat alarms)"
+    source_url: https://www.kidde.com/products/smoke-alarms/firex-hardwired-smoke-alarm
+    source_title: "Kidde — Firex Hardwired Smoke Alarm i4618AC (product page)"
+    checked: "2026-10-31"
+  - id: old-accessories
+    label: Older Kidde accessories
+    value: "The guide says this alarm does not work with Kidde CO relays and strobes made before November 1, 2011"
+    source_url: https://brand.kidde.com/m/3a0be371fcc801d5/original/UG_FireX_SmokeAla.pdf
+    source_title: "Kidde — Smoke Alarm User Guide, i4618AC / i4718AC / i5000AC Series (PDF)"
+    checked: "2026-10-31"
+  - id: warranty
+    label: Warranty (as sold)
+    value: "Five-year limited for the i4618AC series"
+    source_url: https://brand.kidde.com/m/3a0be371fcc801d5/original/UG_FireX_SmokeAla.pdf
+    source_title: "Kidde — Smoke Alarm User Guide, i4618AC / i4718AC / i5000AC Series (PDF)"
+    checked: "2026-10-31"
+replacement:
+  - id: named-replacement
+    label: Replacement named by Kidde
+    value: "Kidde's i4618AC page offers the 20SAR (Smoke Alarm, Hardwired with AA Backup Battery) as the upgrade"
+    source_url: https://www.kidde.com/products/smoke-alarms/firex-hardwired-smoke-alarm
+    source_title: "Kidde — Firex Hardwired Smoke Alarm i4618AC (product page)"
+    checked: "2026-10-31"
+  - id: replacement-specs
+    label: About the 20SAR
+    value: "Hardwired, photoelectric sensor, two replaceable AA backup batteries, interconnects with other Kidde alarms"
+    source_url: https://www.kidde.com/products/smoke-alarms/smoke-alarm-hardwired-with-aa-backup-battery
+    source_title: "Kidde — Smoke Alarm, Hardwired with AA Backup Battery 20SAR (product page)"
+    checked: "2026-10-31"
+  - id: adapter
+    label: Keep the old wiring plug
+    value: "Kidde's 20-9003 adapter guide names i4618, i4618A and i4618AC among the older harnesses it can connect to a new Kidde alarm with the newer connector"
+    source_url: https://brand.kidde.com/m/275e008037c43807/original/Product_UG_20-9003.pdf
+    source_title: "Kidde — 20-9003 Wiring Adapter User Guide (PDF)"
+    checked: "2026-10-31"
+  - id: adapter-not-universal
+    label: Check the pairing first
+    value: "Kidde says to confirm both the old and the new model in the adapter's user guide or compatibility guide; if your ceiling plug doesn't match the ones shown, the new alarm's own harness has to be wired in instead"
+    source_url: https://brand.kidde.com/m/275e008037c43807/original/Product_UG_20-9003.pdf
+    source_title: "Kidde — 20-9003 Wiring Adapter User Guide (PDF)"
+    checked: "2026-10-31"
+  - id: interconnect-list
+    label: Mixing with Kidde alarms
+    value: "Kidde lists the Firex i4618 among models tested as interconnect-compatible with Kidde alarms"
+    source_url: https://www.kidde.com/support/smoke-alarms/kidde-interconnectivity
+    source_title: "Kidde — What Other Products Will Kidde Alarms Interconnect With?"
+    checked: "2026-10-31"
+  - id: recalls
+    label: Recalls
+    value: "Search CPSC's recall list for your exact model before reusing or reselling an alarm"
+    source_url: https://www.cpsc.gov/Recalls
+    source_title: "CPSC — Recalls & Product Safety Warnings"
+    checked: "2026-10-31"
+related: [kidde-i12060, kidde-i12040]

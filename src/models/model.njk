@@ -1,0 +1,52 @@
+---js
+{
+  pagination: { data: "models", size: 1, alias: "m", resolve: "values", addAllPagesToCollections: true },
+  permalink: (data) => `/models/${data.m.slug}/`,
+  layout: "layouts/base.njk",
+  eleventyComputed: {
+    title: (data) => data.m.title,
+    description: (data) => data.m.description
+  }
+}
+---
+{%- set allFacts = m.facts.concat(m.replacement or []) -%}
+{%- set sources = allFacts | sourcesFor -%}
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="/models/">Models</a> › {{ m.brand }} {{ m.model }}</nav>
+<article class="model">
+  <header>
+    <p class="kicker">{{ m.brand }} · {{ m.kind }}</p>
+    <h1>{{ m.title }}</h1>
+    {% if m.aliases and m.aliases.length %}<p class="aka">Also printed as: {% for a in m.aliases %}<code>{{ a }}</code>{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
+    <p class="lede">{{ m.summary }}</p>
+  </header>
+
+  <h2>At a glance</h2>
+  <dl class="facts">
+  {%- for f in m.facts %}
+    <div class="fact"><dt>{{ f.label }}</dt><dd>{{ f.value }}{% include "partials/cite.njk" %}</dd></div>
+  {%- endfor %}
+  </dl>
+
+  <h2>Replacing it</h2>
+  <dl class="facts">
+  {%- for f in m.replacement %}
+    <div class="fact"><dt>{{ f.label }}</dt><dd>{{ f.value }}{% include "partials/cite.njk" %}</dd></div>
+  {%- endfor %}
+  </dl>
+
+  <aside class="note">
+    <p><strong>Not sure how old yours is?</strong> See <a href="/guides/smoke-alarm-date-and-expiry/">how to find your smoke alarm's date and when it expires</a>.</p>
+  </aside>
+
+  {% if m.related and m.related.length %}
+  <h2>Related models</h2>
+  <ul class="cards">
+  {%- for r in m.related %}{% set rm = models[r] %}{% if rm %}
+    <li><a href="/models/{{ rm.slug }}/"><strong>{{ rm.brand }} {{ rm.model }}</strong> <span>{{ rm.kind }}</span></a></li>
+  {%- endif %}{% endfor %}
+  </ul>
+  {% endif %}
+
+  {% include "partials/sources.njk" %}
+  <p class="muted updated">Published {{ m.published }}.</p>
+</article>

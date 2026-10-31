@@ -1,0 +1,30 @@
+# Copy to src/_data/guides/<slug>.yaml. Prose (intro/body) may not contain
+# claims that aren't backed by a fact on the same page.
+slug: guide-slug
+title: "Question the reader is asking, as they'd type it"
+short_title: "Short breadcrumb title"
+description: "One sentence, under ~160 characters."
+published: "YYYY-MM-DD"
+intro: >-
+  Two or three plain sentences.
+sections:
+  - heading: "The short answer"
+    body: >-
+      Optional framing sentence.
+    facts:
+      - id: fact-1
+        value: "..."
+        source_url: https://www.nfpa.org/...
+        source_title: "NFPA — Page title"
+        checked: "YYYY-MM-DD"
+  - heading: "By brand"
+    rows:
+      - brand: Brand
+        facts:
+          - id: brand-fact-1
+            label: Label
+            value: "..."
+            source_url: https://maker.example/...
+            source_title: "Maker — Page title"
+            checked: "YYYY-MM-DD"
+        models: []           # slugs of existing model pages

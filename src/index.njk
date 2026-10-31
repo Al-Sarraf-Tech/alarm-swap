@@ -1,0 +1,55 @@
+---
+layout: layouts/base.njk
+title: "AlarmSwap — what replaces the smoke alarm on your ceiling"
+description: "Find out how old your hardwired smoke or CO alarm is, when it expires, and what replaces it — model by model, with every fact linked to the maker, NFPA, USFA or CPSC."
+---
+<section class="hero">
+  <h1>What replaces the alarm on your ceiling?</h1>
+  <p class="lede">Type the model number printed on the back of your smoke or CO alarm. Each model page covers how old it is, when it is due, the adapter that fits the old wiring, and which alarms can share its loop. Every fact links to where it came from.</p>
+  <div id="search" class="search" data-pagefind-ignore>
+    <noscript><p>Search needs JavaScript. Browse <a href="/models/">all models</a> instead.</p></noscript>
+  </div>
+</section>
+
+<section>
+  <h2>Start here</h2>
+  <ul class="cards">
+  {%- for g in guides | byPublished %}
+    <li><a href="/guides/{{ g.slug }}/"><strong>{{ g.title }}</strong> <span>Guide · {{ g.published }}</span></a></li>
+  {%- endfor %}
+  </ul>
+</section>
+
+<section>
+  <h2>Models</h2>
+  <ul class="cards">
+  {%- for m in models | byPublished | reverse %}
+    <li><a href="/models/{{ m.slug }}/"><strong>{{ m.brand }} {{ m.model }}</strong> <span>{{ m.kind }}{% if m.aliases.length %} · also {{ m.aliases | join(", ") }}{% endif %}</span></a></li>
+  {%- endfor %}
+  </ul>
+  <p><a href="/models/">All models →</a></p>
+</section>
+
+<section class="how">
+  <h2>How this site works</h2>
+  <ul>
+    <li>We only restate what alarm makers, NFPA, USFA and CPSC publish, in our own words.</li>
+    <li>Each fact carries a numbered link to its source and the date we last checked it.</li>
+    <li>If a maker doesn't say something, we say so rather than guess.</li>
+  </ul>
+</section>
+
+<link rel="stylesheet" href="/pagefind/pagefind-ui.css">
+<script src="/pagefind/pagefind-ui.js" defer></script>
+<script>
+  window.addEventListener("DOMContentLoaded", function () {
+    if (!window.PagefindUI) return;
+    new PagefindUI({
+      element: "#search",
+      showSubResults: false,
+      showImages: false,
+      baseUrl: document.querySelector('link[rel="stylesheet"][href$="/assets/style.css"]').getAttribute("href").replace(/assets\/style\.css$/, ""),
+      translations: { placeholder: "Model number, e.g. i12060 or i4618AC" }
+    });
+  });
+</script>

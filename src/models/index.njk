@@ -1,0 +1,14 @@
+---
+layout: layouts/base.njk
+title: "All alarm models"
+description: "Every smoke and CO alarm model AlarmSwap covers, with links to its age, expiry and replacement page."
+permalink: /models/
+---
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › Models</nav>
+<h1>All alarm models</h1>
+<p class="lede">One page per model. New pages are added regularly.</p>
+<ul class="cards">
+{%- for m in models | byPublished | sort(false, false, "brand") %}
+  <li><a href="/models/{{ m.slug }}/"><strong>{{ m.brand }} {{ m.model }}</strong> <span>{{ m.kind }}{% if m.aliases.length %} · also {{ m.aliases | join(", ") }}{% endif %}</span></a></li>
+{%- endfor %}
+</ul>
