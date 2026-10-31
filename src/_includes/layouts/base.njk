@@ -1,37 +1,72 @@
+{%- if crumbs -%}
+{%- set trail = crumbs -%}
+{%- elif page.url == "/" -%}
+{%- set trail = [{ "name": "Home", "url": "/" }] -%}
+{%- else -%}
+{%- set trail = [{ "name": "Home", "url": "/" }, { "name": title or site.name }] -%}
+{%- endif -%}
+{%- set fullTitle = title or site.name -%}
+{%- if title and "AlarmSwap" not in title -%}
+{%- set fullTitle = title ~ " · AlarmSwap" -%}
+{%- endif -%}
+{%- set desc = description or site.description -%}
+{%- set imagePath = ogImage or "/assets/og.svg" -%}
+{%- set canon = site.url ~ page.url -%}
+{%- set imageAbs = site | absUrl(imagePath) -%}
 <!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% if title %}{{ title }} · {% endif %}{{ site.name }}</title>
-<meta name="description" content="{{ description or site.description }}">
-<link rel="canonical" href="{{ site.url }}{{ page.url }}">
-<meta property="og:title" content="{{ title or site.name }}">
-<meta property="og:description" content="{{ description or site.description }}">
-<meta property="og:type" content="website">
+<title>{{ fullTitle }}</title>
+<meta name="description" content="{{ desc }}">
+<link rel="canonical" href="{{ canon }}">
+{% if robots %}<meta name="robots" content="{{ robots }}">{% else %}<meta name="robots" content="index, follow, max-image-preview:large">{% endif %}
+<meta property="og:title" content="{{ fullTitle }}">
+<meta property="og:description" content="{{ desc }}">
+<meta property="og:type" content="{{ ogType or 'website' }}">
+<meta property="og:url" content="{{ canon }}">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="{{ imageAbs }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{ fullTitle }}">
+<meta property="og:image:type" content="image/svg+xml">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ fullTitle }}">
+<meta name="twitter:description" content="{{ desc }}">
+<meta name="twitter:image" content="{{ imageAbs }}">
+<meta name="twitter:image:alt" content="{{ fullTitle }}">
 <meta name="theme-color" content="#b42318">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='%23fff' stroke='%23b42318' stroke-width='2'/%3E%3Ccircle cx='8' cy='8' r='2' fill='%23b42318'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
+<link rel="preload" href="{{ cssFile }}" as="style">
+<link rel="stylesheet" href="{{ cssFile }}">
+<script type="application/ld+json">{{ site | pageSchema(trail, fullTitle, desc, page.url, m, g, hub) | jsonld | safe }}</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="top">
   <div class="wrap top-inner">
-    <a class="brand" href="/"><span class="dot" aria-hidden="true"></span>{{ site.name }}</a>
+    <a class="brand" href="/"><svg class="mark" width="18" height="18" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="8" cy="8" r="2" fill="currentColor"/></svg>{{ site.name }}</a>
     <nav aria-label="Main">
       <a href="/models/">Models</a>
       <a href="/guides/">Guides</a>
+      <a href="/brands/">Brands</a>
       <a href="/about/">Sources</a>
     </nav>
   </div>
 </header>
 <main id="main" class="wrap" {% if pagefindIgnore %}{% else %}data-pagefind-body{% endif %}>
+{% if trail.length > 1 %}
+<nav class="crumbs" aria-label="Breadcrumb">{% for c in trail %}{% if c.url and not loop.last %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}{% if not loop.last %} › {% endif %}{% endfor %}</nav>
+{% endif %}
 {{ content | safe }}
 </main>
 <footer class="foot">
   <div class="wrap">
     <p class="safety"><strong>If an alarm is sounding its full alarm, get out, call 911 and stay out</strong> (<a href="https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms" rel="nofollow noopener">NFPA</a>). This site is for planning a replacement, not for emergencies.</p>
-    <p>{{ site.name }} restates what alarm makers, NFPA, USFA and CPSC publish, with a link and a "checked" date on every fact. It is not affiliated with any brand. <a href="/about/">How we source</a> · <a href="/disclosure/">Disclosure</a></p>
+    <p>{{ site.name }} restates what alarm makers, NFPA, USFA and CPSC publish, with a link and a "checked" date on every fact. It is not affiliated with any brand. <a href="/about/">How we source</a> · <a href="/disclosure/">Disclosure</a> · <a href="/llms.txt">llms.txt</a></p>
   </div>
 </footer>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "df3a3255aa02445e8729ecf3fed5b56a"}'></script>

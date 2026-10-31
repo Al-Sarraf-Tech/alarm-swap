@@ -5,19 +5,49 @@
   layout: "layouts/base.njk",
   eleventyComputed: {
     title: (data) => data.g.title,
-    description: (data) => data.g.description
+    description: (data) => data.g.description,
+    ogType: () => "article",
+    ogImage: (data) => `/og/guides/${data.g.slug}.svg`,
+    crumbs: (data) => [
+      { name: "Home", url: "/" },
+      { name: "Guides", url: "/guides/" },
+      { name: data.g.short_title || data.g.title },
+    ],
   }
 }
 ---
 {%- set sources = g | guideFacts | sourcesFor -%}
-<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="/guides/">Guides</a> › {{ g.short_title or g.title }}</nav>
+{%- set checked = g | latestChecked -%}
+{%- set faqs = g | guideFaqs -%}
+{%- set steps = g | howToSteps -%}
 <article class="guide">
   <header>
     <p class="kicker">Guide</p>
     <h1>{{ g.title }}</h1>
-    <p class="lede">{{ g.intro }}</p>
+    <section class="quick" aria-labelledby="quick-h">
+      <h2 id="quick-h">Quick answer</h2>
+      {% if g.sections and g.sections[0].facts and g.sections[0].heading == "The short answer" %}
+        {% for f in g.sections[0].facts %}<p>{{ f.value }}{% include "partials/cite.njk" %}</p>{% endfor %}
+      {% else %}
+        <p>{{ g.intro }}</p>
+      {% endif %}
+    </section>
+    <p class="last-checked">Last checked <time datetime="{{ checked }}">{{ checked | prettyDate }}</time></p>
   </header>
+
+  {% if steps.length %}
+  <section class="howto" aria-labelledby="howto-h">
+    <h2 id="howto-h">Check the date</h2>
+    <ol>
+    {%- for s in steps %}
+      <li id="howto-{{ s.position }}"><strong>{{ s.name }}.</strong> {% set f = s.fact %}{{ f.value }}{% include "partials/cite.njk" %}</li>
+    {%- endfor %}
+    </ol>
+  </section>
+  {% endif %}
+
   {%- for sec in g.sections %}
+  {% if not (loop.first and sec.heading == "The short answer") %}
   <section>
     <h2>{{ sec.heading }}</h2>
     {% if sec.body %}<p>{{ sec.body }}</p>{% endif %}
@@ -31,8 +61,9 @@
     {% if sec.rows %}
     <div class="brands">
     {%- for row in sec.rows %}
+      {%- set rowHub = row.brand | hubFor -%}
       <div class="brand-card">
-        <h3>{{ row.brand }}</h3>
+        <h3>{% if rowHub %}<a href="/brands/{{ rowHub.slug }}/">{{ row.brand }}</a>{% else %}{{ row.brand }}{% endif %}</h3>
         <dl>
         {%- for f in row.facts %}
           <dt>{{ f.label }}</dt><dd>{{ f.value }}{% include "partials/cite.njk" %}</dd>
@@ -44,7 +75,9 @@
     </div>
     {% endif %}
   </section>
+  {% endif %}
   {%- endfor %}
+  {% include "partials/faq.njk" %}
   {% include "partials/sources.njk" %}
-  <p class="muted updated">Published {{ g.published }}.</p>
+  <p class="muted updated">Published {{ g.published | prettyDate }}.</p>
 </article>

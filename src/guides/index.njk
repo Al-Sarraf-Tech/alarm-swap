@@ -1,13 +1,18 @@
 ---
 layout: layouts/base.njk
-title: "Guides"
-description: "Short, sourced guides to dating, replacing and matching smoke and CO alarms."
+title: "Smoke alarm guides"
+description: "Sourced guides to dating a smoke alarm, reading its expiry, and matching a replacement to the old wiring."
 permalink: /guides/
+ogImage: /og/guides.svg
+crumbs:
+  - name: Home
+    url: "/"
+  - name: Guides
 ---
-<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › Guides</nav>
-<h1>Guides</h1>
+<h1>Smoke alarm guides</h1>
+<p class="lede">Short guides. Every factual line links to the maker, NFPA, USFA or CPSC.</p>
 <ul class="cards">
 {%- for g in guides | byPublished %}
-  <li><a href="/guides/{{ g.slug }}/"><strong>{{ g.title }}</strong> <span>{{ g.published }}</span></a></li>
+  <li><a href="/guides/{{ g.slug }}/"><strong>{{ g.title }}</strong> <span>Last checked {{ g | latestChecked | prettyDate }}</span></a></li>
 {%- endfor %}
 </ul>

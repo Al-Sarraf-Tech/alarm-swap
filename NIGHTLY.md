@@ -11,7 +11,7 @@ One run = **one new page**, fully sourced, build green, one commit. Nothing else
   numbers and figures are fine.
 - If a source doesn't say it, the page doesn't say it. Write "not stated by the maker" or "the page did
   not name a replacement when we checked" instead of guessing.
-- **No affiliate links** until Jamal approves a program. The build fails on affiliate-looking links.
+- **No affiliate links** until Jamal turns `affiliates_enabled` on. See "Affiliate links" below. Do not flip that flag in a nightly run.
 - Do not push, open PRs, or change GitHub settings unless the run was explicitly told to.
 
 ## 1. Pick the page
@@ -53,6 +53,21 @@ git commit -m "Add model: Kidde i12010S (sources checked 2026-11-01)"
 Once the repo exists on GitHub and pushing is approved, pushing `main` runs
 `.github/workflows/pages.yml`, which repeats the same build and deploys to
 https://smokealarmswap.com/.
+
+## Affiliate links (off until Jamal turns them on)
+
+Leave `affiliates_enabled` set to `false` in `src/_data/site.json`. While it is false, a model page does not render store links, and the output check fails if one shows up.
+
+To stage a program on one model, add this to that model's YAML. These URLs are not fact sources. Do not put a store URL in `source_url`.
+
+```yaml
+where_to_buy:
+  - label: "Retailer — product name"
+    url: https://example.com/product
+    retailer: Retailer
+```
+
+When Jamal sets `affiliates_enabled` to `true`, the template prints that list with `rel="sponsored nofollow noopener"` and a disclosure line that links to `/disclosure/`. Numbered citations stay `rel="nofollow"` and are never store links. Update the disclosure page in the same commit if the wording needs to match the program.
 
 ## 6. Upkeep (one extra task per week, not per night)
 Re-open the sources of the oldest page, fix anything that changed, bump its `checked` dates.

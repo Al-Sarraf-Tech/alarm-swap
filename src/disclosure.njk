@@ -1,16 +1,23 @@
 ---
 layout: layouts/base.njk
 title: "Affiliate disclosure"
-description: "How AlarmSwap may earn money, and the rules that keep that from changing what the pages say."
+description: "AlarmSwap has no affiliate links today. This page says how a where-to-buy list would work if that switch is turned on."
 permalink: /disclosure/
+crumbs:
+  - name: Home
+    url: "/"
+  - name: Disclosure
 ---
-<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › Disclosure</nav>
 <h1>Affiliate disclosure</h1>
-<p class="lede"><strong>Today: this site contains no affiliate links, sponsored placements or ads.</strong></p>
-<p>In the future some links to stores may become affiliate links. If you buy through one, the site may earn a small commission at no extra cost to you. When that happens:</p>
+<p class="lede"><strong>Today: this site contains no affiliate links, sponsored placements or ads.</strong> The site-wide switch <code>affiliates_enabled</code> is off, so model pages do not show a where-to-buy list.</p>
+<p>A model file can hold an optional <code>where_to_buy</code> list (a store name and an https link). While the switch is off, that list is not rendered and does not appear in the HTML.</p>
+<p>If the switch is turned on later, a model page that has <code>where_to_buy</code> links will show them with this treatment:</p>
 <ul>
-  <li>This page will be updated first, and any page with affiliate links will say so near the top.</li>
-  <li>Which models we cover, and what we say about them, will keep coming only from the makers, NFPA, USFA and CPSC — never from what pays.</li>
-  <li>Links to sources (the numbered citations) will never be affiliate links.</li>
+  <li>A visible line next to the links says some of them are affiliate links and points back to this page.</li>
+  <li>Each link is marked <code>rel="sponsored nofollow noopener"</code>.</li>
+  <li>This page stays the explanation of how the site may earn a commission, at no extra cost to you.</li>
+  <li>Which models we cover, and what we say about them, still comes only from the makers, NFPA, USFA and CPSC. A store link cannot change a fact.</li>
+  <li>Numbered source citations are never affiliate links, and they never use <code>rel="sponsored"</code>.</li>
 </ul>
+<p>There are no star ratings and no review counts on this site.</p>
 <p>Questions? Open an issue on <a href="{{ site.repo }}/issues">GitHub</a>.</p>

@@ -1,9 +1,15 @@
 ---
 layout: layouts/base.njk
 title: "Page not found"
+description: "That URL is not on AlarmSwap. Search from the home page or browse the alarm models."
 permalink: /404.html
 pagefindIgnore: true
 eleventyExcludeFromCollections: true
+robots: noindex
+crumbs:
+  - name: Home
+    url: "/"
+  - name: Page not found
 ---
 <h1>That page isn't here</h1>
-<p>Try the <a href="/">search on the home page</a> or browse <a href="/models/">all models</a>.</p>
+<p>Try the <a href="/">search on the home page</a>, browse <a href="/models/">all models</a>, or start from a <a href="/brands/">brand hub</a>.</p>

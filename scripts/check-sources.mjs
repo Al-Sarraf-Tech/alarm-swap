@@ -66,6 +66,24 @@ function walk(file, node, where, ids) {
   } else if (node && typeof node === "object") {
     for (const [k, v] of Object.entries(node)) {
       const w = where ? `${where}.${k}` : k;
+      if (k === "where_to_buy") {
+        // Optional store links. Not facts, and not rendered while affiliates_enabled is false.
+        // The output check is what blocks them from the HTML until that flag is on.
+        if (!Array.isArray(v)) { err(file, w, "where_to_buy must be a list"); continue; }
+        v.forEach((link, i) => {
+          const lw = `${w}[${i}]`;
+          if (!link || typeof link !== "object") return err(file, lw, "where_to_buy entry must be an object");
+          if (!link.label && !link.retailer) err(file, lw, "where_to_buy needs a label");
+          if (!link.url) err(file, lw, "where_to_buy needs a url");
+          else {
+            try {
+              const u = new URL(link.url);
+              if (u.protocol !== "https:") err(file, lw, "where_to_buy url must be https");
+            } catch { err(file, lw, "where_to_buy url is not a URL"); }
+          }
+        });
+        continue;
+      }
       if (FACT_ARRAYS.has(k)) {
         if (!Array.isArray(v)) { err(file, w, `${k} must be a list`); continue; }
         v.forEach((f, i) => checkFact(file, `${w}[${i}]`, f, ids));

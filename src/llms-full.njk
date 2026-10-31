@@ -1,0 +1,61 @@
+---
+permalink: /llms-full.txt
+eleventyExcludeFromCollections: true
+---
+# {{ site.name }} — full page notes
+
+> {{ site.description }}
+> Built for people and for answer engines. Each fact below is our own wording and names the page we read. No copied paragraphs, no star ratings, no invented reviews. Affiliate links are off.
+
+{% for g in guides | byPublished %}
+## {{ g.title }}
+
+URL: {{ site.url }}/guides/{{ g.slug }}/
+Published: {{ g.published }}
+Last checked: {{ g | latestChecked }}
+{{ g.description }}
+
+{{ g.intro }}
+
+{% for sec in g.sections %}
+### {{ sec.heading }}
+{% if sec.body %}{{ sec.body }}
+{% endif %}
+{% for f in sec.facts or [] %}
+- {{ f.value }} Source: {{ f.source_title }} ({{ f.source_url }}), checked {{ f.checked }}.
+{% endfor %}
+{% for row in sec.rows or [] %}
+#### {{ row.brand }}
+{% for f in row.facts %}
+- {{ f.label }}: {{ f.value }} Source: {{ f.source_title }} ({{ f.source_url }}), checked {{ f.checked }}.
+{% endfor %}
+{% if row.models %}Model pages: {% for s in row.models %}{{ site.url }}/models/{{ s }}/{% if not loop.last %}, {% endif %}{% endfor %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% for m in models | byPublished %}
+## {{ m.brand }} {{ m.model }}
+
+URL: {{ site.url }}/models/{{ m.slug }}/
+Published: {{ m.published }}
+Last checked: {{ m | latestChecked }}
+{{ m.description }}
+
+{{ m.summary }}
+
+{% for f in m.facts %}
+- {{ f.label }}: {{ f.value }} Source: {{ f.source_title }} ({{ f.source_url }}), checked {{ f.checked }}.
+{% endfor %}
+{% for f in m.replacement %}
+- {{ f.label }}: {{ f.value }} Source: {{ f.source_title }} ({{ f.source_url }}), checked {{ f.checked }}.
+{% endfor %}
+{% if m.related %}Related: {% for s in m.related %}{{ site.url }}/models/{{ s }}/{% if not loop.last %}, {% endif %}{% endfor %}
+{% endif %}
+{% endfor %}
+{% for hub in brandHubs %}
+## {{ hub.name }}
+
+URL: {{ site.url }}/brands/{{ hub.slug }}/
+{{ hub.summary }}
+{% endfor %}

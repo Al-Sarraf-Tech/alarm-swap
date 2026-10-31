@@ -1,0 +1,67 @@
+---js
+{
+  pagination: { data: "brandHubs", size: 1, alias: "hub", addAllPagesToCollections: true },
+  permalink: (data) => `/brands/${data.hub.slug}/`,
+  layout: "layouts/base.njk",
+  eleventyComputed: {
+    title: (data) => data.hub.title,
+    description: (data) => data.hub.description,
+    ogImage: (data) => `/og/brands/${data.hub.slug}.svg`,
+    crumbs: (data) => [
+      { name: "Home", url: "/" },
+      { name: "Brands", url: "/brands/" },
+      { name: data.hub.name },
+    ],
+  }
+}
+---
+{%- set brandModels = models | modelsForHub(hub) -%}
+{%- set rows = guides | guideRowsForHub(hub) -%}
+{%- set sources = rows | factsFromRows | sourcesFor -%}
+{%- set checked = hub | hubChecked(models, guides) -%}
+<article class="brand-hub">
+  <header>
+    <p class="kicker">Brand</p>
+    <h1>{{ hub.title }}</h1>
+    <section class="quick" aria-labelledby="quick-h">
+      <h2 id="quick-h">Quick answer</h2>
+      <p>{{ hub.summary }}</p>
+    </section>
+    {% if checked %}<p class="last-checked">Last checked <time datetime="{{ checked }}">{{ checked | prettyDate }}</time></p>{% endif %}
+  </header>
+
+  <h2>Model pages</h2>
+  {% if brandModels.length %}
+  <ul class="cards">
+  {%- for m in brandModels %}
+    <li><a href="/models/{{ m.slug }}/"><strong>{{ m.brand }} {{ m.model }}</strong> <span>{{ m.kind }}{% if m.aliases and m.aliases.length %} · also {{ m.aliases | join(", ") }}{% endif %}</span></a></li>
+  {%- endfor %}
+  </ul>
+  {% else %}
+  <p>No {{ hub.name }} model page is on the site yet. The guide notes below are the sourced lines we do have.</p>
+  {% endif %}
+
+  {% if rows.length %}
+  <h2>From the guides</h2>
+  {%- for item in rows %}
+  <div class="brand-card">
+    <h3><a href="/guides/{{ item.guide.slug }}/">{{ item.guide.short_title or item.guide.title }}</a> · {{ item.row.brand }}</h3>
+    <dl>
+    {%- for f in item.row.facts %}
+      <dt>{{ f.label }}</dt><dd>{{ f.value }}{% include "partials/cite.njk" %}</dd>
+    {%- endfor %}
+    </dl>
+    {% if item.row.models %}<p class="models-line">Model pages: {% for s in item.row.models %}{% set rm = models[s] %}{% if rm %}<a href="/models/{{ rm.slug }}/">{{ rm.brand }} {{ rm.model }}</a>{% if not loop.last %}, {% endif %}{% endif %}{% endfor %}</p>{% endif %}
+  </div>
+  {%- endfor %}
+  {% endif %}
+
+  <h2>Other brands</h2>
+  <ul class="cards">
+  {%- for other in brandHubs %}{% if other.slug != hub.slug %}
+    <li><a href="/brands/{{ other.slug }}/"><strong>{{ other.name }}</strong> <span>{{ other.description }}</span></a></li>
+  {%- endif %}{% endfor %}
+  </ul>
+
+  {% if sources.length %}{% include "partials/sources.njk" %}{% endif %}
+</article>

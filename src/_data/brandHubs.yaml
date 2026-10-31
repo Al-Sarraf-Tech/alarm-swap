@@ -1,0 +1,31 @@
+# Brand hubs are assembled from model pages and guide rows. Match names must
+# equal `brand` on a model and `row.brand` on a guide. Summaries describe the
+# hub; they do not add alarm facts.
+- slug: kidde
+  name: Kidde
+  match: ["Kidde"]
+  title: "Kidde smoke alarms: date, expiry and replacement"
+  description: "Kidde model pages on AlarmSwap: where the date is, when the alarm is due, and which adapter those pages cite."
+  summary: >-
+    These are the Kidde alarms with a page on AlarmSwap, plus the Kidde notes
+    from the date-and-expiry guide. Every fact on those pages links to Kidde,
+    NFPA, USFA or CPSC.
+- slug: firex
+  name: Firex
+  match: ["Firex"]
+  title: "Firex smoke alarms: date, expiry and replacement"
+  description: "Firex model pages on AlarmSwap, including the replacement and adapter facts cited from Kidde for these alarms."
+  summary: >-
+    Firex alarms with a page on AlarmSwap, plus the Firex row from the
+    date-and-expiry guide. Replacement and adapter details stay on the model
+    page, each one linked to its source.
+- slug: first-alert
+  name: "First Alert / BRK"
+  match: ["First Alert", "BRK"]
+  title: "First Alert and BRK: date, expiry and replacement"
+  description: "Where the date-and-expiry guide says First Alert prints the manufacture date, and when it says to replace the alarm. No First Alert model page yet."
+  summary: >-
+    AlarmSwap does not have a First Alert or BRK model page yet. The
+    date-and-expiry guide says where First Alert prints the manufacture date
+    and when First Alert says to replace the alarm. Those lines are below,
+    with their sources.

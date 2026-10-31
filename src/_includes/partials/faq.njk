@@ -1,0 +1,11 @@
+{% if faqs and faqs.length %}
+<section class="faq" aria-labelledby="faq-h">
+  <h2 id="faq-h">Common questions</h2>
+  {% for item in faqs %}
+  <details>
+    <summary>{{ item.q }}</summary>
+    <p>{% for f in item.facts %}{{ f.value }}{% include "partials/cite.njk" %}{% if not loop.last %} {% endif %}{% endfor %}</p>
+  </details>
+  {% endfor %}
+</section>
+{% endif %}

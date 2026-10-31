@@ -18,8 +18,9 @@ code{font:0.92em ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background
 .top{border-bottom:1px solid var(--line);background:var(--bg);position:sticky;top:0;z-index:5}
 .top-inner{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:3.25rem;flex-wrap:wrap}
 .brand{font-weight:700;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:.5rem;letter-spacing:-.01em}
-.dot{width:.9rem;height:.9rem;border-radius:50%;border:3px solid var(--accent);display:inline-block}
-.top nav a{margin-left:1rem;color:var(--muted);text-decoration:none;font-size:.95rem}
+.mark{color:var(--accent);flex:none}
+.top nav{display:flex;flex-wrap:wrap;gap:.15rem 1rem}
+.top nav a{color:var(--muted);text-decoration:none;font-size:.95rem;min-height:2.75rem;display:inline-flex;align-items:center}
 .top nav a:hover{color:var(--ink)}
 main{padding:1.25rem 1rem 2.5rem}
 h1{font-size:clamp(1.6rem,4.5vw,2.2rem);line-height:1.2;letter-spacing:-.02em;margin:.4rem 0 .6rem}
@@ -27,9 +28,10 @@ h2{font-size:1.3rem;margin:2rem 0 .6rem;letter-spacing:-.01em}
 h3{font-size:1.05rem;margin:0 0 .5rem}
 .lede{font-size:1.08rem;color:var(--muted)}
 .kicker{margin:0;color:var(--accent-ink);font-weight:600;font-size:.85rem;text-transform:uppercase;letter-spacing:.06em}
+.kicker a{color:inherit}
 .aka{margin:.2rem 0;color:var(--muted)}
-.crumbs{font-size:.88rem;color:var(--muted)}
-.crumbs a{color:var(--muted)}
+.crumbs{font-size:.92rem;color:var(--muted)}
+.crumbs a{color:var(--muted);display:inline-flex;align-items:center;min-height:2.75rem;padding:0 .2rem}
 .muted{color:var(--muted);font-size:.92rem}
 .facts{margin:0;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
 .fact{display:grid;grid-template-columns:minmax(8rem,34%) 1fr;gap:.75rem;padding:.7rem .9rem;border-top:1px solid var(--line)}
@@ -38,8 +40,8 @@ h3{font-size:1.05rem;margin:0 0 .5rem}
 .fact dt{font-weight:600}
 .fact dd{margin:0}
 @media (max-width:540px){.fact{grid-template-columns:1fr;gap:.15rem}}
-.cite{font-size:.72em;line-height:0;margin-left:.15em}
-.cite a{text-decoration:none;font-weight:600;padding:0 .15em}
+.cite{font-size:.85rem;line-height:1;margin-left:.1rem;vertical-align:super}
+.cite a{display:inline-flex;align-items:center;justify-content:center;min-width:1.5rem;min-height:1.5rem;text-decoration:none;font-weight:600}
 .factlist{padding-left:1.2rem}.factlist li{margin:.35rem 0}
 .brands{display:grid;gap:.9rem}
 @media (min-width:720px){.brands{grid-template-columns:1fr 1fr}}
@@ -64,3 +66,17 @@ h3{font-size:1.05rem;margin:0 0 .5rem}
 .foot .safety{color:var(--ink)}
 :target{scroll-margin-top:4rem;background:color-mix(in srgb,var(--accent) 12%,transparent);border-radius:4px}
 :root{--pagefind-ui-scale:.9;--pagefind-ui-primary:var(--accent);--pagefind-ui-text:var(--ink);--pagefind-ui-background:var(--bg);--pagefind-ui-border:var(--line);--pagefind-ui-tag:var(--soft);--pagefind-ui-border-radius:var(--radius);--pagefind-ui-font:inherit}
+a:focus-visible,summary:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+.quick{border:1px solid var(--line);background:var(--soft);border-radius:var(--radius);padding:.9rem 1rem;margin:1rem 0}
+.quick h2{margin:0 0 .4rem;font-size:1rem;letter-spacing:.04em;text-transform:uppercase}
+.quick p{margin:.4rem 0}
+.quick p:last-child{margin-bottom:0}
+.last-checked{margin:.2rem 0 0;color:var(--muted);font-size:.92rem}
+.faq details{border-top:1px solid var(--line);padding:.35rem 0}
+.faq summary{cursor:pointer;font-weight:600;min-height:2.75rem;display:flex;align-items:center}
+.faq details p{margin:.2rem 0 .7rem}
+.howto ol{padding-left:1.2rem}
+.howto li{margin:.55rem 0}
+.buy{border:1px solid var(--line);border-radius:var(--radius);padding:.9rem 1rem;margin:1.5rem 0}
+.buy-note{color:var(--muted);font-size:.92rem}
+html{color-scheme:light dark}

@@ -32,3 +32,7 @@ replacement:                 # at least 1; say plainly if the maker names none
     source_title: "CPSC — Recalls & Product Safety Warnings"
     checked: "YYYY-MM-DD"
 related: []                  # slugs of existing model pages
+# where_to_buy:              # optional. Rendered only when site.json affiliates_enabled is true.
+#   - label: "Store name — product"
+#     url: https://example.com/product
+#     retailer: Store name

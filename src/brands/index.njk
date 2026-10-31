@@ -1,0 +1,18 @@
+---
+layout: layouts/base.njk
+title: "Alarm brands"
+description: "Brand hubs for Kidde, Firex, and First Alert/BRK, each built from AlarmSwap's sourced model pages and guides."
+permalink: /brands/
+ogImage: /og/brands.svg
+crumbs:
+  - name: Home
+    url: "/"
+  - name: Brands
+---
+<h1>Alarm brands</h1>
+<p class="lede">Each hub collects the model pages and guide lines we already have for that brand. It does not add facts of its own.</p>
+<ul class="cards">
+{%- for hub in brandHubs %}
+  <li><a href="/brands/{{ hub.slug }}/"><strong>{{ hub.name }}</strong> <span>{{ hub.description }}</span></a></li>
+{%- endfor %}
+</ul>

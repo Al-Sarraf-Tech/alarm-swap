@@ -5,19 +5,37 @@
   layout: "layouts/base.njk",
   eleventyComputed: {
     title: (data) => data.m.title,
-    description: (data) => data.m.description
+    description: (data) => data.m.description,
+    ogType: () => "article",
+    ogImage: (data) => `/og/models/${data.m.slug}.svg`,
+    crumbs: (data) => {
+      const hub = (data.brandHubs || []).find((h) => (h.match || []).includes(data.m.brand));
+      return [
+        { name: "Home", url: "/" },
+        { name: "Models", url: "/models/" },
+        hub ? { name: hub.name, url: `/brands/${hub.slug}/` } : { name: data.m.brand, url: "/brands/" },
+        { name: data.m.brand + " " + data.m.model },
+      ];
+    },
   }
 }
 ---
 {%- set allFacts = m.facts.concat(m.replacement or []) -%}
 {%- set sources = allFacts | sourcesFor -%}
-<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="/models/">Models</a> › {{ m.brand }} {{ m.model }}</nav>
+{%- set checked = m | latestChecked -%}
+{%- set hub = m.brand | hubFor -%}
+{%- set peers = m | adapterPeers(models) -%}
+{%- set faqs = m | modelFaqs -%}
 <article class="model">
   <header>
-    <p class="kicker">{{ m.brand }} · {{ m.kind }}</p>
+    <p class="kicker">{% if hub %}<a href="/brands/{{ hub.slug }}/">{{ m.brand }}</a>{% else %}{{ m.brand }}{% endif %} · {{ m.kind }}</p>
     <h1>{{ m.title }}</h1>
     {% if m.aliases and m.aliases.length %}<p class="aka">Also printed as: {% for a in m.aliases %}<code>{{ a }}</code>{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
-    <p class="lede">{{ m.summary }}</p>
+    <section class="quick" aria-labelledby="quick-h">
+      <h2 id="quick-h">Quick answer</h2>
+      <p>{{ m.summary }}</p>
+    </section>
+    <p class="last-checked">Last checked <time datetime="{{ checked }}">{{ checked | prettyDate }}</time></p>
   </header>
 
   <h2>At a glance</h2>
@@ -34,6 +52,18 @@
   {%- endfor %}
   </dl>
 
+  {% if site.affiliates_enabled and m.where_to_buy and m.where_to_buy.length %}
+  <aside class="buy" aria-labelledby="buy-h">
+    <h2 id="buy-h">Where to buy</h2>
+    <p class="buy-note">Some links in this list are affiliate links. If you buy through one, AlarmSwap may earn a commission at no extra cost to you. <a href="/disclosure/">Disclosure</a>.</p>
+    <ul>
+    {%- for link in m.where_to_buy %}
+      <li><a href="{{ link.url }}" rel="sponsored nofollow noopener">{{ link.label or link.retailer }}</a></li>
+    {%- endfor %}
+    </ul>
+  </aside>
+  {% endif %}
+
   <aside class="note">
     <p><strong>Not sure how old yours is?</strong> See <a href="/guides/smoke-alarm-date-and-expiry/">how to find your smoke alarm's date and when it expires</a>.</p>
   </aside>
@@ -47,6 +77,17 @@
   </ul>
   {% endif %}
 
+  {% if peers.length %}
+  <h2>Other models that cite the same adapter</h2>
+  <p>Each link goes to another model page that cites the same adapter document. Whether two alarms can share a plug is answered in that document, on the model page.</p>
+  <ul class="cards">
+  {%- for p in peers %}
+    <li><a href="/models/{{ p.model.slug }}/"><strong>{{ p.model.brand }} {{ p.model.model }}</strong> <span>{{ p.adapters | join(", ") }}</span></a></li>
+  {%- endfor %}
+  </ul>
+  {% endif %}
+
+  {% include "partials/faq.njk" %}
   {% include "partials/sources.njk" %}
-  <p class="muted updated">Published {{ m.published }}.</p>
+  <p class="muted updated">Published {{ m.published | prettyDate }}.{% if hub %} Part of the <a href="/brands/{{ hub.slug }}/">{{ hub.name }}</a> brand hub.{% endif %}</p>
 </article>

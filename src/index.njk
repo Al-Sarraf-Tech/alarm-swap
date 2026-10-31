@@ -2,6 +2,7 @@
 layout: layouts/base.njk
 title: "AlarmSwap — what replaces the smoke alarm on your ceiling"
 description: "Find out how old your hardwired smoke or CO alarm is, when it expires, and what replaces it — model by model, with every fact linked to the maker, NFPA, USFA or CPSC."
+ogImage: /og/home.svg
 ---
 <section class="hero">
   <h1>What replaces the alarm on your ceiling?</h1>
@@ -15,7 +16,16 @@ description: "Find out how old your hardwired smoke or CO alarm is, when it expi
   <h2>Start here</h2>
   <ul class="cards">
   {%- for g in guides | byPublished %}
-    <li><a href="/guides/{{ g.slug }}/"><strong>{{ g.title }}</strong> <span>Guide · {{ g.published }}</span></a></li>
+    <li><a href="/guides/{{ g.slug }}/"><strong>{{ g.title }}</strong> <span>Guide · {{ g.published | prettyDate }}</span></a></li>
+  {%- endfor %}
+  </ul>
+</section>
+
+<section>
+  <h2>Brands</h2>
+  <ul class="cards">
+  {%- for hub in brandHubs %}
+    <li><a href="/brands/{{ hub.slug }}/"><strong>{{ hub.name }}</strong> <span>{{ hub.description }}</span></a></li>
   {%- endfor %}
   </ul>
 </section>
@@ -24,7 +34,7 @@ description: "Find out how old your hardwired smoke or CO alarm is, when it expi
   <h2>Models</h2>
   <ul class="cards">
   {%- for m in models | byPublished | reverse %}
-    <li><a href="/models/{{ m.slug }}/"><strong>{{ m.brand }} {{ m.model }}</strong> <span>{{ m.kind }}{% if m.aliases.length %} · also {{ m.aliases | join(", ") }}{% endif %}</span></a></li>
+    <li><a href="/models/{{ m.slug }}/"><strong>{{ m.brand }} {{ m.model }}</strong> <span>{{ m.kind }}{% if m.aliases and m.aliases.length %} · also {{ m.aliases | join(", ") }}{% endif %}</span></a></li>
   {%- endfor %}
   </ul>
   <p><a href="/models/">All models →</a></p>
@@ -39,17 +49,7 @@ description: "Find out how old your hardwired smoke or CO alarm is, when it expi
   </ul>
 </section>
 
-<link rel="stylesheet" href="/pagefind/pagefind-ui.css">
+<link rel="preload" href="/pagefind/pagefind-ui.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="/pagefind/pagefind-ui.css"></noscript>
 <script src="/pagefind/pagefind-ui.js" defer></script>
-<script>
-  window.addEventListener("DOMContentLoaded", function () {
-    if (!window.PagefindUI) return;
-    new PagefindUI({
-      element: "#search",
-      showSubResults: false,
-      showImages: false,
-      baseUrl: document.querySelector('link[rel="stylesheet"][href$="/assets/style.css"]').getAttribute("href").replace(/assets\/style\.css$/, ""),
-      translations: { placeholder: "Model number, e.g. i12060 or i4618AC" }
-    });
-  });
-</script>
+<script src="/assets/search.js" defer></script>
