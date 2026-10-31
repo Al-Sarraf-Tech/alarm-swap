@@ -5,8 +5,15 @@ import path from "node:path";
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
 const SITE = path.join(ROOT, "_site");
-const PREFIX = (process.env.PATH_PREFIX || "/alarm-swap/").replace(/\/?$/, "/");
+const PREFIX = (process.env.PATH_PREFIX || "/").replace(/\/?$/, "/");
 const AFF = /([?&](tag|aff|affid|aff_id|affiliate|irclickid|clickid|ref_)=)|amzn\.to|sjv\.io|shareasale|awin1\.com|anrdoezrs|dpbolvw|jdoqocy|kqzyfj|tkqlhce|linksynergy/i;
+// Cookie-free Cloudflare Web Analytics in the base layout. Not an affiliate link.
+const NON_AFFILIATE_HOSTS = new Set(["static.cloudflareinsights.com"]);
+
+function hostOf(url) {
+  try { return new URL(url, "https://smokealarmswap.com").hostname.toLowerCase(); }
+  catch { return ""; }
+}
 
 const errors = [];
 const files = [];
@@ -17,7 +24,7 @@ for (const f of files) {
   const rel = path.relative(SITE, f);
   for (const m of html.matchAll(/\s(?:href|src)="([^"]+)"/g)) {
     const url = m[1];
-    if (AFF.test(url)) errors.push(`${rel}: affiliate-looking link ${url}`);
+    if (AFF.test(url) && !NON_AFFILIATE_HOSTS.has(hostOf(url))) errors.push(`${rel}: affiliate-looking link ${url}`);
     if (url.startsWith("/") && !url.startsWith("//")) {
       if (!url.startsWith(PREFIX)) { errors.push(`${rel}: root link missing path prefix ${PREFIX}: ${url}`); continue; }
       const clean = url.slice(PREFIX.length).split(/[?#]/)[0];
@@ -28,6 +35,14 @@ for (const f of files) {
   }
 }
 if (!fs.existsSync(path.join(SITE, "pagefind", "pagefind-ui.js"))) errors.push("pagefind index missing (_site/pagefind)");
+
+const cname = fs.existsSync(path.join(SITE, "CNAME")) ? fs.readFileSync(path.join(SITE, "CNAME"), "utf8").trim() : "";
+if (cname !== "smokealarmswap.com") errors.push(`_site/CNAME must contain smokealarmswap.com, got ${JSON.stringify(cname)}`);
+
+const home = fs.existsSync(path.join(SITE, "index.html")) ? fs.readFileSync(path.join(SITE, "index.html"), "utf8") : "";
+if (!home.includes("https://static.cloudflareinsights.com/beacon.min.js") || !home.includes("df3a3255aa02445e8729ecf3fed5b56a")) {
+  errors.push("Cloudflare Web Analytics beacon missing from index.html");
+}
 
 if (errors.length) { console.error(`✗ Output check failed:\n  - ${errors.join("\n  - ")}`); process.exit(1); }
 console.log(`✓ Output check passed: ${files.length} HTML pages, internal links OK, search index present, no affiliate links.`);

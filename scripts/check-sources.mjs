@@ -19,6 +19,8 @@ const ALLOWED_HOSTS = [
 ];
 const FACT_ARRAYS = new Set(["facts", "replacement"]);
 const AFFILIATE_HINTS = /([?&](tag|aff|affid|aff_id|affiliate|irclickid|clickid|ref_)=)|amzn\.to|sjv\.io|shareasale|awin1\.com|anrdoezrs|dpbolvw|jdoqocy|kqzyfj|tkqlhce|impact\.com\/campaign|linksynergy/i;
+// This script only reads fact YAML. The cookie-free Cloudflare Web Analytics beacon
+// (static.cloudflareinsights.com, in the base layout) is not a fact source and is not an affiliate link.
 const today = new Date().toISOString().slice(0, 10);
 
 const errors = [];

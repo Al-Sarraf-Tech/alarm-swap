@@ -3,12 +3,12 @@
 What replaces the smoke alarm on your ceiling. A small static reference site, one page per alarm
 model, where every fact links to the maker, NFPA, USFA or CPSC.
 
-Live (once deployed): https://al-sarraf-tech.github.io/alarm-swap/
+Live: https://smokealarmswap.com/
 
 ## Stack
 - [Eleventy 3](https://www.11ty.dev/) → static HTML, no client JS except search
 - [Pagefind](https://pagefind.app/) → static search index
-- GitHub Actions → GitHub Pages (`.github/workflows/pages.yml`), no paid services
+- GitHub Actions → GitHub Pages (`.github/workflows/pages.yml`) on https://smokealarmswap.com/
 
 ## Layout
 ```
@@ -29,7 +29,7 @@ npm ci
 npm run build    # check → eleventy → pagefind → output check
 npm run serve    # dev server (search needs a full build first)
 ```
-Base path defaults to `/alarm-swap/`; override with `PATH_PREFIX=/ npm run build` for a root domain.
+Base path is `/` (the custom domain root). A `CNAME` file containing `smokealarmswap.com` is copied into the build. Override with `PATH_PREFIX` only for a subdirectory preview.
 
 ## One-time GitHub setup (by a repo admin)
 1. Create the empty public repo `Al-Sarraf-Tech/alarm-swap` and push `main`.

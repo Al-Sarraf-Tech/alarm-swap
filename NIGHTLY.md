@@ -41,8 +41,7 @@ npm run build     # = source check → eleventy → pagefind → output check
 ```
 It must end with both `✓ Source check passed` and `✓ Output check passed`. To eyeball it:
 ```bash
-mkdir -p /tmp/serve && ln -sfn "$PWD/_site" /tmp/serve/alarm-swap
-(cd /tmp/serve && python3 -m http.server 8765)   # open http://localhost:8765/alarm-swap/
+python3 -m http.server 8765 -d _site   # open http://localhost:8765/
 ```
 Read the new page top to bottom on a narrow window; click 2–3 citation links.
 
@@ -53,7 +52,7 @@ git commit -m "Add model: Kidde i12010S (sources checked 2026-11-01)"
 ```
 Once the repo exists on GitHub and pushing is approved, pushing `main` runs
 `.github/workflows/pages.yml`, which repeats the same build and deploys to
-https://al-sarraf-tech.github.io/alarm-swap/.
+https://smokealarmswap.com/.
 
 ## 6. Upkeep (one extra task per week, not per night)
 Re-open the sources of the oldest page, fix anything that changed, bump its `checked` dates.

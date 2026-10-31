@@ -6,10 +6,13 @@ export default function (eleventyConfig) {
   // CORE_SCHEMA keeps dates like 2026-10-31 as plain strings (no timezone surprises).
   eleventyConfig.addDataExtension("yaml,yml", (contents) => yaml.load(contents, { schema: yaml.CORE_SCHEMA }));
 
-  // Rewrites root-relative URLs (/models/...) to include the pathPrefix (/alarm-swap/).
+  // Rewrites root-relative URLs when PATH_PREFIX is not "/".
+  // Production is the custom domain root (https://smokealarmswap.com/).
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
+  // GitHub Pages reads this from the published site and serves the custom domain.
+  eleventyConfig.addPassthroughCopy({ CNAME: "CNAME" });
 
   // Unique list of sources (in first-cited order) for a list of facts.
   eleventyConfig.addFilter("sourcesFor", (facts = []) => {
@@ -58,7 +61,7 @@ export default function (eleventyConfig) {
 
   return {
     dir: { input: "src", includes: "_includes", data: "_data", output: "_site" },
-    pathPrefix: process.env.PATH_PREFIX || "/alarm-swap/",
+    pathPrefix: process.env.PATH_PREFIX || "/",
     templateFormats: ["njk", "md", "html"],
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "njk",

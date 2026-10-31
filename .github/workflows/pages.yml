@@ -29,7 +29,7 @@ jobs:
       # if an internal link is broken, or if an affiliate link appears.
       - run: npm run build
         env:
-          PATH_PREFIX: /alarm-swap/
+          PATH_PREFIX: "/"
       - if: github.event_name != 'pull_request'
         uses: actions/configure-pages@v5
       - if: github.event_name != 'pull_request'
