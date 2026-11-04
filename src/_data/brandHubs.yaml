@@ -23,9 +23,8 @@
   name: "First Alert / BRK"
   match: ["First Alert", "BRK"]
   title: "First Alert and BRK: date, expiry and replacement"
-  description: "Where the date-and-expiry guide says First Alert prints the manufacture date, and when it says to replace the alarm. No First Alert model page yet."
+  description: "First Alert and BRK pages on AlarmSwap: the 9120B hardwired alarm, the ADK adapter for old Kidde wiring, and where First Alert prints the date."
   summary: >-
-    AlarmSwap does not have a First Alert or BRK model page yet. The
-    date-and-expiry guide says where First Alert prints the manufacture date
-    and when First Alert says to replace the alarm. Those lines are below,
-    with their sources.
+    First Alert and BRK pages on AlarmSwap, plus the First Alert notes from
+    the date-and-expiry guide. Every fact on those pages links to the maker
+    that published it, or to NFPA, USFA or CPSC.

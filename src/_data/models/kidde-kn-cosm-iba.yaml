@@ -1,0 +1,119 @@
+slug: kidde-kn-cosm-iba
+brand: Kidde
+model: KN-COSM-IBA
+aliases: []
+kind: Hardwired smoke + CO alarm
+title: "Kidde KN-COSM-IBA: age, expiry and what replaces it"
+description: "Kidde KN-COSM-IBA hardwired smoke and carbon monoxide alarm: where the date is, the 10-year end-of-life chirp, approved AA backup batteries, and Kidde's named upgrade, the 30CUAR."
+published: "2026-11-04"
+summary: >-
+  A wired-in Kidde alarm that senses both smoke (ionization) and carbon
+  monoxide, speaks its warnings, and runs on two AA batteries when the power
+  is out. Ten years after first power-up it double-beeps every 30 seconds, and
+  the guide warns it no longer senses CO in that state. Kidde's page names the
+  30CUAR as its upgrade.
+facts:
+  - id: sensor
+    label: Sensors
+    value: "Ionization for smoke, electrochemical for carbon monoxide"
+    source_url: https://www.kidde.com/products/combo-alarms/hardwired-combo-alarm
+    source_title: "Kidde — Hardwired Combination CO & Smoke Alarm KN-COSM-IBA (product page)"
+    checked: "2026-11-04"
+  - id: power
+    label: Power
+    value: "120 V AC house wiring with two AA backup batteries, loaded through a front door without taking the alarm off its bracket"
+    source_url: https://www.kidde.com/products/combo-alarms/hardwired-combo-alarm
+    source_title: "Kidde — Hardwired Combination CO & Smoke Alarm KN-COSM-IBA (product page)"
+    checked: "2026-11-04"
+  - id: battery-types
+    label: Backup batteries
+    value: "The guide names the AA cells it approves (for example Duracell MN1500 or Energizer E91) and warns against using others"
+    source_url: https://brand.kidde.com/m/674e9605008efa22/original/UG_KN-COSM-IBA.pdf
+    source_title: "Kidde — KN-COSM-IBA Smoke & CO Alarm User Guide (PDF)"
+    checked: "2026-11-04"
+  - id: date-location
+    label: Where the date is
+    value: "The date of manufacture and the model number are on the back of the alarm. The guide also asks you to write a \"replace by\" date, 10 years from first power-up, on the alarm"
+    source_url: https://brand.kidde.com/m/674e9605008efa22/original/UG_KN-COSM-IBA.pdf
+    source_title: "Kidde — KN-COSM-IBA Smoke & CO Alarm User Guide (PDF)"
+    checked: "2026-11-04"
+  - id: lifespan
+    label: When to replace
+    value: "Ten years after first power-up it beeps twice every 30 seconds. The guide says to replace it at once, because it will not detect CO in that state"
+    source_url: https://brand.kidde.com/m/674e9605008efa22/original/UG_KN-COSM-IBA.pdf
+    source_title: "Kidde — KN-COSM-IBA Smoke & CO Alarm User Guide (PDF)"
+    checked: "2026-11-04"
+  - id: eol-hush
+    label: Snoozing the end-of-life signal
+    value: "The button silences the end-of-life chirp for about 3 days at a time, for no more than 30 days in total"
+    source_url: https://brand.kidde.com/m/674e9605008efa22/original/UG_KN-COSM-IBA.pdf
+    source_title: "Kidde — KN-COSM-IBA Smoke & CO Alarm User Guide (PDF)"
+    checked: "2026-11-04"
+  - id: low-battery
+    label: Low-battery signal
+    value: "Once a minute: one chirp, a red LED flash and the spoken words \"low battery\", for at least seven days. A low-battery hush quiets it for about 10 hours while you get batteries"
+    source_url: https://brand.kidde.com/m/674e9605008efa22/original/UG_KN-COSM-IBA.pdf
+    source_title: "Kidde — KN-COSM-IBA Smoke & CO Alarm User Guide (PDF)"
+    checked: "2026-11-04"
+  - id: voice
+    label: Voice warnings
+    value: "It announces \"Fire!\" or a carbon monoxide warning so you can tell the two alarms apart"
+    source_url: https://www.kidde.com/products/combo-alarms/hardwired-combo-alarm
+    source_title: "Kidde — Hardwired Combination CO & Smoke Alarm KN-COSM-IBA (product page)"
+    checked: "2026-11-04"
+  - id: peak-memory
+    label: Peak level memory
+    value: "It remembers if it has seen CO at 100 ppm or more since it was last reset"
+    source_url: https://www.kidde.com/products/combo-alarms/hardwired-combo-alarm
+    source_title: "Kidde — Hardwired Combination CO & Smoke Alarm KN-COSM-IBA (product page)"
+    checked: "2026-11-04"
+  - id: interconnect
+    label: Interconnect
+    value: "Up to 24 Kidde devices on one loop, 18 of which can set off the rest"
+    source_url: https://www.kidde.com/products/combo-alarms/hardwired-combo-alarm
+    source_title: "Kidde — Hardwired Combination CO & Smoke Alarm KN-COSM-IBA (product page)"
+    checked: "2026-11-04"
+  - id: same-brand
+    label: Other brands on the loop
+    value: "The guide approves it only with Kidde/Nighthawk products and says it is not approved with any other brand"
+    source_url: https://brand.kidde.com/m/674e9605008efa22/original/UG_KN-COSM-IBA.pdf
+    source_title: "Kidde — KN-COSM-IBA Smoke & CO Alarm User Guide (PDF)"
+    checked: "2026-11-04"
+  - id: warranty
+    label: Warranty
+    value: "10-year limited"
+    source_url: https://www.kidde.com/products/combo-alarms/hardwired-combo-alarm
+    source_title: "Kidde — Hardwired Combination CO & Smoke Alarm KN-COSM-IBA (product page)"
+    checked: "2026-11-04"
+replacement:
+  - id: named-replacement
+    label: Replacement named by Kidde
+    value: "Kidde's KN-COSM-IBA page shows the 30CUAR, a hardwired smoke + CO alarm with AA battery backup, under \"Upgrade to\""
+    source_url: https://www.kidde.com/products/combo-alarms/hardwired-combo-alarm
+    source_title: "Kidde — Hardwired Combination CO & Smoke Alarm KN-COSM-IBA (product page)"
+    checked: "2026-11-04"
+  - id: adapter
+    label: Keep the old wiring plug
+    value: "Kidde's 20-9003 adapter guide lists the KN-COSM-IBA among the older harnesses it can join to a new Kidde alarm with the newer connector"
+    source_url: https://brand.kidde.com/m/275e008037c43807/original/Product_UG_20-9003.pdf
+    source_title: "Kidde — 20-9003 Wiring Adapter User Guide (PDF)"
+    checked: "2026-11-04"
+  - id: adapter-not-universal
+    label: Check the pairing first
+    value: "Only connect alarms that Kidde lists as compatible; Kidde says unlisted equipment on the interconnect wire can cause nuisance alarms, a failure to alarm, or damage"
+    source_url: https://www.kidde.com/support/smoke-alarms/kidde-interconnectivity
+    source_title: "Kidde — What Other Products Will Kidde Alarms Interconnect With?"
+    checked: "2026-11-04"
+  - id: combo-interval
+    label: Smoke + CO alarms in general
+    value: "Kidde's replacement guide gives CO and combination alarms 7–10 years depending on the model; this one's guide gives 10"
+    source_url: https://www.kidde.com/support/smoke-alarms/alarm-replacement-guide
+    source_title: "Kidde — Alarm Replacement Guide"
+    checked: "2026-11-04"
+  - id: recalls
+    label: Recalls
+    value: "Search CPSC's recall list for your exact model before reusing or reselling an alarm"
+    source_url: https://www.cpsc.gov/Recalls
+    source_title: "CPSC — Recalls & Product Safety Warnings"
+    checked: "2026-11-04"
+related: [kidde-i12010s, kidde-i12040]

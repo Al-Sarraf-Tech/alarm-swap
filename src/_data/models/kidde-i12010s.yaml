@@ -1,0 +1,126 @@
+slug: kidde-i12010s
+brand: Kidde
+model: i12010S
+aliases: []
+kind: Hardwired smoke alarm (sealed 10-year battery)
+title: "Kidde i12010S / i12010SCO: age, expiry and what replaces it"
+description: "Kidde i12010S hardwired smoke alarm and its i12010SCO smoke + CO sibling: sealed 10-year battery, end-of-life chirp, how to switch it off for disposal, and Kidde's named upgrade."
+published: "2026-11-04"
+summary: >-
+  The i12010S is Kidde's wired-in ionization smoke alarm with a lithium backup
+  battery sealed inside, so there is no battery to change. Ten years after it
+  is first powered it double-chirps to say it is done, and Kidde's page now
+  points to the 20SA10 as the upgrade. The i12010SCO is the smoke + CO version
+  with the same sealed battery; its page did not name a replacement when we
+  checked.
+facts:
+  - id: sensor
+    label: Sensor type
+    value: "Ionization"
+    source_url: https://www.kidde.com/products/smoke-alarms/worry-free-hardwired-interconnect-smoke-alarm-10-year-battery-backup
+    source_title: "Kidde — Worry-Free Hardwired Interconnect Smoke Alarm i12010S (product page)"
+    checked: "2026-11-04"
+  - id: power
+    label: Power
+    value: "120 V AC house wiring, backed up by a 3 V lithium battery sealed inside the alarm"
+    source_url: https://www.kidde.com/products/smoke-alarms/worry-free-hardwired-interconnect-smoke-alarm-10-year-battery-backup
+    source_title: "Kidde — Worry-Free Hardwired Interconnect Smoke Alarm i12010S (product page)"
+    checked: "2026-11-04"
+  - id: sealed-battery
+    label: Can you change the battery?
+    value: "No. The guide says the sealed battery is meant to last the alarm's whole life and is not replaced"
+    source_url: https://brand.kidde.com/m/1f68e8e58603ce37/original/UG_I12010S.pdf
+    source_title: "Kidde — i12010S Smoke Alarm User Guide (PDF)"
+    checked: "2026-11-04"
+  - id: date-location
+    label: Where the date is
+    value: "The guide places the date of manufacture and the model number on the back of the alarm. It also asks the installer to write a \"replace by\" date, 10 years from first power-up, on the side"
+    source_url: https://brand.kidde.com/m/1f68e8e58603ce37/original/UG_I12010S.pdf
+    source_title: "Kidde — i12010S Smoke Alarm User Guide (PDF)"
+    checked: "2026-11-04"
+  - id: lifespan
+    label: When to replace
+    value: "Ten years after it was first powered. At that point it double-chirps (with a double LED flash) every 30 seconds"
+    source_url: https://brand.kidde.com/m/1f68e8e58603ce37/original/UG_I12010S.pdf
+    source_title: "Kidde — i12010S Smoke Alarm User Guide (PDF)"
+    checked: "2026-11-04"
+  - id: eol-hush
+    label: Snoozing the end-of-life chirp
+    value: "Pressing the button quiets the end-of-life chirp for about 3 days at a time, up to 30 days in total. It buys time to get a replacement; it does not extend the alarm's life"
+    source_url: https://www.kidde.com/products/smoke-alarms/worry-free-hardwired-interconnect-smoke-alarm-10-year-battery-backup
+    source_title: "Kidde — Worry-Free Hardwired Interconnect Smoke Alarm i12010S (product page)"
+    checked: "2026-11-04"
+  - id: low-battery
+    label: Low-battery signal
+    value: "A single chirp every 60 seconds for at least seven days. Because the battery is sealed, the guide says to deactivate and replace the whole alarm"
+    source_url: https://brand.kidde.com/m/1f68e8e58603ce37/original/UG_I12010S.pdf
+    source_title: "Kidde — i12010S Smoke Alarm User Guide (PDF)"
+    checked: "2026-11-04"
+  - id: deactivate
+    label: Before you throw it out
+    value: "Kidde says to deactivate it first: take it off the bracket, break through the marked spot on the back label with a screwdriver and slide the tab to OFF. This drains the lithium battery and is permanent"
+    source_url: https://brand.kidde.com/m/1f68e8e58603ce37/original/UG_I12010S.pdf
+    source_title: "Kidde — i12010S Smoke Alarm User Guide (PDF)"
+    checked: "2026-11-04"
+  - id: interconnect
+    label: Interconnect
+    value: "Up to 24 Kidde devices on one loop, 18 of which can trigger the others. The guide keeps smoke alarms to 12 and alarms of all kinds to 18, citing the NFPA limit"
+    source_url: https://brand.kidde.com/m/1f68e8e58603ce37/original/UG_I12010S.pdf
+    source_title: "Kidde — i12010S Smoke Alarm User Guide (PDF)"
+    checked: "2026-11-04"
+  - id: same-brand
+    label: Other brands on the loop
+    value: "The guide approves it only with Kidde/Nighthawk products and lists the compatible models, including the i12040, i12060, i4618 and KN-COSM-IBA"
+    source_url: https://brand.kidde.com/m/1f68e8e58603ce37/original/UG_I12010S.pdf
+    source_title: "Kidde — i12010S Smoke Alarm User Guide (PDF)"
+    checked: "2026-11-04"
+  - id: sco-sibling
+    label: The i12010SCO
+    value: "A separate model: hardwired smoke + CO alarm (ionization smoke sensor, electrochemical CO sensor) with the same kind of sealed lithium backup and spoken \"Fire!\" / carbon monoxide warnings"
+    source_url: https://www.kidde.com/products/combo-alarms/worry-free-hardwired-combo-alarm-with-10-year-battery-backup
+    source_title: "Kidde — Hardwired Combination Smoke & CO Alarm i12010SCO (product page)"
+    checked: "2026-11-04"
+  - id: sco-lifespan
+    label: i12010SCO end of life
+    value: "Its guide gives the same signal: a double chirp every 30 seconds ten years after first power-up, with the same 3-day snooze up to 30 days"
+    source_url: https://brand.kidde.com/m/29c39b797d4fd665/original/UG_i12010SCO.pdf
+    source_title: "Kidde — i12010SCO Smoke & CO Alarm User Guide (PDF)"
+    checked: "2026-11-04"
+  - id: warranty
+    label: Warranty
+    value: "10-year limited"
+    source_url: https://www.kidde.com/products/smoke-alarms/worry-free-hardwired-interconnect-smoke-alarm-10-year-battery-backup
+    source_title: "Kidde — Worry-Free Hardwired Interconnect Smoke Alarm i12010S (product page)"
+    checked: "2026-11-04"
+  - id: part-number
+    label: Ordering number (i12010S)
+    value: "21010407"
+    source_url: https://www.kidde.com/products/smoke-alarms/worry-free-hardwired-interconnect-smoke-alarm-10-year-battery-backup
+    source_title: "Kidde — Worry-Free Hardwired Interconnect Smoke Alarm i12010S (product page)"
+    checked: "2026-11-04"
+replacement:
+  - id: named-replacement
+    label: Replacement named by Kidde
+    value: "Kidde's i12010S page shows the 20SA10 under \"Upgrade to\". The i12010SCO page did not name a replacement when we checked"
+    source_url: https://www.kidde.com/products/smoke-alarms/worry-free-hardwired-interconnect-smoke-alarm-10-year-battery-backup
+    source_title: "Kidde — Worry-Free Hardwired Interconnect Smoke Alarm i12010S (product page)"
+    checked: "2026-11-04"
+  - id: adapter
+    label: Keep the old wiring plug
+    value: "Kidde's 20-9003 adapter guide lists both the i12010S and the i12010SCO among the older harnesses it can join to a new Kidde alarm with the newer connector"
+    source_url: https://brand.kidde.com/m/275e008037c43807/original/Product_UG_20-9003.pdf
+    source_title: "Kidde — 20-9003 Wiring Adapter User Guide (PDF)"
+    checked: "2026-11-04"
+  - id: combo-interval
+    label: Smoke + CO alarms in general
+    value: "Kidde's replacement guide gives CO and combination alarms 7–10 years depending on the model, so go by the guide for your exact model"
+    source_url: https://www.kidde.com/support/smoke-alarms/alarm-replacement-guide
+    source_title: "Kidde — Alarm Replacement Guide"
+    checked: "2026-11-04"
+  - id: recalls
+    label: Recalls
+    value: "Search CPSC's recall list for your exact model before reusing or reselling an alarm"
+    source_url: https://www.cpsc.gov/Recalls
+    source_title: "CPSC — Recalls & Product Safety Warnings"
+    checked: "2026-11-04"
+related: [kidde-kn-cosm-iba, kidde-i12060, kidde-i12040]

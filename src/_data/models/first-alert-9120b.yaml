@@ -1,0 +1,107 @@
+slug: first-alert-9120b
+brand: First Alert
+model: 9120B
+aliases: []
+kind: Hardwired smoke alarm
+title: "First Alert 9120B: age, expiry and what replaces it"
+description: "First Alert / BRK 9120B hardwired ionization smoke alarm: discontinued, replaced by the SMI100-AC. Date, 10-year rule, 9 V backup battery, interconnect limits and which plugs fit."
+published: "2026-11-04"
+summary: >-
+  The 9120B is a First Alert (BRK) ionization smoke alarm wired to house power
+  with a 9-volt backup battery. First Alert lists it as discontinued and names
+  the SMI100-AC as its replacement model. Its manual says to replace it ten
+  years on, and it only links with the First Alert and BRK models the manual
+  lists.
+facts:
+  - id: status
+    label: Status
+    value: "Discontinued; First Alert says it is no longer for sale"
+    source_url: https://www.firstalert.com/products/hardwired-ionization-smoke-alarm-with-battery-backup
+    source_title: "First Alert — Hardwired Ionization Smoke Alarm with Battery Backup 9120B (product page)"
+    checked: "2026-11-04"
+  - id: sensor
+    label: Sensor type
+    value: "Ionization"
+    source_url: https://www.firstalert.com/products/hardwired-ionization-smoke-alarm-with-battery-backup
+    source_title: "First Alert — Hardwired Ionization Smoke Alarm with Battery Backup 9120B (product page)"
+    checked: "2026-11-04"
+  - id: power
+    label: Power
+    value: "Wired to 120 V AC, with a replaceable 9 V backup battery"
+    source_url: https://www.firstalert.com/products/hardwired-ionization-smoke-alarm-with-battery-backup
+    source_title: "First Alert — Hardwired Ionization Smoke Alarm with Battery Backup 9120B (product page)"
+    checked: "2026-11-04"
+  - id: battery-types
+    label: Backup battery
+    value: "One standard 9 V cell. The manual lists acceptable ones (for example Duracell MN1604 or Energizer 522) and also allows a named 9 V lithium battery"
+    source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0134-009_9120_9120b_sa9120bcn-1.pdf
+    source_title: "First Alert / BRK — 9120 / 9120B User's Manual (PDF)"
+    checked: "2026-11-04"
+  - id: date-location
+    label: Where the date is
+    value: "First Alert says its alarms carry the manufacture date on the back. The 9120B manual also asks you to write the purchase date in a space on the back"
+    source_url: https://www.firstalert.com/pages/10year
+    source_title: "First Alert — 10-Year Battery Alarms (How to check your alarms)"
+    checked: "2026-11-04"
+  - id: lifespan
+    label: When to replace
+    value: "The manual says to replace the alarm 10 years after it was bought; First Alert's general advice is to replace any alarm 10 years or more past its manufacture date"
+    source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0134-009_9120_9120b_sa9120bcn-1.pdf
+    source_title: "First Alert / BRK — 9120 / 9120B User's Manual (PDF)"
+    checked: "2026-11-04"
+  - id: low-battery
+    label: Low-battery signal
+    value: "About one chirp a minute when the backup battery gets weak. The manual says that warning should last 7 days, but to change the battery straight away"
+    source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0134-009_9120_9120b_sa9120bcn-1.pdf
+    source_title: "First Alert / BRK — 9120 / 9120B User's Manual (PDF)"
+    checked: "2026-11-04"
+  - id: power-cut
+    label: During a power cut
+    value: "If the house power fails and the backup battery is dead or missing, the manual says the alarm cannot operate"
+    source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0134-009_9120_9120b_sa9120bcn-1.pdf
+    source_title: "First Alert / BRK — 9120 / 9120B User's Manual (PDF)"
+    checked: "2026-11-04"
+  - id: interconnect
+    label: Interconnect limits
+    value: "Up to 18 compatible units on one loop, no more than 12 of them smoke alarms, all on the same breaker, with under 1,000 feet of interconnect wire"
+    source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0134-009_9120_9120b_sa9120bcn-1.pdf
+    source_title: "First Alert / BRK — 9120 / 9120B User's Manual (PDF)"
+    checked: "2026-11-04"
+  - id: compatible
+    label: What it links with
+    value: "Only the First Alert and BRK smoke, CO and heat alarms and accessories listed in its manual (for example SA4120, SC9120B, 7010B and CO5120BN); the manual warns that connecting anything else may damage it or stop it working"
+    source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0134-009_9120_9120b_sa9120bcn-1.pdf
+    source_title: "First Alert / BRK — 9120 / 9120B User's Manual (PDF)"
+    checked: "2026-11-04"
+  - id: warranty
+    label: Warranty
+    value: "10-year limited"
+    source_url: https://www.firstalert.com/products/hardwired-ionization-smoke-alarm-with-battery-backup
+    source_title: "First Alert — Hardwired Ionization Smoke Alarm with Battery Backup 9120B (product page)"
+    checked: "2026-11-04"
+replacement:
+  - id: named-replacement
+    label: Replacement named by First Alert
+    value: "SMI100-AC, listed as the replacement model in the 9120B's specifications"
+    source_url: https://www.firstalert.com/products/hardwired-ionization-smoke-alarm-with-battery-backup
+    source_title: "First Alert — Hardwired Ionization Smoke Alarm with Battery Backup 9120B (product page)"
+    checked: "2026-11-04"
+  - id: adapter
+    label: Replacing a Kidde alarm with a 9120-series
+    value: "First Alert's ADK-12 adapter guide lists the BRK 9120 series among the alarms that can plug into certain older Kidde harnesses (Kidde models made on or before January 1, 2004)"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PluqzAAB
+    source_title: "First Alert / BRK — Installation of the ADK Adapter Plug (PDF)"
+    checked: "2026-11-04"
+  - id: firex-adapter
+    label: Replacing a Firex alarm with a 9120-series
+    value: "For older Firex harnesses First Alert uses a different plug, the ADF; its guide also lists the 9120 series"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PlupKAAR
+    source_title: "First Alert / BRK — Installation of the ADF Adapter Plug (PDF)"
+    checked: "2026-11-04"
+  - id: recalls
+    label: Recalls
+    value: "Search CPSC's recall list for your exact model before reusing or reselling an alarm"
+    source_url: https://www.cpsc.gov/Recalls
+    source_title: "CPSC — Recalls & Product Safety Warnings"
+    checked: "2026-11-04"
+related: [first-alert-adk-12]

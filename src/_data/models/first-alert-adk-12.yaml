@@ -1,0 +1,101 @@
+slug: first-alert-adk-12
+brand: First Alert
+model: ADK-12
+aliases: [ADK]
+kind: Wiring adapter plug (old Kidde harness → First Alert / BRK alarm)
+title: "First Alert ADK-12 adapter: which Kidde plugs it fits, and which it doesn't"
+description: "The First Alert / BRK ADK-12 adapter joins certain pre-2004 Kidde, Fyrnetics and Lifesaver wiring plugs to BRK alarms. Listed models, limits, what it can't connect, and the ADF plug for Firex."
+published: "2026-11-04"
+summary: >-
+  ADK is First Alert's (BRK's) adapter plug for putting one of its alarms on a
+  ceiling that was wired for an older Kidde, Fyrnetics or Lifesaver alarm. Its
+  guide limits it to the Kidde models it lists, made on or before January 1,
+  2004, and says it cannot connect Kidde CO alarms. Firex wiring needs a
+  different plug, the ADF.
+facts:
+  - id: what-it-does
+    label: What it does
+    value: "It sits between the existing Kidde-family power connector in the ceiling and a listed BRK / First Alert alarm, so the house wiring does not have to be cut"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PluqzAAB
+    source_title: "First Alert / BRK — Installation of the ADK Adapter Plug (PDF)"
+    checked: "2026-11-04"
+  - id: old-side
+    label: Old alarms it fits
+    value: "Only the Kidde / Fyrnetics / Lifesaver models in its guide: the 1235, 1275, 1285 series, 1276, PE120, PE120E, PI2000 and the HD135F heat alarm"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PluqzAAB
+    source_title: "First Alert / BRK — Installation of the ADK Adapter Plug (PDF)"
+    checked: "2026-11-04"
+  - id: date-limit
+    label: Age limit on the old side
+    value: "The guide says the plug can be used on those Kidde-family models made on or before January 1, 2004"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PluqzAAB
+    source_title: "First Alert / BRK — Installation of the ADK Adapter Plug (PDF)"
+    checked: "2026-11-04"
+  - id: new-side
+    label: New alarms it takes
+    value: "The BRK / First Alert alarms its guide lists, including the 9120 series (ionization), 7010 series (photoelectric), SC9120B smoke + CO combo, HD6135FB heat alarm and an auxiliary relay"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PluqzAAB
+    source_title: "First Alert / BRK — Installation of the ADK Adapter Plug (PDF)"
+    checked: "2026-11-04"
+  - id: no-co
+    label: Kidde CO alarms
+    value: "The guide says the ADK plug cannot be used to connect Kidde carbon monoxide alarms"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PluqzAAB
+    source_title: "First Alert / BRK — Installation of the ADK Adapter Plug (PDF)"
+    checked: "2026-11-04"
+  - id: unlisted
+    label: Model not on the list?
+    value: "The guide says an old Kidde-family alarm that isn't listed has to be taken out of the system, and shows a Kidde connector with round holes as one it cannot be used with"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PluqzAAB
+    source_title: "First Alert / BRK — Installation of the ADK Adapter Plug (PDF)"
+    checked: "2026-11-04"
+  - id: limits
+    label: How many on one loop
+    value: "No more than 18 units in total, of which at most 12 are smoke alarms"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PluqzAAB
+    source_title: "First Alert / BRK — Installation of the ADK Adapter Plug (PDF)"
+    checked: "2026-11-04"
+  - id: fit
+    label: Space in the box
+    value: "If the adapter and wiring won't fit in the junction box, the guide says to remove the old connector and fit a First Alert power connector instead"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PluqzAAB
+    source_title: "First Alert / BRK — Installation of the ADK Adapter Plug (PDF)"
+    checked: "2026-11-04"
+  - id: rating
+    label: Electrical rating
+    value: "120 V AC, 100 mA maximum"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PluqzAAB
+    source_title: "First Alert / BRK — Installation of the ADK Adapter Plug (PDF)"
+    checked: "2026-11-04"
+  - id: electrician
+    label: Who should fit it
+    value: "The guide calls for the power to be off at the breaker or fuse box first and says wiring and installation must be done by a licensed electrician"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PluqzAAB
+    source_title: "First Alert / BRK — Installation of the ADK Adapter Plug (PDF)"
+    checked: "2026-11-04"
+replacement:
+  - id: firex
+    label: Firex wiring instead
+    value: "For older Firex harnesses First Alert's guide uses the ADF plug, not the ADK. It too is limited to listed Firex models made on or before January 1, 2004, and cannot connect Firex CO alarms"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PlupKAAR
+    source_title: "First Alert / BRK — Installation of the ADF Adapter Plug (PDF)"
+    checked: "2026-11-04"
+  - id: newer-kidde
+    label: Newer Kidde alarms such as the i12040 and i12060
+    value: "Those models are not on the ADK guide's list. Kidde's own 20-9003 adapter lists them for moving to a newer Kidde alarm instead"
+    source_url: https://brand.kidde.com/m/275e008037c43807/original/Product_UG_20-9003.pdf
+    source_title: "Kidde — 20-9003 Wiring Adapter User Guide (PDF)"
+    checked: "2026-11-04"
+  - id: test-all
+    label: After fitting it
+    value: "Test each alarm one at a time and make sure every interconnected alarm sounds each time"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PluqzAAB
+    source_title: "First Alert / BRK — Installation of the ADK Adapter Plug (PDF)"
+    checked: "2026-11-04"
+  - id: recalls
+    label: Recalls
+    value: "Search CPSC's recall list for your exact alarm models before reusing an old alarm on a new loop"
+    source_url: https://www.cpsc.gov/Recalls
+    source_title: "CPSC — Recalls & Product Safety Warnings"
+    checked: "2026-11-04"
+related: [first-alert-9120b, kidde-i12040, kidde-i12060]

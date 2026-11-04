@@ -72,15 +72,19 @@ When Jamal sets `affiliates_enabled` to `true`, the template prints that list wi
 ## 6. Upkeep (one extra task per week, not per night)
 Re-open the sources of the oldest page, fix anything that changed, bump its `checked` dates.
 
+## Done outside the backlog
+- 2026-11-04: `/privacy/` page (footer link, sitemap, llms.txt). Cloudflare claims on it link to Cloudflare's own pages.
+- 2026-11-04: catch-up run for the missed Oct 31–Nov 3 nights (four backlog pages in one run).
+
 ## Backlog (in order)
 - [x] Guide: How to find your smoke alarm's date and when it expires, by brand
 - [x] Kidde i12060 / i12060A
 - [x] Kidde i12040 / i12040A
 - [x] Firex i4618 / i4618AC
-- [ ] Kidde i12010S / i12010SCO
-- [ ] Kidde KN-COSM-IBA (smoke + CO)
-- [ ] First Alert 9120B (hardwired)
-- [ ] Adapter: First Alert/BRK ADK-12 (Kidde/Firex plug → First Alert/BRK)
+- [x] Kidde i12010S / i12010SCO
+- [x] Kidde KN-COSM-IBA (smoke + CO)
+- [x] First Alert 9120B (hardwired)
+- [x] Adapter: First Alert/BRK ADK-12 (pre-2004 Kidde plug → First Alert/BRK; Firex needs the ADF plug, per First Alert)
 - [ ] Adapter: Kidde KA-B3 and 20-9003 (→ Kidde)
 - [ ] Guide: Can you mix brands on interconnected alarms? Kidde vs First Alert, side by side
 - [ ] Kidde 20SAR (current model page)

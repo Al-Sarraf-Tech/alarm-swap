@@ -81,6 +81,10 @@ export function modelFaqs(model) {
     ["lifespan", `When should a ${model.brand} ${model.model} be replaced?`],
     ["named-replacement", `What replaces the ${model.brand} ${model.model}?`],
     ["adapter", `Which adapter guide lists the ${model.brand} ${model.model}?`],
+    // Adapter pages
+    ["old-side", `Which old alarms does the ${model.brand} ${model.model} fit?`],
+    ["no-co", `Can the ${model.brand} ${model.model} connect a carbon monoxide alarm?`],
+    ["firex", `Does the ${model.brand} ${model.model} fit Firex wiring?`],
   ];
   return specs
     .filter(([id]) => facts.has(id))
