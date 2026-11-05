@@ -85,7 +85,7 @@ Re-open the sources of the oldest page, fix anything that changed, bump its `che
 - [x] Kidde KN-COSM-IBA (smoke + CO)
 - [x] First Alert 9120B (hardwired)
 - [x] Adapter: First Alert/BRK ADK-12 (pre-2004 Kidde plug → First Alert/BRK; Firex needs the ADF plug, per First Alert)
-- [ ] Adapter: Kidde KA-B3 and 20-9003 (→ Kidde)
+- [x] Adapter: Kidde KA-B3 and 20-9003 (→ Kidde)
 - [ ] Guide: Can you mix brands on interconnected alarms? Kidde vs First Alert, side by side
 - [ ] Kidde 20SAR (current model page)
 - [ ] Kidde P4010ACSCO
