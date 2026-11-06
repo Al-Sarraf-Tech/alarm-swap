@@ -1,0 +1,193 @@
+# Guide pages: prose lives in `intro`/`body` (no numbers or claims that aren't
+# backed by a fact on the same page); every factual statement is a `facts` item
+# with its own source. `npm run check` enforces source_url/source_title/checked.
+slug: mix-brands-interconnected-alarms
+title: "Can you mix brands on interconnected hardwired smoke alarms? Kidde vs First Alert"
+short_title: "Mixing brands on an interconnect"
+description: "Whether Kidde and First Alert / BRK hardwired smoke alarms can share one interconnect wire, what each maker says about mixing brands, the older models Kidde lists as tested, adapter limits, and NFPA device caps."
+published: "2026-11-05"
+intro: >-
+  Hardwired smoke alarms often share a traveler wire so that when one sounds,
+  the others sound too. A plug that fits does not mean the brands are listed to
+  talk to each other. Here is what Kidde and First Alert say, side by side, with
+  every line linked to the maker, NFPA, USFA or CPSC.
+sections:
+  - heading: "The short answer"
+    facts:
+      - id: nfpa-interconnect
+        value: "NFPA says it is best to use interconnected smoke alarms so that when one sounds, they all sound."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-05"
+      - id: usfa-interconnect
+        value: "USFA likewise tells people to choose interconnected smoke alarms so that when one sounds, they all sound."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke Alarms"
+        checked: "2026-11-05"
+      - id: fa-nfpa-mixed
+        value: "First Alert says NFPA prohibits connecting alarms from different manufacturers without special testing, and unless a model is listed as compatible in the product literature First Alert would not recommend interconnecting brands such as First Alert, Kidde or Nest on one loop."
+        source_url: https://support.firstalert.com/s/article/Ways-to-Interconnect-Alarms
+        source_title: "First Alert — Ways to Interconnect Alarms & Auxiliary Devices"
+        checked: "2026-11-05"
+      - id: kidde-mixing
+        value: "Kidde's FAQ answer to \"Can I interconnect my Kidde alarm with a different brand?\" is no: Kidde alarms are designed and tested to work only with specific compatible Kidde models listed in the product's user guide, and alarms from different manufacturers should not be interconnected."
+        source_url: https://www.kidde.com/support/faqs
+        source_title: "Kidde — Frequently Asked Questions"
+        checked: "2026-11-05"
+  - heading: "What Kidde says"
+    body: >-
+      Kidde publishes both a general rule against mixed-brand systems and a short
+      list of older third-party models it has tested. Read both before you add
+      anything to a Kidde loop.
+    facts:
+      - id: kidde-other-brands
+        value: "Kidde's page on interconnecting with other brands says Kidde alarms are listed for use only with compatible models identified in each product's user guide, and that interconnecting Kidde alarms with devices from other brands creates a system that has not been tested or listed as a complete installation."
+        source_url: https://www.kidde.com/support/smoke-alarms/interconnecting-kidde-alarms-with-other-brands
+        source_title: "Kidde — Interconnecting Kidde Alarms with Other Brands"
+        checked: "2026-11-05"
+      - id: kidde-unlisted-risk
+        value: "On that same page Kidde says a mixed-brand interconnect may not meet NFPA 72 or local code requirements, alarm signals may not transmit or synchronize as designed, and overall system performance cannot be verified."
+        source_url: https://www.kidde.com/support/smoke-alarms/interconnecting-kidde-alarms-with-other-brands
+        source_title: "Kidde — Interconnecting Kidde Alarms with Other Brands"
+        checked: "2026-11-05"
+      - id: kidde-own-brands
+        value: "Kidde's interconnectivity article says Kidde alarms interconnect with all Kidde, Fyrnetics, Nighthawk, Silhouette and Lifesaver branded alarms, strobe lights and relay modules that have interconnect functionality."
+        source_url: https://www.kidde.com/support/smoke-alarms/kidde-interconnectivity
+        source_title: "Kidde — What Other Products Will Kidde Alarms Interconnect With?"
+        checked: "2026-11-05"
+      - id: kidde-listed-fa
+        value: "The same Kidde interconnectivity article lists these First Alert and BRK models as tested for interconnect compatibility with Kidde (with or without a Kidde wiring harness adapter): SA4121B, 4120, 4919, 5919, 86 RAC, 1235, 1275, 1276, 1285, PE120, PI2000, i12020, i12040, i12060 and i12080. If a unit is not on that list, Kidde says it is not compatible."
+        source_url: https://www.kidde.com/support/smoke-alarms/kidde-interconnectivity
+        source_title: "Kidde — What Other Products Will Kidde Alarms Interconnect With?"
+        checked: "2026-11-05"
+      - id: kidde-nonspecified
+        value: "Kidde warns that connecting Kidde products to a non-specified manufacturer's interconnect system, or using non-specified equipment from another manufacturer, could result in nuisance alarms, failure to alarm, or damage to the devices."
+        source_url: https://www.kidde.com/support/smoke-alarms/kidde-interconnectivity
+        source_title: "Kidde — What Other Products Will Kidde Alarms Interconnect With?"
+        checked: "2026-11-05"
+      - id: kidde-firex-all
+        value: "For older hardwired Firex alarms (Kidde acquired Firex in 2009), Kidde says that when you change one of those older alarms you will need to replace all devices attached to the interconnect line for compatibility."
+        source_url: https://www.kidde.com/support/smoke-alarms/firex-interconnectivity
+        source_title: "Kidde — What Products Will Firex Alarms Interconnect With?"
+        checked: "2026-11-05"
+  - heading: "What First Alert and BRK say"
+    body: >-
+      First Alert and BRK treat their own current hardwired lines as one family.
+      They do not recommend adding other brands unless a manual or adapter guide
+      lists that exact pair.
+    facts:
+      - id: fa-family
+        value: "First Alert says all modern hardwired First Alert, Onelink and BRK alarms use the same wiring technology and can interconnect, and that it is safe to mix and match several types of hardwired detector within that family (for example a photoelectric smoke alarm near the kitchen and a heat detector near the garage)."
+        source_url: https://support.firstalert.com/s/article/Ways-to-Interconnect-Alarms
+        source_title: "First Alert — Ways to Interconnect Alarms & Auxiliary Devices"
+        checked: "2026-11-05"
+      - id: fa-no-other
+        value: "On that same page First Alert says not to interconnect with alarms from other brands unless those alarms are listed as compatible in the alarm's manual or the adapter plug manual, and to ensure that only First Alert alarms or accessories are interconnected via the traveler wire."
+        source_url: https://support.firstalert.com/s/article/Ways-to-Interconnect-Alarms
+        source_title: "First Alert — Ways to Interconnect Alarms & Auxiliary Devices"
+        checked: "2026-11-05"
+      - id: fa-mix-match
+        value: "First Alert's mixing guide says you can mix and match hardwired First Alert, BRK and Onelink models because current models share the same wiring harness and connector, and that First Alert does not recommend mixing different brands because it can only guarantee the performance of First Alert and BRK alarms."
+        source_url: https://support.firstalert.com/s/article/Can-smoke-alarms-be-replaced-with-smoke-CO-combo-units
+        source_title: "First Alert — Mixing and Matching Hardwired First Alert Alarms"
+        checked: "2026-11-05"
+      - id: brk-limits
+        value: "BRK's hardwired install guide says interconnected units must meet all of these: a maximum of 18 compatible units (maximum 12 smoke alarms), the same fuse or circuit breaker powering every unit, and less than 1,000 feet of interconnect wire; the unit is designed to be compatible with all current model First Alert and BRK alarms."
+        source_url: https://www.brkelectronics.com/blogs/installer-corner/how-do-i-install-hardwired-brk-alarms
+        source_title: "BRK — How Do I Install Hardwired BRK Alarms?"
+        checked: "2026-11-05"
+      - id: fa-nfpa-cap
+        value: "First Alert says that to comply with NFPA limits a maximum of 18 initiating alarms may be interconnected, no more than 12 of the 18 may be smoke alarms, and 6 may be heat or CO detectors, with up to 6 more auxiliary devices (such as an RM4 relay or SLED177 strobe) for a total of 24 devices."
+        source_url: https://support.firstalert.com/s/article/Ways-to-Interconnect-Alarms
+        source_title: "First Alert — Ways to Interconnect Alarms & Auxiliary Devices"
+        checked: "2026-11-05"
+  - heading: "By brand"
+    body: >-
+      Use the logo on the alarm, then the matching row. Model pages below cover
+      common hardwired units and the adapters people reach for when the plug
+      shape changes.
+    rows:
+      - brand: Kidde
+        facts:
+          - id: kidde-row-rule
+            label: Mixing other brands
+            value: "FAQ says no to interconnecting with a different brand; use only models listed in that alarm's user guide. A separate interconnectivity article still names a short list of older First Alert / BRK models Kidde tested."
+            source_url: https://www.kidde.com/support/faqs
+            source_title: "Kidde — Frequently Asked Questions"
+            checked: "2026-11-05"
+          - id: kidde-row-adapter
+            label: Plug adapters
+            value: "KA-B3 is for select First Alert or BRK harnesses to a new Kidde alarm; 20-9003 is for select Kidde or Firex harnesses to a new Kidde alarm. Kidde says compatibility must be confirmed by exact model number, not by plug shape alone."
+            source_url: https://www.kidde.com/products/safety-accessories/quick-connect-adapter-for-select-first-alert-brk-hardwired-smoke-smoke-carbon-monoxide-alarms
+            source_title: "Kidde — Quick Connect Adapter KA-B3"
+            checked: "2026-11-05"
+        models: [kidde-i12060, kidde-i12040, kidde-i12010s, kidde-kn-cosm-iba, kidde-20-9003, firex-i4618]
+      - brand: First Alert
+        facts:
+          - id: fa-row-family
+            label: Mixing within First Alert / BRK
+            value: "Current hardwired First Alert, BRK and Onelink models are treated as one interconnect family sharing the same harness and connector."
+            source_url: https://support.firstalert.com/s/article/Can-smoke-alarms-be-replaced-with-smoke-CO-combo-units
+            source_title: "First Alert — Mixing and Matching Hardwired First Alert Alarms"
+            checked: "2026-11-05"
+          - id: fa-row-other
+            label: Mixing other brands
+            value: "Do not interconnect other brands unless the alarm manual or adapter plug manual lists that combination; First Alert would not recommend interconnecting First Alert with Kidde or Nest without that listing."
+            source_url: https://support.firstalert.com/s/article/Ways-to-Interconnect-Alarms
+            source_title: "First Alert — Ways to Interconnect Alarms & Auxiliary Devices"
+            checked: "2026-11-05"
+        models: [first-alert-9120b, first-alert-adk-12]
+  - heading: "Does a wiring adapter make brands compatible?"
+    body: >-
+      Adapters change how the ceiling harness plugs into a new alarm. They do not
+      erase the makers' interconnect lists.
+    facts:
+      - id: adapter-not-universal
+        value: "Kidde says its adapters work only with specific existing and replacement alarm model combinations listed in the user guide or compatibility guide, and not to assume an adapter will work based on connector shape, alarm image or brand alone."
+        source_url: https://www.kidde.com/products/safety-accessories/quick-connect-adapter-for-hardwired-smoke-carbon-monoxide-alarms
+        source_title: "Kidde — Quick Connect Adapter 20-9003"
+        checked: "2026-11-05"
+      - id: adapter-kab3-scope
+        value: "Kidde describes the KA-B3 as designed for select First Alert or BRK to Kidde replacement situations, and the 20-9003 as designed for select Kidde or Firex to Kidde replacement situations."
+        source_url: https://www.kidde.com/products/safety-accessories/quick-connect-adapter-for-select-first-alert-brk-hardwired-smoke-smoke-carbon-monoxide-alarms
+        source_title: "Kidde — Quick Connect Adapter KA-B3"
+        checked: "2026-11-05"
+      - id: adapter-still-test
+        value: "After an adapter install, Kidde's interconnectivity safety notes still say to turn power off at the breaker before removing an installed alarm, restore power only after every alarm is back up, and follow the new alarm's user guide when testing."
+        source_url: https://www.kidde.com/support/smoke-alarms/kidde-interconnectivity
+        source_title: "Kidde — What Other Products Will Kidde Alarms Interconnect With?"
+        checked: "2026-11-05"
+  - heading: "Can Kidde interconnect with First Alert?"
+    facts:
+      - id: faq-kidde-fa
+        value: "Kidde's FAQ says not to interconnect Kidde alarms with a different brand. Separately, Kidde's interconnectivity article names a short list of older First Alert and BRK model numbers it has tested; any First Alert or BRK model not on that list is, per Kidde, not compatible. First Alert's own guidance is not to interconnect other brands unless the literature lists the pair, and it would not recommend mixing First Alert with Kidde without that listing."
+        source_url: https://www.kidde.com/support/smoke-alarms/kidde-interconnectivity
+        source_title: "Kidde — What Other Products Will Kidde Alarms Interconnect With?"
+        checked: "2026-11-05"
+  - heading: "Do First Alert and BRK mix with each other?"
+    facts:
+      - id: faq-fa-brk
+        value: "Yes within current First Alert, BRK and Onelink hardwired models: First Alert says they share the same wiring technology and harness, and BRK's install guide says its hardwired unit is designed to be compatible with all current model First Alert and BRK alarms."
+        source_url: https://support.firstalert.com/s/article/Ways-to-Interconnect-Alarms
+        source_title: "First Alert — Ways to Interconnect Alarms & Auxiliary Devices"
+        checked: "2026-11-05"
+  - heading: "Practical next steps"
+    body: >-
+      Stay with one listed family on the interconnect wire unless a maker page
+      names your exact models.
+    facts:
+      - id: nfpa-electrician
+        value: "NFPA advises that only qualified electricians should install hardwired smoke alarms."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-05"
+      - id: kidde-single-brand
+        value: "Kidde recommends using only compatible Kidde alarms in an interconnected system and following each product's user-guide compatibility table; for a home that already has a mixed-brand system, Kidde says contractors and builders should consider transitioning to a single-brand, listed configuration."
+        source_url: https://www.kidde.com/support/smoke-alarms/interconnecting-kidde-alarms-with-other-brands
+        source_title: "Kidde — Interconnecting Kidde Alarms with Other Brands"
+        checked: "2026-11-05"
+      - id: cpsc-recalls
+        value: "Before you buy a replacement, check CPSC's recalls listing for the model you plan to keep or install; this page does not assert a recall for any specific alarm unless a CPSC notice for that model is cited."
+        source_url: https://www.cpsc.gov/Recalls
+        source_title: "CPSC — Recalls"
+        checked: "2026-11-05"
