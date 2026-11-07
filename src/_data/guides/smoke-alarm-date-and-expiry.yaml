@@ -61,7 +61,7 @@ sections:
             source_url: https://www.kidde.com/support/smoke-alarms/alarm-replacement-guide
             source_title: "Kidde — Alarm Replacement Guide"
             checked: "2026-10-31"
-        models: [kidde-i12060, kidde-i12040, kidde-i12010s, kidde-kn-cosm-iba, kidde-20-9003]
+        models: [kidde-i12060, kidde-i12040, kidde-i12010s, kidde-kn-cosm-iba, kidde-20-9003, kidde-20sar]
       - brand: First Alert
         facts:
           - id: fa-date

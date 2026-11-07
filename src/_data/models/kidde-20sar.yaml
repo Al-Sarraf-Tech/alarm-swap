@@ -1,0 +1,125 @@
+slug: kidde-20sar
+brand: Kidde
+model: 20SAR
+aliases: []
+kind: Hardwired smoke alarm
+title: "Kidde 20SAR: age, expiry and what replaces it"
+description: "Kidde DETECT 20SAR hardwired photoelectric smoke alarm: AA backup batteries, 10-year end of life, interconnect limits, and which older Kidde models upgrade to it."
+published: "2026-11-06"
+summary: >-
+  The 20SAR is Kidde's current DETECT hardwired photoelectric smoke alarm with
+  two replaceable AA backup batteries. It chirps for end of life ten years after
+  first power-up. Kidde's pages for several older hardwired models point to the
+  20SAR under "Upgrade to"; the 20SAR product page itself did not name a further
+  replacement when we checked.
+facts:
+  - id: sensor
+    label: Sensor type
+    value: "Photoelectric"
+    source_url: https://brand.kidde.com/m/2e898ca3eaa4d696/original/PDS_20SAR.pdf
+    source_title: "Kidde — DETECT Series Model 20SAR Product Data Sheet (PDF)"
+    checked: "2026-11-06"
+  - id: power
+    label: Power
+    value: "120 V AC house wiring (60 Hz), with two AA batteries as backup during outages. AC power is required; the batteries are backup only"
+    source_url: https://brand.kidde.com/m/2e898ca3eaa4d696/original/PDS_20SAR.pdf
+    source_title: "Kidde — DETECT Series Model 20SAR Product Data Sheet (PDF)"
+    checked: "2026-11-06"
+  - id: backup-batteries
+    label: Backup batteries
+    value: "Two replaceable AA cells are included. Kidde lists Energizer E91, Gold Peak 15A, or Golden Power GLR6A, and says not to use lithium batteries in this unit"
+    source_url: https://brand.kidde.com/m/2e898ca3eaa4d696/original/PDS_20SAR.pdf
+    source_title: "Kidde — DETECT Series Model 20SAR Product Data Sheet (PDF)"
+    checked: "2026-11-06"
+  - id: battery-change
+    label: When to change the batteries
+    value: "The product data sheet and product page say to change the replaceable batteries every 6 months, or when you hear the low-battery chirp. The user guide separately says to replace them at least once a year (or when you change your clocks) and that fresh batteries last at least one year under normal conditions"
+    source_url: https://brand.kidde.com/m/2e898ca3eaa4d696/original/PDS_20SAR.pdf
+    source_title: "Kidde — DETECT Series Model 20SAR Product Data Sheet (PDF)"
+    checked: "2026-11-06"
+  - id: date-location
+    label: Where the date is
+    value: "The user guide's registration fields put the date code on the back of the alarm. Before you install it, Kidde asks you to write an install date and a replace-by date (10 years from first power-up) on the side label"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5in AC Smoke Alarm User Guide (PDF)"
+    checked: "2026-11-06"
+  - id: lifespan
+    label: When to replace
+    value: "Ten years after it was installed, powered up, and tested. The data sheet says it then beeps to remind you it is time to replace it"
+    source_url: https://brand.kidde.com/m/2e898ca3eaa4d696/original/PDS_20SAR.pdf
+    source_title: "Kidde — DETECT Series Model 20SAR Product Data Sheet (PDF)"
+    checked: "2026-11-06"
+  - id: eol-signal
+    label: End-of-life signal
+    value: "Amber LED blinks twice every 60 seconds with two chirps every 60 seconds. You can silence it for 24 hours at a time for the first 7 days; after that the notifications cannot be silenced and Kidde says to remove and replace the unit"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5in AC Smoke Alarm User Guide (PDF)"
+    checked: "2026-11-06"
+  - id: low-battery
+    label: Low-battery signal
+    value: "One chirp and an amber LED flash every 60 seconds (per the data sheet: one chirp and amber LED flash per minute). The guide says you can silence it for 24 hours with the Test/Hush button for the first 7 days, and to replace the batteries within 7 days of the first warning"
+    source_url: https://brand.kidde.com/m/2e898ca3eaa4d696/original/PDS_20SAR.pdf
+    source_title: "Kidde — DETECT Series Model 20SAR Product Data Sheet (PDF)"
+    checked: "2026-11-06"
+  - id: fire-signal
+    label: Smoke/fire alarm signal
+    value: "Three long beeps with the red LED flashing in sync; the pattern repeats until the unit is reset or the smoke clears"
+    source_url: https://brand.kidde.com/m/2e898ca3eaa4d696/original/PDS_20SAR.pdf
+    source_title: "Kidde — DETECT Series Model 20SAR Product Data Sheet (PDF)"
+    checked: "2026-11-06"
+  - id: interconnect
+    label: Interconnect
+    value: "Hardwire interconnect (red wire). Up to 24 Kidde devices on one loop; the system must not exceed the NFPA limit of 18 initiating devices, of which 12 can be smoke alarms, with room still for up to 6 remote signaling devices such as strobes or relays. Maximum interconnect wire run is 1,000 ft. Not designed to interconnect with other makers' products unless otherwise specified"
+    source_url: https://brand.kidde.com/m/2e898ca3eaa4d696/original/PDS_20SAR.pdf
+    source_title: "Kidde — DETECT Series Model 20SAR Product Data Sheet (PDF)"
+    checked: "2026-11-06"
+  - id: mounting
+    label: Mounting and connector
+    value: "Twist-and-click mounting bracket and a plug-in AC quick connector (black/hot, white/neutral, red/interconnect). Mounts on a UL Listed junction box (standard single-gang up to 4-inch octagon). The alarm will not mount if either AA battery is missing. Not for recessed mounting"
+    source_url: https://www.kidde.com/products/smoke-alarms/smoke-alarm-hardwired-with-aa-backup-battery
+    source_title: "Kidde — Smoke Alarm, Hardwired with AA Backup Battery 20SAR (product page)"
+    checked: "2026-11-06"
+  - id: not-co
+    label: Carbon monoxide
+    value: "This model is a smoke alarm only, not a CO alarm. On an interconnect loop it can still receive and pass along a CO signal from a compatible Kidde combination or CO unit"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5in AC Smoke Alarm User Guide (PDF)"
+    checked: "2026-11-06"
+  - id: warranty
+    label: Warranty
+    value: "10-year limited warranty (batteries excluded)"
+    source_url: https://brand.kidde.com/m/2e898ca3eaa4d696/original/PDS_20SAR.pdf
+    source_title: "Kidde — DETECT Series Model 20SAR Product Data Sheet (PDF)"
+    checked: "2026-11-06"
+  - id: part-number
+    label: Ordering numbers
+    value: "Packaging codes on the data sheet include 21031482 (6-pack), 21031484 (2-pack), 21032826 (3-pack), 21032827 (2-pack), and 21032828 (1-pack)"
+    source_url: https://brand.kidde.com/m/2e898ca3eaa4d696/original/PDS_20SAR.pdf
+    source_title: "Kidde — DETECT Series Model 20SAR Product Data Sheet (PDF)"
+    checked: "2026-11-06"
+  - id: siblings
+    label: Related DETECT models
+    value: "Kidde also sells 20SAR-W (hardwired with Wi-Fi) and 20SAR-VRF (hardwired with wire-free interconnect) as separate models. The base 20SAR product page and data sheet do not give those models' Wi-Fi or RF features to the 20SAR itself"
+    source_url: https://www.kidde.com/products/smoke-alarms/smoke-alarm-hardwired-with-aa-backup-battery
+    source_title: "Kidde — Smoke Alarm, Hardwired with AA Backup Battery 20SAR (product page)"
+    checked: "2026-11-06"
+replacement:
+  - id: named-replacement
+    label: Replacement named by Kidde
+    value: "The 20SAR is the current model. Kidde's product pages for several older hardwired alarms (including the P12040 photoelectric, the Firex i5000, and the AC hardwired smoke alarm with safety light) show the 20SAR under \"Upgrade to\". The 20SAR product page itself did not name a further upgrade when we checked"
+    source_url: https://www.kidde.com/products/smoke-alarms/ac-hardwired-interconnect-photoelectric-smoke-alarm-with-hush
+    source_title: "Kidde — AC Hardwired Interconnect Photoelectric Smoke Alarm P12040 (product page)"
+    checked: "2026-11-06"
+  - id: adapter
+    label: Wiring adapter
+    value: "The 20SAR product page, data sheet, and user guide do not name a separate retrofit adapter; they describe the included twist-and-click bracket and AC quick connector only. For older Kidde harnesses that use a different plug, see Kidde's 20-9003 / KA-B3 adapter pages"
+    source_url: https://www.kidde.com/products/smoke-alarms/smoke-alarm-hardwired-with-aa-backup-battery
+    source_title: "Kidde — Smoke Alarm, Hardwired with AA Backup Battery 20SAR (product page)"
+    checked: "2026-11-06"
+  - id: recalls
+    label: Recalls
+    value: "Search CPSC's recall list for your exact model before reusing or reselling an alarm. No CPSC recall naming model 20SAR was found when we checked"
+    source_url: https://www.cpsc.gov/Recalls
+    source_title: "CPSC — Recalls & Product Safety Warnings"
+    checked: "2026-11-06"
+related: [kidde-i12010s, kidde-i12060, kidde-20-9003, firex-i4618]
