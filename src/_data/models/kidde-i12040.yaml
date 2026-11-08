@@ -11,6 +11,8 @@ summary: >-
   9-volt backup battery. It shares a user guide with the i12080A (the same alarm
   plus a battery-powered safety light). Replace it ten years after the date code
   on its back; the 20-9003 adapter lets a newer Kidde alarm reuse its wiring plug.
+  A chirp about 20 seconds after the red LED flashes is a sensing-chamber
+  fault, and the guide says to replace the alarm.
 facts:
   - id: sensor
     label: Sensor type
@@ -60,6 +62,12 @@ facts:
     source_url: https://brand.kidde.com/m/79d343435488dfc/original/Product_UG_i12040A-i12080A-User-Guide_En.pdf
     source_title: "Kidde — i12040A / i12080A Smoke Alarm User Guide (PDF)"
     checked: "2026-10-31"
+  - id: fault
+    label: Sensor-fault signal
+    value: "A chirp about 20 seconds after the red LED flashes means the smoke-sensing chamber is not working normally. The guide says to replace the alarm. That signal is separate from the low-battery chirp every 30-40 seconds"
+    source_url: https://brand.kidde.com/m/79d343435488dfc/original/Product_UG_i12040A-i12080A-User-Guide_En.pdf
+    source_title: "Kidde — i12040A / i12080A Smoke Alarm User Guide (PDF)"
+    checked: "2026-11-08"
   - id: interconnect
     label: Interconnect
     value: "Up to 24 Kidde devices on one wired loop, 18 of which can set off the rest (smoke, CO and heat alarms)"

@@ -93,10 +93,27 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("pageSchema", pageSchema);
   eleventyConfig.addFilter("jsonld", jsonld);
   eleventyConfig.addFilter("absUrl", absUrl);
+  function contentLastmod(models, guides) {
+    let max = "";
+    for (const node of [...Object.values(models || {}), ...Object.values(guides || {})]) {
+      const checked = latestChecked(node);
+      if (checked > max) max = checked;
+    }
+    return max || "2026-10-31";
+  }
+
+  eleventyConfig.addFilter("contentLastmod", contentLastmod);
   eleventyConfig.addFilter("pageLastmod", (page, models, guides) => {
     if (page?.data?.m?.facts) return latestChecked(page.data.m);
-    if (page?.data?.g?.sections) return latestChecked(page.data.g);
+    if (page?.data?.g?.sections) {
+      const checked = latestChecked(page.data.g);
+      const updated = page.data.g.updated ? String(page.data.g.updated) : "";
+      return updated > checked ? updated : checked;
+    }
     if (page?.data?.hub) return latestChecked(hubFacts(page.data.hub, models, guides)) || "2026-10-31";
+    const url = page?.url || "";
+    if (url === "/" || url === "/models/" || url === "/guides/" || url === "/brands/") return contentLastmod(models, guides);
+    if (page?.data?.updated) return String(page.data.updated);
     return "2026-10-31";
   });
 

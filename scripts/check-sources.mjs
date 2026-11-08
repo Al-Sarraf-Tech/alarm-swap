@@ -117,6 +117,7 @@ for (const dir of DATA_DIRS) {
     } else {
       if (!Array.isArray(doc?.sections) || !doc.sections.length) err(file, "sections", "a guide needs sections");
       (doc?.sections || []).forEach((s) => (s.rows || []).forEach((r) => (r.models || []).forEach((m) => refs.push([file, "models", m]))));
+      (doc?.related_guides || []).forEach((s) => refs.push([file, "guides", s]));
     }
     if (doc?.slug) slugs[kind].add(doc.slug);
     walk(file, doc, "", new Set());

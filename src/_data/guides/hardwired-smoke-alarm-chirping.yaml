@@ -1,0 +1,195 @@
+# Guide pages: prose lives in `intro`/`body` (no numbers or claims that aren't
+# backed by a fact on the same page); every factual statement is a `facts` item
+# with its own source. `npm run check` enforces source_url/source_title/checked.
+slug: hardwired-smoke-alarm-chirping
+title: "Why is a hardwired smoke alarm chirping? Battery, end of life, or a fault"
+short_title: "Hardwired alarm chirping"
+description: "NFPA's chirp rule, and how Kidde, Firex, and First Alert manuals split low battery, end of life, and faults for the hardwired models on this site."
+published: "2026-11-08"
+intro: >-
+  A short chirp is not the full alarm. NFPA publishes a general description
+  and also says to learn the sounds in the guide for your own model. The
+  rows below cover only the hardwired models that already have a page here.
+  A timing from one manual is not a reading of a different model.
+related_guides:
+  - smoke-alarm-date-and-expiry
+  - mix-brands-interconnected-alarms
+sections:
+  - heading: "The short answer"
+    facts:
+      - id: nfpa-three-beeps
+        value: "NFPA says a continued set of three loud beeps means smoke or fire: get out, call 911, and stay out. That pattern is the alarm itself, not a chirp."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-08"
+      - id: nfpa-single-chirp
+        value: "On that same page, NFPA says a single chirp every 30 or 60 seconds means the battery is low and must be changed."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-08"
+      - id: nfpa-after-battery
+        value: "NFPA says chirping that continues after the battery has been replaced means the alarm has reached the end of its life and the whole unit must be replaced."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-08"
+      - id: nfpa-learn-sounds
+        value: "NFPA also says to learn the sounds of your smoke and carbon monoxide alarms from the user guide, or by looking up the brand and model. The single-chirp line is the general description on that page, not a substitute for the manual for your unit."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-08"
+  - heading: "Where the general lines stop"
+    body: >-
+      NFPA's single-chirp sentence and USFA's note about a yearly backup
+      battery are general. This page identifies a chirp. It is not wiring
+      instructions. The model rows are where a manual says to change a
+      battery or to replace the alarm, and on what timing.
+    facts:
+      - id: nfpa-10
+        value: "NFPA says every smoke alarm has to be replaced 10 years after the date it was manufactured."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-08"
+      - id: nfpa-electrician
+        value: "NFPA says only qualified electricians should install hardwired smoke alarms."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-08"
+      - id: usfa-backup
+        value: "USFA says hardwired alarms usually have a backup battery that needs to be replaced once a year."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke Alarms"
+        checked: "2026-11-08"
+      - id: kidde-month
+        value: "Kidde's replacement guide says a battery that lasts only one month is usually caused by the alarm not receiving AC power. That page does not name which models the answer covers."
+        source_url: https://www.kidde.com/support/smoke-alarms/alarm-replacement-guide
+        source_title: "Kidde — Alarm Replacement Guide"
+        checked: "2026-11-08"
+  - heading: "By model"
+    body: >-
+      Read the row for the model printed on the alarm. Hush, on the models
+      that mention it, is a pause while you deal with the cause. It is not
+      an extension of the alarm's life.
+    rows:
+      - brand: Kidde
+        facts:
+          - id: i12060-low
+            label: i12060 / i12060A low battery
+            value: "The i12060A guide says a low or missing 9-volt backup battery makes the alarm chirp about every 30-40 seconds for at least seven days, and to replace the battery. Test/Hush quiets that chirp for about 13 hours. The same guide says dense smoke overrides the Hush feature."
+            source_url: https://brand.kidde.com/m/345f6673c28436a/original/UG_i12060A.pdf
+            source_title: "Kidde — i12060A Smoke Alarm User Guide (PDF)"
+            checked: "2026-11-08"
+          - id: i12060-fault
+            label: i12060 / i12060A sensing-chamber fault
+            value: "That guide also says the alarm chirps about 20 seconds after the red LED flashes when the smoke-sensing chamber is not working normally, and to replace the alarm. That is not the every-30-40-seconds low-battery chirp."
+            source_url: https://brand.kidde.com/m/345f6673c28436a/original/UG_i12060A.pdf
+            source_title: "Kidde — i12060A Smoke Alarm User Guide (PDF)"
+            checked: "2026-11-08"
+          - id: i12040-low
+            label: i12040 / i12040A low battery
+            value: "The i12040A / i12080A guide says a low or missing battery chirps about every 30-40 seconds for at least seven days, and to replace the battery. Test/Hush quiets that low-battery chirp for about 13 hours."
+            source_url: https://brand.kidde.com/m/79d343435488dfc/original/Product_UG_i12040A-i12080A-User-Guide_En.pdf
+            source_title: "Kidde — i12040A / i12080A Smoke Alarm User Guide (PDF)"
+            checked: "2026-11-08"
+          - id: i12040-fault
+            label: i12040 / i12040A sensing-chamber fault
+            value: "The same i12040A / i12080A guide says the alarm chirps about 20 seconds after the red LED flashes when the smoke-sensing chamber is not working normally, and to replace the alarm."
+            source_url: https://brand.kidde.com/m/79d343435488dfc/original/Product_UG_i12040A-i12080A-User-Guide_En.pdf
+            source_title: "Kidde — i12040A / i12080A Smoke Alarm User Guide (PDF)"
+            checked: "2026-11-08"
+          - id: i12010s-low
+            label: i12010S low battery
+            value: "The i12010S guide says the backup battery is a sealed 3-volt lithium cell that is not replaced. A low battery chirps once every 60 seconds, with a red LED flash, for at least seven days. The guide says to replace the alarm immediately, and to deactivate it and replace it within 7 days of the first warning."
+            source_url: https://brand.kidde.com/m/1f68e8e58603ce37/original/UG_I12010S.pdf
+            source_title: "Kidde — i12010S Smoke Alarm User Guide (PDF)"
+            checked: "2026-11-08"
+          - id: i12010s-fault
+            label: i12010S malfunction chirp
+            value: "A different pattern in the i12010S guide is a chirp every 30 seconds together with the red LED, while the green LED flashes twice a second on AC power. The guide calls that a malfunction and gives Kidde's product support line, 1-800-880-6788. It is not the end-of-life double chirp."
+            source_url: https://brand.kidde.com/m/1f68e8e58603ce37/original/UG_I12010S.pdf
+            source_title: "Kidde — i12010S Smoke Alarm User Guide (PDF)"
+            checked: "2026-11-08"
+          - id: i12010s-eol
+            label: i12010S end of life
+            value: "Ten years after the i12010S is first powered, the guide says it chirps twice every 30 seconds and to replace it immediately. The button can quiet that chirp for about 3 days at a time, for 30 days at most."
+            source_url: https://brand.kidde.com/m/1f68e8e58603ce37/original/UG_I12010S.pdf
+            source_title: "Kidde — i12010S Smoke Alarm User Guide (PDF)"
+            checked: "2026-11-08"
+          - id: kn-low
+            label: KN-COSM-IBA low battery
+            value: "The KN-COSM-IBA guide says a low battery chirps once a minute, flashes the red LED, and speaks a low-battery warning, for at least seven days. The backup cells are replaceable AA batteries. Low-battery hush quiets the chirp for about 10 hours."
+            source_url: https://brand.kidde.com/m/674e9605008efa22/original/UG_KN-COSM-IBA.pdf
+            source_title: "Kidde — KN-COSM-IBA Smoke & CO Alarm User Guide (PDF)"
+            checked: "2026-11-08"
+          - id: kn-eol
+            label: KN-COSM-IBA end of life
+            value: "Ten years after the KN-COSM-IBA is first powered, the guide says it beeps twice every 30 seconds. It says to replace it immediately because it will not detect carbon monoxide in that condition. End-of-life hush lasts about 3 days at a time, for 30 days at most."
+            source_url: https://brand.kidde.com/m/674e9605008efa22/original/UG_KN-COSM-IBA.pdf
+            source_title: "Kidde — KN-COSM-IBA Smoke & CO Alarm User Guide (PDF)"
+            checked: "2026-11-08"
+          - id: p4010-low
+            label: P4010ACSCO low battery
+            value: "The P4010ACSCO guide says the backup battery is sealed. A low battery chirps every 60 seconds and, for the first 5 minutes, speaks a replace-alarm warning about every 30 seconds. Low-battery chirps cannot be silenced. The guide says to remove, discharge, and replace the unit, within 7 days of the first warning."
+            source_url: https://brand.kidde.com/m/33ad48e3685c1fb0/original/UG_P4010ACSCO_ENG.pdf
+            source_title: "Kidde — Intelligent Combo Smoke and CO Alarm User Guide, Model P4010ACSCO (PDF)"
+            checked: "2026-11-08"
+          - id: p4010-eol
+            label: P4010ACSCO end of life
+            value: "End of unit life on the P4010ACSCO is a double chirp every 30 seconds. For the first 5 minutes it also speaks a replace-alarm line. Test/Hush can silence those chirps for 24 hours, and only during the first 7 days. After that the guide says they cannot be silenced."
+            source_url: https://brand.kidde.com/m/33ad48e3685c1fb0/original/UG_P4010ACSCO_ENG.pdf
+            source_title: "Kidde — Intelligent Combo Smoke and CO Alarm User Guide, Model P4010ACSCO (PDF)"
+            checked: "2026-11-08"
+          - id: p4010-fault
+            label: P4010ACSCO fault
+            value: "Fault mode on the P4010ACSCO is a chirp every 30 seconds and, for the first 5 minutes, a voice line that says to see the troubleshooting guide. The guide says to clean the alarm and press Test/Hush once to try a reset."
+            source_url: https://brand.kidde.com/m/33ad48e3685c1fb0/original/UG_P4010ACSCO_ENG.pdf
+            source_title: "Kidde — Intelligent Combo Smoke and CO Alarm User Guide, Model P4010ACSCO (PDF)"
+            checked: "2026-11-08"
+          - id: p4010-night
+            label: P4010ACSCO night delay
+            value: "The P4010ACSCO guide says a learned day/night cycle delays low-battery and end-of-life chirps until the next daytime. If the alarm never establishes that cycle because the room is always dark or always lit, those chirps are not delayed. A quiet night is not, by itself, proof that the chirp has stopped."
+            source_url: https://brand.kidde.com/m/33ad48e3685c1fb0/original/UG_P4010ACSCO_ENG.pdf
+            source_title: "Kidde — Intelligent Combo Smoke and CO Alarm User Guide, Model P4010ACSCO (PDF)"
+            checked: "2026-11-08"
+          - id: sar-sheet
+            label: 20SAR data sheet
+            value: "The 20SAR data sheet says this model uses two replaceable AA backup batteries, not a sealed cell, and not to use lithium batteries. A low battery is one chirp and an amber LED flash per minute. The sheet also says the alarm beeps to remind you to replace it 10 years after it is powered, and it does not give a separate beep count or a voice line for that reminder."
+            source_url: https://brand.kidde.com/m/2e898ca3eaa4d696/original/PDS_20SAR.pdf
+            source_title: "Kidde — DETECT Series Model 20SAR Product Data Sheet (PDF)"
+            checked: "2026-11-08"
+          - id: sar-eol
+            label: 20SAR end of life in the DETECT guide
+            value: "The DETECT AC user guide's troubleshooting table, which covers the 20SAR and other DETECT models, lists end of unit life as two chirps every 60 seconds with the amber LED blinking twice every 60 seconds. It can be silenced for 24 hours at a time during the first 7 days, and not after that. The table says a spoken replace-alarm line plays only on voice models."
+            source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+            source_title: "Kidde — DETECT 5in AC Smoke Alarm User Guide (PDF)"
+            checked: "2026-11-08"
+        models: [kidde-i12060, kidde-i12040, kidde-i12010s, kidde-kn-cosm-iba, kidde-p4010acsco, kidde-20sar]
+      - brand: Firex
+        facts:
+          - id: firex-low
+            label: i4618 low battery
+            value: "The Firex i4618AC-series guide says a low or missing 9-volt battery chirps about every 30-40 seconds for at least seven days, and to replace the battery. Test/Hush quiets that low-battery chirp for about 13 hours."
+            source_url: https://brand.kidde.com/m/3a0be371fcc801d5/original/UG_FireX_SmokeAla.pdf
+            source_title: "Kidde — Smoke Alarm User Guide, i4618AC / i4718AC / i5000AC Series (PDF)"
+            checked: "2026-11-08"
+          - id: firex-fault
+            label: i4618 sensing-chamber fault
+            value: "That Firex guide says the alarm chirps about 20 seconds after the red LED flashes when the smoke-sensing chamber is not working normally, and to replace the alarm. That signal is separate from the low-battery chirp."
+            source_url: https://brand.kidde.com/m/3a0be371fcc801d5/original/UG_FireX_SmokeAla.pdf
+            source_title: "Kidde — Smoke Alarm User Guide, i4618AC / i4718AC / i5000AC Series (PDF)"
+            checked: "2026-11-08"
+        models: [firex-i4618]
+      - brand: First Alert
+        facts:
+          - id: fa-chirp
+            label: 9120B low battery
+            value: "The 9120/9120B manual says a weak backup battery makes the alarm chirp about once a minute, with the red LED flashing once a minute. It says that warning should last 7 days, but to replace the battery immediately. It also says that if you hear a chirp once a minute, replace the battery."
+            source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0134-009_9120_9120b_sa9120bcn-1.pdf
+            source_title: "First Alert / BRK — 9120 / 9120B User's Manual (PDF)"
+            checked: "2026-11-08"
+          - id: fa-lifespan
+            label: 9120B and end of life
+            value: "The same manual says a smoke alarm has a limited life, to replace it immediately if it is not operating properly, and to replace it 10 years from the date of purchase. It tells you to write that date on the back. The copy we read does not name a separate end-of-life chirp."
+            source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0134-009_9120_9120b_sa9120bcn-1.pdf
+            source_title: "First Alert / BRK — 9120 / 9120B User's Manual (PDF)"
+            checked: "2026-11-08"
+        models: [first-alert-9120b]

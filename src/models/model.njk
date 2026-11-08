@@ -65,7 +65,12 @@
   {% endif %}
 
   <aside class="note">
-    <p><strong>Not sure how old yours is?</strong> See <a href="/guides/smoke-alarm-date-and-expiry/">how to find your smoke alarm's date and when it expires</a>.</p>
+    <p><strong>Related guides.</strong> They use the same kinds of sources as this page. A guide does not override a fact printed above.</p>
+    <ul class="cards">
+    {%- for g in guides | byPublished %}
+      <li><a href="/guides/{{ g.slug }}/"><strong>{{ g.short_title or g.title }}</strong> <span>Guide</span></a></li>
+    {%- endfor %}
+    </ul>
   </aside>
 
   {% if m.related and m.related.length %}

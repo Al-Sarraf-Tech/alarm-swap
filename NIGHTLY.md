@@ -73,6 +73,7 @@ When Jamal sets `affiliates_enabled` to `true`, the template prints that list wi
 Re-open the sources of the oldest page, fix anything that changed, bump its `checked` dates.
 
 ## Done outside the backlog
+- 2026-11-08: authorized improvement batch, not the one-page nightly. Sitemap `lastmod` on the home page and the model, guide, and brand indexes now follows the newest fact date. `/llms.txt` and `/llms-full.txt` are in the sitemap, and `robots.txt` names them. New guide: why a hardwired alarm is chirping. Sensing-chamber fault chirp added on the i12040 and Firex i4618 pages from their manuals. The mix-brands page now links the 20SAR and P4010ACSCO and cites those two manuals' interconnect limits. CPSC's recalls URL returned HTTP 403 from this run's network, so no new CPSC fact was added and older CPSC lines were not re-checked.
 - 2026-11-04: `/privacy/` page (footer link, sitemap, llms.txt). Cloudflare claims on it link to Cloudflare's own pages.
 - 2026-11-04: catch-up run for the missed Oct 31–Nov 3 nights (four backlog pages in one run).
 
@@ -89,3 +90,8 @@ Re-open the sources of the oldest page, fix anything that changed, bump its `che
 - [x] Guide: Can you mix brands on interconnected alarms? Kidde vs First Alert, side by side
 - [x] Kidde 20SAR (current model page)
 - [x] Kidde P4010ACSCO
+- [ ] Kidde 20SA10 — the upgrade named on the i12010S product page. Read that page and the 20SA10 guide or data sheet before writing. Do not copy the i12010S page.
+- [ ] Kidde 30CUA10 — the replacement named on the P4010ACSCO page. The data sheet is already cited there; re-read it and the product page.
+- [ ] Kidde 30CUAR — the upgrade named on the KN-COSM-IBA page. Read its product page and manual, including whether it keeps the voice alerts.
+- [ ] First Alert SMI100-AC — the replacement named in the 9120B specifications. Read the SMI100-AC page for sensor type, power, and interconnect limits.
+- [ ] First Alert / BRK ADF adapter — the Firex-side plug in the ADF installation PDF already cited on the ADK-12 page. It is not the ADK-12, and it is not Kidde's 20-9003.

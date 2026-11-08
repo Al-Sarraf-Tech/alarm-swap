@@ -97,6 +97,12 @@ const GUIDE_QUESTIONS = {
   "nfpa-chirp": "What does chirping that continues after a new battery mean?",
   "xs-nodate": "What should you do if a smoke alarm shows no manufacture date?",
   "kidde-mixing": "Can you add any brand to a Kidde interconnect loop?",
+  "nfpa-three-beeps": "Is a continuing three-beep sound a chirp?",
+  "nfpa-learn-sounds": "Does one chirp pattern fit every hardwired alarm?",
+  "nfpa-after-battery": "What if the chirp continues after a new battery?",
+  "i12010s-low": "What if the Kidde i12010S battery cannot be changed?",
+  "p4010-low": "Can you silence a Kidde P4010ACSCO low-battery chirp?",
+  "fa-chirp": "What does a once-a-minute chirp mean on a First Alert 9120B?",
 };
 
 export function guideFaqs(guide) {
@@ -197,7 +203,35 @@ function articleNode(site, pageUrl, title, description, published, modified, ima
   };
 }
 
-export function pageSchema(site, crumbs, title, description, pageUrl, model, guide, hub) {
+function byName(items, read) {
+  return [...items].sort((a, b) => read(a).localeCompare(read(b)));
+}
+
+export function collectionItems(site, pageUrl, models, guides, hubs, hub) {
+  const modelItem = (m) => ({ name: `${m.brand} ${m.model}`, url: absUrl(site, `/models/${m.slug}/`) });
+  const guideItem = (g) => ({ name: g.title, url: absUrl(site, `/guides/${g.slug}/`) });
+  const hubItem = (h) => ({ name: h.name, url: absUrl(site, `/brands/${h.slug}/`) });
+  const modelList = byName(Object.values(models || {}).filter((m) => m && m.slug), (m) => `${m.brand} ${m.model}`);
+  const guideList = byName(Object.values(guides || {}).filter((g) => g && g.slug), (g) => String(g.published));
+  const items = [];
+  if (pageUrl === "/") {
+    for (const g of guideList) items.push(guideItem(g));
+    for (const h of hubs || []) items.push(hubItem(h));
+    for (const m of modelList) items.push(modelItem(m));
+  } else if (pageUrl === "/models/") {
+    for (const m of modelList) items.push(modelItem(m));
+  } else if (pageUrl === "/guides/") {
+    for (const g of guideList) items.push(guideItem(g));
+  } else if (pageUrl === "/brands/") {
+    for (const h of hubs || []) items.push(hubItem(h));
+  } else if (hub?.slug && pageUrl === `/brands/${hub.slug}/`) {
+    const match = new Set(hub.match || []);
+    for (const m of modelList.filter((m) => match.has(m.brand))) items.push(modelItem(m));
+  }
+  return items;
+}
+
+export function pageSchema(site, crumbs, title, description, pageUrl, model, guide, hub, models, guides, hubs) {
   const url = absUrl(site, pageUrl);
   const orgId = `${absUrl(site, "/")}#organization`;
   const webId = `${absUrl(site, "/")}#website`;
@@ -288,6 +322,22 @@ export function pageSchema(site, crumbs, title, description, pageUrl, model, gui
       description: hub.description,
       url,
       isPartOf: { "@id": webId },
+    });
+  }
+
+  const items = collectionItems(site, pageUrl, models, guides, hubs, hub);
+  if (items.length) {
+    graph.push({
+      "@type": "ItemList",
+      "@id": `${url}#list`,
+      name: title,
+      numberOfItems: items.length,
+      itemListElement: items.map((item, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: item.name,
+        url: item.url,
+      })),
     });
   }
 

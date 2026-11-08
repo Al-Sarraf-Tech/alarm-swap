@@ -108,6 +108,33 @@ export function checkStructuredData(html, rel, errors) {
     if (product?.brand && !product.brand.name) errors.push(`${rel}: Product brand missing name`);
   }
 
+  const wantsList = rel === "index.html"
+    || rel === "models/index.html"
+    || rel === "guides/index.html"
+    || rel === "brands/index.html"
+    || /^brands\/[^/]+\/index\.html$/.test(rel);
+  const lists = ofType(nodes, "ItemList");
+  if (wantsList && !lists.length) errors.push(`${rel}: missing ItemList`);
+  if (!wantsList && lists.length) errors.push(`${rel}: unexpected ItemList`);
+  for (const list of lists) {
+    if (!Array.isArray(list.itemListElement) || !list.itemListElement.length) {
+      errors.push(`${rel}: ItemList is empty`);
+      continue;
+    }
+    if (list.numberOfItems !== undefined && list.numberOfItems !== list.itemListElement.length) {
+      errors.push(`${rel}: ItemList numberOfItems does not match its items`);
+    }
+    list.itemListElement.forEach((item, i) => {
+      if (!item.name || !item.url) {
+        errors.push(`${rel}: ItemList item ${i + 1} missing name or url`);
+        return;
+      }
+      if (!text.includes(item.name)) errors.push(`${rel}: ItemList name is not visible: ${item.name}`);
+      const path = String(item.url).replace(/^https:\/\/smokealarmswap\.com/, "");
+      if (!path.startsWith("/") || !html.includes(`href="${path}"`)) errors.push(`${rel}: ItemList url is not linked: ${item.url}`);
+    });
+  }
+
   if (isDateGuide) {
     const howto = need("HowTo", ["name", "step"]);
     if (howto && (!Array.isArray(howto.step) || howto.step.length < 3)) errors.push(`${rel}: HowTo needs at least 3 steps`);

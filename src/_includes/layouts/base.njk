@@ -42,7 +42,7 @@
 <link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
 <link rel="preload" href="{{ cssFile }}" as="style">
 <link rel="stylesheet" href="{{ cssFile }}">
-<script type="application/ld+json">{{ site | pageSchema(trail, fullTitle, desc, page.url, m, g, hub) | jsonld | safe }}</script>
+<script type="application/ld+json">{{ site | pageSchema(trail, fullTitle, desc, page.url, m, g, hub, models, guides, brandHubs) | jsonld | safe }}</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>

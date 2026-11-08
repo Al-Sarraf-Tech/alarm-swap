@@ -121,7 +121,19 @@ sections:
             source_url: https://www.kidde.com/products/safety-accessories/quick-connect-adapter-for-select-first-alert-brk-hardwired-smoke-smoke-carbon-monoxide-alarms
             source_title: "Kidde — Quick Connect Adapter KA-B3"
             checked: "2026-11-05"
-        models: [kidde-i12060, kidde-i12040, kidde-i12010s, kidde-kn-cosm-iba, kidde-20-9003, firex-i4618]
+          - id: kidde-20sar-other
+            label: 20SAR and other brands
+            value: "The 20SAR data sheet says that alarm is not designed to be interconnected with another manufacturer's products unless otherwise specified, and it points to the user guide for the list of compatible Kidde alarms."
+            source_url: https://brand.kidde.com/m/2e898ca3eaa4d696/original/PDS_20SAR.pdf
+            source_title: "Kidde — DETECT Series Model 20SAR Product Data Sheet (PDF)"
+            checked: "2026-11-08"
+          - id: kidde-p4010-list
+            label: P4010ACSCO interconnect list
+            value: "The P4010ACSCO user guide names the models that can share its AC interconnect, including the i12040, i12060, i4618, KN-COSM-IBA, i12010S, and other P4010 models. The list we read does not include a First Alert or BRK model number. A model that is not on that list is not one this guide names."
+            source_url: https://brand.kidde.com/m/33ad48e3685c1fb0/original/UG_P4010ACSCO_ENG.pdf
+            source_title: "Kidde — Intelligent Combo Smoke and CO Alarm User Guide, Model P4010ACSCO (PDF)"
+            checked: "2026-11-08"
+        models: [kidde-i12060, kidde-i12040, kidde-i12010s, kidde-kn-cosm-iba, kidde-20-9003, kidde-20sar, kidde-p4010acsco, firex-i4618]
       - brand: First Alert
         facts:
           - id: fa-row-family
@@ -191,3 +203,6 @@ sections:
         source_url: https://www.cpsc.gov/Recalls
         source_title: "CPSC — Recalls"
         checked: "2026-11-05"
+related_guides:
+  - smoke-alarm-date-and-expiry
+  - hardwired-smoke-alarm-chirping

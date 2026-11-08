@@ -105,10 +105,41 @@ const robots = fs.existsSync(path.join(SITE, "robots.txt")) ? fs.readFileSync(pa
 for (const bot of ["GPTBot", "ClaudeBot", "PerplexityBot", "Google-Extended"]) {
   if (!robots.includes(`User-agent: ${bot}`) || !robots.includes("Allow: /")) errors.push(`robots.txt does not allow ${bot}`);
 }
+if (!robots.includes(`${site.url}/llms.txt`) || !robots.includes(`${site.url}/llms-full.txt`)) {
+  errors.push("robots.txt does not name llms.txt and llms-full.txt");
+}
 const sitemap = fs.existsSync(path.join(SITE, "sitemap.xml")) ? fs.readFileSync(path.join(SITE, "sitemap.xml"), "utf8") : "";
 const locs = sitemap.match(/<loc>/g)?.length || 0;
 const lastmods = sitemap.match(/<lastmod>\d{4}-\d{2}-\d{2}<\/lastmod>/g)?.length || 0;
 if (!locs || locs !== lastmods) errors.push(`sitemap.xml needs a YYYY-MM-DD lastmod on every url (${locs} urls, ${lastmods} lastmods)`);
+function locDate(xml, urlPath) {
+  const exact = `${site.url}${urlPath}`.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const re = new RegExp(`<loc>${exact}</loc><lastmod>(\\d{4}-\\d{2}-\\d{2})</lastmod>`);
+  return xml.match(re)?.[1] || "";
+}
+let newestDetail = "";
+for (const m of sitemap.matchAll(/<loc>https:\/\/smokealarmswap\.com\/(?:models|guides)\/[^<]+\/<\/loc><lastmod>(\d{4}-\d{2}-\d{2})<\/lastmod>/g)) {
+  if (m[1] > newestDetail) newestDetail = m[1];
+}
+for (const urlPath of ["/", "/models/", "/guides/", "/brands/", "/llms.txt", "/llms-full.txt"]) {
+  const found = locDate(sitemap, urlPath);
+  if (!found) errors.push(`sitemap.xml missing ${urlPath}`);
+  else if (newestDetail && found < newestDetail) errors.push(`sitemap lastmod for ${urlPath} (${found}) is older than the newest model or guide (${newestDetail})`);
+}
+const privacyHtml = fs.existsSync(path.join(SITE, "privacy/index.html")) ? fs.readFileSync(path.join(SITE, "privacy/index.html"), "utf8") : "";
+const privacyShown = privacyHtml.match(/<time datetime="(\d{4}-\d{2}-\d{2})"/)?.[1] || "";
+if (privacyShown && locDate(sitemap, "/privacy/") !== privacyShown) {
+  errors.push(`privacy sitemap lastmod ${locDate(sitemap, "/privacy/")} does not match the visible date ${privacyShown}`);
+}
+const linkedFrom = [
+  ["models/kidde-i12060/index.html", ["/guides/hardwired-smoke-alarm-chirping/", "/guides/mix-brands-interconnected-alarms/", "/guides/smoke-alarm-date-and-expiry/"]],
+  ["guides/smoke-alarm-date-and-expiry/index.html", ["/guides/hardwired-smoke-alarm-chirping/", "/guides/mix-brands-interconnected-alarms/"]],
+  ["guides/mix-brands-interconnected-alarms/index.html", ["/models/kidde-20sar/", "/models/kidde-p4010acsco/", "/guides/hardwired-smoke-alarm-chirping/"]],
+];
+for (const [file, hrefs] of linkedFrom) {
+  const html = fs.existsSync(path.join(SITE, file)) ? fs.readFileSync(path.join(SITE, file), "utf8") : "";
+  for (const href of hrefs) if (!html.includes(`href="${href}"`)) errors.push(`${file} does not link ${href}`);
+}
 const llms = fs.existsSync(path.join(SITE, "llms.txt")) ? fs.readFileSync(path.join(SITE, "llms.txt"), "utf8") : "";
 const llmsFull = fs.existsSync(path.join(SITE, "llms-full.txt")) ? fs.readFileSync(path.join(SITE, "llms-full.txt"), "utf8") : "";
 if (!llms.includes(`${site.url}/models/kidde-i12060/`)) errors.push("llms.txt is missing a model URL");

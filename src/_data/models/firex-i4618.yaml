@@ -11,6 +11,8 @@ summary: >-
   and points to its 20SAR hardwired alarm as the upgrade. Kidde's 20-9003 adapter
   names the i4618 family among the older plugs it can connect to a newer Kidde
   alarm, so the ceiling wiring can usually stay — confirm the exact pairing first.
+  A chirp about 20 seconds after the red LED flashes is a sensing-chamber
+  fault, and the guide says to replace the alarm.
 facts:
   - id: status
     label: Status
@@ -48,6 +50,12 @@ facts:
     source_url: https://brand.kidde.com/m/3a0be371fcc801d5/original/UG_FireX_SmokeAla.pdf
     source_title: "Kidde — Smoke Alarm User Guide, i4618AC / i4718AC / i5000AC Series (PDF)"
     checked: "2026-10-31"
+  - id: fault
+    label: Sensor-fault signal
+    value: "A chirp about 20 seconds after the red LED flashes means the smoke-sensing chamber is not working normally. The guide says to replace the alarm. That signal is separate from the low-battery chirp every 30-40 seconds"
+    source_url: https://brand.kidde.com/m/3a0be371fcc801d5/original/UG_FireX_SmokeAla.pdf
+    source_title: "Kidde — Smoke Alarm User Guide, i4618AC / i4718AC / i5000AC Series (PDF)"
+    checked: "2026-11-08"
   - id: lifespan
     label: When to replace
     value: "NFPA says every smoke alarm must be replaced 10 years after its manufacturing date"

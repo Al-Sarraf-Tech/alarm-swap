@@ -77,6 +77,14 @@
   </section>
   {% endif %}
   {%- endfor %}
+  {% if g.related_guides and g.related_guides.length %}
+  <h2>Related guides</h2>
+  <ul class="cards">
+  {%- for s in g.related_guides %}{% set rg = guides[s] %}{% if rg %}
+    <li><a href="/guides/{{ rg.slug }}/"><strong>{{ rg.short_title or rg.title }}</strong> <span>Guide</span></a></li>
+  {%- endif %}{% endfor %}
+  </ul>
+  {% endif %}
   {% include "partials/faq.njk" %}
   {% include "partials/sources.njk" %}
   <p class="muted updated">Published {{ g.published | prettyDate }}.</p>

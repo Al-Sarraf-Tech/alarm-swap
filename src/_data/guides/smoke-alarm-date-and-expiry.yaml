@@ -6,6 +6,8 @@ title: "How to find your smoke alarm's date and when it expires, by brand"
 short_title: "Find your alarm's date & expiry"
 description: "Where each brand prints the manufacture date on a smoke or CO alarm, how many years each maker gives it, and what to do when the date is missing. Kidde, First Alert, Google Nest Protect, X-Sense, USI and Firex, with links to each maker."
 published: "2026-10-31"
+# Sitemap lastmod only. Each fact keeps its own checked date.
+updated: "2026-11-08"
 intro: >-
   Smoke alarms don't show an expiry date the way milk does. Most show the day
   they were made, and the makers tell you how many years to count from there.
@@ -164,3 +166,6 @@ sections:
         source_url: https://www.cpsc.gov/Recalls
         source_title: "CPSC — Recalls & Product Safety Warnings"
         checked: "2026-10-31"
+related_guides:
+  - mix-brands-interconnected-alarms
+  - hardwired-smoke-alarm-chirping
