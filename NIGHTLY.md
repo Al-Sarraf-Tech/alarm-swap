@@ -88,4 +88,4 @@ Re-open the sources of the oldest page, fix anything that changed, bump its `che
 - [x] Adapter: Kidde KA-B3 and 20-9003 (→ Kidde)
 - [x] Guide: Can you mix brands on interconnected alarms? Kidde vs First Alert, side by side
 - [x] Kidde 20SAR (current model page)
-- [ ] Kidde P4010ACSCO
+- [x] Kidde P4010ACSCO

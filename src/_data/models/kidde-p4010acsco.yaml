@@ -1,0 +1,150 @@
+slug: kidde-p4010acsco
+brand: Kidde
+model: P4010ACSCO
+aliases: []
+kind: Hardwired smoke + CO combination alarm
+title: "Kidde P4010ACSCO: age, expiry and what replaces it"
+description: "Kidde P4010ACSCO hardwired photoelectric smoke and CO combo alarm with voice and a sealed 10-year battery: date code, end-of-life chirps, interconnect limits, and Kidde's named replacement (30CUA10)."
+published: "2026-11-07"
+summary: >-
+  The P4010ACSCO is a discontinued Kidde 120 V hardwired alarm that senses both
+  smoke (photoelectric) and carbon monoxide, talks ("Fire!", "Warning! Carbon
+  Monoxide!"), and has a sealed lithium backup battery you never change. Kidde
+  says to replace it ten years from the date code on its back; at end of life it
+  double-chirps every 30 seconds and says "Replace alarm." Kidde's product page
+  now points to the DETECT 30CUA10 as the upgrade.
+facts:
+  - id: status
+    label: Status
+    value: "Discontinued. Kidde's product page marks it as discontinued and lists a replacement product"
+    source_url: https://www.kidde.com/products/combo-alarms/ac-hardwired-combo-alarm
+    source_title: "Kidde — AC Hardwired Combo CO & Smoke Alarm P4010ACSCO (product page)"
+    checked: "2026-11-07"
+  - id: sensor
+    label: Sensors
+    value: "Photoelectric smoke sensor plus an electrochemical carbon monoxide sensor in one unit. Kidde's data sheet says the two sensors share readings so the alarm can adjust its smoke sensitivity to cut down on nuisance alarms"
+    source_url: https://brand.kidde.com/m/56214039f88cac84/original/PDS_P4010ACSCO_EN.pdf
+    source_title: "Kidde — Model P4010ACSCO Product Data Sheet (PDF)"
+    checked: "2026-11-07"
+  - id: power
+    label: Power
+    value: "120 V AC house wiring (60 Hz, 53 mA max) through a plug-in quick connector, with a sealed, non-replaceable lithium battery as backup. There are no batteries to change for the life of the alarm"
+    source_url: https://brand.kidde.com/m/33ad48e3685c1fb0/original/UG_P4010ACSCO_ENG.pdf
+    source_title: "Kidde — Intelligent Combo Smoke and CO Alarm User Guide, Model P4010ACSCO (PDF)"
+    checked: "2026-11-07"
+  - id: battery-activation
+    label: Backup battery activation
+    value: "The backup battery switches on automatically when the alarm is twisted onto its mounting bracket. Kidde says this is one-time: once activated it stays on even if the alarm is taken off the bracket, and it only shuts off when you permanently disable the unit at end of life. Connecting AC power without mounting the alarm soon after causes low-battery chirps"
+    source_url: https://brand.kidde.com/m/33ad48e3685c1fb0/original/UG_P4010ACSCO_ENG.pdf
+    source_title: "Kidde — Intelligent Combo Smoke and CO Alarm User Guide, Model P4010ACSCO (PDF)"
+    checked: "2026-11-07"
+  - id: date-location
+    label: Where the date is
+    value: "On the back of the alarm (the guide asks you to record the \"Date Code (on back)\"). Kidde also asks you to write an install date and a replace-by date on the label on the side of the alarm before installing it"
+    source_url: https://brand.kidde.com/m/33ad48e3685c1fb0/original/UG_P4010ACSCO_ENG.pdf
+    source_title: "Kidde — Intelligent Combo Smoke and CO Alarm User Guide, Model P4010ACSCO (PDF)"
+    checked: "2026-11-07"
+  - id: lifespan
+    label: When to replace
+    value: "The user guide says NFPA and Kidde recommend replacing it ten years from the date code on the back. The alarm itself starts its end-of-life warning ten years after it was first powered up, so an alarm that sat on a shelf before install can be past its date before it starts chirping"
+    source_url: https://brand.kidde.com/m/33ad48e3685c1fb0/original/UG_P4010ACSCO_ENG.pdf
+    source_title: "Kidde — Intelligent Combo Smoke and CO Alarm User Guide, Model P4010ACSCO (PDF)"
+    checked: "2026-11-07"
+  - id: eol-signal
+    label: End-of-life signal
+    value: "Amber LED blinks and the alarm double-chirps every 30 seconds. For the first 5 minutes it also says \"Replace alarm, press button to temporarily silence.\" Pressing Test/Hush silences the chirps for 24 hours, but only during the first 7 days; after that they cannot be silenced"
+    source_url: https://brand.kidde.com/m/33ad48e3685c1fb0/original/UG_P4010ACSCO_ENG.pdf
+    source_title: "Kidde — Intelligent Combo Smoke and CO Alarm User Guide, Model P4010ACSCO (PDF)"
+    checked: "2026-11-07"
+  - id: low-battery
+    label: Low-battery signal
+    value: "A chirp every 60 seconds, with the voice saying \"Replace alarm\" every 30 seconds for the first 5 minutes. Because the battery is sealed, the fix is to replace the whole alarm, which Kidde says to do within 7 days of the first warning. Low-battery chirps cannot be silenced"
+    source_url: https://brand.kidde.com/m/33ad48e3685c1fb0/original/UG_P4010ACSCO_ENG.pdf
+    source_title: "Kidde — Intelligent Combo Smoke and CO Alarm User Guide, Model P4010ACSCO (PDF)"
+    checked: "2026-11-07"
+  - id: night-delay
+    label: Night-time chirp delay
+    value: "An ambient light sensor learns a day/night cycle and holds low-battery and end-of-life chirps until daytime. If it can't establish a valid cycle (for example in a room that is always dark or always lit), the chirps are not delayed"
+    source_url: https://brand.kidde.com/m/33ad48e3685c1fb0/original/UG_P4010ACSCO_ENG.pdf
+    source_title: "Kidde — Intelligent Combo Smoke and CO Alarm User Guide, Model P4010ACSCO (PDF)"
+    checked: "2026-11-07"
+  - id: fault
+    label: Fault (error) signal
+    value: "Amber LED with a chirp every 30 seconds and, for the first 5 minutes, the voice saying \"Error, see trouble shooting guide.\" Kidde says to clean the alarm and press Test/Hush once to try a reset; the red LED then blinks an error code you can report to Kidde support"
+    source_url: https://brand.kidde.com/m/33ad48e3685c1fb0/original/UG_P4010ACSCO_ENG.pdf
+    source_title: "Kidde — Intelligent Combo Smoke and CO Alarm User Guide, Model P4010ACSCO (PDF)"
+    checked: "2026-11-07"
+  - id: fire-signal
+    label: Smoke alarm signal
+    value: "Three long beeps, the voice saying \"Fire!\", a short pause, repeating, with the red LED blinking along. The horn is rated 85 dB at 10 feet"
+    source_url: https://brand.kidde.com/m/56214039f88cac84/original/PDS_P4010ACSCO_EN.pdf
+    source_title: "Kidde — Model P4010ACSCO Product Data Sheet (PDF)"
+    checked: "2026-11-07"
+  - id: co-signal
+    label: CO alarm signal
+    value: "Four quick beeps with the voice saying \"Warning! Carbon Monoxide\", repeating, with the red LED blinking along"
+    source_url: https://brand.kidde.com/m/33ad48e3685c1fb0/original/UG_P4010ACSCO_ENG.pdf
+    source_title: "Kidde — Intelligent Combo Smoke and CO Alarm User Guide, Model P4010ACSCO (PDF)"
+    checked: "2026-11-07"
+  - id: interconnect
+    label: Interconnect
+    value: "Hardwire interconnect (red wire). Up to 24 Kidde devices on one loop, within the NFPA limit of 12 smoke alarms and 18 alarms total, with room for up to 6 strobes or relay modules beyond that. All interconnected alarms must be on one circuit, and the longest wire run from first to last alarm is 1,000 ft. The guide lists the older Kidde models it can share a loop with, including the i12040, i12060, i4618, KN-COSM-IBA, i12010S and other P4010 models"
+    source_url: https://brand.kidde.com/m/33ad48e3685c1fb0/original/UG_P4010ACSCO_ENG.pdf
+    source_title: "Kidde — Intelligent Combo Smoke and CO Alarm User Guide, Model P4010ACSCO (PDF)"
+    checked: "2026-11-07"
+  - id: mounting
+    label: Mounting
+    value: "Fits a standard single-gang box up to a 4-inch octagon junction box. The unit is 5.59 in across and 1.91 in deep"
+    source_url: https://brand.kidde.com/m/56214039f88cac84/original/PDS_P4010ACSCO_EN.pdf
+    source_title: "Kidde — Model P4010ACSCO Product Data Sheet (PDF)"
+    checked: "2026-11-07"
+  - id: disposal
+    label: Disposal
+    value: "Before throwing it away, Kidde says to remove it from the bracket, unplug the harness, break the marked tab on the back with a screwdriver, and turn the red slotted arrow to \"Permanently Disable Alarm / Discharge Battery.\" That stops the chirping and drains the sealed battery. Once done, the alarm cannot be remounted"
+    source_url: https://brand.kidde.com/m/33ad48e3685c1fb0/original/UG_P4010ACSCO_ENG.pdf
+    source_title: "Kidde — Intelligent Combo Smoke and CO Alarm User Guide, Model P4010ACSCO (PDF)"
+    checked: "2026-11-07"
+  - id: not-for-rv
+    label: Where not to use it
+    value: "Kidde says it is not designed for use in an RV or boat"
+    source_url: https://brand.kidde.com/m/33ad48e3685c1fb0/original/UG_P4010ACSCO_ENG.pdf
+    source_title: "Kidde — Intelligent Combo Smoke and CO Alarm User Guide, Model P4010ACSCO (PDF)"
+    checked: "2026-11-07"
+  - id: warranty
+    label: Warranty
+    value: "10-year limited warranty from the date of purchase"
+    source_url: https://brand.kidde.com/m/33ad48e3685c1fb0/original/UG_P4010ACSCO_ENG.pdf
+    source_title: "Kidde — Intelligent Combo Smoke and CO Alarm User Guide, Model P4010ACSCO (PDF)"
+    checked: "2026-11-07"
+  - id: part-number
+    label: Ordering number
+    value: "21027536 (single unit, sold in cartons of 4), per the data sheet"
+    source_url: https://brand.kidde.com/m/56214039f88cac84/original/PDS_P4010ACSCO_EN.pdf
+    source_title: "Kidde — Model P4010ACSCO Product Data Sheet (PDF)"
+    checked: "2026-11-07"
+replacement:
+  - id: named-replacement
+    label: Replacement named by Kidde
+    value: "The 30CUA10, a DETECT hardwired smoke + CO alarm with a sealed 10-year backup battery, listed on the P4010ACSCO page under replacement products"
+    source_url: https://www.kidde.com/products/combo-alarms/ac-hardwired-combo-alarm
+    source_title: "Kidde — AC Hardwired Combo CO & Smoke Alarm P4010ACSCO (product page)"
+    checked: "2026-11-07"
+  - id: replacement-notes
+    label: How the 30CUA10 compares
+    value: "Like the P4010ACSCO it uses a photoelectric smoke sensor and an electrochemical CO sensor, runs on 120 V AC with a plug-in quick connector, has a sealed battery with no replacements, interconnects with up to 24 Kidde devices, and beeps to be replaced 10 years after it is powered. Its data sheet does not mention voice alerts, so don't assume it talks like the P4010ACSCO"
+    source_url: https://brand.kidde.com/m/2781cd387163173/original/PDS_30CUA10.pdf
+    source_title: "Kidde — DETECT 30CUA10 Product Data Sheet (PDF)"
+    checked: "2026-11-07"
+  - id: adapter
+    label: Wiring adapter
+    value: "Neither the P4010ACSCO page nor the 30CUA10 page names a harness adapter for this swap. If your old harness doesn't fit the new alarm, see the Kidde 20-9003 adapter page and check the exact old and new model pair against Kidde's list before buying one"
+    source_url: https://www.kidde.com/products/combo-alarms/hardwired-combo-alarm-with-10-year-backup-battery
+    source_title: "Kidde — Combo Smoke + CO Alarm, Hardwired with 10-Year Backup Battery 30CUA10 (product page)"
+    checked: "2026-11-07"
+  - id: recalls
+    label: Recalls
+    value: "Search CPSC's recall list for your exact model before reusing or reselling an alarm. No CPSC recall naming model P4010ACSCO was found when we checked"
+    source_url: https://www.cpsc.gov/Recalls
+    source_title: "CPSC — Recalls & Product Safety Warnings"
+    checked: "2026-11-07"
+related: [kidde-kn-cosm-iba, kidde-i12010s, kidde-20-9003, kidde-20sar]
