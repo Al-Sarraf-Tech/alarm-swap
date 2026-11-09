@@ -1,0 +1,119 @@
+slug: kidde-20sa10
+brand: Kidde
+model: 20SA10
+aliases: []
+kind: Hardwired smoke alarm (sealed 10-year battery)
+title: "Kidde 20SA10: age, expiry and what replaces it"
+description: "Kidde DETECT 20SA10 hardwired photoelectric smoke alarm with a sealed 10-year backup battery: end-of-life chirp, how to discharge it, and interconnect limits."
+published: "2026-11-08"
+summary: >-
+  The 20SA10 is Kidde's DETECT hardwired photoelectric smoke alarm with a
+  lithium backup battery sealed inside, so nothing is ever swapped. Ten years
+  after it is first powered it chirps twice a minute to say it is done. Kidde's
+  i12010S page names it as the upgrade; the 20SA10 pages we read did not name a
+  further replacement.
+facts:
+  - id: sensor
+    label: Sensor type
+    value: "Photoelectric"
+    source_url: https://brand.kidde.com/m/26fc4db04c08b156/original/PDS_20SA10.pdf
+    source_title: "Kidde — DETECT Series Model 20SA10 Product Data Sheet (PDF)"
+    checked: "2026-11-08"
+  - id: power
+    label: Power
+    value: "120 V AC house wiring (60 Hz), with a sealed lithium battery as backup. The user guide says AC power must stay connected to get the full 10-year battery and unit life"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 20SA10 (PDF)"
+    checked: "2026-11-08"
+  - id: sealed-battery
+    label: Can you change the battery?
+    value: "No. Kidde's guide for this family lists the 20SA10 as a 10-year sealed battery model with no AA backup batteries"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 20SA10 (PDF)"
+    checked: "2026-11-08"
+  - id: date-location
+    label: Where the date is
+    value: "The guide has a space on the alarm's back for the date code, and asks the installer to write the install date and a replace-by date (10 years after first power-up) on the label on the side of the alarm"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 20SA10 (PDF)"
+    checked: "2026-11-08"
+  - id: lifespan
+    label: When to replace
+    value: "Ten years after it was installed, powered up and tested, it goes into End of Unit Life: two chirps and two amber LED blinks every 60 seconds"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 20SA10 (PDF)"
+    checked: "2026-11-08"
+  - id: eol-hush
+    label: Snoozing the end-of-life chirp
+    value: "Pressing Test/Hush silences it for 24 hours. Seven days after end of life begins the notice can no longer be silenced, and Kidde says to replace the unit as soon as possible"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 20SA10 (PDF)"
+    checked: "2026-11-08"
+  - id: low-battery
+    label: Low-battery signal
+    value: "On sealed-battery models a low battery is a chirp every 60 seconds with an amber LED blink. The guide's action is to remove the alarm, discharge it, dispose of it and replace it"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 20SA10 (PDF)"
+    checked: "2026-11-08"
+  - id: false-low
+    label: Chirping right after install
+    value: "If AC power is connected before the sealed battery is activated, the alarm gives a false low-battery chirp. The guide says to activate the battery by rotating the alarm fully onto its bracket, or by turning the red wheel on the back to ON"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 20SA10 (PDF)"
+    checked: "2026-11-08"
+  - id: deactivate
+    label: Before you throw it out
+    value: "Kidde says to discharge the battery first: twist the alarm off its bracket, disconnect the AC harness, remove the marked side tab, then turn the red slotted arrow to PERMANENTLY DISABLE and DISCHARGE ALARM. It is permanent, and skipping it can leave a lithium battery hazard"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 20SA10 (PDF)"
+    checked: "2026-11-08"
+  - id: interconnect
+    label: Interconnect
+    value: "Up to 24 Kidde devices on one hardwired system, powered from a single circuit. The guide says not to exceed NFPA's limit of 12 smoke or smoke/CO alarms or 18 alarms total, with up to 6 more remote signaling devices or relay modules, and a maximum of 1000 feet of wire between the first and last unit"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 20SA10 (PDF)"
+    checked: "2026-11-08"
+  - id: compatible
+    label: Alarms it can interconnect with
+    value: "The guide's list of models that can share the standard AC interconnect includes the i12010S, i12010SCO, i12040, i12060, i4618AC, KN-COSM-IBA, 20SAR and P4010ACSCO"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 20SA10 (PDF)"
+    checked: "2026-11-08"
+  - id: single-station
+    label: Used on its own
+    value: "If it is the only alarm, the guide says to leave the red interconnect wire capped and not connect it to anything"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 20SA10 (PDF)"
+    checked: "2026-11-08"
+  - id: siblings
+    label: Related models
+    value: "The same guide also covers the 20SAR (AA backup batteries) and the 20SA10-V (sealed battery plus voice alerts) as separate models. This page covers the 20SA10 only"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 20SA10 (PDF)"
+    checked: "2026-11-08"
+  - id: size
+    label: Size and sound
+    value: "5 inches wide by 5 high by 2 deep, about 0.77 lb, with an 85 dB alarm at 10 feet. Kidde rates it for 40 to 100 degrees F"
+    source_url: https://brand.kidde.com/m/26fc4db04c08b156/original/PDS_20SA10.pdf
+    source_title: "Kidde — DETECT Series Model 20SA10 Product Data Sheet (PDF)"
+    checked: "2026-11-08"
+replacement:
+  - id: named-replacement
+    label: Replacement named by Kidde
+    value: "The 20SA10 is a current model. Kidde's i12010S page shows it under \"Upgrade to\". The 20SA10 product page, data sheet and guide did not name a further replacement when we checked"
+    source_url: https://www.kidde.com/products/smoke-alarms/smoke-alarm-hardwired-with-10-year-backup-battery
+    source_title: "Kidde — Smoke Alarm, Hardwired with 10-Year Backup Battery 20SA10 (product page)"
+    checked: "2026-11-08"
+  - id: adapter
+    label: Wiring adapter
+    value: "The 20SA10 pages and guide describe an included twist-and-click bracket and AC quick connector and do not name a retrofit adapter. For older Kidde harnesses with a different plug, see the 20-9003 / KA-B3 adapter page"
+    source_url: https://brand.kidde.com/m/26fc4db04c08b156/original/PDS_20SA10.pdf
+    source_title: "Kidde — DETECT Series Model 20SA10 Product Data Sheet (PDF)"
+    checked: "2026-11-08"
+  - id: recalls
+    label: Recalls
+    value: "Search CPSC's recall list for your exact model before reusing or reselling an alarm. We did not read a CPSC notice for the 20SA10, so this page states no recall status"
+    source_url: https://www.cpsc.gov/Recalls
+    source_title: "CPSC — Recalls & Product Safety Warnings"
+    checked: "2026-11-08"
+related: [kidde-i12010s, kidde-20sar, kidde-i12060, kidde-20-9003, kidde-p4010acsco]

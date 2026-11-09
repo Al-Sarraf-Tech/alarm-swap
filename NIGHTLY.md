@@ -90,7 +90,7 @@ Re-open the sources of the oldest page, fix anything that changed, bump its `che
 - [x] Guide: Can you mix brands on interconnected alarms? Kidde vs First Alert, side by side
 - [x] Kidde 20SAR (current model page)
 - [x] Kidde P4010ACSCO
-- [ ] Kidde 20SA10 — the upgrade named on the i12010S product page. Read that page and the 20SA10 guide or data sheet before writing. Do not copy the i12010S page.
+- [x] Kidde 20SA10 — the upgrade named on the i12010S product page. Read that page and the 20SA10 guide or data sheet before writing. Do not copy the i12010S page.
 - [ ] Kidde 30CUA10 — the replacement named on the P4010ACSCO page. The data sheet is already cited there; re-read it and the product page.
 - [ ] Kidde 30CUAR — the upgrade named on the KN-COSM-IBA page. Read its product page and manual, including whether it keeps the voice alerts.
 - [ ] First Alert SMI100-AC — the replacement named in the 9120B specifications. Read the SMI100-AC page for sensor type, power, and interconnect limits.
