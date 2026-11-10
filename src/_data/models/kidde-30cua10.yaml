@@ -1,0 +1,132 @@
+slug: kidde-30cua10
+brand: Kidde
+model: 30CUA10
+aliases: []
+kind: Hardwired smoke + CO combo alarm (sealed 10-year battery)
+title: "Kidde 30CUA10: age, expiry and what replaces it"
+description: "Kidde DETECT 30CUA10 hardwired photoelectric smoke and carbon monoxide alarm with a sealed 10-year backup battery: end-of-life chirps, CO alarm reset, discharging it, and interconnect limits."
+published: "2026-11-09"
+summary: >-
+  The 30CUA10 is Kidde's DETECT hardwired combination alarm: a photoelectric
+  smoke sensor and an electrochemical carbon monoxide sensor in one 5-inch
+  unit, backed up by a lithium battery sealed inside. Ten years after it is
+  first powered it chirps twice a minute to say it is done. Kidde's
+  P4010ACSCO page lists it as the upgrade; the 30CUA10 pages we read did not
+  name a further replacement.
+facts:
+  - id: sensor
+    label: Sensors
+    value: "Photoelectric smoke sensor and electrochemical CO sensor"
+    source_url: https://brand.kidde.com/m/2781cd387163173/original/PDS_30CUA10.pdf
+    source_title: "Kidde — DETECT 30CUA10 Product Data Sheet (PDF)"
+    checked: "2026-11-09"
+  - id: power
+    label: Power
+    value: "120 V AC, 60 Hz, 42 mA maximum, with a sealed 10-year battery as backup. The data sheet lists replacement batteries as not applicable"
+    source_url: https://brand.kidde.com/m/2781cd387163173/original/PDS_30CUA10.pdf
+    source_title: "Kidde — DETECT 30CUA10 Product Data Sheet (PDF)"
+    checked: "2026-11-09"
+  - id: sealed-battery
+    label: Can you change the battery?
+    value: "No. Kidde's guide for this family lists the 30CUA10 as a 10-year sealed battery model with no AA backup batteries and no voice alerts"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 30CUA10 (PDF)"
+    checked: "2026-11-09"
+  - id: lifespan
+    label: When to replace
+    value: "Ten years after it was installed, powered up and tested, it goes into End of Unit Life: two chirps and two amber LED blinks every 60 seconds"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 30CUA10 (PDF)"
+    checked: "2026-11-09"
+  - id: eol-hush
+    label: Snoozing the end-of-life chirp
+    value: "Pressing Test/Hush silences it for 24 hours. Seven days after end of life begins the notice can no longer be silenced, and Kidde says to replace the unit as soon as possible"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 30CUA10 (PDF)"
+    checked: "2026-11-09"
+  - id: co-fault
+    label: CO sensor fault
+    value: "Three chirps and two amber LED blinks every 60 seconds. The guide says to press Test/Hush once to try a reset, and if the error continues, to remove the alarm, dispose of it and replace it"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 30CUA10 (PDF)"
+    checked: "2026-11-09"
+  - id: alarm-patterns
+    label: What the alarms sound like
+    value: "Fire is three long beeps; carbon monoxide is four quick beeps. The red LED flashes with the pattern"
+    source_url: https://brand.kidde.com/m/2781cd387163173/original/PDS_30CUA10.pdf
+    source_title: "Kidde — DETECT 30CUA10 Product Data Sheet (PDF)"
+    checked: "2026-11-09"
+  - id: co-reset
+    label: If the CO alarm goes off
+    value: "Kidde says to treat every CO alarm as dangerous: get everyone outside to fresh air and call 911 or the fire department. Pressing Test/Hush during a CO alarm makes the unit re-check; if it alarms again within 6 minutes it is sensing high CO"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 30CUA10 (PDF)"
+    checked: "2026-11-09"
+  - id: co-response
+    label: CO response times
+    value: "The data sheet lists 60 to 240 minutes at 70 ppm, 10 to 50 minutes at 150 ppm, and 4 to 15 minutes at 400 ppm"
+    source_url: https://brand.kidde.com/m/2781cd387163173/original/PDS_30CUA10.pdf
+    source_title: "Kidde — DETECT 30CUA10 Product Data Sheet (PDF)"
+    checked: "2026-11-09"
+  - id: alarm-memory
+    label: Alarm memory
+    value: "If smoke or CO was detected in the last 24 hours, the red LED blinks every 15 seconds for smoke, or twice every 15 seconds for CO"
+    source_url: https://brand.kidde.com/m/2781cd387163173/original/PDS_30CUA10.pdf
+    source_title: "Kidde — DETECT 30CUA10 Product Data Sheet (PDF)"
+    checked: "2026-11-09"
+  - id: deactivate
+    label: Before you throw it out
+    value: "Kidde says to discharge the battery first: twist the alarm off its bracket, disconnect the AC harness, remove the side tab, then turn the red slotted arrow to PERMANENTLY DISABLE and DISCHARGE ALARM. It is permanent, and skipping it can leave a lithium battery fire hazard"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 30CUA10 (PDF)"
+    checked: "2026-11-09"
+  - id: interconnect
+    label: Interconnect
+    value: "Up to 24 Kidde devices on one system, within NFPA's limit of 18 initiating devices, of which 12 can be smoke alarms, plus up to 6 strobes or relay modules, and at most 1000 feet of interconnect wire. All alarms go on one continuous, non-switched circuit that is not GFCI-protected"
+    source_url: https://brand.kidde.com/m/2781cd387163173/original/PDS_30CUA10.pdf
+    source_title: "Kidde — DETECT 30CUA10 Product Data Sheet (PDF)"
+    checked: "2026-11-09"
+  - id: other-brands
+    label: Mixing brands
+    value: "The data sheet says it is not designed to interconnect with other makers' products unless otherwise specified"
+    source_url: https://brand.kidde.com/m/2781cd387163173/original/PDS_30CUA10.pdf
+    source_title: "Kidde — DETECT 30CUA10 Product Data Sheet (PDF)"
+    checked: "2026-11-09"
+  - id: compatible
+    label: Alarms it can interconnect with
+    value: "The guide's list of models that share the standard AC interconnect includes the P4010ACSCO, KN-COSM-IBA, i12010S, i12010SCO, 20SA10, 20SAR and 30CUAR"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 30CUA10 (PDF)"
+    checked: "2026-11-09"
+  - id: siblings
+    label: Related models
+    value: "The same guide covers the 30CUAR (AA backup batteries) and the 30CUA10-V (sealed battery with voice alerts) as separate models. This page covers the 30CUA10 only"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 30CUA10 (PDF)"
+    checked: "2026-11-09"
+  - id: size
+    label: Size and sound
+    value: "5 inches wide by 5 high by 2 deep, 0.47 lb, with an 85 dB alarm at 10 feet. Rated for 40 to 100 degrees F and 10 to 95 percent humidity, non-condensing"
+    source_url: https://brand.kidde.com/m/2781cd387163173/original/PDS_30CUA10.pdf
+    source_title: "Kidde — DETECT 30CUA10 Product Data Sheet (PDF)"
+    checked: "2026-11-09"
+replacement:
+  - id: named-replacement
+    label: Replacement named by Kidde
+    value: "The 30CUA10 is a current model. Kidde's P4010ACSCO page lists it under products to upgrade to. The 30CUA10 product page, data sheet and guide did not name a further replacement when we checked"
+    source_url: https://www.kidde.com/products/combo-alarms/hardwired-combo-alarm-with-10-year-backup-battery
+    source_title: "Kidde — Combo Smoke + CO Alarm, Hardwired with 10-Year Backup Battery 30CUA10 (product page)"
+    checked: "2026-11-09"
+  - id: adapter
+    label: Wiring adapter
+    value: "The data sheet lists AC wiring with a plug-in quick connector and an included twist-and-click bracket, and does not name a retrofit adapter. For older Kidde harnesses with a different plug, see the 20-9003 / KA-B3 adapter page"
+    source_url: https://brand.kidde.com/m/2781cd387163173/original/PDS_30CUA10.pdf
+    source_title: "Kidde — DETECT 30CUA10 Product Data Sheet (PDF)"
+    checked: "2026-11-09"
+  - id: recalls
+    label: Recalls
+    value: "Search CPSC's recall list for your exact model before reusing or reselling an alarm. We did not read a CPSC notice for the 30CUA10, so this page states no recall status"
+    source_url: https://www.cpsc.gov/Recalls
+    source_title: "CPSC — Recalls & Product Safety Warnings"
+    checked: "2026-11-09"
+related: [kidde-p4010acsco, kidde-kn-cosm-iba, kidde-20sa10, kidde-20-9003, kidde-i12010s]

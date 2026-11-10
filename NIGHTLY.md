@@ -91,7 +91,7 @@ Re-open the sources of the oldest page, fix anything that changed, bump its `che
 - [x] Kidde 20SAR (current model page)
 - [x] Kidde P4010ACSCO
 - [x] Kidde 20SA10 — the upgrade named on the i12010S product page. Read that page and the 20SA10 guide or data sheet before writing. Do not copy the i12010S page.
-- [ ] Kidde 30CUA10 — the replacement named on the P4010ACSCO page. The data sheet is already cited there; re-read it and the product page.
+- [x] Kidde 30CUA10 — the replacement named on the P4010ACSCO page. The data sheet is already cited there; re-read it and the product page.
 - [ ] Kidde 30CUAR — the upgrade named on the KN-COSM-IBA page. Read its product page and manual, including whether it keeps the voice alerts.
 - [ ] First Alert SMI100-AC — the replacement named in the 9120B specifications. Read the SMI100-AC page for sensor type, power, and interconnect limits.
 - [ ] First Alert / BRK ADF adapter — the Firex-side plug in the ADF installation PDF already cited on the ADK-12 page. It is not the ADK-12, and it is not Kidde's 20-9003.
