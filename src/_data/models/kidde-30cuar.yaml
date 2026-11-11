@@ -1,0 +1,150 @@
+slug: kidde-30cuar
+brand: Kidde
+model: 30CUAR
+aliases: []
+kind: Hardwired smoke + CO combo alarm (AA battery backup)
+title: "Kidde 30CUAR: batteries, expiry and the KN-COSM-IBA swap"
+description: "Kidde DETECT 30CUAR hardwired photoelectric smoke and carbon monoxide alarm with 2 AA backup batteries: approved batteries, low-battery and end-of-life chirps, voice alerts, and interconnect limits."
+published: "2026-11-10"
+summary: >-
+  The 30CUAR is Kidde's DETECT hardwired combination alarm with two
+  replaceable AA batteries as backup: a photoelectric smoke sensor and an
+  electrochemical carbon monoxide sensor in one 5-inch unit. Kidde's
+  KN-COSM-IBA page lists it as the upgrade. Unlike the KN-COSM-IBA, the
+  plain 30CUAR does not talk; the voice version is a separate model, the
+  30CUAR-V. The 30CUAR pages we read did not name a further replacement.
+facts:
+  - id: sensor
+    label: Sensors
+    value: "Photoelectric smoke sensor and electrochemical CO sensor"
+    source_url: https://brand.kidde.com/m/6a9d10f7f88d1c38/original/PDS_30CUAR.pdf
+    source_title: "Kidde — DETECT 30CUAR Product Data Sheet (PDF)"
+    checked: "2026-11-10"
+  - id: power
+    label: Power
+    value: "120 V AC, 60 Hz, 42 mA maximum, with 2 AA batteries as backup (included)"
+    source_url: https://brand.kidde.com/m/6a9d10f7f88d1c38/original/PDS_30CUAR.pdf
+    source_title: "Kidde — DETECT 30CUAR Product Data Sheet (PDF)"
+    checked: "2026-11-10"
+  - id: batteries
+    label: Approved batteries
+    value: "Energizer E91, Gold Peak 15A or Golden Power GLR6A. Kidde says not to use lithium batteries, and not to mix old with new or alkaline with rechargeable"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 30CUAR (PDF)"
+    checked: "2026-11-10"
+  - id: battery-life
+    label: How often to change the AA batteries
+    value: "The data sheet says every 6 months or when you hear the low-battery chirp. The guide says fresh batteries should last at least a year and suggests changing them at least once a year"
+    source_url: https://brand.kidde.com/m/6a9d10f7f88d1c38/original/PDS_30CUAR.pdf
+    source_title: "Kidde — DETECT 30CUAR Product Data Sheet (PDF)"
+    checked: "2026-11-10"
+  - id: battery-access
+    label: Getting to the batteries
+    value: "The cover does not come off. Twist the alarm off its bracket and press the tab to release the wiring harness to reach the battery compartment. The alarm will not mount back on its bracket if a battery is missing"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 30CUAR (PDF)"
+    checked: "2026-11-10"
+  - id: low-battery
+    label: Low-battery chirp
+    value: "One chirp and one amber LED blink every 60 seconds. Test/Hush silences it for 24 hours; after 7 days it can no longer be silenced, and the guide says to replace the batteries within those 7 days"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 30CUAR (PDF)"
+    checked: "2026-11-10"
+  - id: false-low-battery
+    label: Chirping right after install
+    value: "If AC power is connected before the battery pull tab is removed, it chirps with an amber blink every 60 seconds as if the battery were low. Pull the tab, or reinstall the batteries, and listen for the activation beep"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 30CUAR (PDF)"
+    checked: "2026-11-10"
+  - id: voice
+    label: Voice alerts
+    value: "No. Kidde's guide lists the 30CUAR as a non-voice model; the 30CUAR-V is the version with spoken warnings. The KN-COSM-IBA it replaces announces fire and CO by voice, so pick the -V if you want to keep that"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 30CUAR (PDF)"
+    checked: "2026-11-10"
+  - id: lifespan
+    label: When to replace
+    value: "Ten years after it was installed, powered up and tested, it goes into End of Unit Life: two chirps and two amber LED blinks every 60 seconds. Test/Hush silences it for 24 hours, but not after the first 7 days"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 30CUAR (PDF)"
+    checked: "2026-11-10"
+  - id: date-label
+    label: Where to write the date
+    value: "Kidde puts a label on the side of the alarm for the install date and a replace-by date 10 years after first power-up, to fill in before mounting it"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 30CUAR (PDF)"
+    checked: "2026-11-10"
+  - id: alarm-patterns
+    label: What the alarms sound like
+    value: "Fire is three long beeps; carbon monoxide is four quick beeps. The red LED flashes with the pattern"
+    source_url: https://brand.kidde.com/m/6a9d10f7f88d1c38/original/PDS_30CUAR.pdf
+    source_title: "Kidde — DETECT 30CUAR Product Data Sheet (PDF)"
+    checked: "2026-11-10"
+  - id: co-fault
+    label: CO sensor fault
+    value: "Three chirps and two amber LED blinks every 60 seconds. Press Test/Hush once to try a reset; if it continues, remove the AA batteries and replace the alarm"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 30CUAR (PDF)"
+    checked: "2026-11-10"
+  - id: smoke-hush
+    label: Silencing a cooking alarm
+    value: "Hush quiets a smoke alarm for about 8 to 10 minutes while the red LED blinks every 2 seconds, then resets itself"
+    source_url: https://brand.kidde.com/m/6a9d10f7f88d1c38/original/PDS_30CUAR.pdf
+    source_title: "Kidde — DETECT 30CUAR Product Data Sheet (PDF)"
+    checked: "2026-11-10"
+  - id: co-response
+    label: CO response times
+    value: "The data sheet lists 60 to 240 minutes at 70 ppm, 10 to 50 minutes at 150 ppm, and 4 to 15 minutes at 400 ppm"
+    source_url: https://brand.kidde.com/m/6a9d10f7f88d1c38/original/PDS_30CUAR.pdf
+    source_title: "Kidde — DETECT 30CUAR Product Data Sheet (PDF)"
+    checked: "2026-11-10"
+  - id: interconnect
+    label: Interconnect
+    value: "Up to 24 Kidde devices, within NFPA's limit of 18 initiating devices, of which 12 can be smoke alarms, plus up to 6 strobes or relay modules, and at most 1000 feet of interconnect wire. All alarms go on one continuous, non-switched circuit without GFCI protection"
+    source_url: https://brand.kidde.com/m/6a9d10f7f88d1c38/original/PDS_30CUAR.pdf
+    source_title: "Kidde — DETECT 30CUAR Product Data Sheet (PDF)"
+    checked: "2026-11-10"
+  - id: other-brands
+    label: Mixing brands
+    value: "The data sheet says it is not designed to interconnect with other makers' products unless otherwise specified"
+    source_url: https://brand.kidde.com/m/6a9d10f7f88d1c38/original/PDS_30CUAR.pdf
+    source_title: "Kidde — DETECT 30CUAR Product Data Sheet (PDF)"
+    checked: "2026-11-10"
+  - id: compatible
+    label: Alarms it can interconnect with
+    value: "The guide's AC interconnect list includes the KN-COSM-IBA, KN-COSM-IB, P4010ACSCO, i12010S, i12010SCO, 20SAR, 20SA10 and 30CUA10. The i12040 and i12060 pass smoke alarms but not CO alarms"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 30CUAR (PDF)"
+    checked: "2026-11-10"
+  - id: size
+    label: Size, sound and warranty
+    value: "5 inches wide by 5 high by 2 deep, 0.86 lb, 85 dB at 10 feet, rated 40 to 100 degrees F. 10-year limited warranty, batteries excluded"
+    source_url: https://brand.kidde.com/m/6a9d10f7f88d1c38/original/PDS_30CUAR.pdf
+    source_title: "Kidde — DETECT 30CUAR Product Data Sheet (PDF)"
+    checked: "2026-11-10"
+replacement:
+  - id: named-replacement
+    label: Replacement named by Kidde
+    value: "The 30CUAR is a current model. Kidde's KN-COSM-IBA page lists it under Upgrade to. The 30CUAR product page did not show an upgrade, and its data sheet and guide did not name a replacement when we checked"
+    source_url: https://www.kidde.com/products/combo-alarms/hardwired-combo-alarm
+    source_title: "Kidde — Hardwired Combination CO & Smoke Alarm KN-COSM-IBA (product page)"
+    checked: "2026-11-10"
+  - id: adapter
+    label: Wiring adapter
+    value: "The data sheet lists AC wiring with a plug-in quick connector and an included twist-and-click bracket, and does not name a retrofit adapter. For older Kidde harnesses with a different plug, see the 20-9003 / KA-B3 adapter page"
+    source_url: https://brand.kidde.com/m/6a9d10f7f88d1c38/original/PDS_30CUAR.pdf
+    source_title: "Kidde — DETECT 30CUAR Product Data Sheet (PDF)"
+    checked: "2026-11-10"
+  - id: product-page
+    label: Product page
+    value: "Kidde sells it as the Smoke + CO Alarm, Hardwired + AA Backup Battery, model 30CUAR, and links this data sheet and the DETECT user guide from the page"
+    source_url: https://www.kidde.com/products/combo-alarms/hardwired-combo-alarm-with-aa-backup-battery
+    source_title: "Kidde — Smoke + CO Alarm, Hardwired + AA Backup Battery 30CUAR (product page)"
+    checked: "2026-11-10"
+  - id: recalls
+    label: Recalls
+    value: "Search CPSC's recall list for your exact model before reusing or reselling an alarm. We did not read a CPSC notice for the 30CUAR, so this page states no recall status"
+    source_url: https://www.cpsc.gov/Recalls
+    source_title: "CPSC — Recalls & Product Safety Warnings"
+    checked: "2026-11-10"
+related: [kidde-kn-cosm-iba, kidde-30cua10, kidde-p4010acsco, kidde-20sar, kidde-20-9003]
