@@ -103,6 +103,7 @@ const GUIDE_QUESTIONS = {
   "i12010s-low": "What if the Kidde i12010S battery cannot be changed?",
   "p4010-low": "Can you silence a Kidde P4010ACSCO low-battery chirp?",
   "fa-chirp": "What does a once-a-minute chirp mean on a First Alert 9120B?",
+  "kidde-month": "Why does the backup battery in a hardwired Kidde alarm die in about a month?",
 };
 
 export function guideFaqs(guide) {

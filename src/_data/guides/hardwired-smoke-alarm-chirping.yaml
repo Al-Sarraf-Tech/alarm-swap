@@ -193,3 +193,82 @@ sections:
             source_title: "First Alert / BRK — 9120 / 9120B User's Manual (PDF)"
             checked: "2026-11-08"
         models: [first-alert-9120b]
+  - heading: "Why does my hardwired alarm keep chirping after I put in a new battery?"
+    body: >-
+      Kidde's own support pages give a checklist for this. They are general
+      Kidde pages, not a manual for one model, so the manual for the model on
+      your ceiling comes first if it says something different.
+    facts:
+      - id: q-retained-error
+        value: "Kidde's intermittent-chirp page says the alarm's processor can keep an error condition, such as a weak battery, even after the battery is replaced, and that a reset clears it."
+        source_url: https://www.kidde.com/support/smoke-alarms/intermittent-beeping-causes
+        source_title: "Kidde — What Causes Intermittent Beeping or Chirping?"
+        checked: "2026-11-12"
+      - id: q-reset-steps
+        value: "For an AC alarm with a battery backup, that Kidde page says to switch the power off at the breaker, take the alarm off its bracket and disconnect the power, remove the battery, and hold the test button for at least 15 seconds. It then says to reconnect the power and reinstall the battery, and that the unit chirps once when power returns and should not chirp again."
+        source_url: https://www.kidde.com/support/smoke-alarms/intermittent-beeping-causes
+        source_title: "Kidde — What Causes Intermittent Beeping or Chirping?"
+        checked: "2026-11-12"
+      - id: q-reset-seconds-differ
+        value: "Kidde's nuisance-alarm page gives the same reset for a hardwired unit with a removable battery but says to hold the test button for five seconds, not 15. Kidde's two support pages disagree on the hold time, so follow the number in your model's user guide."
+        source_url: https://www.kidde.com/support/smoke-alarms/false-alarm-actions
+        source_title: "Kidde — What to Do If You Have a Nuisance or False Alarm"
+        checked: "2026-11-12"
+      - id: q-battery-loose
+        value: "Kidde's checklist for random chirping includes the right battery type, a battery snapped in fully, reconnecting the battery once or twice if the contacts are poor, and a fully closed battery door on front-load units. It also says to use a battery whose use-by date is no more than four to five years away."
+        source_url: https://www.kidde.com/support/smoke-alarms/intermittent-beeping-causes
+        source_title: "Kidde — What Causes Intermittent Beeping or Chirping?"
+        checked: "2026-11-12"
+      - id: q-sealed-not-replaceable
+        value: "Kidde's consistent-chirp page says that on sealed-battery models, a chirp every 30 seconds is the end-of-life signal and means it is time to replace the alarm."
+        source_url: https://www.kidde.com/support/smoke-alarms/consistent-chirping-causes
+        source_title: "Kidde — What Causes Consistent Chirping?"
+        checked: "2026-11-12"
+  - heading: "Why does my hardwired alarm chirp at the same time every day, or when a fan turns on?"
+    facts:
+      - id: q-surge-daily
+        value: "Kidde says chirping at the same time each day can be a power surge when the power company switches electrical grids."
+        source_url: https://www.kidde.com/support/smoke-alarms/intermittent-beeping-causes
+        source_title: "Kidde — What Causes Intermittent Beeping or Chirping?"
+        checked: "2026-11-12"
+      - id: q-surge-device
+        value: "If the chirp happens when something else in the house switches on, such as an exhaust fan or a heater, Kidde says to move that device to an outlet on a different circuit or have an electrician investigate."
+        source_url: https://www.kidde.com/support/smoke-alarms/intermittent-beeping-causes
+        source_title: "Kidde — What Causes Intermittent Beeping or Chirping?"
+        checked: "2026-11-12"
+      - id: q-neutral
+        value: "Kidde says a loose white neutral wire can cause an echoing chirp from one unit to the next."
+        source_url: https://www.kidde.com/support/smoke-alarms/intermittent-beeping-causes
+        source_title: "Kidde — What Causes Intermittent Beeping or Chirping?"
+        checked: "2026-11-12"
+      - id: q-environment
+        value: "Kidde also lists humidity, steam and condensation, airflow from a register, ceiling fan or open window within three feet, and room temperatures outside 40-95°F for a smoke alarm as things that can set off random chirps or alarms."
+        source_url: https://www.kidde.com/support/smoke-alarms/intermittent-beeping-causes
+        source_title: "Kidde — What Causes Intermittent Beeping or Chirping?"
+        checked: "2026-11-12"
+  - heading: "Can a carbon monoxide alarm's chirp be mistaken for the smoke alarm's?"
+    body: >-
+      This is a real source of "I changed every battery and it still chirps"
+      stories. These rows are Kidde's published CO chirp patterns. A
+      First Alert or other-brand CO alarm can differ, so check its own guide.
+    facts:
+      - id: q-co-eol
+        value: "Kidde's consistent-chirp page says a Kidde CO alarm begins chirping every 30 seconds seven years after its first power-up, that the chirp will not stop until the unit is powered off, and that the alarm will not respond to carbon monoxide in that condition."
+        source_url: https://www.kidde.com/support/smoke-alarms/consistent-chirping-causes
+        source_title: "Kidde — What Causes Consistent Chirping?"
+        checked: "2026-11-12"
+      - id: q-co-low
+        value: "On the same page, a low battery in a Kidde CO alarm is a chirp once every 60 seconds, and a chirp every 30 seconds can also mean a malfunction or an error from a very low battery or a unit fault. Kidde's product support number there is 1-800-880-6788."
+        source_url: https://www.kidde.com/support/smoke-alarms/consistent-chirping-causes
+        source_title: "Kidde — What Causes Consistent Chirping?"
+        checked: "2026-11-12"
+      - id: q-co-age
+        value: "Kidde's night-chirp page says CO alarms sound a required end-of-life chirp after seven to ten years of power and says to replace outdated alarms."
+        source_url: https://www.kidde.com/support/smoke-alarms/nighttime-alarm-chirps
+        source_title: "Kidde — Why Do Smoke Alarms Always Chirp in the Middle of the Night?"
+        checked: "2026-11-12"
+      - id: q-nfpa-co-learn
+        value: "NFPA says to learn the sounds of both your smoke and carbon monoxide alarms from the user guide or by looking up the brand and model."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-12"

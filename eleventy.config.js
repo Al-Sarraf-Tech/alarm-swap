@@ -34,6 +34,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   // GitHub Pages reads this from the published site and serves the custom domain.
   eleventyConfig.addPassthroughCopy({ CNAME: "CNAME" });
+  // IndexNow key file: public/<key>.txt is served at the site root (the key is public by design).
+  eleventyConfig.addPassthroughCopy({ public: "." });
 
   eleventyConfig.addGlobalData("cssFile", `/assets/style.${cssHash}.css`);
 
