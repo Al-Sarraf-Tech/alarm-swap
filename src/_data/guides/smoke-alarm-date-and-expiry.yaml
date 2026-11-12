@@ -78,7 +78,7 @@ sections:
             source_url: https://www.firstalert.com/pages/10year
             source_title: "First Alert — 10-Year Battery Alarms (How to check your alarms)"
             checked: "2026-10-31"
-        models: [first-alert-9120b, first-alert-adk-12]
+        models: [first-alert-9120b, first-alert-smi100-ac, first-alert-adk-12]
       - brand: Google Nest Protect
         facts:
           - id: nest-life

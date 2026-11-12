@@ -1,0 +1,113 @@
+slug: first-alert-smi100-ac
+brand: First Alert
+model: SMI100-AC
+aliases: []
+kind: Hardwired smoke alarm
+title: "First Alert SMI100-AC: age, expiry and what it replaces"
+description: "First Alert SMI100-AC hardwired ionization smoke alarm with 9 V backup: the listed replacement for the 9120B, which older BRK alarms it links with, signals and 10-year rule."
+published: "2026-11-11"
+summary: >-
+  The SMI100-AC is First Alert's current wired ionization smoke alarm with a
+  replaceable 9-volt backup battery, and First Alert lists it as the model that
+  replaces the 9120B. Its manual names the 9120B and several other BRK alarms
+  as compatible on the same interconnect wire. The manual says to replace it
+  ten years after purchase, and it gives a separate end-of-life chirp.
+facts:
+  - id: sensor
+    label: Sensor type
+    value: "Ionization, using what First Alert calls Precision Detection sensing"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-smoke-alarm-with-battery-backup
+    source_title: "First Alert — Interconnect Hardwire Smoke Alarm with Battery Backup SMI100-AC (product page)"
+    checked: "2026-11-11"
+  - id: power
+    label: Power
+    value: "Wired to a 24-hour 120 V AC circuit that a switch, dimmer or GFCI cannot turn off (the manual allows an AFCI), with one replaceable 9 V backup battery"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179722.pdf
+    source_title: "First Alert — SMI100-AC User's Manual (PDF)"
+    checked: "2026-11-11"
+  - id: battery-types
+    label: Backup battery
+    value: "One standard 9 V battery. The manual lists Duracell MN1604 or MX1604 and Energizer 522 or 1222 as acceptable, and says not to use rechargeables"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179722.pdf
+    source_title: "First Alert — SMI100-AC User's Manual (PDF)"
+    checked: "2026-11-11"
+  - id: plug
+    label: Wiring plug
+    value: "Comes with a quick-connect power plug. The manual does not say whether it fits an older alarm's existing plug, so check the wiring when you swap"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179722.pdf
+    source_title: "First Alert — SMI100-AC User's Manual (PDF)"
+    checked: "2026-11-11"
+  - id: date-location
+    label: Where the date is
+    value: "First Alert says its alarms show the manufacture date on the back of the unit"
+    source_url: https://www.firstalert.com/pages/10year
+    source_title: "First Alert — 10-Year Battery Alarms (How to check your alarms)"
+    checked: "2026-11-11"
+  - id: lifespan
+    label: When to replace
+    value: "10 years after the date of purchase, per the manual, which gives a space on the back of the alarm to write that date"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179722.pdf
+    source_title: "First Alert — SMI100-AC User's Manual (PDF)"
+    checked: "2026-11-11"
+  - id: low-battery
+    label: Low-battery signal
+    value: "One chirp a minute with the green power light flashing. The chirp can be silenced for up to 8 hours, but the manual says to change the battery right away"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179722.pdf
+    source_title: "First Alert — SMI100-AC User's Manual (PDF)"
+    checked: "2026-11-11"
+  - id: end-of-life
+    label: End-of-life signal
+    value: "Five chirps every minute means the alarm has reached end of life and must be replaced. You can quiet it for about 2 days at a time, but not past 14 days after it first starts"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179722.pdf
+    source_title: "First Alert — SMI100-AC User's Manual (PDF)"
+    checked: "2026-11-11"
+  - id: interconnect
+    label: Interconnect limits
+    value: "Up to 18 compatible units on one loop, no more than 12 of them smoke alarms, all on the same fuse or breaker, with under 1,000 feet of interconnect wire"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179722.pdf
+    source_title: "First Alert — SMI100-AC User's Manual (PDF)"
+    checked: "2026-11-11"
+  - id: compatible
+    label: What it links with
+    value: "The First Alert and BRK models listed in its manual, including the older BRK 9120, 9120B, SC9120B, 3120B and 7010B, current First Alert models such as the SMI105-AC, SM100V-AC and SMICO100-AC, the HD6135FB heat alarm and RM4 relay modules"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179722.pdf
+    source_title: "First Alert — SMI100-AC User's Manual (PDF)"
+    checked: "2026-11-11"
+  - id: sound
+    label: Horn loudness
+    value: "85 dB at 10 feet"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-smoke-alarm-with-battery-backup
+    source_title: "First Alert — Interconnect Hardwire Smoke Alarm with Battery Backup SMI100-AC (product page)"
+    checked: "2026-11-11"
+  - id: warranty
+    label: Warranty
+    value: "10-year limited, from the date of purchase"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179722.pdf
+    source_title: "First Alert — SMI100-AC User's Manual (PDF)"
+    checked: "2026-11-11"
+replacement:
+  - id: replaces
+    label: What it replaces
+    value: "First Alert's specifications list the 9120B as the model the SMI100-AC replaces"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-smoke-alarm-with-battery-backup
+    source_title: "First Alert — Interconnect Hardwire Smoke Alarm with Battery Backup SMI100-AC (product page)"
+    checked: "2026-11-11"
+  - id: similar
+    label: Other options First Alert shows
+    value: "The product page compares it with the SMI105-AC (ionization, 10-year backup battery) and the SM100V-AC (photoelectric, AA backup, voice and location alerts). It also lists the Kidde i4618AC, i12060A and 20SDR as similar models, but that is not a statement that they share wiring or interconnect"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-smoke-alarm-with-battery-backup
+    source_title: "First Alert — Interconnect Hardwire Smoke Alarm with Battery Backup SMI100-AC (product page)"
+    checked: "2026-11-11"
+  - id: adapters
+    label: Adapter plugs
+    value: "First Alert's ADK and ADF adapter guides list the BRK 9120 series but do not name the SMI100-AC, so they do not say whether either adapter works with it"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PluqzAAB
+    source_title: "First Alert / BRK — Installation of the ADK Adapter Plug (PDF)"
+    checked: "2026-11-11"
+  - id: recalls
+    label: Recalls
+    value: "Search CPSC's recall list for your exact model before reusing or reselling an alarm"
+    source_url: https://www.cpsc.gov/Recalls
+    source_title: "CPSC — Recalls & Product Safety Warnings"
+    checked: "2026-11-11"
+related: [first-alert-9120b, first-alert-adk-12]
