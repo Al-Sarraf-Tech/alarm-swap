@@ -1,0 +1,202 @@
+# Guide pages: prose lives in `intro`/`body` (no numbers or claims that aren't
+# backed by a fact on the same page); every factual statement is a `facts` item
+# with its own source. `npm run check` enforces source_url/source_title/checked.
+slug: kidde-hardwired-alarm-lights
+title: "What do the red, green and amber lights on a hardwired Kidde smoke alarm mean?"
+short_title: "Kidde alarm lights"
+description: "No green light, blinking red, flashing red or amber: what each Kidde hardwired alarm manual on this site says its LEDs mean, one model at a time."
+published: "2026-11-12"
+intro: >-
+  Kidde does not use one light code for every hardwired alarm. Older models
+  such as the i12060 and i12040 use a red and a green light, the i12010S and
+  KN-COSM-IBA add more green-light patterns, and newer models add an amber
+  light. Find the model number on the back of your alarm and read only that
+  row. One manual's code is not a reading of a different model.
+related_guides:
+  - hardwired-smoke-alarm-chirping
+  - smoke-alarm-date-and-expiry
+  - mix-brands-interconnected-alarms
+sections:
+  - heading: "The short answer"
+    facts:
+      - id: nfpa-learn-sounds
+        value: "NFPA says to learn what your smoke and carbon monoxide alarms are telling you from the user guide, or by looking up the brand and model online. NFPA's page describes sounds, not light codes, so the manuals below are the source for what each light means."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-12"
+      - id: nfpa-electrician
+        value: "NFPA says only qualified electricians should install hardwired smoke alarms. This page explains lights; it is not wiring or repair advice."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-12"
+  - heading: "No green light"
+    body: >-
+      In each Kidde manual below, the green light is tied to AC (house) power.
+      What a missing or blinking green light means differs by model, so read
+      the row for yours.
+    rows:
+      - brand: Kidde
+        facts:
+          - id: i12060-green
+            label: i12060 / i12060A
+            value: "The i12060A guide says the green LED, when lit, shows that AC power is present. Its testing steps say that if the alarm does not sound when tested, check the fuse or circuit breaker for the alarm circuit; if it still does not sound, the guide points to defective batteries or another failure."
+            source_url: https://brand.kidde.com/m/345f6673c28436a/original/UG_i12060A.pdf
+            source_title: "Kidde — i12060A Smoke Alarm User Guide (PDF)"
+            checked: "2026-11-12"
+          - id: i12040-green
+            label: i12040 / i12040A
+            value: "The i12040A / i12080A guide also says a lit green LED means AC power is present, and its testing steps say to check the fuse or breaker and verify that the green LED is on if no alarm sounds during a test."
+            source_url: https://brand.kidde.com/m/79d343435488dfc/original/Product_UG_i12040A-i12080A-User-Guide_En.pdf
+            source_title: "Kidde — i12040A / i12080A Smoke Alarm User Guide (PDF)"
+            checked: "2026-11-12"
+          - id: i12010s-green
+            label: i12010S
+            value: "The i12010S guide says the green LED is on steadily with AC power and the backup battery, and flashes every 60 seconds when the alarm is running on its backup battery alone."
+            source_url: https://brand.kidde.com/m/1f68e8e58603ce37/original/UG_I12010S.pdf
+            source_title: "Kidde — i12010S Smoke Alarm User Guide (PDF)"
+            checked: "2026-11-12"
+          - id: kn-green
+            label: KN-COSM-IBA
+            value: "The KN-COSM-IBA guide gives the same two standby states: green steadily on with AC power and backup, and a green flash every 60 seconds on backup battery alone."
+            source_url: https://brand.kidde.com/m/674e9605008efa22/original/UG_KN-COSM-IBA.pdf
+            source_title: "Kidde — KN-COSM-IBA Smoke/CO Alarm User Guide (PDF)"
+            checked: "2026-11-12"
+          - id: p4010-green
+            label: P4010ACSCO
+            value: "The P4010ACSCO guide is different: on AC power its green LED is steady in light rooms but blinks about every 60 seconds in dark conditions, because the alarm senses room light. On DC (battery) power it blinks about every 60 seconds. So a blinking green light on this model in a dark room is not by itself a power fault."
+            source_url: https://brand.kidde.com/m/33ad48e3685c1fb0/original/UG_P4010ACSCO_ENG.pdf
+            source_title: "Kidde — P4010ACSCO Smoke/CO Alarm User Guide (PDF)"
+            checked: "2026-11-12"
+          - id: detect-green
+            label: 20SAR, 20SA10, 30CUAR, 30CUA10
+            value: "The shared user guide for these models says the green LED is on continuously on AC power and blinks about every 60 seconds on DC power. Its installation steps say the green LED lights when AC power is turned on."
+            source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+            source_title: "Kidde — 20SAR / 20SA10 / 30CUAR / 30CUA10 User Guide (PDF)"
+            checked: "2026-11-12"
+        models: [kidde-i12060, kidde-i12040, kidde-i12010s, kidde-kn-cosm-iba, kidde-p4010acsco, kidde-20sar, kidde-20sa10, kidde-30cuar, kidde-30cua10]
+  - heading: "Blinking or flashing red"
+    body: >-
+      A red light that blinks with the full alarm pattern means that alarm is
+      sounding or being tested. Other slow red flashes are status codes. In an
+      interconnected system, the manuals say the red light points to the alarm
+      that started the alarm.
+    rows:
+      - brand: Kidde
+        facts:
+          - id: i12060-red
+            label: i12060 / i12060A
+            value: "The i12060A guide lists four red-LED modes: about one flash every 40 seconds in normal standby, one flash a second in alarm, a 1.5-second glow every 20 seconds for alarm memory (cleared by the Test/Hush button or after 11 to 13 hours), and a 1.5-second glow every 10 seconds in Hush mode. On interconnected units only the alarm that sensed smoke or is being tested flashes red; the others sound but do not flash."
+            source_url: https://brand.kidde.com/m/345f6673c28436a/original/UG_i12060A.pdf
+            source_title: "Kidde — i12060A Smoke Alarm User Guide (PDF)"
+            checked: "2026-11-12"
+          - id: i12040-red
+            label: i12040 / i12040A
+            value: "The i12040A / i12080A guide gives the same four modes: a red flash every 40 seconds in standby, one per second in alarm, about 1.5 seconds every 20 seconds for alarm memory, and 1.5 seconds every 10 seconds in Hush mode. It also says only the originating alarm's red LED flashes on an interconnect."
+            source_url: https://brand.kidde.com/m/79d343435488dfc/original/Product_UG_i12040A-i12080A-User-Guide_En.pdf
+            source_title: "Kidde — i12040A / i12080A Smoke Alarm User Guide (PDF)"
+            checked: "2026-11-12"
+          - id: i12040-red-fault
+            label: i12040 / i12040A red flash then chirp
+            value: "That same guide says a chirp about 20 seconds after the red LED flash means the sensing chamber is not working normally, and to replace the alarm."
+            source_url: https://brand.kidde.com/m/79d343435488dfc/original/Product_UG_i12040A-i12080A-User-Guide_En.pdf
+            source_title: "Kidde — i12040A / i12080A Smoke Alarm User Guide (PDF)"
+            checked: "2026-11-12"
+          - id: i12010s-red
+            label: i12010S
+            value: "The i12010S guide says the red LED flashes with every beep in alarm or test, once with a chirp every 60 seconds for low battery, twice with a chirp every 30 seconds at end of life, and once with a chirp every 30 seconds in error mode, when it also flashes a fault code that customer service can read."
+            source_url: https://brand.kidde.com/m/1f68e8e58603ce37/original/UG_I12010S.pdf
+            source_title: "Kidde — i12010S Smoke Alarm User Guide (PDF)"
+            checked: "2026-11-12"
+          - id: kn-red
+            label: KN-COSM-IBA
+            value: "The KN-COSM-IBA guide lists red flashes with every beep in smoke or CO alarm and in test, a single flash with a chirp for low battery, a double flash every 30 seconds with a chirp at end of life, and a single flash with a chirp plus a fault code every 30 seconds in error mode."
+            source_url: https://brand.kidde.com/m/674e9605008efa22/original/UG_KN-COSM-IBA.pdf
+            source_title: "Kidde — KN-COSM-IBA Smoke/CO Alarm User Guide (PDF)"
+            checked: "2026-11-12"
+          - id: p4010-red
+            label: P4010ACSCO
+            value: "The P4010ACSCO guide says the red LED blinks in time with the alarm pattern, blinks every 2 seconds in Hush mode, and, for a fault, blinks out an error code when the Test/Hush button is pressed and released once."
+            source_url: https://brand.kidde.com/m/33ad48e3685c1fb0/original/UG_P4010ACSCO_ENG.pdf
+            source_title: "Kidde — P4010ACSCO Smoke/CO Alarm User Guide (PDF)"
+            checked: "2026-11-12"
+          - id: detect-red
+            label: 20SAR, 20SA10, 30CUAR, 30CUA10
+            value: "The shared guide says the red LED blinks with the alarm pattern only on the alarm or alarms that detected the hazard. It blinks every 15 seconds for smoke alarm memory (two blinks every 15 seconds for CO memory on the 30CUAR and 30CUA10) and every 2 seconds in Hush mode. It says alarm memory is kept for 24 hours and cleared with the Test/Hush button."
+            source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+            source_title: "Kidde — 20SAR / 20SA10 / 30CUAR / 30CUA10 User Guide (PDF)"
+            checked: "2026-11-12"
+        models: [kidde-i12060, kidde-i12040, kidde-i12010s, kidde-kn-cosm-iba, kidde-p4010acsco, kidde-20sar, kidde-20sa10, kidde-30cuar, kidde-30cua10]
+  - heading: "Green flashing fast, or green blinking during an alarm"
+    rows:
+      - brand: Kidde
+        facts:
+          - id: i12010s-green-fast
+            label: i12010S
+            value: "The i12010S guide says a green flash twice a second (on AC power) helps you find the chirping unit when the battery has failed or the alarm is in trouble or error mode. A green flash once a second during an alarm marks the unit that started it, and a green flash every 16 seconds afterward is alarm memory until the button is pressed."
+            source_url: https://brand.kidde.com/m/1f68e8e58603ce37/original/UG_I12010S.pdf
+            source_title: "Kidde — i12010S Smoke Alarm User Guide (PDF)"
+            checked: "2026-11-12"
+          - id: i12010s-malfunction
+            label: i12010S malfunction
+            value: "The same guide says a red flash with a chirp every 30 seconds while the green LED flashes twice a second means the unit has malfunctioned, and gives Kidde's product support line, 1-800-880-6788."
+            source_url: https://brand.kidde.com/m/1f68e8e58603ce37/original/UG_I12010S.pdf
+            source_title: "Kidde — i12010S Smoke Alarm User Guide (PDF)"
+            checked: "2026-11-12"
+          - id: kn-green-fast
+            label: KN-COSM-IBA
+            value: "The KN-COSM-IBA guide says a green flash every half second (AC only) marks low-battery trouble or an error, a one-second green flash marks the unit that started an alarm, a green flash every 15 seconds is CO peak memory (100 ppm or more detected), and a green flash every 2 seconds means Hush mode."
+            source_url: https://brand.kidde.com/m/674e9605008efa22/original/UG_KN-COSM-IBA.pdf
+            source_title: "Kidde — KN-COSM-IBA Smoke/CO Alarm User Guide (PDF)"
+            checked: "2026-11-12"
+          - id: kn-co-memory
+            label: KN-COSM-IBA CO memory
+            value: "That guide says a green LED blinking once every 15 seconds means the unit has detected a hazardous CO condition; pressing the test/reset button announces it and clears the memory."
+            source_url: https://brand.kidde.com/m/674e9605008efa22/original/UG_KN-COSM-IBA.pdf
+            source_title: "Kidde — KN-COSM-IBA Smoke/CO Alarm User Guide (PDF)"
+            checked: "2026-11-12"
+          - id: p4010-green-alarm
+            label: P4010ACSCO
+            value: "On the P4010ACSCO, the guide says the green LED blinks once a second on the alarm that started an alarm in an interconnected system, interrupting that unit's red blink."
+            source_url: https://brand.kidde.com/m/33ad48e3685c1fb0/original/UG_P4010ACSCO_ENG.pdf
+            source_title: "Kidde — P4010ACSCO Smoke/CO Alarm User Guide (PDF)"
+            checked: "2026-11-12"
+        models: [kidde-i12010s, kidde-kn-cosm-iba, kidde-p4010acsco]
+  - heading: "Amber light"
+    body: >-
+      The i12060, i12040, i12010S and KN-COSM-IBA guides describe only red and
+      green lights. An amber light appears on the newer models below, where it
+      signals trouble rather than an alarm.
+    rows:
+      - brand: Kidde
+        facts:
+          - id: p4010-amber
+            label: P4010ACSCO trouble
+            value: "The P4010ACSCO troubleshooting table shows an amber LED blinking every 5 seconds for its trouble conditions: low battery (chirp every 60 seconds, voice 'Replace alarm'), fault mode (chirp every 30 seconds), and end of unit life (double chirp every 30 seconds). For low battery and end of life it says to remove, discharge, dispose of and replace the unit."
+            source_url: https://brand.kidde.com/m/33ad48e3685c1fb0/original/UG_P4010ACSCO_ENG.pdf
+            source_title: "Kidde — P4010ACSCO Smoke/CO Alarm User Guide (PDF)"
+            checked: "2026-11-12"
+          - id: p4010-memory
+            label: P4010ACSCO memory
+            value: "The same guide says red and amber LEDs that alternate for 1 second every 10 seconds mean the unit had a smoke or CO alarm within the last hour; pushing the test button clears that memory."
+            source_url: https://brand.kidde.com/m/33ad48e3685c1fb0/original/UG_P4010ACSCO_ENG.pdf
+            source_title: "Kidde — P4010ACSCO Smoke/CO Alarm User Guide (PDF)"
+            checked: "2026-11-12"
+          - id: detect-amber-battery
+            label: 20SAR, 20SA10, 30CUAR, 30CUA10 battery
+            value: "The shared guide says an amber blink every 60 seconds with a chirp means low battery, or a missing or not-yet-activated backup battery. On the AA models (20SAR, 30CUAR) it says to replace the batteries; on the 10-year sealed models (20SA10, 30CUA10) it says to replace the alarm."
+            source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+            source_title: "Kidde — 20SAR / 20SA10 / 30CUAR / 30CUA10 User Guide (PDF)"
+            checked: "2026-11-12"
+          - id: detect-amber-codes
+            label: 20SAR, 20SA10, 30CUAR, 30CUA10 fault codes
+            value: "In that guide, amber blinking once every 60 seconds with three chirps is a smoke sensor fault, twice every 60 seconds with three chirps is a CO fault (combination models), three times with three chirps is a fatal fault, twice with two chirps is end of unit life, and four times with three chirps is a stuck Test/Hush button."
+            source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+            source_title: "Kidde — 20SAR / 20SA10 / 30CUAR / 30CUA10 User Guide (PDF)"
+            checked: "2026-11-12"
+          - id: detect-amber-action
+            label: 20SAR, 20SA10, 30CUAR, 30CUA10 what to do
+            value: "For the fault codes, the guide says to press Test/Hush once to try a reset and replace the alarm if the error continues. It asks owners to call Kidde product support at 1-800-880-6788 before discharging a sealed battery or throwing an alarm away if they are unsure."
+            source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+            source_title: "Kidde — 20SAR / 20SA10 / 30CUAR / 30CUA10 User Guide (PDF)"
+            checked: "2026-11-12"
+        models: [kidde-p4010acsco, kidde-20sar, kidde-20sa10, kidde-30cuar, kidde-30cua10]

@@ -89,7 +89,7 @@ Alert; "kidde i12010sco replacement" and "firex i4618ac replacement" for discont
 r/HomeImprovement, r/AskElectricians and r/electrical keep asking whether an old plug or harness fits a new alarm.
 Each item is one guide page unless it says model page. Sources stay maker, NFPA, USFA or CPSC. Where two maker pages
 disagree, say so and send the reader to the model manual (the chirping guide does this for Kidde's 5 s vs 15 s reset hold).
-- [ ] Guide: **What do the red, green and amber lights on a hardwired Kidde alarm mean?** Cover "no green light", blinking or flashing red,
+- [x] Guide: **What do the red, green and amber lights on a hardwired Kidde alarm mean?** (done 2026-11-12, /guides/kidde-hardwired-alarm-lights/) Cover "no green light", blinking or flashing red,
   and the P4010ACSCO red/amber lights from the manuals already cited on the model pages (i12060A, i12040A, i12010S, KN-COSM-IBA,
   P4010ACSCO, 20SA10, 20SAR, 30CUA10, 30CUAR). One row per manual; do not generalise one model's LED code to another.
 - [ ] Guide: **Will my old hardwired smoke alarm plug fit a new alarm?** Harness vs adapter vs cutting and splicing, by brand family. Use the Kidde
