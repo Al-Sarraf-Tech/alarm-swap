@@ -1,0 +1,154 @@
+# Guide pages: prose lives in `intro`/`body` (no numbers or claims that aren't
+# backed by a fact on the same page); every factual statement is a `facts` item
+# with its own source. `npm run check` enforces source_url/source_title/checked.
+slug: old-smoke-alarm-plug-fit
+title: "Will my old hardwired smoke alarm plug fit a new alarm?"
+short_title: "Old plug, new alarm"
+description: "When the wiring plug in your ceiling can take a new alarm as-is, when a Kidde or First Alert adapter covers it, and when the maker says the new harness must be wired in."
+published: "2026-11-13"
+intro: >-
+  A hardwired smoke alarm plugs into a short wiring harness (the plug and
+  pigtail left hanging from the ceiling box). When you swap the alarm, there
+  are three outcomes: the new alarm takes the old plug, a maker's adapter sits
+  between them, or the harness that comes with the new alarm has to be wired
+  in. Which one applies depends on the exact old and new model numbers, not on
+  how the plug looks. This page lists what Kidde and First Alert / BRK say,
+  and where they say nothing.
+related_guides:
+  - mix-brands-interconnected-alarms
+  - smoke-alarm-date-and-expiry
+  - hardwired-smoke-alarm-chirping
+sections:
+  - heading: "The short answer"
+    facts:
+      - id: kidde-not-shape
+        value: "Kidde says not to assume one of its adapters will work based on the connector's shape, the alarm's picture or the brand alone. If your model is not listed, Kidde says to contact its customer support for a replacement path."
+        source_url: https://www.kidde.com/products/safety-accessories/quick-connect-adapter-for-hardwired-smoke-carbon-monoxide-alarms
+        source_title: "Kidde — Quick Connect Adapter 20-9003 (product page)"
+        checked: "2026-11-13"
+      - id: kidde-not-universal
+        value: "Kidde's adapters are not universal: each works only with the specific old and new model pairings in its user guide or compatibility guide, so you need both model numbers (old alarm and planned new alarm) before buying anything."
+        source_url: https://www.kidde.com/products/safety-accessories/quick-connect-adapter-for-select-first-alert-brk-hardwired-smoke-smoke-carbon-monoxide-alarms
+        source_title: "Kidde — Quick Connect Adapter KA-B3 (product page)"
+        checked: "2026-11-13"
+      - id: nfpa-electrician
+        value: "NFPA says only qualified electricians should install hardwired smoke alarms. This page explains which parts the makers list; it does not give wiring steps."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-13"
+  - heading: "Going to a new Kidde alarm"
+    body: >-
+      Kidde makes two plug-in adapters. Both leave the harness packed with the
+      new Kidde alarm unused. Pick by the brand of the old harness, then check
+      the model list.
+    rows:
+      - brand: Kidde
+        facts:
+          - id: k9003-what
+            label: "Old Kidde or Firex harness: 20-9003"
+            value: "Kidde's 20-9003 guide says it lets a new Kidde alarm (one using Kidde's newer connector) go onto an existing legacy Kidde harness without rewiring; the large end goes into the old harness and the other end into the back of the new alarm."
+            source_url: https://brand.kidde.com/m/275e008037c43807/original/Product_UG_20-9003.pdf
+            source_title: "Kidde — 20-9003 Wiring Adapter User Guide (PDF)"
+            checked: "2026-11-13"
+          - id: k9003-list
+            label: "Old models the 20-9003 guide lists"
+            value: "The U.S. guide lists i12020, i12040, i12060 and i12080 (with and without the A suffix), Firex i4618, i4618A and i4618AC, PE120, Pi2000, Pi2010, KN-COSM-I / IB / IBA, i12010S, i12010SCO, HD135F and a range of P4010 and 3050 models, among others. Kidde's product page list differs slightly (it adds KN-SMFM-I), so check both for your exact number."
+            source_url: https://brand.kidde.com/m/275e008037c43807/original/Product_UG_20-9003.pdf
+            source_title: "Kidde — 20-9003 Wiring Adapter User Guide (PDF)"
+            checked: "2026-11-13"
+          - id: k9003-harness
+            label: "If your old harness looks different"
+            value: "The 20-9003 guide pictures three legacy Kidde harness styles. If the one in your ceiling matches none of them, it says the adapter will not work and the harness shipped with the new Kidde alarm has to be wired in."
+            source_url: https://brand.kidde.com/m/275e008037c43807/original/Product_UG_20-9003.pdf
+            source_title: "Kidde — 20-9003 Wiring Adapter User Guide (PDF)"
+            checked: "2026-11-13"
+          - id: kab3-what
+            label: "Old First Alert or BRK harness: KA-B3"
+            value: "The KA-B3 guide says it lets a new Kidde alarm go onto an existing First Alert or BRK harness; the end with no printing goes into the old harness. If the harness in the ceiling does not match the adapter, it says the new Kidde harness has to be wired in."
+            source_url: https://brand.kidde.com/asset/66d9b85d-47b0-4ac5-bc19-ea325d79668e/UG_KA-B3.pdf
+            source_title: "Kidde — KA-B3 Wiring Adapter User Guide (PDF)"
+            checked: "2026-11-13"
+          - id: kab3-list
+            label: "Which First Alert / BRK models the KA-B3 covers"
+            value: "Not stated by the maker in the documents we read: the KA-B3 guide and product page name no specific old First Alert or BRK models. The product page says to see Kidde.com for compatible new Kidde alarms and to confirm by exact model number."
+            source_url: https://www.kidde.com/products/safety-accessories/quick-connect-adapter-for-select-first-alert-brk-hardwired-smoke-smoke-carbon-monoxide-alarms
+            source_title: "Kidde — Quick Connect Adapter KA-B3 (product page)"
+            checked: "2026-11-13"
+          - id: kidde-new-harness
+            label: "No adapter fits"
+            value: "The current Kidde 20SAR / 20SA10 / 30CUAR / 30CUA10 guide includes wiring instructions for the AC Quick Connector harness shipped with the alarm (black to hot, white to neutral, red to the interconnect line) and says AC wiring must be completed properly with the connector attached to the unit."
+            source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+            source_title: "Kidde — 20SAR / 20SA10 / 30CUAR / 30CUA10 User Guide (PDF)"
+            checked: "2026-11-13"
+        models: [kidde-20-9003, kidde-i12060, kidde-i12040, firex-i4618, kidde-i12010s, kidde-20sar, kidde-20sa10]
+  - heading: "Going to a new First Alert / BRK alarm"
+    body: >-
+      First Alert's two adapter plugs only cover old Kidde-family and Firex
+      harnesses, and only older units. Read the age limits closely.
+    rows:
+      - brand: First Alert / BRK
+        facts:
+          - id: adk-what
+            label: "Old Kidde / Fyrnetics / Lifesaver harness: ADK"
+            value: "First Alert's ADK guide lists only these old models: Kidde/Fyrnetics/Lifesaver 1235, 1275, 1285 series, 1276, PE120, PE120E, PI2000 and the HD135F heat alarm, made on or before January 1, 2004. It says the plug cannot connect Kidde CO alarms, and an unlisted old model must be removed from the system."
+            source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PluqzAAB
+            source_title: "First Alert / BRK — Installation of the ADK Adapter Plug (PDF)"
+            checked: "2026-11-13"
+          - id: adf-what
+            label: "Old Firex harness: ADF"
+            value: "The ADF guide lists Firex 406 (G-6), 4518 (ADC), 4618 (FADC), 5000 (FADC), 484 (PG-40), 4480 (PAD), 5700 heat alarm and the 499 relay, made on or before January 1, 2004. It cannot connect Firex CO alarms, and an unlisted Firex model must be removed from the system."
+            source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PlupKAAR
+            source_title: "First Alert / BRK — Installation of the ADF Adapter Plug (PDF)"
+            checked: "2026-11-13"
+          - id: adk-adf-new
+            label: "New alarms those plugs take"
+            value: "Both guides list the same BRK / First Alert side: 4120 and 9120 series, 5919, 2002RAC, 7010 series, SC6120B and SC9120B smoke/CO combos, the HD6135FB heat alarm and the RM3 relay. Neither guide names the newer SMI100-AC."
+            source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PluqzAAB
+            source_title: "First Alert / BRK — Installation of the ADK Adapter Plug (PDF)"
+            checked: "2026-11-13"
+          - id: adk-box
+            label: "Not enough room in the box"
+            value: "Both guides say the adapter and wiring may not fit in the junction box; if not, the old power connector has to be removed and replaced with a First Alert power connector. Both also say wiring and installation must be done by a licensed electrician."
+            source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PlupKAAR
+            source_title: "First Alert / BRK — Installation of the ADF Adapter Plug (PDF)"
+            checked: "2026-11-13"
+          - id: fa-own-connector
+            label: "Old First Alert harness to new First Alert alarm"
+            value: "Not stated as a general rule in the First Alert documents we read. The SMI100-AC manual describes its own power connector, which plugs into the alarm's power input block and is joined to the house wiring with wire nuts. Compare your old and new manuals, or ask First Alert, before assuming the old plug fits."
+            source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179722.pdf
+            source_title: "First Alert — SMI100-AC User Manual (PDF)"
+            checked: "2026-11-13"
+        models: [first-alert-adk-12, first-alert-9120b, first-alert-smi100-ac]
+  - heading: "A plug that fits is not the whole job"
+    facts:
+      - id: kidde-mixed-untested
+        value: "Kidde says interconnecting its alarms with other brands' devices creates a system that has not been tested as a complete installation, which may not meet NFPA 72 or local code. Swapping only some alarms on a loop to another brand raises this question even if an adapter makes the plug fit."
+        source_url: https://www.kidde.com/support/smoke-alarms/interconnecting-kidde-alarms-with-other-brands
+        source_title: "Kidde — Interconnecting Kidde Alarms with Other Brands"
+        checked: "2026-11-13"
+      - id: test-all
+        value: "After fitting an adapter, Kidde's guides say to turn power back on, confirm the AC power light is on, then press test on each alarm and check that every interconnected alarm sounds."
+        source_url: https://brand.kidde.com/asset/66d9b85d-47b0-4ac5-bc19-ea325d79668e/UG_KA-B3.pdf
+        source_title: "Kidde — KA-B3 Wiring Adapter User Guide (PDF)"
+        checked: "2026-11-13"
+  - heading: "Does a Kidde adapter work in the other direction, onto a First Alert alarm?"
+    facts:
+      - id: faq-direction
+        value: "No such use is listed. Kidde's product pages say the KA-B3 is for select First Alert or BRK to Kidde replacements and the 20-9003 for select Kidde or Firex to Kidde replacements; both end in a new Kidde alarm. For an old Kidde-family or Firex harness going to a First Alert / BRK alarm, First Alert's own ADK and ADF plugs are the listed parts, within their model and date limits above."
+        source_url: https://www.kidde.com/products/safety-accessories/quick-connect-adapter-for-select-first-alert-brk-hardwired-smoke-smoke-carbon-monoxide-alarms
+        source_title: "Kidde — Quick Connect Adapter KA-B3 (product page)"
+        checked: "2026-11-13"
+  - heading: "Does an adapter replace the wiring harness?"
+    facts:
+      - id: faq-replace-harness
+        value: "No. Kidde's product page says its adapter connects a compatible new Kidde alarm to the supported existing harness; it does not replace that harness. Follow both the alarm guide and the adapter instructions."
+        source_url: https://www.kidde.com/products/safety-accessories/quick-connect-adapter-for-hardwired-smoke-carbon-monoxide-alarms
+        source_title: "Kidde — Quick Connect Adapter 20-9003 (product page)"
+        checked: "2026-11-13"
+  - heading: "Will my alarms still be interconnected after using an adapter?"
+    facts:
+      - id: faq-interconnect
+        value: "Kidde says the adapter can support hardwired interconnection when used with compatible alarms and properly completed AC wiring, but different models may pass different signals (smoke, carbon monoxide or both), so check each alarm's user guide."
+        source_url: https://www.kidde.com/products/safety-accessories/quick-connect-adapter-for-hardwired-smoke-carbon-monoxide-alarms
+        source_title: "Kidde — Quick Connect Adapter 20-9003 (product page)"
+        checked: "2026-11-13"

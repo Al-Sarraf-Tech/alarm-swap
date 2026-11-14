@@ -204,5 +204,6 @@ sections:
         source_title: "CPSC — Recalls"
         checked: "2026-11-05"
 related_guides:
+  - old-smoke-alarm-plug-fit
   - smoke-alarm-date-and-expiry
   - hardwired-smoke-alarm-chirping

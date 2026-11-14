@@ -92,7 +92,7 @@ disagree, say so and send the reader to the model manual (the chirping guide doe
 - [x] Guide: **What do the red, green and amber lights on a hardwired Kidde alarm mean?** (done 2026-11-12, /guides/kidde-hardwired-alarm-lights/) Cover "no green light", blinking or flashing red,
   and the P4010ACSCO red/amber lights from the manuals already cited on the model pages (i12060A, i12040A, i12010S, KN-COSM-IBA,
   P4010ACSCO, 20SA10, 20SAR, 30CUA10, 30CUAR). One row per manual; do not generalise one model's LED code to another.
-- [ ] Guide: **Will my old hardwired smoke alarm plug fit a new alarm?** Harness vs adapter vs cutting and splicing, by brand family. Use the Kidde
+- [x] Guide: **Will my old hardwired smoke alarm plug fit a new alarm?** (done 2026-11-13, /guides/old-smoke-alarm-plug-fit/; CPSC returned 403 so no recall line, First Alert help-center articles would not load so no FA same-brand harness claim) Harness vs adapter vs cutting and splicing, by brand family. Use the Kidde
   alarm-replacement and harness-match facts, First Alert's ADK-12 / ADF pages, and the pages already on the 20-9003, KA-B3 and ADK-12 model pages.
   Say what each maker states and where a maker says nothing. Do not give wiring steps; link NFPA's electrician line.
 - [ ] Guide: **First Alert / BRK hardwired alarm chirping, flashing red or green: what the manual says** (9120B and SMI100-AC manuals, already cited;
