@@ -1,0 +1,189 @@
+# Guide pages: prose lives in `intro`/`body` (no numbers or claims that aren't
+# backed by a fact on the same page); every factual statement is a `facts` item
+# with its own source. `npm run check` enforces source_url/source_title/checked.
+slug: first-alert-hardwired-alarm-chirping
+title: "First Alert / BRK hardwired smoke alarm chirping, flashing red or green: what the manual says"
+short_title: "First Alert chirping and lights"
+description: "Chirps, a flashing red light and green-light patterns on the First Alert 9120B and SMI100-AC hardwired alarms, read from each model's own manual."
+published: "2026-11-14"
+intro: >-
+  First Alert's two hardwired models on this site use different signals. On
+  the older 9120B the red light does most of the talking, while the newer
+  SMI100-AC moves its battery, malfunction and end-of-life warnings to the
+  green power light and counts them in chirps. Check the model number on the
+  back of the alarm and read only that row. A pattern from one manual is not
+  a reading of the other model.
+related_guides:
+  - hardwired-smoke-alarm-chirping
+  - kidde-hardwired-alarm-lights
+  - old-smoke-alarm-plug-fit
+  - smoke-alarm-date-and-expiry
+sections:
+  - heading: "The short answer"
+    facts:
+      - id: fa-nfpa-alarm
+        value: "NFPA says a continuing set of three loud beeps means smoke or fire: get out, call 911, and stay out. Both First Alert manuals below list the same three-beeps-and-pause pattern for smoke, so that sound is the alarm itself, not a chirp."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-14"
+      - id: fa-nfpa-guide
+        value: "NFPA describes a single chirp every 30 or 60 seconds as a low battery, and chirping that continues after a new battery as the end of the alarm's life. The same page says to learn your own alarm's sounds from its user guide or by looking up the brand and model, which is what the rows below do."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-14"
+      - id: fa-nfpa-electrician
+        value: "NFPA says only qualified electricians should install hardwired smoke alarms. This page reads signals from the manuals; it is not wiring or repair advice."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-14"
+  - heading: "By model"
+    body: >-
+      Each row is one manual. The 9120B manual we read has no separate
+      end-of-life or malfunction chirp, so the page does not invent one for
+      it.
+    rows:
+      - brand: First Alert / BRK 9120B
+        facts:
+          - id: fa9120-normal
+            label: Normal (AC power)
+            value: "The 9120 / 9120B manual's indicator table lists normal operation on AC power as the green LED on, with the red LED flashing once a minute and no sound."
+            source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0134-009_9120_9120b_sa9120bcn-1.pdf
+            source_title: "First Alert / BRK — 9120 / 9120B User's Manual (PDF)"
+            checked: "2026-11-14"
+          - id: fa9120-dc
+            label: Running on the backup battery
+            value: "On battery (DC) power the same table lists the green LED off and the red LED flashing once a minute, again with no sound. A dark green light with a once-a-minute red flash therefore points to the alarm not getting AC power."
+            source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0134-009_9120_9120b_sa9120bcn-1.pdf
+            source_title: "First Alert / BRK — 9120 / 9120B User's Manual (PDF)"
+            checked: "2026-11-14"
+          - id: fa9120-low
+            label: Low or missing battery
+            value: "A low or missing battery is a chirp once a minute with the red LED flashing once a minute. The manual says the warning should last 7 days but to replace the battery right away. It takes one 9-volt battery and names Duracell, Energizer and Ultralife lithium part numbers as acceptable."
+            source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0134-009_9120_9120b_sa9120bcn-1.pdf
+            source_title: "First Alert / BRK — 9120 / 9120B User's Manual (PDF)"
+            checked: "2026-11-14"
+          - id: fa9120-red-rapid
+            label: Red LED flashing rapidly
+            value: "In smoke, the red LED flashes rapidly only on the alarm that sensed it, and stays off on the other interconnected alarms, while every alarm sounds the three-beep pattern. To silence a series, the manual says to press Test/Silence on the alarm that started it."
+            source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0134-009_9120_9120b_sa9120bcn-1.pdf
+            source_title: "First Alert / BRK — 9120 / 9120B User's Manual (PDF)"
+            checked: "2026-11-14"
+          - id: fa9120-silence
+            label: Red LED every 10 seconds
+            value: "In silence mode the red LED flashes once every 10 seconds and the horn stays quiet for up to 10 minutes, but it will sound if smoke increases. The manual says an alarm that will not silence with no heavy smoke present, or that stays in silence mode all the time, should be replaced immediately."
+            source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0134-009_9120_9120b_sa9120bcn-1.pdf
+            source_title: "First Alert / BRK — 9120 / 9120B User's Manual (PDF)"
+            checked: "2026-11-14"
+          - id: fa9120-latch
+            label: Green LED 2 seconds on, 2 off
+            value: "A green LED that blinks 2 seconds on and 2 seconds off, with no sound, is the latching alarm indicator. It marks the alarm that sensed smoke after the smoke has cleared. Pressing Test/Silence clears it, and so does removing both AC and battery power."
+            source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0134-009_9120_9120b_sa9120bcn-1.pdf
+            source_title: "First Alert / BRK — 9120 / 9120B User's Manual (PDF)"
+            checked: "2026-11-14"
+          - id: fa9120-nogreen
+            label: No green light after install
+            value: "The installation steps say the green power light should stay on once power is restored. If it does not light, the manual says to turn the power off and check the wiring, and to replace the unit immediately if the green light still does not come on."
+            source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0134-009_9120_9120b_sa9120bcn-1.pdf
+            source_title: "First Alert / BRK — 9120 / 9120B User's Manual (PDF)"
+            checked: "2026-11-14"
+        models: [first-alert-9120b]
+      - brand: First Alert SMI100-AC
+        facts:
+          - id: smi-normal
+            label: Normal and AC off
+            value: "The SMI100-AC manual lists normal operation as a steady green power LED with the red smoke LED off. If AC power to the alarm is off, the green light flashes once a minute and the horn stays silent."
+            source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179722.pdf
+            source_title: "First Alert — SMI100-AC User's Manual (PDF)"
+            checked: "2026-11-14"
+          - id: smi-low
+            label: Low battery (1 chirp a minute)
+            value: "A low battery is one chirp a minute with the green LED flashing once a minute; the manual's fix is to replace the battery. It says the low-battery chirp can be silenced for up to 8 hours with the Test/Silence button, after which the chirp comes back."
+            source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179722.pdf
+            source_title: "First Alert — SMI100-AC User's Manual (PDF)"
+            checked: "2026-11-14"
+          - id: smi-latch
+            label: Green LED 2 seconds on, 2 off
+            value: "On the SMI100-AC, a green LED flashing 2 seconds on and 2 seconds off is the low battery latch. The manual says it shows which alarm in the house needs the new battery. That is a different meaning from the same blink on the 9120B."
+            source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179722.pdf
+            source_title: "First Alert — SMI100-AC User's Manual (PDF)"
+            checked: "2026-11-14"
+          - id: smi-malfunction
+            label: 3 chirps a minute
+            value: "Three chirps a minute, with the green LED flashing three times a minute, is the malfunction signal. The manual says the alarm is not working properly and needs to be replaced, and to contact Consumer Support for a warranty replacement if it is under warranty."
+            source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179722.pdf
+            source_title: "First Alert — SMI100-AC User's Manual (PDF)"
+            checked: "2026-11-14"
+          - id: smi-eol
+            label: 5 chirps a minute
+            value: "Five chirps a minute, with five green flashes a minute, is the end-of-life signal, and the manual says to replace the alarm immediately. That signal can be silenced for about 2 days at a time, and the silence can no longer be reset 14 days after the first end-of-life signal."
+            source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179722.pdf
+            source_title: "First Alert — SMI100-AC User's Manual (PDF)"
+            checked: "2026-11-14"
+          - id: smi-clean
+            label: 2 green flashes a minute
+            value: "A green LED that flashes twice a minute with no chirp means the alarm needs cleaning, per the troubleshooting table. It says to clean it, press and release the test button, and contact Consumer Support if the green light keeps flashing."
+            source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179722.pdf
+            source_title: "First Alert — SMI100-AC User's Manual (PDF)"
+            checked: "2026-11-14"
+          - id: smi-red
+            label: Red LED patterns
+            value: "The red smoke LED flashes in time with the horn on the alarm that sensed smoke, and stays off on the other interconnected alarms. When a smoke alarm is silenced, which lasts up to 15 minutes, the red LED flashes three times, pauses, and repeats."
+            source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179722.pdf
+            source_title: "First Alert — SMI100-AC User's Manual (PDF)"
+            checked: "2026-11-14"
+        models: [first-alert-smi100-ac]
+  - heading: "Why is my First Alert hardwired alarm chirping once a minute?"
+    facts:
+      - id: fa-q-once-9120
+        value: "On the 9120B, one chirp a minute with a red flash once a minute is the low or missing battery signal, and the manual's problem list says that if you hear a chirp once a minute, replace the battery."
+        source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0134-009_9120_9120b_sa9120bcn-1.pdf
+        source_title: "First Alert / BRK — 9120 / 9120B User's Manual (PDF)"
+        checked: "2026-11-14"
+      - id: fa-q-once-smi
+        value: "On the SMI100-AC, one chirp a minute comes with a green flash instead, and its manual gives the same advice: a chirp once a minute means replace the battery. Three or five chirps a minute mean something else (see the next question)."
+        source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179722.pdf
+        source_title: "First Alert — SMI100-AC User's Manual (PDF)"
+        checked: "2026-11-14"
+  - heading: "What do 3 or 5 chirps a minute mean on a First Alert SMI100-AC?"
+    facts:
+      - id: fa-q-count
+        value: "The SMI100-AC troubleshooting table lists three chirps a minute as the malfunction signal and five chirps a minute as the end-of-life signal. Both mean the alarm needs to be replaced, not that it needs a battery."
+        source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179722.pdf
+        source_title: "First Alert — SMI100-AC User's Manual (PDF)"
+        checked: "2026-11-14"
+  - heading: "Why is the green light blinking on my First Alert hardwired alarm?"
+    facts:
+      - id: fa-q-green-9120
+        value: "On the 9120B, a slow green blink of 2 seconds on and 2 seconds off marks the alarm that sensed smoke, after the smoke has cleared. Pressing Test/Silence clears it."
+        source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0134-009_9120_9120b_sa9120bcn-1.pdf
+        source_title: "First Alert / BRK — 9120 / 9120B User's Manual (PDF)"
+        checked: "2026-11-14"
+      - id: fa-q-green-smi
+        value: "On the SMI100-AC, that same 2-on, 2-off blink is the low battery latch. A single green flash each minute with no chirp means AC power is off, and two flashes a minute means the alarm needs cleaning."
+        source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179722.pdf
+        source_title: "First Alert — SMI100-AC User's Manual (PDF)"
+        checked: "2026-11-14"
+  - heading: "How long do First Alert's hardwired alarms last?"
+    facts:
+      - id: fa-q-life-9120
+        value: "The 9120 / 9120B manual says to always replace a smoke alarm 10 years from the date of purchase. The copy we read does not list a separate end-of-life chirp for that model."
+        source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0134-009_9120_9120b_sa9120bcn-1.pdf
+        source_title: "First Alert / BRK — 9120 / 9120B User's Manual (PDF)"
+        checked: "2026-11-14"
+      - id: fa-q-life-smi
+        value: "The SMI100-AC manual says to replace the alarm 10 years after installation, and that it gives an audible end-of-life signal about 10 years after installation as a reminder. Its general warnings also say to replace a smoke alarm 10 years from the date of purchase, so writing both dates on the alarm avoids guessing."
+        source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179722.pdf
+        source_title: "First Alert — SMI100-AC User's Manual (PDF)"
+        checked: "2026-11-14"
+      - id: fa-q-nfpa10
+        value: "NFPA says every smoke alarm must be replaced 10 years after its manufacturing date. That counts from manufacture, while the two First Alert manuals count from purchase or installation."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-14"
+  - heading: "Where to check recalls"
+    facts:
+      - id: fa-cpsc
+        value: "CPSC's recalls page is where to search for a recall on a specific alarm. This guide does not state any recall for these models; the CPSC site could not be read from this run's network, so no recall notice was checked."
+        source_url: https://www.cpsc.gov/Recalls
+        source_title: "CPSC — Recalls & Product Safety Warnings"
+        checked: "2026-11-14"

@@ -14,6 +14,7 @@ intro: >-
   row. One manual's code is not a reading of a different model.
 related_guides:
   - hardwired-smoke-alarm-chirping
+  - first-alert-hardwired-alarm-chirping
   - smoke-alarm-date-and-expiry
   - mix-brands-interconnected-alarms
 sections:

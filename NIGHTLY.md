@@ -95,8 +95,8 @@ disagree, say so and send the reader to the model manual (the chirping guide doe
 - [x] Guide: **Will my old hardwired smoke alarm plug fit a new alarm?** (done 2026-11-13, /guides/old-smoke-alarm-plug-fit/; CPSC returned 403 so no recall line, First Alert help-center articles would not load so no FA same-brand harness claim) Harness vs adapter vs cutting and splicing, by brand family. Use the Kidde
   alarm-replacement and harness-match facts, First Alert's ADK-12 / ADF pages, and the pages already on the 20-9003, KA-B3 and ADK-12 model pages.
   Say what each maker states and where a maker says nothing. Do not give wiring steps; link NFPA's electrician line.
-- [ ] Guide: **First Alert / BRK hardwired alarm chirping, flashing red or green: what the manual says** (9120B and SMI100-AC manuals, already cited;
-  add the SMI105-AC and SM100V-AC manuals when read). Mirror the Kidde chirping guide's structure.
+- [x] Guide: **First Alert / BRK hardwired alarm chirping, flashing red or green: what the manual says** (done 2026-11-14, /guides/first-alert-hardwired-alarm-chirping/; 9120B and SMI100-AC manuals only.
+  SMI105-AC and SM100V-AC manuals not yet read: add rows when their model pages are built. CPSC still 403, no recall line.) Mirror the Kidde chirping guide's structure.
 - [ ] First Alert / BRK ADF adapter (Firex-side plug; the Firex 1218 / i4618 replacement question). It is not the ADK-12 and not Kidde's 20-9003.
 - [ ] Guide: **Kidde 20SA10 vs 20SAR vs 30CUA10: what differs?** Side-by-side from the three model pages' maker sources. No ranking, no "best".
 - [ ] Guide: **Can a hardwired alarm be replaced with a battery-only or wireless one?** NFPA and USFA only; say that local code and the
