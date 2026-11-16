@@ -1,0 +1,126 @@
+slug: first-alert-adf
+brand: First Alert
+model: ADF
+aliases: []
+kind: Wiring adapter plug (old Firex harness → First Alert / BRK alarm)
+title: "First Alert ADF adapter: which Firex plugs it fits, and the i4618 question"
+description: "First Alert's ADF plug joins listed pre-2004 Firex wiring plugs to BRK / First Alert alarms. Which models it names, its 12-unit limit, no Firex CO, and why it doesn't name the i4618."
+published: "2026-11-15"
+summary: >-
+  ADF is First Alert's (BRK's) adapter plug for putting one of its alarms on a
+  ceiling wired for an older Firex alarm. Its guide names eight Firex devices (six smoke alarms, a heat alarm and a relay) made
+  on or before January 1, 2004, caps the loop at 12 interconnected units, and
+  says it cannot connect Firex CO alarms. The guide names the Firex 4618 (FADC)
+  but not the later i4618 or i4618AC; for those, Kidde's own 20-9003 adapter is
+  the part that names them, and it leads to a Kidde alarm.
+facts:
+  - id: what-it-does
+    label: What it does
+    value: "One end plugs into the existing Firex power connector in the ceiling and the other into a listed BRK / First Alert alarm, so the old connector can stay in place"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PlupKAAR
+    source_title: "First Alert / BRK — Installation of the ADF Adapter Plug (PDF)"
+    checked: "2026-11-15"
+  - id: old-side
+    label: Old Firex alarms it lists
+    value: "406 (G-6), 4518 (ADC), 4618 (FADC), 5000 (FADC), 484 (PG-40), 4480 (PAD), the 5700 (ADH) heat alarm and the 499 auxiliary relay"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PlupKAAR
+    source_title: "First Alert / BRK — Installation of the ADF Adapter Plug (PDF)"
+    checked: "2026-11-15"
+  - id: date-limit
+    label: Age limit on the old side
+    value: "The guide limits the plug to those Firex models made on or before January 1, 2004"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PlupKAAR
+    source_title: "First Alert / BRK — Installation of the ADF Adapter Plug (PDF)"
+    checked: "2026-11-15"
+  - id: unlisted
+    label: Firex model not on the list?
+    value: "The guide says the listed Firex models are the only ones that may be interconnected with the plug, and an unlisted one must be removed from the system. It also shows some power connectors it calls incompatible"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PlupKAAR
+    source_title: "First Alert / BRK — Installation of the ADF Adapter Plug (PDF)"
+    checked: "2026-11-15"
+  - id: new-side
+    label: New alarms it takes
+    value: "The BRK / First Alert models in its list: 4120 and 9120 series (ionization), 5919 and 2002RAC (photoelectric), 7010 series (photoelectric), SC6120B and SC9120B smoke + CO combos, the HD6135FB heat alarm and the RM3 auxiliary relay"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PlupKAAR
+    source_title: "First Alert / BRK — Installation of the ADF Adapter Plug (PDF)"
+    checked: "2026-11-15"
+  - id: guide-age
+    label: How current the list is
+    value: "The PDF is a 2007 printing (copyright 2007 BRK Brands). Newer First Alert alarms, such as the SMI100-AC, are not on it, and the guide does not say whether they work with the plug"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PlupKAAR
+    source_title: "First Alert / BRK — Installation of the ADF Adapter Plug (PDF)"
+    checked: "2026-11-15"
+  - id: no-co
+    label: Firex CO alarms
+    value: "The guide says the plug cannot be used to connect Firex carbon monoxide alarms"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PlupKAAR
+    source_title: "First Alert / BRK — Installation of the ADF Adapter Plug (PDF)"
+    checked: "2026-11-15"
+  - id: limits
+    label: How many on one loop
+    value: "A maximum of 12 interconnected units. The guide writes the G-6 in as an exception to that line without explaining it, so check your alarm's own manual if a G-6 is on the loop"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PlupKAAR
+    source_title: "First Alert / BRK — Installation of the ADF Adapter Plug (PDF)"
+    checked: "2026-11-15"
+  - id: circuit
+    label: Circuit it needs
+    value: "A 120 V AC, 60 Hz circuit that is live 24 hours a day and cannot be turned off by a switch, dimmer or ground fault circuit interrupter"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PlupKAAR
+    source_title: "First Alert / BRK — Installation of the ADF Adapter Plug (PDF)"
+    checked: "2026-11-15"
+  - id: fit
+    label: Space in the box
+    value: "If the plug and wiring won't fit in the junction box, the guide says the old power connector has to come out and a First Alert power connector go in instead"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PlupKAAR
+    source_title: "First Alert / BRK — Installation of the ADF Adapter Plug (PDF)"
+    checked: "2026-11-15"
+  - id: rating
+    label: Electrical rating
+    value: "120 V AC, 100 mA maximum; marked not for current interruption"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PlupKAAR
+    source_title: "First Alert / BRK — Installation of the ADF Adapter Plug (PDF)"
+    checked: "2026-11-15"
+  - id: electrician
+    label: Who should fit it
+    value: "Power off at the breaker or fuse box first; the guide says wiring and installation must be done by a licensed electrician and follow NFPA 70, NFPA 72, NFPA 101 and local codes"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PlupKAAR
+    source_title: "First Alert / BRK — Installation of the ADF Adapter Plug (PDF)"
+    checked: "2026-11-15"
+  - id: test-all
+    label: After fitting it
+    value: "Test each alarm on its own with its test button and make sure every interconnected alarm sounds each time"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PlupKAAR
+    source_title: "First Alert / BRK — Installation of the ADF Adapter Plug (PDF)"
+    checked: "2026-11-15"
+replacement:
+  - id: i4618-not-listed
+    label: Firex i4618 / i4618AC on the ceiling?
+    value: "The ADF guide lists the Firex 4618 (FADC) but does not name the i4618, i4618A or i4618AC, and does not say whether the plug fits them"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PlupKAAR
+    source_title: "First Alert / BRK — Installation of the ADF Adapter Plug (PDF)"
+    checked: "2026-11-15"
+  - id: kidde-adapter
+    label: The adapter that names the i4618
+    value: "Kidde's 20-9003 adapter guide names the i4618, i4618A and i4618AC among the older harnesses it connects to a newer Kidde alarm, and says the new alarm's own harness must be wired in if the ceiling plug doesn't match its pictures"
+    source_url: https://brand.kidde.com/m/275e008037c43807/original/Product_UG_20-9003.pdf
+    source_title: "Kidde — 20-9003 Wiring Adapter User Guide (PDF)"
+    checked: "2026-11-15"
+  - id: kidde-upgrade
+    label: Replacement Kidde names for the i4618AC
+    value: "Kidde marks the Firex i4618AC as discontinued and offers its 20SAR hardwired alarm as the upgrade"
+    source_url: https://www.kidde.com/products/smoke-alarms/firex-hardwired-smoke-alarm
+    source_title: "Kidde — Firex Hardwired Smoke Alarm i4618AC (product page)"
+    checked: "2026-11-15"
+  - id: kidde-side
+    label: Old Kidde-family wiring instead
+    value: "For listed pre-2004 Kidde, Fyrnetics and Lifesaver plugs, First Alert's guide uses the ADK plug, not the ADF"
+    source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PluqzAAB
+    source_title: "First Alert / BRK — Installation of the ADK Adapter Plug (PDF)"
+    checked: "2026-11-15"
+  - id: recalls
+    label: Recalls
+    value: "Search CPSC's recall list for your exact alarm models before reusing an old alarm on a new loop (CPSC's site did not load for us on this check)"
+    source_url: https://www.cpsc.gov/Recalls
+    source_title: "CPSC — Recalls & Product Safety Warnings"
+    checked: "2026-11-15"
+related: [firex-i4618, first-alert-adk-12, first-alert-9120b, kidde-20-9003]

@@ -97,7 +97,7 @@ disagree, say so and send the reader to the model manual (the chirping guide doe
   Say what each maker states and where a maker says nothing. Do not give wiring steps; link NFPA's electrician line.
 - [x] Guide: **First Alert / BRK hardwired alarm chirping, flashing red or green: what the manual says** (done 2026-11-14, /guides/first-alert-hardwired-alarm-chirping/; 9120B and SMI100-AC manuals only.
   SMI105-AC and SM100V-AC manuals not yet read: add rows when their model pages are built. CPSC still 403, no recall line.) Mirror the Kidde chirping guide's structure.
-- [ ] First Alert / BRK ADF adapter (Firex-side plug; the Firex 1218 / i4618 replacement question). It is not the ADK-12 and not Kidde's 20-9003.
+- [x] First Alert / BRK ADF adapter (done 2026-11-15, /models/first-alert-adf/; the ADF guide names Firex 4618 (FADC) but not the i4618/i4618AC, so the page says so and points to Kidde's 20-9003. CPSC still 403.) (Firex-side plug; the Firex 1218 / i4618 replacement question). It is not the ADK-12 and not Kidde's 20-9003.
 - [ ] Guide: **Kidde 20SA10 vs 20SAR vs 30CUA10: what differs?** Side-by-side from the three model pages' maker sources. No ranking, no "best".
 - [ ] Guide: **Can a hardwired alarm be replaced with a battery-only or wireless one?** NFPA and USFA only; say that local code and the
   inspector decide, and that interconnect is what hardwired adds. Do not cite code sections the run did not open.
@@ -122,6 +122,6 @@ disagree, say so and send the reader to the model manual (the chirping guide doe
 - [x] Kidde 30CUA10 — the replacement named on the P4010ACSCO page. The data sheet is already cited there; re-read it and the product page.
 - [x] Kidde 30CUAR — the upgrade named on the KN-COSM-IBA page. Read its product page and manual, including whether it keeps the voice alerts.
 - [x] First Alert SMI100-AC — the replacement named in the 9120B specifications. Read the SMI100-AC page for sensor type, power, and interconnect limits.
-- [ ] First Alert / BRK ADF adapter — moved to the priority queue (2026-11-12).
+- [x] First Alert / BRK ADF adapter — moved to the priority queue (2026-11-12); done 2026-11-15.
 - [ ] First Alert SMI105-AC — the 10-year-battery sibling compared on the SMI100-AC page. Read its product page and manual; do not reuse SMI100-AC text. (Also in the priority queue; one page only.)
 - [ ] First Alert SM100V-AC — the photoelectric voice-alert sibling on the SMI100-AC page. Read its product page and manual for backup battery type and interconnect list.

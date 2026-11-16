@@ -118,7 +118,7 @@ sections:
             source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179722.pdf
             source_title: "First Alert — SMI100-AC User Manual (PDF)"
             checked: "2026-11-13"
-        models: [first-alert-adk-12, first-alert-9120b, first-alert-smi100-ac]
+        models: [first-alert-adk-12, first-alert-adf, first-alert-9120b, first-alert-smi100-ac]
   - heading: "A plug that fits is not the whole job"
     facts:
       - id: kidde-mixed-untested
