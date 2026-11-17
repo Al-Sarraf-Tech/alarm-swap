@@ -1,0 +1,191 @@
+# Guide pages: prose lives in `intro`/`body` (no numbers or claims that aren't
+# backed by a fact on the same page); every factual statement is a `facts` item
+# with its own source. `npm run check` enforces source_url/source_title/checked.
+slug: kidde-20sa10-vs-20sar-vs-30cua10
+title: "Kidde 20SA10 vs 20SAR vs 30CUA10: what is actually different?"
+short_title: "20SA10 vs 20SAR vs 30CUA10"
+description: "Side by side from Kidde's own data sheets and user guide: backup battery, CO sensing, end-of-life and low-battery signals, weight and warranty for the 20SA10, 20SAR and 30CUA10."
+published: "2026-11-16"
+intro: >-
+  These three hardwired Kidde DETECT alarms look almost the same from the
+  floor, and one Kidde user guide covers all of them. The real differences come
+  down to two questions: is the backup battery sealed or replaceable, and does
+  the alarm sense carbon monoxide itself? Every line below comes from Kidde's
+  own data sheets and that guide, read on the date shown. This page does not
+  rank them or pick a best one.
+related_guides:
+  - mix-brands-interconnected-alarms
+  - kidde-hardwired-alarm-lights
+  - hardwired-smoke-alarm-chirping
+  - old-smoke-alarm-plug-fit
+sections:
+  - heading: "What is the difference between the 20SA10, 20SAR and 30CUA10?"
+    body: >-
+      The model table at the front of Kidde's DETECT 5-inch AC user guide is
+      the quickest way to see the split.
+    facts:
+      - id: ug-table-20sar
+        value: "Kidde's user guide lists the 20SAR as a smoke alarm on 120 V AC with AA backup batteries, no sealed battery and no voice."
+        source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+        source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide (PDF)"
+        checked: "2026-11-16"
+      - id: ug-table-20sa10
+        value: "The same table lists the 20SA10 as a smoke alarm on 120 V AC with a 10-year sealed backup battery, no AA batteries and no voice. A separate 20SA10-V entry is the voice version."
+        source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+        source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide (PDF)"
+        checked: "2026-11-16"
+      - id: ug-table-30cua10
+        value: "It lists the 30CUA10 as a combination smoke and CO alarm on 120 V AC with a 10-year sealed backup battery, no AA batteries and no voice. A separate 30CUA10-V entry is the voice version."
+        source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+        source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide (PDF)"
+        checked: "2026-11-16"
+      - id: ug-interconnect-each-other
+        value: "All three appear on the guide's list of models that interconnect over the standard AC wiring and pass both remote smoke and remote CO alarms, alongside older Kidde models such as the i12010S, KN-COSM-IBA and P4010ACSCO."
+        source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+        source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide (PDF)"
+        checked: "2026-11-16"
+      - id: nfpa-electrician
+        value: "NFPA says only qualified electricians should install hardwired smoke alarms. This page compares specifications; it is not wiring advice."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-16"
+  - heading: "Model by model"
+    body: >-
+      One card per data sheet. A signal printed for one model is not a reading
+      of the others.
+    rows:
+      - brand: Kidde 20SAR
+        facts:
+          - id: sar-sensor-power
+            label: Sensor and power
+            value: "Photoelectric smoke sensor, 120 V AC at 60 Hz, with two AA batteries as backup"
+            source_url: https://brand.kidde.com/m/2e898ca3eaa4d696/original/PDS_20SAR.pdf
+            source_title: "Kidde — DETECT Series Model 20SAR Product Data Sheet (PDF)"
+            checked: "2026-11-16"
+          - id: sar-batteries
+            label: Battery upkeep
+            value: "Kidde says to change the AA batteries every 6 months or when the low-battery chirp starts. The data sheet names Energizer E91, Gold Peak 15A or Golden Power AA cells and says not to use lithium batteries in this unit"
+            source_url: https://brand.kidde.com/m/2e898ca3eaa4d696/original/PDS_20SAR.pdf
+            source_title: "Kidde — DETECT Series Model 20SAR Product Data Sheet (PDF)"
+            checked: "2026-11-16"
+          - id: sar-signals
+            label: Chirp signals
+            value: "Low battery is one chirp and one amber flash per minute. The alarm also beeps to say it is time to replace it 10 years after it is first powered"
+            source_url: https://brand.kidde.com/m/2e898ca3eaa4d696/original/PDS_20SAR.pdf
+            source_title: "Kidde — DETECT Series Model 20SAR Product Data Sheet (PDF)"
+            checked: "2026-11-16"
+          - id: sar-co
+            label: Carbon monoxide
+            value: "Not a CO alarm. Kidde says it will receive and pass on a CO alarm signal from an interconnected CO or smoke/CO alarm"
+            source_url: https://brand.kidde.com/m/2e898ca3eaa4d696/original/PDS_20SAR.pdf
+            source_title: "Kidde — DETECT Series Model 20SAR Product Data Sheet (PDF)"
+            checked: "2026-11-16"
+          - id: sar-weight-warranty
+            label: Weight and warranty
+            value: "0.86 lb. 10-year limited warranty, with the batteries excluded"
+            source_url: https://brand.kidde.com/m/2e898ca3eaa4d696/original/PDS_20SAR.pdf
+            source_title: "Kidde — DETECT Series Model 20SAR Product Data Sheet (PDF)"
+            checked: "2026-11-16"
+        models: [kidde-20sar]
+      - brand: Kidde 20SA10
+        facts:
+          - id: sa10-sensor-power
+            label: Sensor and power
+            value: "Photoelectric smoke sensor, 120 V AC at 60 Hz, with a sealed battery as backup. Kidde lists replacement batteries as not applicable"
+            source_url: https://brand.kidde.com/m/26fc4db04c08b156/original/PDS_20SA10.pdf
+            source_title: "Kidde — DETECT Series Model 20SA10 Product Data Sheet (PDF)"
+            checked: "2026-11-16"
+          - id: sa10-signals
+            label: Chirp signals
+            value: "No low-battery chirps. At end of unit life, 10 years after it is first powered, it gives two chirps and amber flashes once a minute"
+            source_url: https://brand.kidde.com/m/26fc4db04c08b156/original/PDS_20SA10.pdf
+            source_title: "Kidde — DETECT Series Model 20SA10 Product Data Sheet (PDF)"
+            checked: "2026-11-16"
+          - id: sa10-co
+            label: Carbon monoxide
+            value: "Not a CO alarm. Like the 20SAR, Kidde says it will receive and pass on a CO alarm signal from an interconnected CO or smoke/CO alarm"
+            source_url: https://brand.kidde.com/m/26fc4db04c08b156/original/PDS_20SA10.pdf
+            source_title: "Kidde — DETECT Series Model 20SA10 Product Data Sheet (PDF)"
+            checked: "2026-11-16"
+          - id: sa10-weight-warranty
+            label: Weight and warranty
+            value: "0.77 lb. 10-year limited warranty, battery included. Kidde notes the 10-year figure is a warranty, not a battery performance claim"
+            source_url: https://brand.kidde.com/m/26fc4db04c08b156/original/PDS_20SA10.pdf
+            source_title: "Kidde — DETECT Series Model 20SA10 Product Data Sheet (PDF)"
+            checked: "2026-11-16"
+        models: [kidde-20sa10]
+      - brand: Kidde 30CUA10
+        facts:
+          - id: cua10-sensors
+            label: Sensors
+            value: "Photoelectric smoke sensor plus an electrochemical CO sensor. The data sheet lists both UL 217 and UL 2034 among the requirements it meets"
+            source_url: https://brand.kidde.com/m/2781cd387163173/original/PDS_30CUA10.pdf
+            source_title: "Kidde — DETECT 30CUA10 Product Data Sheet (PDF)"
+            checked: "2026-11-16"
+          - id: cua10-power
+            label: Power
+            value: "120 V AC at 60 Hz, 42 mA maximum, with a sealed battery as backup. Replacement batteries are listed as not applicable"
+            source_url: https://brand.kidde.com/m/2781cd387163173/original/PDS_30CUA10.pdf
+            source_title: "Kidde — DETECT 30CUA10 Product Data Sheet (PDF)"
+            checked: "2026-11-16"
+          - id: cua10-signals
+            label: Alarm and chirp signals
+            value: "Fire is three long beeps and CO is four quick beeps, each with the red light flashing in step. No low-battery chirps; end of unit life is two chirps and amber flashes once a minute"
+            source_url: https://brand.kidde.com/m/2781cd387163173/original/PDS_30CUA10.pdf
+            source_title: "Kidde — DETECT 30CUA10 Product Data Sheet (PDF)"
+            checked: "2026-11-16"
+          - id: cua10-memory
+            label: Alarm memory
+            value: "For 24 hours after an event, the red light blinks once every 15 seconds if it was smoke and twice every 15 seconds if it was CO"
+            source_url: https://brand.kidde.com/m/2781cd387163173/original/PDS_30CUA10.pdf
+            source_title: "Kidde — DETECT 30CUA10 Product Data Sheet (PDF)"
+            checked: "2026-11-16"
+          - id: cua10-weight-warranty
+            label: Weight, humidity and warranty
+            value: "0.47 lb, rated for 10 to 95 percent humidity (non-condensing). 10-year limited warranty, battery included"
+            source_url: https://brand.kidde.com/m/2781cd387163173/original/PDS_30CUA10.pdf
+            source_title: "Kidde — DETECT 30CUA10 Product Data Sheet (PDF)"
+            checked: "2026-11-16"
+        models: [kidde-30cua10]
+  - heading: "What is the same on the 20SA10, 20SAR and 30CUA10?"
+    body: >-
+      These lines appear on each of the three data sheets. They are cited to
+      the 20SA10 sheet; the 20SAR and 30CUA10 sheets print the same figures.
+    facts:
+      - id: same-size-sound
+        value: "Each is 5 inches wide, 5 high and 2 deep, with an 85 dB alarm at 10 feet and a 40 to 100 degree F operating range."
+        source_url: https://brand.kidde.com/m/26fc4db04c08b156/original/PDS_20SA10.pdf
+        source_title: "Kidde — DETECT Series Model 20SA10 Product Data Sheet (PDF)"
+        checked: "2026-11-16"
+      - id: same-wiring
+        value: "Each wires to house power through a plug-in quick connector, mounts on the included twist-and-click bracket, and fits a standard single-gang box up to a 4-inch octagon junction box."
+        source_url: https://brand.kidde.com/m/26fc4db04c08b156/original/PDS_20SA10.pdf
+        source_title: "Kidde — DETECT Series Model 20SA10 Product Data Sheet (PDF)"
+        checked: "2026-11-16"
+      - id: same-interconnect
+        value: "Each interconnects with up to 24 Kidde devices over at most 1,000 feet of wire, within NFPA's limit of 18 initiating devices, no more than 12 of them smoke alarms. Kidde says the alarm is not designed to interconnect with other makers' products unless stated."
+        source_url: https://brand.kidde.com/m/26fc4db04c08b156/original/PDS_20SA10.pdf
+        source_title: "Kidde — DETECT Series Model 20SA10 Product Data Sheet (PDF)"
+        checked: "2026-11-16"
+      - id: same-hush
+        value: "Each has a HUSH button that quiets a nuisance smoke alarm for about 8 to 10 minutes, with the red light flashing every 2 seconds until it resets on its own."
+        source_url: https://brand.kidde.com/m/26fc4db04c08b156/original/PDS_20SA10.pdf
+        source_title: "Kidde — DETECT Series Model 20SA10 Product Data Sheet (PDF)"
+        checked: "2026-11-16"
+      - id: same-self-test
+        value: "Each is described as self-testing, and Kidde adds that self-testing does not replace pressing the test button once a week."
+        source_url: https://brand.kidde.com/m/26fc4db04c08b156/original/PDS_20SA10.pdf
+        source_title: "Kidde — DETECT Series Model 20SA10 Product Data Sheet (PDF)"
+        checked: "2026-11-16"
+  - heading: "What none of these sources settle"
+    body: >-
+      Kidde's data sheets do not say which of the three suits a given room,
+      and the user guide's interconnect list is not a ranking. We could not
+      open CPSC's recall list from this run, so this page states no
+      recall status for any of the three.
+    facts:
+      - id: cpsc-check
+        value: "Search CPSC's recall list for your exact model number before reusing or reselling an alarm."
+        source_url: https://www.cpsc.gov/Recalls
+        source_title: "CPSC — Recalls & Product Safety Warnings"
+        checked: "2026-11-16"
