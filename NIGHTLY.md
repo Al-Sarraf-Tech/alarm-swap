@@ -99,7 +99,7 @@ disagree, say so and send the reader to the model manual (the chirping guide doe
   SMI105-AC and SM100V-AC manuals not yet read: add rows when their model pages are built. CPSC still 403, no recall line.) Mirror the Kidde chirping guide's structure.
 - [x] First Alert / BRK ADF adapter (done 2026-11-15, /models/first-alert-adf/; the ADF guide names Firex 4618 (FADC) but not the i4618/i4618AC, so the page says so and points to Kidde's 20-9003. CPSC still 403.) (Firex-side plug; the Firex 1218 / i4618 replacement question). It is not the ADK-12 and not Kidde's 20-9003.
 - [x] Guide: **Kidde 20SA10 vs 20SAR vs 30CUA10: what differs?** (done 2026-11-16, /guides/kidde-20sa10-vs-20sar-vs-30cua10/; three data sheets + DETECT user guide re-read. CPSC still 403, no recall line.) Side-by-side from the three model pages' maker sources. No ranking, no "best".
-- [ ] Guide: **Can a hardwired alarm be replaced with a battery-only or wireless one?** NFPA and USFA only; say that local code and the
+- [x] Guide: **Can a hardwired alarm be replaced with a battery-only or wireless one?** (done 2026-11-17, /guides/replace-hardwired-smoke-alarm-with-battery-or-wireless/; NFPA smoke-alarm FAQ + installing page and USFA smoke-alarms page only. Neither says yes/no for a given home, so the page says so and sends readers to the local fire marshal. No code text opened, none cited. CPSC still 403.) NFPA and USFA only; say that local code and the
   inspector decide, and that interconnect is what hardwired adds. Do not cite code sections the run did not open.
 - [ ] Guide: **Which smoke alarm replaces a Firex i4618AC?** (discontinued; the model page already has the maker's named replacement. Add the
   ADF adapter fact once the ADF page exists.)

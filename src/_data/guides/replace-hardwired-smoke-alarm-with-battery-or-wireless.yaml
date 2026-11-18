@@ -1,0 +1,138 @@
+# Guide pages: prose lives in `intro`/`body` (no numbers or claims that aren't
+# backed by a fact on the same page); every factual statement is a `facts` item
+# with its own source. `npm run check` enforces source_url/source_title/checked.
+# Sources: NFPA and USFA only (no code sections were opened, so none are cited).
+slug: replace-hardwired-smoke-alarm-with-battery-or-wireless
+title: "Can a hardwired smoke alarm be replaced with a battery-only or wireless one?"
+short_title: "Hardwired to battery or wireless"
+description: "What NFPA and USFA say about battery, hardwired and wireless smoke alarms, why interconnection is the part that matters, and why your local code official makes the call."
+published: "2026-11-17"
+intro: >-
+  When a hardwired smoke alarm dies, it is tempting to pull it down and stick
+  a battery-only alarm on the ceiling instead. NFPA and the U.S. Fire
+  Administration (USFA) do not give a yes or no for every home. What they do
+  say is that battery and hardwired alarms both count as smoke alarms, that
+  interconnection is what gives the best protection, that interconnection can
+  be wired or wireless, and that your city, county or state may require a
+  specific type. This page lists those points and where neither source
+  answers the question directly.
+related_guides:
+  - mix-brands-interconnected-alarms
+  - old-smoke-alarm-plug-fit
+  - smoke-alarm-date-and-expiry
+  - hardwired-smoke-alarm-chirping
+sections:
+  - heading: "The short answer"
+    body: >-
+      Neither NFPA nor USFA says a hardwired alarm may or may not be swapped
+      for a battery-only one. Whether that is allowed in your home is a local
+      question, so ask before you remove anything.
+    facts:
+      - id: usfa-local-requirement
+        value: "USFA says your city, county or state may require a specific type of alarm, and points readers to their local fire marshal to find out which type they need."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-17"
+      - id: nfpa-code-minimum
+        value: "NFPA's installation page says NFPA 72 sets minimum smoke alarm locations (inside every sleep room, outside each sleeping area and on every level), notes that homes built to earlier standards often fall short, and says homeowners and enforcement authorities should take steps so every home has enough alarms. It does not say whether a hardwired alarm can be swapped for a battery-only one."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-17"
+      - id: not-stated
+        value: "Neither the NFPA nor the USFA page we read names the code section or rule that governs replacing a hardwired alarm in an existing home. We did not open the code text itself, so this page does not quote it."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-17"
+  - heading: "Do battery-only alarms protect as well as hardwired ones?"
+    facts:
+      - id: usfa-power-types
+        value: "USFA says smoke alarms run on battery or on the home's electrical system. Battery alarms use either a replaceable 9-volt battery or a sealed 10-year lithium battery; hardwired alarms usually also have a backup battery that needs replacing once a year."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-17"
+      - id: nfpa-either-protects
+        value: "NFPA's smoke alarm FAQ says to choose an alarm listed by a nationally recognized testing laboratory, and that either a unit needing yearly battery changes or a 10-year unit replaced at the end of its life will provide protection."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information (FAQ)"
+        checked: "2026-11-17"
+      - id: nfpa-sealed-chirp
+        value: "NFPA says alarms with non-replaceable 10-year batteries are designed to last up to 10 years, and if one chirps for a low battery, the whole alarm should be replaced right away."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-17"
+  - heading: "What does a hardwired system give you that a lone battery alarm does not?"
+    body: >-
+      The part NFPA and USFA both stress is interconnection: alarms linked so
+      that every one of them sounds when any one detects smoke.
+    facts:
+      - id: nfpa-interconnect-best
+        value: "NFPA says that for the best protection, all smoke alarms should be interconnected so that when one sounds, they all sound."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-17"
+      - id: nfpa-interconnect-hear
+        value: "NFPA's FAQ says interconnected alarms throughout the home mean you can hear the alarm no matter where in the home it starts."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information (FAQ)"
+        checked: "2026-11-17"
+      - id: nfpa-cpsc-survey
+        value: "NFPA cites a CPSC household survey: where alarms were on all floors (interconnected or not), they sounded in 37% of fires and alerted occupants in 15%; in homes with interconnected alarms, they sounded in 53% of fires and alerted people in 26%."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-17"
+      - id: usfa-interconnect
+        value: "USFA also says to choose interconnected smoke alarms and that smoke alarms should be interconnected, so that when one sounds, they all sound."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-17"
+  - heading: "Can wireless alarms keep the interconnection?"
+    facts:
+      - id: nfpa-wired-or-wireless
+        value: "Yes, per NFPA: interconnection can be done with hard-wiring or with wireless technology."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-17"
+      - id: usfa-wireless-type
+        value: "USFA lists radio-frequency (wireless) alarms, which communicate from one alarm to the next without wires, as one of the alarm types you can buy."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-17"
+      - id: nfpa-same-maker
+        value: "NFPA says interconnected alarms should all come from the same manufacturer, because alarms that are not compatible may not sound. The page does not treat wired and wireless links separately, so check the alarm maker's own compatibility list before mixing alarms in one set."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-17"
+      - id: wireless-not-stated
+        value: "Neither NFPA nor USFA says, on the pages we read, whether a wireless-interconnected battery system is accepted in place of a hardwired one in a given home. That is the local question from the short answer."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-17"
+  - heading: "Who should do the work?"
+    facts:
+      - id: nfpa-electrician
+        value: "NFPA says only qualified electricians should install hardwired smoke alarms."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-17"
+      - id: usfa-electrician
+        value: "USFA gives the same advice: only qualified electricians should install hardwired smoke alarms."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-17"
+      - id: usfa-fire-dept
+        value: "USFA notes that some fire departments will install battery-operated smoke alarms at no cost, and some offer reduced-price or free alarms; call your local fire department's non-emergency number to ask."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-17"
+  - heading: "If you keep the hardwired alarms"
+    facts:
+      - id: usfa-hardwired-care
+        value: "USFA says to replace a hardwired alarm's backup battery at least once a year and to replace the entire alarm every 10 years."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-17"
+      - id: nfpa-10-years
+        value: "NFPA says all smoke alarms must be replaced 10 years after their manufacturing date."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information (FAQ)"
+        checked: "2026-11-17"
