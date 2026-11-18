@@ -29,6 +29,7 @@
     </section>
     {% if checked %}<p class="last-checked">Last checked <time datetime="{{ checked }}">{{ checked | prettyDate }}</time></p>{% endif %}
   </header>
+  {% include "partials/affiliate-notice.njk" %}
 
   <h2>Model pages</h2>
   {% if brandModels.length %}

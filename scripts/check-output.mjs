@@ -53,6 +53,13 @@ for (const f of files) {
     }
   }
   if (!affiliatesEnabled && />Where to buy</.test(html)) errors.push(`${rel}: where-to-buy block rendered while affiliates_enabled is false`);
+  if (!html.includes('href="/affiliate-disclosure/"') || !html.includes('href="/privacy/"')) {
+    errors.push(`${rel}: footer missing affiliate disclosure or privacy link`);
+  }
+  const isCommercePage = /^(models|guides|brands)\/[^/]+\/index\.html$/.test(rel);
+  const hasNotice = html.includes('class="affiliate-notice"');
+  if (isCommercePage && affiliatesEnabled && !hasNotice) errors.push(`${rel}: affiliate notice missing while affiliates_enabled is true`);
+  if (isCommercePage && !affiliatesEnabled && hasNotice) errors.push(`${rel}: affiliate notice rendered while affiliates_enabled is false`);
 
   const title = html.match(/<title>([^<]*)<\/title>/)?.[1]?.trim() || "";
   const description = meta(html, "name", "description");
@@ -130,6 +137,32 @@ const privacyHtml = fs.existsSync(path.join(SITE, "privacy/index.html")) ? fs.re
 const privacyShown = privacyHtml.match(/<time datetime="(\d{4}-\d{2}-\d{2})"/)?.[1] || "";
 if (privacyShown && locDate(sitemap, "/privacy/") !== privacyShown) {
   errors.push(`privacy sitemap lastmod ${locDate(sitemap, "/privacy/")} does not match the visible date ${privacyShown}`);
+}
+if (!privacyHtml.includes("It is cookieless and doesn't track individuals.")) errors.push("privacy page does not say Cloudflare Web Analytics is cookieless and doesn't track individuals");
+if (!privacyHtml.includes("The site itself sets no cookies.")) errors.push("privacy page does not say the site itself sets no cookies");
+if (!privacyHtml.includes("If you click an outbound retailer or affiliate link, that retailer (for example Amazon or Walmart) or its affiliate network may set its own cookies to credit the referral, under that retailer's own privacy policy.")) {
+  errors.push("privacy page is missing the outbound retailer cookie sentence");
+}
+const disclosureHtml = fs.existsSync(path.join(SITE, "affiliate-disclosure/index.html")) ? fs.readFileSync(path.join(SITE, "affiliate-disclosure/index.html"), "utf8") : "";
+if (!disclosureHtml) errors.push("missing /affiliate-disclosure/");
+for (const sentence of [
+  "Some links on this site may be affiliate links.",
+  "If you buy through them, the site may earn a commission, at no extra cost to you.",
+  "This never changes which alarm a page recommends, because recommendations come from manufacturer compatibility information.",
+  "As an Amazon Associate I earn from qualifying purchases.",
+  "Retailer partners may include Amazon, Walmart, Ace Hardware, Home Depot, and X-Sense.",
+]) {
+  if (!disclosureHtml.includes(sentence)) errors.push(`affiliate disclosure missing: ${sentence}`);
+}
+if (!locDate(sitemap, "/affiliate-disclosure/")) errors.push("sitemap.xml missing /affiliate-disclosure/");
+const noticeSrc = fs.readFileSync(path.join(ROOT, "src/_includes/partials/affiliate-notice.njk"), "utf8");
+if (!noticeSrc.includes("site.affiliates_enabled")) errors.push("affiliate notice is not wired to affiliates_enabled");
+if (!noticeSrc.includes("Some links may be affiliate links. <a href=\"/affiliate-disclosure/\">See our affiliate disclosure.</a>")) {
+  errors.push("affiliate notice text does not match the required one-line disclosure");
+}
+for (const tpl of ["src/models/model.njk", "src/guides/guide.njk", "src/brands/brand.njk"]) {
+  const src = fs.readFileSync(path.join(ROOT, tpl), "utf8");
+  if (!src.includes('partials/affiliate-notice.njk')) errors.push(`${tpl} does not include the affiliate notice`);
 }
 const linkedFrom = [
   ["models/kidde-i12060/index.html", ["/guides/hardwired-smoke-alarm-chirping/", "/guides/mix-brands-interconnected-alarms/", "/guides/smoke-alarm-date-and-expiry/"]],

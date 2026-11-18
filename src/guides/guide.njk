@@ -34,6 +34,7 @@
     </section>
     <p class="last-checked">Last checked <time datetime="{{ checked }}">{{ checked | prettyDate }}</time></p>
   </header>
+  {% include "partials/affiliate-notice.njk" %}
 
   {% if steps.length %}
   <section class="howto" aria-labelledby="howto-h">

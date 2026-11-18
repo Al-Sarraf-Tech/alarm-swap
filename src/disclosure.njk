@@ -1,23 +1,15 @@
 ---
 layout: layouts/base.njk
-title: "Affiliate disclosure"
-description: "AlarmSwap has no affiliate links today. This page says how a where-to-buy list would work if that switch is turned on."
+title: "Disclosure"
+description: "The earlier AlarmSwap disclosure address now points to the affiliate disclosure page."
 permalink: /disclosure/
+robots: noindex, follow
+pagefindIgnore: true
+eleventyExcludeFromCollections: true
 crumbs:
   - name: Home
     url: "/"
   - name: Disclosure
 ---
-<h1>Affiliate disclosure</h1>
-<p class="lede"><strong>Today: this site contains no affiliate links, sponsored placements or ads.</strong> The site-wide switch <code>affiliates_enabled</code> is off, so model pages do not show a where-to-buy list.</p>
-<p>A model file can hold an optional <code>where_to_buy</code> list (a store name and an https link). While the switch is off, that list is not rendered and does not appear in the HTML.</p>
-<p>If the switch is turned on later, a model page that has <code>where_to_buy</code> links will show them with this treatment:</p>
-<ul>
-  <li>A visible line next to the links says some of them are affiliate links and points back to this page.</li>
-  <li>Each link is marked <code>rel="sponsored nofollow noopener"</code>.</li>
-  <li>This page stays the explanation of how the site may earn a commission, at no extra cost to you.</li>
-  <li>Which models we cover, and what we say about them, still comes only from the makers, NFPA, USFA and CPSC. A store link cannot change a fact.</li>
-  <li>Numbered source citations are never affiliate links, and they never use <code>rel="sponsored"</code>.</li>
-</ul>
-<p>There are no star ratings and no review counts on this site.</p>
-<p>Questions? Open an issue on <a href="{{ site.repo }}/issues">GitHub</a>.</p>
+<h1>Disclosure</h1>
+<p>The affiliate disclosure is on its own page: <a href="/affiliate-disclosure/">Affiliate disclosure</a>.</p>

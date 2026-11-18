@@ -55,4 +55,4 @@ Put it on the internet without opening the port:
 
 Map a different host port with `docker compose up -d` after changing `8080:8080` in `docker-compose.yml` (host:container). The process inside the container keeps listening on 8080.
 
-Affiliate store links stay off until `affiliates_enabled` in `src/_data/site.json` is `true`. See `NIGHTLY.md` for the `where_to_buy` field.
+Affiliate store links stay off until `affiliates_enabled` in `src/_data/site.json` is `true`. The public disclosure is `/affiliate-disclosure/`. See `NIGHTLY.md` for the `where_to_buy` field.

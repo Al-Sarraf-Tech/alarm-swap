@@ -67,7 +67,7 @@ where_to_buy:
     retailer: Retailer
 ```
 
-When Jamal sets `affiliates_enabled` to `true`, the template prints that list with `rel="sponsored nofollow noopener"` and a disclosure line that links to `/disclosure/`. Numbered citations stay `rel="nofollow"` and are never store links. Update the disclosure page in the same commit if the wording needs to match the program.
+When Jamal sets `affiliates_enabled` to `true`, the template prints that list with `rel="sponsored nofollow noopener"` and a disclosure line that links to `/affiliate-disclosure/`. The same flag shows one line on model, guide, and brand pages: "Some links may be affiliate links. See our affiliate disclosure." While the flag is false, that line is not rendered. Numbered citations stay `rel="nofollow"` and are never store links. The public disclosure is `/affiliate-disclosure/`. `/disclosure/` only points there. Update the disclosure page in the same commit if the wording needs to match the program.
 
 ## 6. Upkeep (one extra task per week, not per night)
 Re-open the sources of the oldest page, fix anything that changed, bump its `checked` dates.

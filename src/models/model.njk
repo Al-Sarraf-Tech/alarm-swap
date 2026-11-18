@@ -37,6 +37,7 @@
     </section>
     <p class="last-checked">Last checked <time datetime="{{ checked }}">{{ checked | prettyDate }}</time></p>
   </header>
+  {% include "partials/affiliate-notice.njk" %}
 
   <h2>At a glance</h2>
   <dl class="facts">
@@ -55,7 +56,7 @@
   {% if site.affiliates_enabled and m.where_to_buy and m.where_to_buy.length %}
   <aside class="buy" aria-labelledby="buy-h">
     <h2 id="buy-h">Where to buy</h2>
-    <p class="buy-note">Some links in this list are affiliate links. If you buy through one, AlarmSwap may earn a commission at no extra cost to you. <a href="/disclosure/">Disclosure</a>.</p>
+    <p class="buy-note">Some links in this list are affiliate links. If you buy through one, AlarmSwap may earn a commission at no extra cost to you. <a href="/affiliate-disclosure/">Affiliate disclosure</a>.</p>
     <ul>
     {%- for link in m.where_to_buy %}
       <li><a href="{{ link.url }}" rel="sponsored nofollow noopener">{{ link.label or link.retailer }}</a></li>
