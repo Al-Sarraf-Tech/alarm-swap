@@ -1,0 +1,153 @@
+# Guide pages: prose lives in `intro`/`body` (no numbers or claims that aren't
+# backed by a fact on the same page); every factual statement is a `facts` item
+# with its own source. `npm run check` enforces source_url/source_title/checked.
+slug: firex-i4618ac-replacement
+title: "Which smoke alarm replaces a Firex i4618AC?"
+short_title: "Firex i4618AC replacement"
+description: "Kidde's named upgrade for the discontinued Firex i4618AC, the adapter that keeps the old plug, what changes (ionization to photoelectric, CO signals), and what First Alert's ADF covers."
+published: "2026-11-18"
+intro: >-
+  The Firex i4618AC is discontinued, and Kidde, which now owns the Firex line,
+  names one upgrade for it on the old product page. Below is what Kidde and
+  First Alert actually print about that swap: the named replacement, the
+  adapter that lets the old ceiling plug stay, what the new alarm does
+  differently, and what to check when other old alarms share the same wire.
+  Every line comes from a maker or NFPA page opened on the date shown. This
+  page is not wiring advice.
+related_guides:
+  - old-smoke-alarm-plug-fit
+  - mix-brands-interconnected-alarms
+  - smoke-alarm-date-and-expiry
+  - kidde-20sa10-vs-20sar-vs-30cua10
+sections:
+  - heading: "What replaces a Firex i4618AC?"
+    body: >-
+      Kidde's own pages point to one alarm and one adapter.
+    facts:
+      - id: discontinued
+        value: "Kidde's Firex i4618AC product page marks the alarm as discontinued and describes it as a 120 V hardwired ionization smoke alarm with a 9 V backup battery."
+        source_url: https://www.kidde.com/products/smoke-alarms/firex-hardwired-smoke-alarm
+        source_title: "Kidde — Firex Hardwired Smoke Alarm i4618AC (product page)"
+        checked: "2026-11-18"
+      - id: named-upgrade
+        value: "The same page offers an upgrade to Kidde's Smoke Alarm, Hardwired with AA Backup Battery, which is the DETECT 20SAR."
+        source_url: https://www.kidde.com/products/smoke-alarms/firex-hardwired-smoke-alarm
+        source_title: "Kidde — Firex Hardwired Smoke Alarm i4618AC (product page)"
+        checked: "2026-11-18"
+      - id: adapter-names-i4618
+        value: "Kidde's 20-9003 wiring adapter guide names the i4618, i4618A and i4618AC among the older Kidde harnesses it lets a new-style Kidde alarm plug into without rewiring."
+        source_url: https://brand.kidde.com/m/275e008037c43807/original/Product_UG_20-9003.pdf
+        source_title: "Kidde — 20-9003 Wiring Adapter User Guide (PDF)"
+        checked: "2026-11-18"
+      - id: adapter-mismatch
+        value: "The adapter guide warns that if the harness wired into the ceiling does not match one of the three it pictures, the adapter will not work and the harness that comes with the new Kidde alarm has to be wired in instead."
+        source_url: https://brand.kidde.com/m/275e008037c43807/original/Product_UG_20-9003.pdf
+        source_title: "Kidde — 20-9003 Wiring Adapter User Guide (PDF)"
+        checked: "2026-11-18"
+      - id: nfpa-electrician
+        value: "NFPA says only qualified electricians should install hardwired smoke alarms."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-18"
+  - heading: "What changes when you move from the i4618AC to the 20SAR?"
+    body: >-
+      The named upgrade is not a like-for-like copy of the old alarm.
+    facts:
+      - id: sar-backup
+        value: "Kidde's 20SAR page describes it as hardwired with two replaceable AA batteries as backup, and says to change them every 6 months or when the low-battery chirp starts. The i4618AC used a single 9 V battery."
+        source_url: https://www.kidde.com/products/smoke-alarms/smoke-alarm-hardwired-with-aa-backup-battery
+        source_title: "Kidde — Smoke Alarm, Hardwired with AA Backup Battery 20SAR (product page)"
+        checked: "2026-11-18"
+      - id: sar-photo
+        value: "Kidde's DETECT user guide, which covers the 20SAR, lists its smoke sensor as photoelectric. The i4618AC is ionization, so the sensing type changes with the swap."
+        source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+        source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide (PDF)"
+        checked: "2026-11-18"
+      - id: nfpa-types
+        value: "NFPA says ionization alarms respond more to flaming fires and photoelectric alarms more to smoldering fires, and that photoelectric alarms are the better type near kitchens and bathrooms to cut nuisance alarms."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-18"
+      - id: other-detect
+        value: "The same DETECT user guide lists sibling models on 120 V AC: the 20SA10 (smoke, 10-year sealed backup battery), the 30CUAR (smoke + CO, AA backup) and the 30CUA10 (smoke + CO, 10-year sealed backup). Kidde's i4618AC page names only the 20SAR as the upgrade."
+        source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+        source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide (PDF)"
+        checked: "2026-11-18"
+      - id: firex-branded-detect
+        value: "The DETECT guide also has a table of Firex-branded models (for example SMACFEX and SMAC10YFEX smoke alarms, and CUACFEX combos). It does not say where those are sold, and this run did not find a Kidde product page for them."
+        source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+        source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide (PDF)"
+        checked: "2026-11-18"
+  - heading: "Can I replace one i4618AC and keep the other old alarms on the wire?"
+    body: >-
+      Many homes replace one alarm at a time. These are the lines that matter
+      when an i4618AC stays on the loop, or when older Firex units are on it.
+    facts:
+      - id: detect-interconnect-i4618
+        value: "Kidde's DETECT guide lists the i4618A and i4618AC as models that pass on a remote smoke alarm but not a remote CO alarm. So an old i4618AC left on a loop with a new smoke + CO alarm would not sound for CO."
+        source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+        source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide (PDF)"
+        checked: "2026-11-18"
+      - id: kidde-tested-list
+        value: "Kidde's interconnect support page lists the Firex i4618 among the models tested as interconnect-compatible with Kidde alarms, with or without a Kidde harness adapter."
+        source_url: https://www.kidde.com/support/smoke-alarms/kidde-interconnectivity
+        source_title: "Kidde — What Other Products Will Kidde Alarms Interconnect With?"
+        checked: "2026-11-18"
+      - id: pre-2009-firex
+        value: "Kidde's Firex support page says that for hardwired Firex alarms made before 2009, no current model fits the same harness or mounting bracket, that the bracket has to change, that certain Firex models can use the KA-F2 adapter instead of rewiring, and that changing one of these older alarms means replacing every device on the interconnect line."
+        source_url: https://www.kidde.com/support/smoke-alarms/firex-interconnectivity
+        source_title: "Kidde — What Products Will Firex Alarms Interconnect With?"
+        checked: "2026-11-18"
+      - id: pre-2009-note
+        value: "That page does not list which Firex models the KA-F2 fits, and it does not say whether a given i4618AC counts as one of the pre-2009 alarms. Check the date printed on your alarm, then the adapter's own guide."
+        source_url: https://www.kidde.com/support/smoke-alarms/firex-interconnectivity
+        source_title: "Kidde — What Products Will Firex Alarms Interconnect With?"
+        checked: "2026-11-18"
+      - id: firex-replace-advice
+        value: "Kidde says it bought the maker of Firex alarms in 2009, that the former maker no longer makes or supports them, and that owners should replace them with a current Kidde model."
+        source_url: https://www.kidde.com/support/smoke-alarms/firex-interconnectivity
+        source_title: "Kidde — What Products Will Firex Alarms Interconnect With?"
+        checked: "2026-11-18"
+      - id: loop-limit
+        value: "The 20-9003 guide says the interconnect system should not exceed NFPA's limit of 12 smoke alarms."
+        source_url: https://brand.kidde.com/m/275e008037c43807/original/Product_UG_20-9003.pdf
+        source_title: "Kidde — 20-9003 Wiring Adapter User Guide (PDF)"
+        checked: "2026-11-18"
+      - id: ten-years
+        value: "NFPA says every smoke alarm must be replaced 10 years after its manufacturing date, so an i4618AC past that age is due regardless of the plug question."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-18"
+  - heading: "Can I switch to a First Alert alarm instead?"
+    body: >-
+      First Alert's ADF adapter is the part that joins an old Firex plug to a
+      First Alert / BRK alarm, but its guide is narrow.
+    rows:
+      - brand: First Alert / BRK ADF
+        facts:
+          - id: adf-4618
+            label: Firex models named
+            value: "The ADF guide names the Firex 4618 (model FADC) but not the i4618 or i4618AC"
+            source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PlupKAAR
+            source_title: "First Alert / BRK — Installation of the ADF Adapter Plug (PDF)"
+            checked: "2026-11-18"
+          - id: adf-date
+            label: Age limit
+            value: "It limits the listed Firex models to ones made on or before January 1, 2004"
+            source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PlupKAAR
+            source_title: "First Alert / BRK — Installation of the ADF Adapter Plug (PDF)"
+            checked: "2026-11-18"
+          - id: adf-limits
+            label: Loop and CO limits
+            value: "A maximum of 12 interconnected units (the guide makes an exception for the G-6), and the plug cannot connect Firex CO alarms"
+            source_url: https://support.firstalert.com/sfc/servlet.shepherd/document/download/0694x00000PlupKAAR
+            source_title: "First Alert / BRK — Installation of the ADF Adapter Plug (PDF)"
+            checked: "2026-11-18"
+        models: [first-alert-adf]
+  - heading: "Has the i4618AC been recalled?"
+    facts:
+      - id: recalls
+        value: "Search CPSC's recall list for your exact model before reusing or reselling an alarm. CPSC's site returned an error to this run, so this page states no recall."
+        source_url: https://www.cpsc.gov/Recalls
+        source_title: "CPSC — Recalls & Product Safety Warnings"
+        checked: "2026-11-18"

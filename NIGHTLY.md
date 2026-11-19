@@ -96,7 +96,7 @@ disagree, say so and send the reader to the model manual (the chirping guide doe
 - [x] Guide: **Kidde 20SA10 vs 20SAR vs 30CUA10: what differs?** (done 2026-11-16, /guides/kidde-20sa10-vs-20sar-vs-30cua10/; three data sheets + DETECT user guide re-read. CPSC still 403, no recall line.) Side-by-side from the three model pages' maker sources. No ranking, no "best".
 - [x] Guide: **Can a hardwired alarm be replaced with a battery-only or wireless one?** (done 2026-11-17, /guides/replace-hardwired-smoke-alarm-with-battery-or-wireless/; NFPA smoke-alarm FAQ + installing page and USFA smoke-alarms page only. Neither says yes/no for a given home, so the page says so and sends readers to the local fire marshal. No code text opened, none cited. CPSC still 403.) NFPA and USFA only; say that local code and the
   inspector decide, and that interconnect is what hardwired adds. Do not cite code sections the run did not open.
-- [ ] Guide: **Which smoke alarm replaces a Firex i4618AC?** (discontinued; the model page already has the maker's named replacement. Add the
+- [x] Guide: **Which smoke alarm replaces a Firex i4618AC?** (done 2026-11-18, /guides/firex-i4618ac-replacement/; i4618AC page, 20-9003 guide, DETECT user guide, both Kidde interconnect pages, ADF PDF and NFPA re-read. New facts: i4618A/AC pass remote smoke but not remote CO on a DETECT loop; Kidde's pre-2009 Firex note (KA-F2, replace every device on the line). CPSC still 403, no recall line.) (discontinued; the model page already has the maker's named replacement. Add the
   ADF adapter fact once the ADF page exists.)
 - [ ] First Alert SMI105-AC (below, moved up: it is the 10-year-battery sibling people compare)
 

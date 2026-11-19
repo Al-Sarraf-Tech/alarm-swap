@@ -42,6 +42,7 @@ const pages = {
   "kidde-p4010acsco": ["kidde-30cua10"],
   "kidde-20sa10-vs-20sar-vs-30cua10": ["kidde-20sa10", "kidde-20sar", "kidde-30cua10"],
   "old-smoke-alarm-plug-fit": ["kidde-20-9003", "kidde-ka-b3", "first-alert-adk-12", "first-alert-adf"],
+  "firex-i4618ac-replacement": ["kidde-20sar", "kidde-20-9003", "first-alert-adf"],
   "mix-brands-interconnected-alarms": ["kidde-20-9003", "kidde-ka-b3"],
 };
 
