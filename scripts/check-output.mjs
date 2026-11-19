@@ -20,7 +20,7 @@ for (const name of fs.readdirSync(path.join(ROOT, "src/_data/models")).filter((n
   const doc = yaml.load(fs.readFileSync(path.join(ROOT, "src/_data/models", name), "utf8"), { schema: yaml.CORE_SCHEMA });
   if (doc?.slug) catalogModels[doc.slug] = doc;
 }
-const IMPACT_META = "<meta name='impact-site-verification' value='f7c5a118-9b24-47ab-9555-7d703204ec87'>";
+const IMPACT_META = "<meta name='impact-site-verification' value='1f7badde-a1f9-4e59-9f1c-648c98128d43'>";
 
 function hostOf(url) {
   try { return new URL(url, "https://smokealarmswap.com").hostname.toLowerCase(); }
