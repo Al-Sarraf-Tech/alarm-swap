@@ -20,7 +20,7 @@ src/brands/               brand hubs (Kidde, Firex, First Alert/BRK) from the sa
 src/_includes/            base layout, citation + sources partials
 src/llms.njk              /llms.txt and /llms-full.txt for AI search
 scripts/check-sources.mjs build gate: every fact needs source_url, source_title, checked (allowed hosts only)
-scripts/check-output.mjs  post-build gate: internal links, search index, structured data, no affiliate links
+scripts/check-output.mjs  post-build gate: internal links, search index, structured data, Amazon link shape
 templates/                blank model/guide files for new pages
 Dockerfile                multi-stage static image (GitHub Pages stays the live host)
 NIGHTLY.md                how a nightly run adds one page
@@ -55,4 +55,4 @@ Put it on the internet without opening the port:
 
 Map a different host port with `docker compose up -d` after changing `8080:8080` in `docker-compose.yml` (host:container). The process inside the container keeps listening on 8080.
 
-Affiliate store links stay off until `affiliates_enabled` in `src/_data/site.json` is `true`. The public disclosure is `/affiliate-disclosure/`. See `NIGHTLY.md` for the `where_to_buy` field.
+Amazon Associate links are on. The tracking id is `amazon_tag` in `src/_data/site.json`. Which model gets a link, and any verified ASIN, is in `src/lib/amazon.js`. The public disclosure is `/affiliate-disclosure/`. See `NIGHTLY.md`.

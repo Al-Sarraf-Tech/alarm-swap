@@ -1,9 +1,11 @@
 #!/usr/bin/env node
-// Post-build gate: internal links resolve, search index exists, no affiliate links slipped in,
+// Post-build gate: internal links resolve, search index exists, Amazon links match the offer list,
 // and JSON-LD parses with the fields each page type requires.
 import fs from "node:fs";
 import path from "node:path";
+import * as yaml from "js-yaml";
 import { checkStructuredData } from "./check-schema.mjs";
+import { amazonHref, offersFor } from "../src/lib/amazon.js";
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
 const SITE = path.join(ROOT, "_site");
@@ -13,6 +15,12 @@ const AFF = /([?&](tag|aff|affid|aff_id|affiliate|irclickid|clickid|ref_)=)|amzn
 const NON_AFFILIATE_HOSTS = new Set(["static.cloudflareinsights.com"]);
 const site = JSON.parse(fs.readFileSync(path.join(ROOT, "src/_data/site.json"), "utf8"));
 const affiliatesEnabled = site.affiliates_enabled === true;
+const catalogModels = {};
+for (const name of fs.readdirSync(path.join(ROOT, "src/_data/models")).filter((n) => n.endsWith(".yaml"))) {
+  const doc = yaml.load(fs.readFileSync(path.join(ROOT, "src/_data/models", name), "utf8"), { schema: yaml.CORE_SCHEMA });
+  if (doc?.slug) catalogModels[doc.slug] = doc;
+}
+const IMPACT_META = "<meta name='impact-site-verification' value='f7c5a118-9b24-47ab-9555-7d703204ec87'>";
 
 function hostOf(url) {
   try { return new URL(url, "https://smokealarmswap.com").hostname.toLowerCase(); }
@@ -41,6 +49,55 @@ for (const f of files) {
       errors.push(`${rel}: affiliate-looking link ${url}`);
     }
     if (!affiliatesEnabled && sponsored) errors.push(`${rel}: sponsored link rendered while affiliates_enabled is false: ${url}`);
+  }
+  if (/m\.media-amazon\.com|images-na\.ssl-images-amazon|amzn\.to/i.test(html)) {
+    errors.push(`${rel}: Amazon image host or shortened affiliate link`);
+  }
+  const relPosix = rel.split(path.sep).join("/");
+  const pageMatch = relPosix.match(/^(?:models|guides)\/([^/]+)\/index\.html$/);
+  const expectedUrls = affiliatesEnabled && pageMatch ? offersFor(pageMatch[1], catalogModels).map((offer) => amazonHref(offer, site.amazon_tag)) : [];
+  const seenAmazon = [];
+  for (const link of html.matchAll(/<a\b[^>]*\shref="([^"]+)"[^>]*>/g)) {
+    const raw = link[1].replace(/&amp;/g, "&").replace(/&#38;/g, "&");
+    if (/amazon\.com|amzn\.to/i.test(raw)) seenAmazon.push({ raw, tag: link[0] });
+  }
+  if (!affiliatesEnabled && seenAmazon.length) errors.push(`${rel}: Amazon link rendered while affiliates_enabled is false`);
+  if (affiliatesEnabled) {
+    if (seenAmazon.length !== expectedUrls.length) {
+      errors.push(`${rel}: expected ${expectedUrls.length} Amazon links, found ${seenAmazon.length}`);
+    }
+    const expectedCounts = new Map();
+    for (const url of expectedUrls) expectedCounts.set(url, (expectedCounts.get(url) || 0) + 1);
+    for (const [url, n] of expectedCounts) {
+      const href = url.replace(/&/g, "&amp;");
+      const anchor = `<a href="${href}" rel="sponsored nofollow noopener" target="_blank">Check price on Amazon</a>`;
+      const found = html.split(anchor).length - 1;
+      if (found !== n) errors.push(`${rel}: Amazon link for ${url} appeared ${found} times, expected ${n}`);
+      let parsed = null;
+      try { parsed = new URL(url); } catch { /* recorded below */ }
+      if (!parsed || parsed.protocol !== "https:" || parsed.hostname !== "www.amazon.com") {
+        errors.push(`${rel}: Amazon link is not a direct https://www.amazon.com URL: ${url}`);
+      } else if (parsed.searchParams.get("tag") !== site.amazon_tag) {
+        errors.push(`${rel}: Amazon link tag is not ${site.amazon_tag}: ${url}`);
+      } else {
+        const dp = /^\/dp\/([A-Z0-9]{10})$/.test(parsed.pathname);
+        const search = parsed.pathname === "/s" && parsed.searchParams.get("k");
+        if (!dp && !search) errors.push(`${rel}: Amazon link is not a /dp/ ASIN or a search URL: ${url}`);
+        const allowed = new Set(dp ? ["tag"] : ["k", "tag"]);
+        for (const key of parsed.searchParams.keys()) {
+          if (!allowed.has(key)) errors.push(`${rel}: unexpected Amazon query parameter ${key} on ${url}`);
+        }
+      }
+    }
+    for (const found of seenAmazon) {
+      if (!expectedUrls.includes(found.raw)) errors.push(`${rel}: unexpected Amazon link ${found.raw}`);
+      if (!/\srel="sponsored nofollow noopener"/.test(found.tag) || !/\starget="_blank"/.test(found.tag)) {
+        errors.push(`${rel}: Amazon link missing rel="sponsored nofollow noopener" or target="_blank": ${found.raw}`);
+      }
+    }
+    if (expectedUrls.length && !html.includes("As an Amazon Associate I earn from qualifying purchases.")) {
+      errors.push(`${rel}: Amazon links without the associate disclosure sentence`);
+    }
   }
   for (const m of html.matchAll(/\s(?:href|src)="([^"]+)"/g)) {
     const url = m[1];
@@ -157,7 +214,7 @@ for (const sentence of [
 if (!locDate(sitemap, "/affiliate-disclosure/")) errors.push("sitemap.xml missing /affiliate-disclosure/");
 const noticeSrc = fs.readFileSync(path.join(ROOT, "src/_includes/partials/affiliate-notice.njk"), "utf8");
 if (!noticeSrc.includes("site.affiliates_enabled")) errors.push("affiliate notice is not wired to affiliates_enabled");
-if (!noticeSrc.includes("Some links may be affiliate links. <a href=\"/affiliate-disclosure/\">See our affiliate disclosure.</a>")) {
+if (!noticeSrc.includes("<a href=\"/affiliate-disclosure/\">As an Amazon Associate I earn from qualifying purchases.</a>")) {
   errors.push("affiliate notice text does not match the required one-line disclosure");
 }
 for (const tpl of ["src/models/model.njk", "src/guides/guide.njk", "src/brands/brand.njk"]) {
@@ -177,8 +234,14 @@ const llms = fs.existsSync(path.join(SITE, "llms.txt")) ? fs.readFileSync(path.j
 const llmsFull = fs.existsSync(path.join(SITE, "llms-full.txt")) ? fs.readFileSync(path.join(SITE, "llms-full.txt"), "utf8") : "";
 if (!llms.includes(`${site.url}/models/kidde-i12060/`)) errors.push("llms.txt is missing a model URL");
 if (!llmsFull.includes("https://www.nfpa.org/") && !llmsFull.includes("https://www.kidde.com/")) errors.push("llms-full.txt is missing source URLs");
+for (const [name, text] of [["llms.txt", llms], ["llms-full.txt", llmsFull]]) {
+  if (/amazon\.com|amzn\.to|\?tag=/i.test(text)) errors.push(`${name} must not contain an Amazon or affiliate link`);
+}
+const homeHead = home.split("</head>")[0] || "";
+if (!homeHead.includes(IMPACT_META)) errors.push("homepage head is missing the Impact site verification meta");
 const searchJs = fs.existsSync(path.join(SITE, "assets/search.js")) ? fs.readFileSync(path.join(SITE, "assets/search.js"), "utf8") : "";
 if (!searchJs.includes('params.get("q")')) errors.push("search.js does not read the ?q= SearchAction query");
 
 if (errors.length) { console.error(`✗ Output check failed:\n  - ${errors.join("\n  - ")}`); process.exit(1); }
-console.log(`✓ Output check passed: ${files.length} HTML pages, internal links OK, search index present, no affiliate links, structured data OK.`);
+const affiliateNote = affiliatesEnabled ? "Amazon links checked" : "no affiliate links";
+console.log(`✓ Output check passed: ${files.length} HTML pages, internal links OK, search index present, ${affiliateNote}, structured data OK.`);

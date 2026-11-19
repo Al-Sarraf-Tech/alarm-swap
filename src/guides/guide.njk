@@ -19,6 +19,7 @@
 {%- set sources = g | guideFacts | sourcesFor -%}
 {%- set checked = g | latestChecked -%}
 {%- set faqs = g | guideFaqs -%}
+{%- set offers = g.slug | pageAmazonOffers(models) -%}
 {%- set steps = g | howToSteps -%}
 <article class="guide">
   <header>
@@ -34,7 +35,7 @@
     </section>
     <p class="last-checked">Last checked <time datetime="{{ checked }}">{{ checked | prettyDate }}</time></p>
   </header>
-  {% include "partials/affiliate-notice.njk" %}
+  {% if not offers.length %}{% include "partials/affiliate-notice.njk" %}{% endif %}
 
   {% if steps.length %}
   <section class="howto" aria-labelledby="howto-h">
@@ -78,6 +79,7 @@
   </section>
   {% endif %}
   {%- endfor %}
+  {% include "partials/amazon-offers.njk" %}
   {% if g.related_guides and g.related_guides.length %}
   <h2>Related guides</h2>
   <ul class="cards">

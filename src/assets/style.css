@@ -79,6 +79,10 @@ a:focus-visible,summary:focus-visible{outline:2px solid var(--link);outline-offs
 .howto ol{padding-left:1.2rem}
 .howto li{margin:.55rem 0}
 .buy{border:1px solid var(--line);border-radius:var(--radius);padding:.9rem 1rem;margin:1.5rem 0}
+.buy h2{margin:0 0 .4rem;font-size:1.15rem}
+.buy ul{margin:.2rem 0 0;padding-left:1.2rem}
+.buy li{margin:.35rem 0}
 .buy-note{color:var(--muted);font-size:.92rem}
 .affiliate-notice{color:var(--muted);font-size:.92rem;margin:.8rem 0 0}
+.buy .affiliate-notice{margin:0 0 .6rem}
 html{color-scheme:light dark}

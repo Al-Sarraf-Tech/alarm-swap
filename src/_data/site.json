@@ -4,5 +4,6 @@
   "url": "https://smokealarmswap.com",
   "description": "Model-by-model answers for hardwired smoke and CO alarms: how old it is, when it expires, what replaces it, and which adapter fits. Every fact links to the maker or to NFPA, USFA or CPSC.",
   "repo": "https://github.com/Al-Sarraf-Tech/alarm-swap",
-  "affiliates_enabled": false
+  "affiliates_enabled": true,
+  "amazon_tag": "alarmswap-20"
 }

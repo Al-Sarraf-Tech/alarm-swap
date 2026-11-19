@@ -76,6 +76,7 @@ function walk(file, node, where, ids) {
           if (!link.label && !link.retailer) err(file, lw, "where_to_buy needs a label");
           if (!link.url) err(file, lw, "where_to_buy needs a url");
           else {
+            if (AFFILIATE_HINTS.test(String(link.url))) err(file, lw, "where_to_buy must not hardcode an affiliate tag; Amazon links use site.json amazon_tag");
             try {
               const u = new URL(link.url);
               if (u.protocol !== "https:") err(file, lw, "where_to_buy url must be https");
@@ -92,7 +93,7 @@ function walk(file, node, where, ids) {
       }
     }
   } else if (typeof node === "string" && AFFILIATE_HINTS.test(node)) {
-    err(file, where, "looks like an affiliate link; affiliate links are not allowed yet");
+    err(file, where, "looks like an affiliate link; do not hardcode a tag in fact data");
   }
 }
 

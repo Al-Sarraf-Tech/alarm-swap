@@ -1,0 +1,11 @@
+{%- if site.affiliates_enabled and offers and offers.length -%}
+<aside class="buy" aria-labelledby="buy-h">
+  <h2 id="buy-h">Where to buy</h2>
+  {% include "partials/affiliate-notice.njk" %}
+  <ul>
+  {%- for offer in offers %}
+    <li>{{ offer.brand }} {{ offer.model }}: <a href="{{ offer | amazonHref(site.amazon_tag) }}" rel="sponsored nofollow noopener" target="_blank">Check price on Amazon</a></li>
+  {%- endfor %}
+  </ul>
+</aside>
+{%- endif -%}

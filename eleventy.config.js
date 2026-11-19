@@ -18,6 +18,7 @@ import {
   prettyDate,
 } from "./src/lib/schema.js";
 import { writeOgImages } from "./src/lib/og.js";
+import { amazonHref, offersFor } from "./src/lib/amazon.js";
 
 const ROOT = path.dirname(new URL(import.meta.url).pathname);
 const cssHash = crypto.createHash("sha256").update(fs.readFileSync(path.join(ROOT, "src/assets/style.css"))).digest("hex").slice(0, 8);
@@ -95,6 +96,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("pageSchema", pageSchema);
   eleventyConfig.addFilter("jsonld", jsonld);
   eleventyConfig.addFilter("absUrl", absUrl);
+  eleventyConfig.addFilter("pageAmazonOffers", (slug, models) => offersFor(slug, models));
+  eleventyConfig.addFilter("amazonHref", (offer, tag) => amazonHref(offer, tag));
   function contentLastmod(models, guides) {
     let max = "";
     for (const node of [...Object.values(models || {}), ...Object.values(guides || {})]) {

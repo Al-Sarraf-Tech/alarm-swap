@@ -28,7 +28,7 @@ jobs:
           cache: npm
       - run: npm ci
       # Fails the job if any fact lacks source_url/source_title/checked,
-      # if an internal link is broken, or if an affiliate link appears.
+      # if an internal link is broken, or if an Amazon link is not the allowed shape.
       - run: npm run build
         env:
           PATH_PREFIX: "/"

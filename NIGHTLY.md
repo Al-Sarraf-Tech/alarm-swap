@@ -11,7 +11,7 @@ One run = **one new page**, fully sourced, build green, one commit. Nothing else
   numbers and figures are fine.
 - If a source doesn't say it, the page doesn't say it. Write "not stated by the maker" or "the page did
   not name a replacement when we checked" instead of guessing.
-- **No affiliate links** until Jamal turns `affiliates_enabled` on. See "Affiliate links" below. Do not flip that flag in a nightly run.
+- **Amazon Associate links are on.** Do not set `affiliates_enabled` back to false, do not add another retailer, and do not invent an ASIN. See "Affiliate links" below.
 - Do not push, open PRs, or change GitHub settings unless the run was explicitly told to.
 
 ## 1. Pick the page
@@ -54,20 +54,15 @@ Once the repo exists on GitHub and pushing is approved, pushing `main` runs
 `.github/workflows/pages.yml`, which repeats the same build and deploys to
 https://smokealarmswap.com/.
 
-## Affiliate links (off until Jamal turns them on)
+## Affiliate links (Amazon Associates, on)
 
-Leave `affiliates_enabled` set to `false` in `src/_data/site.json`. While it is false, a model page does not render store links, and the output check fails if one shows up.
+`affiliates_enabled` is `true` in `src/_data/site.json`. The only tracking id is `amazon_tag` in that same file (`alarmswap-20`). Do not hardcode `?tag=` in YAML, and do not turn the flag off in a nightly run.
 
-To stage a program on one model, add this to that model's YAML. These URLs are not fact sources. Do not put a store URL in `source_url`.
+A model or guide page lists the products it already names in `pages` inside `src/lib/amazon.js`. The template prints one link per product: `rel="sponsored nofollow noopener"`, `target="_blank"`, straight to `https://www.amazon.com/...`. The line next to those links is "As an Amazon Associate I earn from qualifying purchases." and it links to `/affiliate-disclosure/`. Pages with no listed product still show that line on model, guide, and brand pages. Numbered citations stay `rel="nofollow"` and are never store links.
 
-```yaml
-where_to_buy:
-  - label: "Retailer — product name"
-    url: https://example.com/product
-    retailer: Retailer
-```
+Use `https://www.amazon.com/dp/<ASIN>?tag=...` only when `asins` in that file already has the ASIN, or you opened the Amazon page and its model number and a count of 1 match. Otherwise leave the ASIN off and the template builds `https://www.amazon.com/s?k=<Brand+Model>&tag=...`. Never invent an ASIN. Do not show an Amazon price, star rating, or Amazon product image. Do not put these links in `llms.txt`, `llms-full.txt`, email, or a PDF. Walmart, Ace, Home Depot, and X-Sense stay unlinked.
 
-When Jamal sets `affiliates_enabled` to `true`, the template prints that list with `rel="sponsored nofollow noopener"` and a disclosure line that links to `/affiliate-disclosure/`. The same flag shows one line on model, guide, and brand pages: "Some links may be affiliate links. See our affiliate disclosure." While the flag is false, that line is not rendered. Numbered citations stay `rel="nofollow"` and are never store links. The public disclosure is `/affiliate-disclosure/`. `/disclosure/` only points there. Update the disclosure page in the same commit if the wording needs to match the program.
+`/affiliate-disclosure/` is the public disclosure. `/disclosure/` only points there.
 
 ## 6. Upkeep (one extra task per week, not per night)
 Re-open the sources of the oldest page, fix anything that changed, bump its `checked` dates.

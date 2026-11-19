@@ -26,6 +26,7 @@
 {%- set hub = m.brand | hubFor -%}
 {%- set peers = m | adapterPeers(models) -%}
 {%- set faqs = m | modelFaqs -%}
+{%- set offers = m.slug | pageAmazonOffers(models) -%}
 <article class="model">
   <header>
     <p class="kicker">{% if hub %}<a href="/brands/{{ hub.slug }}/">{{ m.brand }}</a>{% else %}{{ m.brand }}{% endif %} · {{ m.kind }}</p>
@@ -37,7 +38,7 @@
     </section>
     <p class="last-checked">Last checked <time datetime="{{ checked }}">{{ checked | prettyDate }}</time></p>
   </header>
-  {% include "partials/affiliate-notice.njk" %}
+  {% if not offers.length %}{% include "partials/affiliate-notice.njk" %}{% endif %}
 
   <h2>At a glance</h2>
   <dl class="facts">
@@ -53,17 +54,7 @@
   {%- endfor %}
   </dl>
 
-  {% if site.affiliates_enabled and m.where_to_buy and m.where_to_buy.length %}
-  <aside class="buy" aria-labelledby="buy-h">
-    <h2 id="buy-h">Where to buy</h2>
-    <p class="buy-note">Some links in this list are affiliate links. If you buy through one, AlarmSwap may earn a commission at no extra cost to you. <a href="/affiliate-disclosure/">Affiliate disclosure</a>.</p>
-    <ul>
-    {%- for link in m.where_to_buy %}
-      <li><a href="{{ link.url }}" rel="sponsored nofollow noopener">{{ link.label or link.retailer }}</a></li>
-    {%- endfor %}
-    </ul>
-  </aside>
-  {% endif %}
+  {% include "partials/amazon-offers.njk" %}
 
   <aside class="note">
     <p><strong>Related guides.</strong> They use the same kinds of sources as this page. A guide does not override a fact printed above.</p>
