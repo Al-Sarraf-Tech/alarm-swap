@@ -1,0 +1,145 @@
+slug: first-alert-smi105-ac
+brand: First Alert
+model: SMI105-AC
+aliases: []
+kind: Hardwired smoke alarm
+title: "First Alert SMI105-AC: age, expiry and what it replaces"
+description: "First Alert SMI105-AC hardwired ionization smoke alarm with a sealed 10-year lithium backup: what it replaces, its chirps, interconnect list and when to swap it."
+published: "2026-11-19"
+summary: >-
+  The SMI105-AC is First Alert's wired ionization smoke alarm whose backup
+  battery is a lithium cell locked into the alarm, so there is no battery to
+  change. First Alert's specifications say it replaces the 9120LBL, and its
+  manual lists the SMI100-AC, the older BRK 9120 family and other First Alert
+  and BRK models as compatible on the same interconnect wire. When the backup
+  runs low or the alarm reaches end of life, the manual says to replace the
+  whole alarm.
+facts:
+  - id: sensor
+    label: Sensor type
+    value: "Ionization. The product page also lists First Alert's Precision Detection among its features"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-smoke-alarm-with-10-year-battery-backup
+    source_title: "First Alert — Interconnect Hardwire Smoke Alarm with 10-Year Battery Backup SMI105-AC (product page)"
+    checked: "2026-11-19"
+  - id: power
+    label: Power
+    value: "Wired to a 24-hour 120 V AC circuit that a switch, dimmer or GFCI cannot shut off. The manual says an arc-fault (AFCI) breaker is fine"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179724.pdf
+    source_title: "First Alert — SMI105-AC User's Manual (PDF)"
+    checked: "2026-11-19"
+  - id: battery-types
+    label: Backup battery
+    value: "A lithium battery locked in the battery drawer at the factory and meant to last the alarm's life. The product page lists the battery as not replaceable, and the manual says not to replace it"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179724.pdf
+    source_title: "First Alert — SMI105-AC User's Manual (PDF)"
+    checked: "2026-11-19"
+  - id: activation
+    label: Before first use
+    value: "If the alarm has a 'Pull to Activate Battery Back-Up' tab, the manual says to pull it during installation; the backup does not work until the battery is in place"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179724.pdf
+    source_title: "First Alert — SMI105-AC User's Manual (PDF)"
+    checked: "2026-11-19"
+  - id: outage
+    label: During a power cut
+    value: "On backup power the manual says the alarm can sound for at least 4 minutes, and that a weak battery should still give up to 7 days of protection. With no AC and a dead battery it cannot work"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179724.pdf
+    source_title: "First Alert — SMI105-AC User's Manual (PDF)"
+    checked: "2026-11-19"
+  - id: plug
+    label: Wiring plug
+    value: "Ships with a quick-connect power connector, which First Alert's page says is there to make replacing an alarm easier. Neither the page nor the manual says which older alarm plugs it fits"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-smoke-alarm-with-10-year-battery-backup
+    source_title: "First Alert — Interconnect Hardwire Smoke Alarm with 10-Year Battery Backup SMI105-AC (product page)"
+    checked: "2026-11-19"
+  - id: date-location
+    label: Where the date is
+    value: "First Alert says the manufacture date is printed on the back of its alarms"
+    source_url: https://www.firstalert.com/pages/10year
+    source_title: "First Alert — 10-Year Battery Alarms (How to check your alarms)"
+    checked: "2026-11-19"
+  - id: lifespan
+    label: When to replace
+    value: "The manual says both 10 years from the date of purchase (in its general warnings) and 10 years after installation (on its record card), and it sounds an end-of-life signal about 10 years after installation. Writing both dates on the alarm avoids guessing"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179724.pdf
+    source_title: "First Alert — SMI105-AC User's Manual (PDF)"
+    checked: "2026-11-19"
+  - id: low-battery
+    label: Low-battery signal
+    value: "About 5 chirps a minute when the sealed battery gets weak. The manual says the warning should last about 7 days but to replace the alarm right away, because the battery cannot be changed"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179724.pdf
+    source_title: "First Alert — SMI105-AC User's Manual (PDF)"
+    checked: "2026-11-19"
+  - id: end-of-life
+    label: End-of-life signal
+    value: "Five chirps every minute with the green power light flashing 5 times a minute (on battery only, the green light flashes 2 seconds on, 2 off). It can be quieted for up to 2 days at a time, 14 days in total"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179724.pdf
+    source_title: "First Alert — SMI105-AC User's Manual (PDF)"
+    checked: "2026-11-19"
+  - id: malfunction
+    label: Malfunction signal
+    value: "Three chirps a minute with the green light flashing 3 times means the alarm is not working properly and the manual says to replace it"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179724.pdf
+    source_title: "First Alert — SMI105-AC User's Manual (PDF)"
+    checked: "2026-11-19"
+  - id: dirty
+    label: Needs cleaning
+    value: "Two green flashes a minute with a silent horn means the manual wants the alarm cleaned; if the flashing keeps going after cleaning, it says to call First Alert support"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179724.pdf
+    source_title: "First Alert — SMI105-AC User's Manual (PDF)"
+    checked: "2026-11-19"
+  - id: latch
+    label: Which alarm went off
+    value: "After smoke, the alarm that sensed it flashes its red light 2 seconds on, 2 seconds off until cleared, so you can find the starting unit. The manual says this latch needs AC power and lasts only about 15 minutes on battery"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179724.pdf
+    source_title: "First Alert — SMI105-AC User's Manual (PDF)"
+    checked: "2026-11-19"
+  - id: interconnect
+    label: Interconnect limits
+    value: "No more than 18 compatible units on one loop, of which at most 12 can be smoke alarms, all fed by the same fuse or breaker, with under 1,000 feet of interconnect wire in total"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179724.pdf
+    source_title: "First Alert — SMI105-AC User's Manual (PDF)"
+    checked: "2026-11-19"
+  - id: compatible
+    label: What it links with
+    value: "The manual names First Alert models including the SMI100-AC, SMICO100-AC, SMICO105-AC, SM100V-AC and SMCO100V-AC, older BRK smoke alarms such as the 9120, 9120B, SC9120B, 3120B and 7010B, the BRK HD6135FB heat alarm and the RM4 relay module. No Kidde model is on the list"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179724.pdf
+    source_title: "First Alert — SMI105-AC User's Manual (PDF)"
+    checked: "2026-11-19"
+  - id: sound
+    label: Horn loudness
+    value: "85 dB at 10 feet"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-smoke-alarm-with-10-year-battery-backup
+    source_title: "First Alert — Interconnect Hardwire Smoke Alarm with 10-Year Battery Backup SMI105-AC (product page)"
+    checked: "2026-11-19"
+  - id: warranty
+    label: Warranty
+    value: "10-year limited, from the date of purchase, for the original buyer. The manual says the warranty does not cover the included battery"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179724.pdf
+    source_title: "First Alert — SMI105-AC User's Manual (PDF)"
+    checked: "2026-11-19"
+replacement:
+  - id: replaces
+    label: What it replaces
+    value: "First Alert's specifications list the 9120LBL as the model the SMI105-AC replaces. The specifications do not name any other model it replaces"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-smoke-alarm-with-10-year-battery-backup
+    source_title: "First Alert — Interconnect Hardwire Smoke Alarm with 10-Year Battery Backup SMI105-AC (product page)"
+    checked: "2026-11-19"
+  - id: similar
+    label: Similar models First Alert lists
+    value: "The product page lists the Kidde i12010S and Kidde 20SA10 as similar models. The page does not say why, and it is not a statement that they share a plug or interconnect; the SMI105-AC manual's compatible list has no Kidde models"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-smoke-alarm-with-10-year-battery-backup
+    source_title: "First Alert — Interconnect Hardwire Smoke Alarm with 10-Year Battery Backup SMI105-AC (product page)"
+    checked: "2026-11-19"
+  - id: adapters
+    label: Adapter plugs
+    value: "First Alert's ADK and ADF adapter guides could not be opened from this run's network, so this page does not say whether either works with the SMI105-AC"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-smoke-alarm-with-10-year-battery-backup
+    source_title: "First Alert — Interconnect Hardwire Smoke Alarm with 10-Year Battery Backup SMI105-AC (product page)"
+    checked: "2026-11-19"
+  - id: recalls
+    label: Recalls
+    value: "Search CPSC's recall list for your exact model before reusing or reselling an alarm. CPSC's site could not be read from this run's network, so no recall notice was checked for this page"
+    source_url: https://www.cpsc.gov/Recalls
+    source_title: "CPSC — Recalls & Product Safety Warnings"
+    checked: "2026-11-19"
+related: [first-alert-smi100-ac, first-alert-9120b]
