@@ -32,6 +32,7 @@ const pages = {
   "first-alert-smi100-ac": ["first-alert-smi100-ac"],
   "first-alert-smi105-ac": ["first-alert-smi105-ac"],
   "first-alert-sm100v-ac": ["first-alert-sm100v-ac"],
+  "first-alert-smco100v-ac": ["first-alert-smco100v-ac"],
   "kidde-20-9003": ["kidde-20-9003", "kidde-ka-b3", "first-alert-adk-12"],
   "kidde-20sa10": ["kidde-20sa10"],
   "kidde-20sar": ["kidde-20sar"],

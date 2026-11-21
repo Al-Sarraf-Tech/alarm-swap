@@ -1,0 +1,188 @@
+slug: first-alert-smco100v-ac
+brand: First Alert
+model: SMCO100V-AC
+aliases: []
+kind: Hardwired smoke + CO alarm
+title: "First Alert SMCO100V-AC: smoke + CO voice alarm, AA backup, expiry and what it replaces"
+description: "First Alert SMCO100V-AC wired photoelectric smoke and CO alarm with voice alerts: AA backup, chirp codes, CO peak memory, interconnect list and what it replaces."
+published: "2026-11-21"
+summary: >-
+  The SMCO100V-AC is First Alert's wired 2-in-1 alarm: a photoelectric smoke
+  sensor and an electrochemical carbon monoxide sensor in one unit that speaks
+  the danger and the room you programmed. Its backup is two AA batteries you
+  change yourself. First Alert's specifications say it replaces the BRK
+  SC7010BV, and its manual lists the SMI100-AC plus older BRK smoke, heat, CO
+  and combination models as compatible on the same interconnect wire. The
+  manual says to replace it 10 years after installation. When we checked,
+  First Alert's own store listed it as sold out.
+facts:
+  - id: sensor
+    label: Sensor type
+    value: "Electrochemical (carbon monoxide) and photoelectric (smoke). The product page also lists First Alert's Precision Detection among its features"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-2-in-1-smoke-co-alarm-with-battery-backup-voice-alerts
+    source_title: "First Alert — Interconnect Hardwire Combination Smoke and Carbon Monoxide Alarm with Voice Alerts SMCO100V-AC (product page)"
+    checked: "2026-11-21"
+  - id: power
+    label: Power
+    value: "Wired to a 24-hour 120 V AC, 60 Hz pure sine wave circuit that a switch, dimmer or ground fault circuit interrupter cannot turn off; the label rating printed in the manual is 0.07 A. The manual says wiring and installation must be done by a licensed electrician"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179720.pdf
+    source_title: "First Alert — SMCO100V-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-21"
+  - id: battery-types
+    label: Backup battery
+    value: "Two AA batteries in a slide-out drawer that you replace yourself. The manual names Duracell MN1500/LR6 and Energizer E91, and says the drawer resists closing without a battery in it. The product page lists the battery type as AA alkaline and replaceable"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179720.pdf
+    source_title: "First Alert — SMCO100V-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-21"
+  - id: no-battery
+    label: Power cut
+    value: "If AC power fails, the manual says the batteries let the alarm sound for at least 4 minutes, and protection should last at least 7 days even with a weak battery. With AC off and the batteries dead or missing, the alarm cannot work"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179720.pdf
+    source_title: "First Alert — SMCO100V-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-21"
+  - id: voice
+    label: Voice and location
+    value: "You choose one of 11 rooms (for example Basement, Hallway, Kitchen or Master Bedroom) or No Location by holding the test button after the batteries go in. The alarm then says whether it is smoke or carbon monoxide and names that room, and uses the room in its battery and error messages too"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179720.pdf
+    source_title: "First Alert — SMCO100V-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-21"
+  - id: alarm-patterns
+    label: Smoke vs CO horn
+    value: "Smoke is 3 beeps and a pause with the red Power/Smoke light flashing. Carbon monoxide is 4 beeps and a pause with the separate red CO light flashing. The voice message names which one it is"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179720.pdf
+    source_title: "First Alert — SMCO100V-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-21"
+  - id: co-memory
+    label: CO peak memory
+    value: "After a CO alarm, once the home is aired out and the alarm is back to normal, holding the test button makes it say the highest CO level it sensed in ppm. You can then clear that reading or keep it in memory"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179720.pdf
+    source_title: "First Alert — SMCO100V-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-21"
+  - id: silence
+    label: Silence times
+    value: "A 3–5 second press quiets a smoke alarm for up to 15 minutes and a CO alarm for up to 4 minutes; either comes back if the smoke or CO is still there. The manual says not to use the silence button in a real emergency"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179720.pdf
+    source_title: "First Alert — SMCO100V-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-21"
+  - id: plug
+    label: Wiring plug
+    value: "Comes with a hardwire quick-connect plug. The product page says it can replace existing hardwired alarms with no rewiring, but neither the page nor the manual says which older plugs it fits"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-2-in-1-smoke-co-alarm-with-battery-backup-voice-alerts
+    source_title: "First Alert — Interconnect Hardwire Combination Smoke and Carbon Monoxide Alarm with Voice Alerts SMCO100V-AC (product page)"
+    checked: "2026-11-21"
+  - id: date-location
+    label: Where the date is
+    value: "First Alert says to look at the manufacture date on the back of its smoke and CO alarms and replace any that are 10 years old or older"
+    source_url: https://www.firstalert.com/pages/10year
+    source_title: "First Alert — 10-Year Battery Alarms (How to check your alarms)"
+    checked: "2026-11-21"
+  - id: lifespan
+    label: When to replace
+    value: "The manual's record card says to replace the alarm 10 years after installation, and it sounds an end-of-life signal about 10 years after installation as a reminder. The manual gives one replacement interval for the whole unit; it does not give a separate life for the CO sensor"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179720.pdf
+    source_title: "First Alert — SMCO100V-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-21"
+  - id: low-battery
+    label: Low-battery signal
+    value: "A chirp about once a minute, the green light flashing 2 seconds on and 2 off, and the voice saying 'Replace battery in' plus the room every 5 hours. The manual says the warning should last 7 days, and the chirp can be hushed for up to 8 hours while AC power is on"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179720.pdf
+    source_title: "First Alert — SMCO100V-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-21"
+  - id: end-of-life
+    label: End-of-life signal
+    value: "A chirp with five green flashes every minute and the voice saying 'Detector error in' plus the room every 5 hours. The manual says the alarm needs replacing; the chirp can be hushed for about 2 days at a time, but not after 14 days from the first end-of-life signal"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179720.pdf
+    source_title: "First Alert — SMCO100V-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-21"
+  - id: malfunction
+    label: Malfunction signal
+    value: "Three chirps a minute with three green flashes and the same 'Detector error' voice message. The manual says the alarm is not working properly and needs replacing, and to contact First Alert consumer support if it is under warranty"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179720.pdf
+    source_title: "First Alert — SMCO100V-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-21"
+  - id: dirty
+    label: Needs cleaning
+    value: "Two green flashes a minute with a silent horn means the alarm needs cleaning. If the light keeps flashing after cleaning, the manual says to replace the alarm"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179720.pdf
+    source_title: "First Alert — SMCO100V-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-21"
+  - id: latch
+    label: Which alarm went off
+    value: "The unit that sensed alarm levels of smoke or CO keeps flashing its red light (2 seconds on, 2 off) until you clear it, so you can tell which one started an interconnected alarm. The manual says this latch works only on AC power"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179720.pdf
+    source_title: "First Alert — SMCO100V-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-21"
+  - id: interconnect
+    label: Interconnect limits
+    value: "Up to 18 compatible units on one loop, no more than 12 of them smoke alarms, all on the same fuse or breaker, with under 1,000 feet of interconnect wire in total, and only within one single-family home"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179720.pdf
+    source_title: "First Alert — SMCO100V-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-21"
+  - id: compatible
+    label: What it links with
+    value: "The manual lists the First Alert SMI100-AC smoke alarm and SMCO100V-AC; BRK smoke alarms 9120, 9120B, SC9120B, 7010 and 7010B; the BRK HD6135F heat alarm; BRK CO alarms CO5120BN and CO5120PDBN; and the SC7010BV and SC7010B smoke/CO alarms. The SM100V-AC, SMI105-AC and SMICO100-AC are not on this list, and no Kidde model is"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179720.pdf
+    source_title: "First Alert — SMCO100V-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-21"
+  - id: compatible-other-way
+    label: Lists that name it
+    value: "The SM100V-AC manual does list the SMCO100V-AC as compatible, so the two manuals disagree about that pairing. Before mixing them, check the manual of every alarm on the loop or ask First Alert"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10003/M08-179717.pdf
+    source_title: "First Alert — SM100V-AC User's Manual, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-21"
+  - id: interconnect-count-page
+    label: What the product page says
+    value: "The product page says it works with up to 12 other First Alert or BRK alarms and 6 other compatible devices, and points to the user's manual for the list"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-2-in-1-smoke-co-alarm-with-battery-backup-voice-alerts
+    source_title: "First Alert — Interconnect Hardwire Combination Smoke and Carbon Monoxide Alarm with Voice Alerts SMCO100V-AC (product page)"
+    checked: "2026-11-21"
+  - id: sound
+    label: Horn loudness
+    value: "85 dB at 10 feet"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-2-in-1-smoke-co-alarm-with-battery-backup-voice-alerts
+    source_title: "First Alert — Interconnect Hardwire Combination Smoke and Carbon Monoxide Alarm with Voice Alerts SMCO100V-AC (product page)"
+    checked: "2026-11-21"
+  - id: availability
+    label: Maker's store
+    value: "Both listed variants showed as sold out on First Alert's own product page when we checked. The page did not say the model is discontinued"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-2-in-1-smoke-co-alarm-with-battery-backup-voice-alerts
+    source_title: "First Alert — Interconnect Hardwire Combination Smoke and Carbon Monoxide Alarm with Voice Alerts SMCO100V-AC (product page)"
+    checked: "2026-11-21"
+  - id: warranty
+    label: Warranty
+    value: "10-year limited, from the date of first retail purchase, for the original buyer, with proof of purchase. The manual says First Alert makes no warranty on the battery"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179720.pdf
+    source_title: "First Alert — SMCO100V-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-21"
+replacement:
+  - id: replaces
+    label: What it replaces
+    value: "First Alert's specifications list the SC7010BV as the model the SMCO100V-AC replaces, and the manual lists the SC7010BV as compatible on the same loop. The specifications do not name any other replaced model"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-2-in-1-smoke-co-alarm-with-battery-backup-voice-alerts
+    source_title: "First Alert — Interconnect Hardwire Combination Smoke and Carbon Monoxide Alarm with Voice Alerts SMCO100V-AC (product page)"
+    checked: "2026-11-21"
+  - id: similar
+    label: Similar models First Alert lists
+    value: "First Alert's comparison table puts it next to the SMICO105-AC (ionization, sealed 10-year battery) and SMICO100-AC (ionization, 9 V battery); the SMCO100V-AC is the only photoelectric one of the three and the only one with voice alerts. Its specifications also name Kidde KN-COPE-IC and 30CUAR-V as similar models; that is not an interconnect claim, and the manual lists no Kidde model"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-2-in-1-smoke-co-alarm-with-battery-backup-voice-alerts
+    source_title: "First Alert — Interconnect Hardwire Combination Smoke and Carbon Monoxide Alarm with Voice Alerts SMCO100V-AC (product page)"
+    checked: "2026-11-21"
+  - id: what-replaces-it
+    label: If you need one now
+    value: "The page's replacement section showed only a 'You May Also Like' card for the SC5 hardwire smart smoke and CO alarm (SMCO600NV-AC). First Alert did not call that a named replacement, so this page does not either"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-2-in-1-smoke-co-alarm-with-battery-backup-voice-alerts
+    source_title: "First Alert — Interconnect Hardwire Combination Smoke and Carbon Monoxide Alarm with Voice Alerts SMCO100V-AC (product page)"
+    checked: "2026-11-21"
+  - id: adapters
+    label: Adapter plugs
+    value: "Neither the product page nor the manual names an adapter for the SMCO100V-AC, so this page does not say whether First Alert's ADK-12 or ADF works with it"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-179720.pdf
+    source_title: "First Alert — SMCO100V-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-21"
+  - id: recalls
+    label: Recalls
+    value: "Search CPSC's recall list for your exact model before reusing or reselling an alarm. CPSC's site could not be read from this run's network, so no recall notice was checked for this page"
+    source_url: https://www.cpsc.gov/Recalls
+    source_title: "CPSC — Recalls & Product Safety Warnings"
+    checked: "2026-11-21"
+related: [first-alert-sm100v-ac, first-alert-smi100-ac, first-alert-smi105-ac]
