@@ -99,7 +99,8 @@ disagree, say so and send the reader to the model manual (the chirping guide doe
 - [x] Guide: **Which smoke alarm replaces a Firex i4618AC?** (done 2026-11-18, /guides/firex-i4618ac-replacement/; i4618AC page, 20-9003 guide, DETECT user guide, both Kidde interconnect pages, ADF PDF and NFPA re-read. New facts: i4618A/AC pass remote smoke but not remote CO on a DETECT loop; Kidde's pre-2009 Firex note (KA-F2, replace every device on the line). CPSC still 403, no recall line.) (discontinued; the model page already has the maker's named replacement. Add the
   ADF adapter fact once the ADF page exists.)
 - [x] First Alert SMI105-AC (done 2026-11-19, /models/first-alert-smi105-ac/; product page + M08-179724 manual + First Alert 10-year page. Spec lists 9120LBL as replaced model; sealed lithium backup, not replaceable. First Alert ADK/ADF support PDFs would not load, so no adapter claim. CPSC still 403, no recall line.)
-- Next: First Alert SM100V-AC (backlog). Chirping guide can gain an SMI105-AC row in an upkeep run.
+- [x] First Alert SM100V-AC (done 2026-11-20, /models/first-alert-sm100v-ac/; product page + M08-179717 manual + First Alert 10-year page. Spec lists 7010BV as replaced model; 2 x AA replaceable backup; 11 voice locations. Its manual's compatible list omits the SMI105-AC (the SMI105-AC manual lists the SM100V-AC), page says so. No adapter named by the maker. CPSC still 403, no recall line. Amazon search link only, no ASIN.)
+- Next: backlog is empty after this. Suggested next: First Alert SMCO100V-AC (voice smoke + CO sibling named in both SMI105-AC and SM100V-AC compatible lists). Chirping guide can gain SMI105-AC and SM100V-AC rows in an upkeep run.
 
 ## Backlog (in order)
 - [x] Guide: How to find your smoke alarm's date and when it expires, by brand
@@ -120,4 +121,5 @@ disagree, say so and send the reader to the model manual (the chirping guide doe
 - [x] First Alert SMI100-AC — the replacement named in the 9120B specifications. Read the SMI100-AC page for sensor type, power, and interconnect limits.
 - [x] First Alert / BRK ADF adapter — moved to the priority queue (2026-11-12); done 2026-11-15.
 - [x] First Alert SMI105-AC — done 2026-11-19 via the priority queue (/models/first-alert-smi105-ac/).
-- [ ] First Alert SM100V-AC — the photoelectric voice-alert sibling on the SMI100-AC page. Read its product page and manual for backup battery type and interconnect list.
+- [x] First Alert SM100V-AC — done 2026-11-20 (/models/first-alert-sm100v-ac/). The photoelectric voice-alert sibling on the SMI100-AC page. Read its product page and manual for backup battery type and interconnect list.
+- [ ] First Alert SMCO100V-AC — hardwired smoke + CO with voice; listed as compatible in the SMI105-AC and SM100V-AC manuals. Read its product page and manual (CO sensor life, backup battery, interconnect list).

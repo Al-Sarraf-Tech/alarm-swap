@@ -1,0 +1,151 @@
+slug: first-alert-sm100v-ac
+brand: First Alert
+model: SM100V-AC
+aliases: []
+kind: Hardwired smoke alarm
+title: "First Alert SM100V-AC: voice alarm, AA backup, expiry and what it replaces"
+description: "First Alert SM100V-AC hardwired photoelectric smoke alarm with voice and location alerts: AA backup, chirps, interconnect list, what it replaces and when to swap it."
+published: "2026-11-20"
+summary: >-
+  The SM100V-AC is First Alert's wired photoelectric smoke alarm that speaks
+  the room you programmed it for when it alarms or needs attention. Unlike the
+  SMI105-AC, its backup is two ordinary AA batteries that you change yourself.
+  First Alert's specifications say it replaces the BRK 7010BV, and its manual
+  lists the SMI100-AC, older BRK 9120 and 7010 models and several First Alert
+  and BRK CO and combination alarms as compatible on the same interconnect
+  wire. The manual says to replace the alarm 10 years after installation.
+facts:
+  - id: sensor
+    label: Sensor type
+    value: "Photoelectric. The product page also lists First Alert's Precision Detection among its features"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-smoke-alarm-with-battery-backup-voice-alerts
+    source_title: "First Alert — Interconnect Hardwire Smoke Alarm with Battery Backup and Voice Alerts SM100V-AC (product page)"
+    checked: "2026-11-20"
+  - id: power
+    label: Power
+    value: "Wired to an unswitched 120 V AC, 60 Hz supply; the label rating in the manual is 0.07 A. The manual warns that noisy power (big appliances or a dimmer on the same circuit, generator or solar power) can damage the alarm, and that only true sine-wave inverters should be used. It does not mention GFCI or AFCI breakers"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10003/M08-179717.pdf
+    source_title: "First Alert — SM100V-AC User's Manual, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-20"
+  - id: battery-types
+    label: Backup battery
+    value: "Two AA batteries in a slide-out drawer, and you replace them yourself. The manual names Duracell MN1500/LR6 or Energizer E91 as the batteries to use. The product page lists the battery type as AA alkaline and replaceable"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10003/M08-179717.pdf
+    source_title: "First Alert — SM100V-AC User's Manual, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-20"
+  - id: no-battery
+    label: Without batteries
+    value: "The manual's first warning says the alarm cannot operate without working batteries, so taking them out removes your protection even though the alarm is wired"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10003/M08-179717.pdf
+    source_title: "First Alert — SM100V-AC User's Manual, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-20"
+  - id: voice
+    label: Voice and location
+    value: "You pick one of 11 rooms (for example Basement, Hallway, Kitchen or Master Bedroom), or No Location, by holding the test button after the batteries go in. The alarm then says that room in its smoke warning and in its battery and error messages"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10003/M08-179717.pdf
+    source_title: "First Alert — SM100V-AC User's Manual, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-20"
+  - id: plug
+    label: Wiring plug
+    value: "Uses a quick-connect power plug. The product page says the plug lets you replace existing hardwired detectors without rewiring, but neither the page nor the manual says which older alarm plugs it fits"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-smoke-alarm-with-battery-backup-voice-alerts
+    source_title: "First Alert — Interconnect Hardwire Smoke Alarm with Battery Backup and Voice Alerts SM100V-AC (product page)"
+    checked: "2026-11-20"
+  - id: date-location
+    label: Where the date is
+    value: "First Alert says to look at the manufacture date printed on the back of its smoke and CO alarms and replace any that are 10 years old or older"
+    source_url: https://www.firstalert.com/pages/10year
+    source_title: "First Alert — 10-Year Battery Alarms (How to check your alarms)"
+    checked: "2026-11-20"
+  - id: lifespan
+    label: When to replace
+    value: "The manual's record card says to replace the alarm 10 years after installation, and the alarm sounds an end-of-life signal about 10 years after installation as a reminder. The product page says alarms should be replaced at least every 10 years"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10003/M08-179717.pdf
+    source_title: "First Alert — SM100V-AC User's Manual, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-20"
+  - id: low-battery
+    label: Low-battery signal
+    value: "A chirp about once a minute, the green light flashing 2 seconds on and 2 off, and the voice saying 'Replace battery in' plus the room, repeated every 5 hours. The manual says the warning should last 7 days, that early on the chirps can be hours apart, and that the chirp can be hushed for up to 8 hours while AC power is on"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10003/M08-179717.pdf
+    source_title: "First Alert — SM100V-AC User's Manual, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-20"
+  - id: end-of-life
+    label: End-of-life signal
+    value: "Five chirps and five green flashes about once a minute, with the voice saying 'Detector error' plus the room every 5 hours. The manual says to replace the alarm right away; the chirp can be hushed for about 2 days at a time, but not after 14 days"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10003/M08-179717.pdf
+    source_title: "First Alert — SM100V-AC User's Manual, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-20"
+  - id: malfunction
+    label: Malfunction signal
+    value: "Three chirps and three green flashes about once a minute, with the same 'Detector error' voice message. The manual says the alarm is not working and needs replacing, and to call First Alert support if it is still under warranty"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10003/M08-179717.pdf
+    source_title: "First Alert — SM100V-AC User's Manual, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-20"
+  - id: dirty
+    label: Needs cleaning
+    value: "Two green flashes a minute with a silent horn means the manual wants the alarm cleaned; if the light keeps flashing after cleaning and a test-button press, it says to contact First Alert support"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10003/M08-179717.pdf
+    source_title: "First Alert — SM100V-AC User's Manual, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-20"
+  - id: latch
+    label: Which alarm went off
+    value: "After smoke, the alarm that sensed it keeps flashing its red light 2 seconds on, 2 off until you clear it, while the others show green. The manual says this latch works only on AC power"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10003/M08-179717.pdf
+    source_title: "First Alert — SM100V-AC User's Manual, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-20"
+  - id: interconnect
+    label: Interconnect limits
+    value: "Up to 18 compatible units on one loop, no more than 12 of them smoke alarms, all on the same fuse or breaker, with under 1,000 feet of interconnect wire in total, and only within one single-family home"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10003/M08-179717.pdf
+    source_title: "First Alert — SM100V-AC User's Manual, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-20"
+  - id: compatible
+    label: What it links with
+    value: "The manual lists First Alert SMI100-AC, SMICO100-AC and SMCO100V-AC; BRK smoke alarms 9120, 9120B, SC9120B, 7010, 7010B and 4120SB; the BRK HD6135F heat alarm; BRK CO alarms CO5120BN and CO5120PDBN; and the SC7010BV and SC7010B smoke/CO alarms. The SMI105-AC is not on this list, although the SMI105-AC manual lists the SM100V-AC. No Kidde model is listed"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10003/M08-179717.pdf
+    source_title: "First Alert — SM100V-AC User's Manual, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-20"
+  - id: interconnect-count-page
+    label: What the product page says
+    value: "The product page says it works with up to 12 other First Alert or BRK alarms and 6 other compatible devices, and sends readers to the manual for the exact list"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-smoke-alarm-with-battery-backup-voice-alerts
+    source_title: "First Alert — Interconnect Hardwire Smoke Alarm with Battery Backup and Voice Alerts SM100V-AC (product page)"
+    checked: "2026-11-20"
+  - id: sound
+    label: Horn loudness
+    value: "85 dB at 10 feet"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-smoke-alarm-with-battery-backup-voice-alerts
+    source_title: "First Alert — Interconnect Hardwire Smoke Alarm with Battery Backup and Voice Alerts SM100V-AC (product page)"
+    checked: "2026-11-20"
+  - id: warranty
+    label: Warranty
+    value: "10-year limited, from the date of purchase, for the original buyer, with proof of purchase. The manual says the warranty does not cover the batteries"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10003/M08-179717.pdf
+    source_title: "First Alert — SM100V-AC User's Manual, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-20"
+replacement:
+  - id: replaces
+    label: What it replaces
+    value: "First Alert's specifications list the 7010BV as the model the SM100V-AC replaces. The specifications do not name any other model, and the manual's compatible list names the 7010 and 7010B but not the 7010BV itself"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-smoke-alarm-with-battery-backup-voice-alerts
+    source_title: "First Alert — Interconnect Hardwire Smoke Alarm with Battery Backup and Voice Alerts SM100V-AC (product page)"
+    checked: "2026-11-20"
+  - id: similar
+    label: Similar models First Alert lists
+    value: "First Alert's comparison table puts it next to the SMI105-AC (ionization, sealed 10-year battery) and SMI100-AC (ionization, 9 V battery). The SM100V-AC is the only one of the three that is photoelectric and has voice alerts"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-smoke-alarm-with-battery-backup-voice-alerts
+    source_title: "First Alert — Interconnect Hardwire Smoke Alarm with Battery Backup and Voice Alerts SM100V-AC (product page)"
+    checked: "2026-11-20"
+  - id: adapters
+    label: Adapter plugs
+    value: "Neither the product page nor the manual names an adapter for the SM100V-AC, so this page does not say whether First Alert's ADK-12 or ADF works with it"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10003/M08-179717.pdf
+    source_title: "First Alert — SM100V-AC User's Manual, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-20"
+  - id: recalls
+    label: Recalls
+    value: "Search CPSC's recall list for your exact model before reusing or reselling an alarm. CPSC's site could not be read from this run's network, so no recall notice was checked for this page"
+    source_url: https://www.cpsc.gov/Recalls
+    source_title: "CPSC — Recalls & Product Safety Warnings"
+    checked: "2026-11-20"
+related: [first-alert-smi100-ac, first-alert-smi105-ac, first-alert-9120b]
