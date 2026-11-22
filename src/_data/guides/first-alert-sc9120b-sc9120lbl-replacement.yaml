@@ -82,6 +82,7 @@ sections:
             source_url: https://www.firstalert.com/products/interconnect-hardwire-2-in-1-smoke-carbon-monoxide-alarm-with-battery-backup
             source_title: "First Alert — Interconnect Hardwire 2-in-1 Smoke and Carbon Monoxide Alarm with Battery Backup SMICO100-AC (product page)"
             checked: "2026-11-21"
+        models: [first-alert-smico100-ac]
       - brand: First Alert SMICO105-AC (replaces SC9120LBL)
         facts:
           - id: s105-sensor
