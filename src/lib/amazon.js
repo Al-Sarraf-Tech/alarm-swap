@@ -41,6 +41,7 @@ const pages = {
   "kidde-30cua10": ["kidde-30cua10"],
   "kidde-30cuar": ["kidde-30cuar"],
   "kidde-i12010s": ["kidde-20sa10"],
+  "kidde-i12020": ["kidde-20sar", "kidde-20-9003"],
   "kidde-i12040": ["kidde-20-9003"],
   "kidde-i12060": ["kidde-20-9003"],
   "kidde-kn-cosm-iba": ["kidde-30cuar", "kidde-20-9003"],
