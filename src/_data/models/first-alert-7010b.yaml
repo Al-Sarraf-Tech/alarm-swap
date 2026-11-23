@@ -1,0 +1,163 @@
+slug: first-alert-7010b
+brand: First Alert
+model: 7010B
+aliases: [7010B-6, 7010B6CP]
+kind: Hardwired smoke alarm
+title: "First Alert 7010B: photoelectric smoke alarm, 9V backup, expiry and what replaces it"
+description: "First Alert (BRK) 7010B wired photoelectric smoke alarm: 9V backup, chirp meanings, interconnect list, 10-year life and the SM100V-AC First Alert names."
+published: "2026-11-22"
+summary: >-
+  The 7010B is an older First Alert (BRK) hardwired smoke alarm with a
+  photoelectric sensor and one 9 V battery as backup that you change yourself.
+  First Alert's product page now marks every listed version as discontinued and
+  no longer for sale, and the specifications for the 7010B and 7010B6CP
+  versions name the SM100V-AC as the replacement model. The manual says to
+  replace the alarm 10 years after the date of purchase. Unlike newer First
+  Alert units, its manual describes no separate end-of-life chirp.
+facts:
+  - id: sensor
+    label: Sensor type
+    value: "Photoelectric, per the specifications and the manual. The manual describes this kind of sensor as generally quicker to pick up the larger particles that smoldering fires give off, and says to use both photoelectric and ionization alarms for the most protection"
+    source_url: https://www.firstalert.com/products/hardwired-photoelectric-smoke-alarm-with-battery-backup
+    source_title: "First Alert — Hardwired Photoelectric Smoke Alarm with Battery Backup 7010B (product page)"
+    checked: "2026-11-22"
+  - id: versions
+    label: Versions listed
+    value: "The product page lists five SKUs under this model: 1040517, 1045044, 7010B, 7010B-6 and 7010B6CP. The manual covers the 7010B together with the 7020B, a version that adds an Escape Light"
+    source_url: https://www.firstalert.com/products/hardwired-photoelectric-smoke-alarm-with-battery-backup
+    source_title: "First Alert — Hardwired Photoelectric Smoke Alarm with Battery Backup 7010B (product page)"
+    checked: "2026-11-22"
+  - id: power
+    label: Power
+    value: "Wired to a 24-hour 120 V AC, 60 Hz pure sine wave circuit that a switch, dimmer or ground fault circuit interrupter cannot turn off. The rating printed on the manual is 0.05 A, and the manual says wiring and installation must be done by a licensed electrician"
+    source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0050-011_7010_7010b_7020b.pdf
+    source_title: "First Alert (BRK) — 7010B / 7020B User's Manual, AC Powered Photoelectric Smoke Alarms, M08-0050-011 (PDF)"
+    checked: "2026-11-22"
+  - id: battery-types
+    label: Backup battery
+    value: "One 9 V battery in a slide-out drawer. The manual names Eveready 1222, Duracell MN1604 or MX1604, Energizer 522, or a lithium Ultralife U9VL-J or U9VL-J-P for longer life, and says not to use rechargeables. The drawer resists closing with no battery in it. Two of the SKU specification tables list the included battery as carbon zinc"
+    source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0050-011_7010_7010b_7020b.pdf
+    source_title: "First Alert (BRK) — 7010B / 7020B User's Manual, AC Powered Photoelectric Smoke Alarms, M08-0050-011 (PDF)"
+    checked: "2026-11-22"
+  - id: no-battery
+    label: Power cut
+    value: "If AC power fails, the manual says the battery lets the alarm sound for at least 4 minutes, and protection should last at least 7 days with a weak battery. With AC off and the battery dead or missing, the alarm cannot work"
+    source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0050-011_7010_7010b_7020b.pdf
+    source_title: "First Alert (BRK) — 7010B / 7020B User's Manual, AC Powered Photoelectric Smoke Alarms, M08-0050-011 (PDF)"
+    checked: "2026-11-22"
+  - id: ups-inverter
+    label: Generators, solar and UPS
+    value: "The manual says AC-powered alarms should run only on true or pure sine wave inverters, and that most battery UPS products and square wave or quasi sine wave inverters will damage the alarm. It also lists generator power, solar power, big appliances or a dimmer on the same circuit, and nearby fluorescent lights as sources of noisy power that may damage it"
+    source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0050-011_7010_7010b_7020b.pdf
+    source_title: "First Alert (BRK) — 7010B / 7020B User's Manual, AC Powered Photoelectric Smoke Alarms, M08-0050-011 (PDF)"
+    checked: "2026-11-22"
+  - id: date-location
+    label: Where the date is
+    value: "First Alert says to check the manufacture date on the back of its smoke and CO alarms and replace any that are 10 years old or older. The 7010B manual also asks you to write the purchase date in a space on the back of the unit"
+    source_url: https://www.firstalert.com/pages/10year
+    source_title: "First Alert — 10-Year Battery Alarms (How to check your alarms)"
+    checked: "2026-11-22"
+  - id: lifespan
+    label: When to replace
+    value: "The manual says to always replace the alarm 10 years after the date of purchase, and right away if it stops working properly or fails its test"
+    source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0050-011_7010_7010b_7020b.pdf
+    source_title: "First Alert (BRK) — 7010B / 7020B User's Manual, AC Powered Photoelectric Smoke Alarms, M08-0050-011 (PDF)"
+    checked: "2026-11-22"
+  - id: low-battery
+    label: Low-battery signal
+    value: "A chirp about once a minute. The manual says this warning should last 7 days but to change the battery straight away, and to replace it whenever the chirp starts, whatever the battery maker's stated life"
+    source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0050-011_7010_7010b_7020b.pdf
+    source_title: "First Alert (BRK) — 7010B / 7020B User's Manual, AC Powered Photoelectric Smoke Alarms, M08-0050-011 (PDF)"
+    checked: "2026-11-22"
+  - id: malfunction
+    label: Malfunction signal
+    value: "Three chirps about once a minute. The manual calls this the malfunction warning and says to replace the alarm immediately"
+    source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0050-011_7010_7010b_7020b.pdf
+    source_title: "First Alert (BRK) — 7010B / 7020B User's Manual, AC Powered Photoelectric Smoke Alarms, M08-0050-011 (PDF)"
+    checked: "2026-11-22"
+  - id: end-of-life
+    label: End-of-life signal
+    value: "Not stated. The manual lists only the low-battery chirp and the three-chirp malfunction warning; it does not describe a separate end-of-life chirp, so go by the date on the alarm"
+    source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0050-011_7010_7010b_7020b.pdf
+    source_title: "First Alert (BRK) — 7010B / 7020B User's Manual, AC Powered Photoelectric Smoke Alarms, M08-0050-011 (PDF)"
+    checked: "2026-11-22"
+  - id: alarm-patterns
+    label: Horn and silence
+    value: "The alarm and test pattern is 3 beeps and a pause, repeating. Pressing test/silence quiets an unwanted alarm for up to 15 minutes, with the red light flashing about every 10 seconds; in a connected series you press it on the alarm that started it. The manual says to replace a unit that will not silence with no heavy smoke present, or that stays in silence mode"
+    source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0050-011_7010_7010b_7020b.pdf
+    source_title: "First Alert (BRK) — 7010B / 7020B User's Manual, AC Powered Photoelectric Smoke Alarms, M08-0050-011 (PDF)"
+    checked: "2026-11-22"
+  - id: latch
+    label: Which alarm went off
+    value: "During an alarm, the red light flashes fast only on the unit that sensed smoke. Afterwards that unit flashes red 3 times about every 45 seconds until you press test/silence; holding the test button makes a latched unit blink red with no horn"
+    source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0050-011_7010_7010b_7020b.pdf
+    source_title: "First Alert (BRK) — 7010B / 7020B User's Manual, AC Powered Photoelectric Smoke Alarms, M08-0050-011 (PDF)"
+    checked: "2026-11-22"
+  - id: interconnect
+    label: Interconnect limits
+    value: "Up to 18 compatible units on one loop, no more than 12 of them smoke alarms, all on the same fuse or breaker, with under 1,000 feet of interconnect wire, inside one single-family home"
+    source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0050-011_7010_7010b_7020b.pdf
+    source_title: "First Alert (BRK) — 7010B / 7020B User's Manual, AC Powered Photoelectric Smoke Alarms, M08-0050-011 (PDF)"
+    checked: "2026-11-22"
+  - id: compatible
+    label: What it links with
+    value: "This 2015 manual lists First Alert SA4120, SA4121B, SA100B and SA520; BRK 9120B, SC6120B, SC9120B, 7010B, 7020B, SC7010B, SC7010BV, 100S, 4120, 4120B and 4120SB; the CO5120BN and CO5120PDBN CO alarms; the HD6135F and HD6135FB heat alarms; and the RM3, RM4 and SL177 accessories. It names no current -AC model and no Kidde model, and points to brkelectronics.com for the latest list"
+    source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0050-011_7010_7010b_7020b.pdf
+    source_title: "First Alert (BRK) — 7010B / 7020B User's Manual, AC Powered Photoelectric Smoke Alarms, M08-0050-011 (PDF)"
+    checked: "2026-11-22"
+  - id: mounting
+    label: Where it can go
+    value: "Mounts on a standard wiring junction box up to 4 inches, on the ceiling or on a wall where local code allows. The power connector carries black (hot), white (neutral) and orange (interconnect) wires and plugs into the back of the alarm"
+    source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0050-011_7010_7010b_7020b.pdf
+    source_title: "First Alert (BRK) — 7010B / 7020B User's Manual, AC Powered Photoelectric Smoke Alarms, M08-0050-011 (PDF)"
+    checked: "2026-11-22"
+  - id: sound
+    label: Horn loudness
+    value: "85 dB at 10 feet"
+    source_url: https://www.firstalert.com/products/hardwired-photoelectric-smoke-alarm-with-battery-backup
+    source_title: "First Alert — Hardwired Photoelectric Smoke Alarm with Battery Backup 7010B (product page)"
+    checked: "2026-11-22"
+  - id: availability
+    label: Maker's store
+    value: "When we checked, First Alert's page marked all five listed SKUs as discontinued, sold out and no longer available for sale"
+    source_url: https://www.firstalert.com/products/hardwired-photoelectric-smoke-alarm-with-battery-backup
+    source_title: "First Alert — Hardwired Photoelectric Smoke Alarm with Battery Backup 7010B (product page)"
+    checked: "2026-11-22"
+  - id: warranty
+    label: Warranty
+    value: "10-year limited, from the date of purchase, for the original retail buyer with proof of purchase; the manual says batteries included with the alarm are not covered"
+    source_url: https://digitalassets.resideo.com/damroot/Original/1/m08-0050-011_7010_7010b_7020b.pdf
+    source_title: "First Alert (BRK) — 7010B / 7020B User's Manual, AC Powered Photoelectric Smoke Alarms, M08-0050-011 (PDF)"
+    checked: "2026-11-22"
+replacement:
+  - id: named-replacement
+    label: Replacement named by First Alert
+    value: "The specification tables for the 7010B and 7010B6CP SKUs list the SM100V-AC as the replacement model. The tables for SKUs 1040517, 1045044 and 7010B-6 name no replacement"
+    source_url: https://www.firstalert.com/products/hardwired-photoelectric-smoke-alarm-with-battery-backup
+    source_title: "First Alert — Hardwired Photoelectric Smoke Alarm with Battery Backup 7010B (product page)"
+    checked: "2026-11-22"
+  - id: replacement-side
+    label: From the SM100V-AC side
+    value: "The SM100V-AC's own specifications list the 7010BV (the voice version), not the 7010B, as the model it replaces. Its manual does list the 7010B as compatible on the same interconnect wire. When we checked, the SM100V-AC was sold out on First Alert's store"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-smoke-alarm-with-battery-backup-voice-alerts
+    source_title: "First Alert — Interconnect Hardwire Smoke Alarm with Battery Backup and Voice Alerts SM100V-AC (product page)"
+    checked: "2026-11-22"
+  - id: replacement-manual
+    label: SM100V-AC compatible list
+    value: "The SM100V-AC manual names the 7010 and 7010B (plus SMI100-AC, SMICO100-AC, SMCO100V-AC, 9120, 9120B, SC9120B, 4120SB, HD6135F, CO5120BN, CO5120PDBN, SC7010BV and SC7010B) as compatible. Because the older 7010B manual predates the SM100V-AC, check both manuals before mixing them on one loop"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10003/M08-179717.pdf
+    source_title: "First Alert — SM100V-AC User's Manual, AC Powered with Voice & Location (PDF)"
+    checked: "2026-11-22"
+  - id: adapters
+    label: Adapter plugs
+    value: "Neither the 7010B page nor its manual names an adapter. The page says the 7010B itself came with a hardwire quick connect plug; it does not say which newer alarms accept that plug"
+    source_url: https://www.firstalert.com/products/hardwired-photoelectric-smoke-alarm-with-battery-backup
+    source_title: "First Alert — Hardwired Photoelectric Smoke Alarm with Battery Backup 7010B (product page)"
+    checked: "2026-11-22"
+  - id: recalls
+    label: Recalls
+    value: "Search CPSC's recall list for your exact model before reusing or reselling an alarm. CPSC's site returned an error to this run, so no recall notice was checked for this page"
+    source_url: https://www.cpsc.gov/Recalls
+    source_title: "CPSC — Recalls & Product Safety Warnings"
+    checked: "2026-11-22"
+related: [first-alert-sm100v-ac, first-alert-smi100-ac, first-alert-9120b]
