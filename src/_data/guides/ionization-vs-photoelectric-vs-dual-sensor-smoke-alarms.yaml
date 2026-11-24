@@ -1,0 +1,257 @@
+# Guide pages: prose lives in `intro`/`body` (no numbers or claims that aren't
+# backed by a fact on the same page); every factual statement is a `facts` item
+# with its own source. `npm run check` enforces source_url/source_title/checked.
+# Sources: USFA smoke-alarms page, NFPA smoke-alarm page (FAQ "What types of
+# smoke alarms can I buy?"), First Alert Safety Corner article on ionization vs
+# photoelectric, First Alert 9120B / SMI100-AC / 7010B product pages, Kidde
+# i12020 product page + data sheet, Kidde 20SAR product page + data sheet.
+# CPSC returned 403 during this run, so it is linked only as the place to check.
+slug: ionization-vs-photoelectric-vs-dual-sensor-smoke-alarms
+title: "Ionization vs photoelectric vs dual-sensor smoke alarms: what USFA and NFPA actually say"
+short_title: "Ionization vs photoelectric vs dual-sensor"
+description: "What USFA, NFPA, Kidde and First Alert say about ionization, photoelectric and dual-sensor smoke alarms, and how to tell which type a hardwired alarm is."
+published: "2026-11-24"
+intro: >-
+  A smoke alarm senses smoke with an ionization sensor, a photoelectric
+  sensor, or both. The U.S. Fire Administration (USFA) and NFPA both explain the two types on their public smoke-alarm pages, and Kidde and
+  First Alert print the sensor type on their product pages and data sheets.
+  This page lines up what each of them says, read on the date shown, and shows
+  which type the hardwired models on this site use. It does not call one type
+  better, because neither USFA nor NFPA does.
+related_guides:
+  - combo-smoke-co-vs-separate-co-alarm
+  - kidde-20sa10-vs-20sar-vs-30cua10
+  - replace-hardwired-smoke-alarm-with-battery-or-wireless
+  - first-alert-sc9120b-sc9120lbl-replacement
+sections:
+  - heading: "The short answer"
+    body: >-
+      USFA asks for both sensing types in every home, either as separate
+      alarms or inside one dual-sensor alarm. NFPA explains which kind of fire
+      each type tends to respond to first. Neither one says to pick a single
+      type for the whole home.
+    facts:
+      - id: usfa-two-types
+        value: "USFA says that although there are many brands, smoke alarms fall into two basic types: ionization and photoelectric, and that the two types detect different types of fires."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-24"
+      - id: usfa-both-or-dual
+        value: "Because no one can predict what kind of fire might start, USFA recommends that every home and every place people sleep have either both ionization and photoelectric smoke alarms, or dual-sensor alarms that contain both kinds of sensor."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-24"
+      - id: usfa-no-flaming-detail
+        value: "The USFA page we read does not say which type responds to which kind of fire. It only says the two types detect different fires. The flaming-versus-smoldering split comes from NFPA and the makers (below)."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-24"
+      - id: nfpa-two-types
+        value: "NFPA also says smoke alarms come in two basic types, ionization and photoelectric. It says ionization alarms are more responsive to flaming fires and photoelectric alarms are more responsive to smoldering fires."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-24"
+      - id: nfpa-combination
+        value: "For the best protection, NFPA says to use combination smoke alarms interconnected throughout the home so that when one sounds they all sound. That answer does not define what it means by a combination alarm."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-24"
+  - heading: "What does each sensor type respond to?"
+    body: >-
+      The makers' wording lines up with NFPA's: each type is described as
+      generally quicker for one kind of fire, not as the only type that will
+      ever sound.
+    facts:
+      - id: fa-ion
+        value: "First Alert says ionization sensing is generally more sensitive to small smoke particles, which fast, flaming fires tend to make in greater amounts. Its examples are paper burning in a wastebasket and a kitchen grease fire."
+        source_url: https://www.firstalert.com/blogs/safety-corner/ionization-vs-photoelectric-smoke-alarms
+        source_title: "First Alert — Ionization vs. Photoelectric Smoke Alarms/Detectors"
+        checked: "2026-11-24"
+      - id: fa-photo
+        value: "First Alert says photoelectric sensing is generally more sensitive to large smoke particles, which smoldering fires tend to make in greater amounts. It notes such fires can smolder for hours before flaming, with a cigarette in a couch or bedding as its example."
+        source_url: https://www.firstalert.com/blogs/safety-corner/ionization-vs-photoelectric-smoke-alarms
+        source_title: "First Alert — Ionization vs. Photoelectric Smoke Alarms/Detectors"
+        checked: "2026-11-24"
+      - id: fa-all-fires
+        value: "First Alert's product pages add that every fire makes smoke particles of varying number and size, and that using both ionization and photoelectric sensing gives maximum protection."
+        source_url: https://www.firstalert.com/products/hardwired-ionization-smoke-alarm-with-battery-backup
+        source_title: "First Alert — 9120B Hardwired Ionization Smoke Alarm with Battery Backup"
+        checked: "2026-11-24"
+      - id: kidde-i12020-both
+        value: "Kidde's i12020 data sheet says ionization alarms may detect the invisible particles linked with flaming fires sooner than photoelectric alarms, photoelectric alarms may detect the visible particles linked with smoldering fires sooner, and Kidde strongly recommends installing both types."
+        source_url: https://brand.kidde.com/m/7e5287cb129ef29a/original/PDS_i12020.pdf
+        source_title: "Kidde — i12020 Product Data Sheet (PDF)"
+        checked: "2026-11-24"
+      - id: kidde-20sar-both
+        value: "Kidde's 20SAR data sheet, for a photoelectric alarm, repeats the same split and says industry experts recommend installing both ionization and photoelectric smoke alarms."
+        source_url: https://brand.kidde.com/m/2e898ca3eaa4d696/original/PDS_20SAR.pdf
+        source_title: "Kidde — DETECT Series Model 20SAR Product Data Sheet (PDF)"
+        checked: "2026-11-24"
+  - heading: "Which type should go near a kitchen or bathroom?"
+    body: >-
+      This is the one place NFPA names a type, and it is about nuisance alarms
+      in a specific spot, not about the whole home.
+    facts:
+      - id: nfpa-kitchen-photo
+        value: "NFPA says photoelectric smoke alarms are the best type to install near the kitchen and bathrooms to reduce nuisance alarms."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-24"
+      - id: nfpa-multi-criteria
+        value: "NFPA says newer multi-criteria smoke alarms will say \"helps reduce cooking nuisance alarms\" on the package, and suggests considering them when it is time to replace existing photoelectric or ionization alarms."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-24"
+      - id: fa-smi100-precision
+        value: "First Alert says its Precision Detection sensing, used in the ionization SMI100-AC, meets industry standards meant to reduce cooking nuisance alarms."
+        source_url: https://www.firstalert.com/products/interconnect-hardwire-smoke-alarm-with-battery-backup
+        source_title: "First Alert — SMI100-AC Interconnect Hardwire Smoke Alarm with Battery Backup"
+        checked: "2026-11-24"
+      - id: kidde-20sar-cooking
+        value: "Kidde says the photoelectric 20SAR meets the latest residential smoke alarm standards, including improved resistance to nuisance alarms from cooking."
+        source_url: https://brand.kidde.com/m/2e898ca3eaa4d696/original/PDS_20SAR.pdf
+        source_title: "Kidde — DETECT Series Model 20SAR Product Data Sheet (PDF)"
+        checked: "2026-11-24"
+      - id: makers-placement
+        value: "USFA says to mount smoke alarms on the ceiling or high on a wall and to check the manufacturer's instructions for the best place for your alarm, so the keep-away distances for a given model are in its own manual."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-24"
+  - heading: "How can I tell which type I have?"
+    body: >-
+      Look at the label on the back of the alarm or the box, then match the
+      model number to the maker's page.
+    facts:
+      - id: fa-symbol
+        value: "First Alert says to check the packaging or the back of the alarm for its smoke sensor symbol. Its chart shows a lowercase \"i\" in a circle for ionization, a \"P\" in a square for photoelectric, and both symbols together for dual sensor (photoelectric and ionization)."
+        source_url: https://www.firstalert.com/blogs/safety-corner/ionization-vs-photoelectric-smoke-alarms
+        source_title: "First Alert — Ionization vs. Photoelectric Smoke Alarms/Detectors"
+        checked: "2026-11-24"
+      - id: kidde-sensor-line
+        value: "Kidde's i12020 data sheet prints the type on a \"Sensor\" line in its specifications (the 20SAR sheet uses a \"Smoke Sensor\" line). The Kidde pages we read did not describe a symbol on the alarm itself, so for Kidde, use the model number and its data sheet."
+        source_url: https://brand.kidde.com/m/7e5287cb129ef29a/original/PDS_i12020.pdf
+        source_title: "Kidde — i12020 Product Data Sheet (PDF)"
+        checked: "2026-11-24"
+  - heading: "Which type is each hardwired model on this site?"
+    body: >-
+      One card per model, from that model's maker page or data sheet. None of
+      these models is a dual-sensor alarm according to its maker source.
+    rows:
+      - brand: Kidde i12020
+        facts:
+          - id: i12020-type
+            label: Sensor
+            value: "Ionization (the data sheet's sensor line says ionization)"
+            source_url: https://brand.kidde.com/m/7e5287cb129ef29a/original/PDS_i12020.pdf
+            source_title: "Kidde — i12020 Product Data Sheet (PDF)"
+            checked: "2026-11-24"
+          - id: i12020-upgrade
+            label: Named upgrade
+            value: "The product page marks the i12020 discontinued and its \"Upgrade to\" link goes to the 20SAR, which is photoelectric. So following Kidde's upgrade changes the sensor type"
+            source_url: https://www.kidde.com/products/smoke-alarms/hardwired-smoke-alarm
+            source_title: "Kidde — Hardwired Smoke Alarm i12020"
+            checked: "2026-11-24"
+        models: [kidde-i12020]
+      - brand: Kidde 20SAR
+        facts:
+          - id: 20sar-type
+            label: Sensor
+            value: "Photoelectric (Smoke Sensor line in the technical specifications)"
+            source_url: https://brand.kidde.com/m/2e898ca3eaa4d696/original/PDS_20SAR.pdf
+            source_title: "Kidde — DETECT Series Model 20SAR Product Data Sheet (PDF)"
+            checked: "2026-11-24"
+        models: [kidde-20sar]
+      - brand: First Alert 9120B
+        facts:
+          - id: 9120b-type
+            label: Sensor
+            value: "Ionization. The product page describes it as aimed at fast-flaming fires"
+            source_url: https://www.firstalert.com/products/hardwired-ionization-smoke-alarm-with-battery-backup
+            source_title: "First Alert — 9120B Hardwired Ionization Smoke Alarm with Battery Backup"
+            checked: "2026-11-24"
+          - id: 9120b-replacement
+            label: Named replacement
+            value: "The specifications list the SMI100-AC as the replacement model, which is also ionization, so the sensor type stays the same"
+            source_url: https://www.firstalert.com/products/hardwired-ionization-smoke-alarm-with-battery-backup
+            source_title: "First Alert — 9120B Hardwired Ionization Smoke Alarm with Battery Backup"
+            checked: "2026-11-24"
+        models: [first-alert-9120b]
+      - brand: First Alert SMI100-AC
+        facts:
+          - id: smi100-type
+            label: Sensor
+            value: "Ionization, with First Alert's Precision Detection sensing"
+            source_url: https://www.firstalert.com/products/interconnect-hardwire-smoke-alarm-with-battery-backup
+            source_title: "First Alert — SMI100-AC Interconnect Hardwire Smoke Alarm with Battery Backup"
+            checked: "2026-11-24"
+        models: [first-alert-smi100-ac]
+      - brand: First Alert SM100V-AC and SMI105-AC
+        facts:
+          - id: sm100v-type
+            label: Sensor
+            value: "The comparison table on the SMI100-AC page lists the SM100V-AC as photoelectric and the SMI105-AC as ionization"
+            source_url: https://www.firstalert.com/products/interconnect-hardwire-smoke-alarm-with-battery-backup
+            source_title: "First Alert — SMI100-AC Interconnect Hardwire Smoke Alarm with Battery Backup"
+            checked: "2026-11-24"
+        models: [first-alert-sm100v-ac, first-alert-smi105-ac]
+      - brand: First Alert 7010B
+        facts:
+          - id: 7010b-type
+            label: Sensor
+            value: "Photoelectric. The product page describes it as aimed at smoldering fires"
+            source_url: https://www.firstalert.com/products/hardwired-photoelectric-smoke-alarm-with-battery-backup
+            source_title: "First Alert — 7010B Hardwired Photoelectric Smoke Alarm with Battery Backup"
+            checked: "2026-11-24"
+          - id: 7010b-replacement
+            label: Named replacement
+            value: "The specifications list the SM100V-AC as the replacement model, which is also photoelectric"
+            source_url: https://www.firstalert.com/products/hardwired-photoelectric-smoke-alarm-with-battery-backup
+            source_title: "First Alert — 7010B Hardwired Photoelectric Smoke Alarm with Battery Backup"
+            checked: "2026-11-24"
+        models: [first-alert-7010b]
+  - heading: "Where do dual-sensor alarms fit?"
+    facts:
+      - id: fa-dual
+        value: "First Alert says that to get both sensing types in one unit you can install dual-sensor smoke alarms that use both technologies. The article does not name a hardwired dual-sensor model, and this page does not either."
+        source_url: https://www.firstalert.com/blogs/safety-corner/ionization-vs-photoelectric-smoke-alarms
+        source_title: "First Alert — Ionization vs. Photoelectric Smoke Alarms/Detectors"
+        checked: "2026-11-24"
+      - id: fa-both-each-level
+        value: "First Alert's article says that for maximum detection both types should be installed on each level and in every bedroom."
+        source_url: https://www.firstalert.com/blogs/safety-corner/ionization-vs-photoelectric-smoke-alarms
+        source_title: "First Alert — Ionization vs. Photoelectric Smoke Alarms/Detectors"
+        checked: "2026-11-24"
+      - id: usfa-interconnect
+        value: "USFA says to choose interconnected smoke alarms so that when one sounds, they all sound."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-24"
+  - heading: "Does my city require one type?"
+    facts:
+      - id: usfa-local-type
+        value: "USFA says your city, county or state may require a specific type of alarm and tells readers to ask the local fire marshal which type they need."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-24"
+      - id: usfa-10-years
+        value: "Whatever the type, USFA says smoke alarms need replacing 10 years from the manufacture date."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-24"
+  - heading: "Who should install it, and what about recalls?"
+    facts:
+      - id: usfa-electrician
+        value: "USFA says only qualified electricians should install hardwired smoke alarms. This page explains sensor types; it is not wiring advice."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-24"
+      - id: nfpa-electrician
+        value: "NFPA's answer on alarm types says interconnected alarms can be installed by a qualified electrician."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-24"
+      - id: cpsc-recalls
+        value: "Search CPSC's recall list for your exact model before buying or reusing an alarm. CPSC's site did not load for us on this check, so this page states no recall either way."
+        source_url: https://www.cpsc.gov/Recalls
+        source_title: "CPSC — Recalls & Product Safety Warnings"
+        checked: "2026-11-24"
