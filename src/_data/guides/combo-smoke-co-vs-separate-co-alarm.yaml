@@ -1,0 +1,270 @@
+# Guide pages: prose lives in `intro`/`body` (no numbers or claims that aren't
+# backed by a fact on the same page); every factual statement is a `facts` item
+# with its own source. `npm run check` enforces source_url/source_title/checked.
+# Sources: NFPA and USFA CO + smoke pages, Kidde KN-COB-IC (CO-only) and 30CUA10
+# (combo) pages/PDFs, First Alert SMICO100-AC (combo) page/manual, BRK CO5120BN
+# (CO-only) page/manual and CO6W01 page. NFPA's CO tip-sheet PDF returned HTTP 500
+# and CPSC returned 403 during this run, so neither is cited for a fact.
+slug: combo-smoke-co-vs-separate-co-alarm
+title: "Do you need a combo smoke + CO alarm, or a separate hardwired CO alarm?"
+short_title: "Combo smoke + CO vs separate CO alarm"
+description: "What NFPA, USFA, Kidde and First Alert say about combination smoke + CO alarms versus a separate hardwired CO alarm: placement, interconnect and what each one can't do."
+published: "2026-11-23"
+intro: >-
+  A wired home can get carbon monoxide (CO) warning in two ways: swap some
+  smoke alarms for combination smoke + CO alarms, or add a separate CO-only
+  alarm on the same wiring. NFPA and the U.S. Fire Administration (USFA) say
+  where CO alarms belong but, on the pages we read, do not pick one approach
+  over the other. This page sets their guidance next to what Kidde and First
+  Alert print on a combo alarm and on a CO-only alarm, opened on the date
+  shown. There is no ranking here, and this is not wiring advice.
+related_guides:
+  - mix-brands-interconnected-alarms
+  - replace-hardwired-smoke-alarm-with-battery-or-wireless
+  - kidde-20sa10-vs-20sar-vs-30cua10
+  - first-alert-sc9120b-sc9120lbl-replacement
+sections:
+  - heading: "The short answer"
+    body: >-
+      Either way can put a CO alarm where NFPA and USFA ask for one. What
+      matters is that every spot that needs a smoke alarm still has one, every
+      spot that needs a CO alarm has one, and the alarms on one wire are listed
+      as compatible by their maker.
+    facts:
+      - id: nfpa-co-where
+        value: "NFPA says CO alarms should go in a central location outside each sleeping area, on every level of the home, and anywhere else that applicable laws, codes or standards require."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/carbon-monoxide
+        source_title: "NFPA — Carbon Monoxide safety"
+        checked: "2026-11-23"
+      - id: usfa-co-where
+        value: "USFA gives the same placement: CO alarms in a central location outside each separate sleeping area and on every level of the home."
+        source_url: https://www.usfa.fema.gov/prevention/life-safety-hazards/carbon-monoxide/
+        source_title: "USFA — Carbon Monoxide Poisoning Prevention"
+        checked: "2026-11-23"
+      - id: not-stated-preference
+        value: "Neither the NFPA nor the USFA CO page we read says whether a combination smoke + CO alarm or a separate CO-only alarm is the better choice. Neither page mentions combination alarms at all."
+        source_url: https://www.usfa.fema.gov/prevention/life-safety-hazards/carbon-monoxide/
+        source_title: "USFA — Carbon Monoxide Poisoning Prevention"
+        checked: "2026-11-23"
+      - id: usfa-local-type
+        value: "USFA says your city, county or state may require a specific type of alarm and tells readers to check with the local fire marshal."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-23"
+  - heading: "Can a CO-only alarm take the place of a smoke alarm?"
+    body: >-
+      No. Both makers print this warning in their CO-only manuals.
+    facts:
+      - id: kidde-cob-not-smoke
+        value: "Kidde's KN-COB-IC / KN-COP-IC user's guide warns that a CO alarm is not a smoke alarm, will not sense smoke or fire, and that smoke alarms must still be installed for early warning of fire. It adds that the unit only sounds a fire pattern when it receives a signal from an interconnected Kidde smoke alarm."
+        source_url: https://brand.kidde.com/m/30579f9cf4de6318/original/UG_KN-COB-IC_KN-COP-IC.pdf
+        source_title: "Kidde — KN-COB-IC and KN-COP-IC Carbon Monoxide Alarm User's Guide (PDF)"
+        checked: "2026-11-23"
+      - id: brk-co5120-not-smoke
+        value: "The BRK / First Alert CO5120BN manual says the same in its own words: it is not a smoke alarm, it does not sense smoke or fire, and early warning of fire requires smoke alarms."
+        source_url: https://digitalassets.resideo.com/damroot/Original/10000/M08-0002-009.pdf
+        source_title: "BRK / First Alert — CO5120BN and CO5120PDBN User's Manual, AC Powered Carbon Monoxide Alarm (PDF)"
+        checked: "2026-11-23"
+      - id: usfa-smoke-where
+        value: "USFA says smoke alarms go inside and outside each bedroom and sleeping area and on every level of the home. So a bedroom that needs a smoke alarm still needs one even if a CO alarm is nearby."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-23"
+  - heading: "Do combo alarms and CO-only alarms go in the same places?"
+    body: >-
+      Not always. The makers give different keep-away distances and room
+      lists, so read the manual for the exact model before you pick a spot.
+    facts:
+      - id: fa-combo-where
+        value: "First Alert's SMICO100-AC manual says to install combination smoke and CO alarms on every level (including finished attics and basements), inside every bedroom, in the hall near every sleeping area, at the top of first-to-second floor stairs and at the bottom of basement stairs."
+        source_url: https://digitalassets.resideo.com/damroot/Original/10003/M08-170696.pdf
+        source_title: "First Alert — SMICO100-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with Battery Backup (PDF)"
+        checked: "2026-11-23"
+      - id: kidde-detect-avoid
+        value: "Kidde's DETECT user guide (smoke and smoke/CO models, including the 30CUA10) says not to install within 6 ft of heating appliances, and that a kitchen alarm, if wanted, should have a silence feature and sit at least 6 ft from cooking appliances. It also says to keep alarms out of the garage."
+        source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+        source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 30CUA10 (PDF)"
+        checked: "2026-11-23"
+      - id: kidde-cob-avoid
+        value: "Kidde's KN-COB-IC guide says CO alarms should be mounted in or near bedrooms and living areas, not in kitchens, garages or furnace rooms, and not within 5 ft of heating or cooking appliances (Kidde recommends 15 ft to cut nuisance alarms). If only one CO alarm is used, it says to put it near bedrooms rather than in the basement or furnace room."
+        source_url: https://brand.kidde.com/m/30579f9cf4de6318/original/UG_KN-COB-IC_KN-COP-IC.pdf
+        source_title: "Kidde — KN-COB-IC and KN-COP-IC Carbon Monoxide Alarm User's Guide (PDF)"
+        checked: "2026-11-23"
+      - id: brk-co5120-where
+        value: "The CO5120BN manual says to put a CO alarm outside each separate sleeping area near the bedrooms and, for added protection, in each bedroom and on every level. If bedroom doors are usually closed at night, it recommends one in each bedroom and in the hallway between them."
+        source_url: https://digitalassets.resideo.com/damroot/Original/10000/M08-0002-009.pdf
+        source_title: "BRK / First Alert — CO5120BN and CO5120PDBN User's Manual, AC Powered Carbon Monoxide Alarm (PDF)"
+        checked: "2026-11-23"
+      - id: nfpa-co-mfr-height
+        value: "NFPA says to follow the manufacturer's instructions for CO alarm placement and mounting height."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/carbon-monoxide
+        source_title: "NFPA — Carbon Monoxide safety"
+        checked: "2026-11-23"
+  - heading: "What the makers print on a combo page and a CO-only page"
+    body: >-
+      One current combo alarm and one CO-only alarm per brand, from the maker's
+      own product page and manual. Different model years and documents do not
+      always agree; where they don't, both figures are shown.
+    rows:
+      - brand: Kidde
+        facts:
+          - id: kidde-30cua10-combo
+            label: "Combo: 30CUA10"
+            value: "Kidde describes the 30CUA10 as one hardwired device that alerts to both smoke and CO, with a photoelectric smoke sensor, an electrochemical CO sensor and a sealed 10-year backup battery."
+            source_url: https://brand.kidde.com/m/2781cd387163173/original/PDS_30CUA10.pdf
+            source_title: "Kidde — DETECT 30CUA10 Product Data Sheet (PDF)"
+            checked: "2026-11-23"
+          - id: kidde-30cua10-eol
+            label: "Combo end of life"
+            value: "The 30CUA10 data sheet says the alarm beeps to remind you to replace it 10 years after it is powered (two chirps and an amber flash each minute)."
+            source_url: https://brand.kidde.com/m/2781cd387163173/original/PDS_30CUA10.pdf
+            source_title: "Kidde — DETECT 30CUA10 Product Data Sheet (PDF)"
+            checked: "2026-11-23"
+          - id: kidde-cob-co-only
+            label: "CO-only: KN-COB-IC"
+            value: "Kidde's KN-COB-IC page describes a 120 V AC wire-in CO alarm with an electrochemical sensor and a 9V battery backup that keeps monitoring during a power failure. It interconnects with up to 24 Kidde devices, of which 18 can be initiating, including smoke, CO and heat alarms."
+            source_url: https://www.kidde.com/products/carbon-monoxide-alarms/ac-hardwired-carbon-monoxide-alarm
+            source_title: "Kidde — AC Hardwired Operated Carbon Monoxide Alarm KN-COB-IC (product page)"
+            checked: "2026-11-23"
+          - id: kidde-cob-life
+            label: "CO-only life and warranty"
+            value: "The KN-COB-IC product page lists a 10-year limited warranty and says units made before 2013 do not have a 10-year life. The user's guide says the alarm beeps twice every 30 seconds 10 years after first power-up and no longer detects CO then. The older data sheet Kidde links (dated 2010) says 7-year life and a 5-year warranty, so check the guide that came with your unit."
+            source_url: https://www.kidde.com/products/carbon-monoxide-alarms/ac-hardwired-carbon-monoxide-alarm
+            source_title: "Kidde — AC Hardwired Operated Carbon Monoxide Alarm KN-COB-IC (product page)"
+            checked: "2026-11-23"
+          - id: kidde-cob-pds-old
+            label: "CO-only data sheet"
+            value: "Kidde's KN-COB-IC data sheet (part 900-0120, rev. 08-2010) states a 7-year life and a 5-year limited warranty, which differs from the current product page."
+            source_url: https://brand.kidde.com/m/3974bd48f7311ef4/original/PDS_KN-COB-IC.pdf
+            source_title: "Kidde — KN-COB-IC (900-0120) Product Data Sheet (PDF)"
+            checked: "2026-11-23"
+        models: [kidde-30cua10, kidde-kn-cosm-iba, kidde-30cuar]
+      - brand: First Alert / BRK
+        facts:
+          - id: fa-smico100-combo
+            label: "Combo: SMICO100-AC"
+            value: "First Alert's SMICO100-AC manual covers a 120 V smoke and CO alarm with one replaceable 9V alkaline backup battery. It says to replace the alarm 10 years after installation and that it gives an audible end-of-life signal at about that point."
+            source_url: https://digitalassets.resideo.com/damroot/Original/10003/M08-170696.pdf
+            source_title: "First Alert — SMICO100-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with Battery Backup (PDF)"
+            checked: "2026-11-23"
+          - id: brk-co5120-co-only
+            label: "CO-only: CO5120BN"
+            value: "BRK's CO5120BN page shows a hardwired, interconnectable CO-only alarm with an electrochemical sensor and a replaceable 9V alkaline backup. The page marks it Discontinued."
+            source_url: https://www.brkelectronics.com/products/co5120bn-brk-120v-ac-dc-co-alarm
+            source_title: "BRK — CO5120BN 120V AC/DC CO Alarm (product page)"
+            checked: "2026-11-23"
+          - id: brk-co5120-replacement
+            label: "CO-only successor"
+            value: "The CO5120BN page names the CO6W01 as its direct replacement. BRK's CO6W01 page describes a 120 V hardwired CO alarm with an AA battery backup and an electrochemical sensor. Neither page, when we checked, said which older First Alert smoke or combo alarms the CO6W01 interconnects with."
+            source_url: https://www.brkelectronics.com/products/co6w01-120-v-hardwired-carbon-monoxide-alarm-with-battery-backup
+            source_title: "BRK — CO6W01 120 V Hardwired Carbon Monoxide Alarm with Battery Backup (product page)"
+            checked: "2026-11-23"
+          - id: fa-no-co-only-consumer
+            label: "Consumer site"
+            value: "First Alert's own consumer site listed no hardwired CO-only alarm in its carbon monoxide collection when we checked; the CO-only hardwired models above are on BRK's site."
+            source_url: https://www.firstalert.com/collections/carbon-monoxide-alarms
+            source_title: "First Alert — Carbon Monoxide Alarms (collection page)"
+            checked: "2026-11-23"
+        models: [first-alert-smico100-ac, first-alert-smco100v-ac]
+  - heading: "If I add a CO alarm to my old smoke alarms, will the smoke alarms sound for CO?"
+    body: >-
+      Often not. On both brands, how an alarm reacts to a signal from another
+      alarm on the wire depends on the model, so check the list in the manual
+      before relying on the other alarms to sound for CO.
+    facts:
+      - id: kidde-cob-smoke-only-respond
+        value: "Kidde's KN-COB-IC guide says compatible Kidde smoke and heat alarms wired to the CO alarm respond only to a smoke or heat event."
+        source_url: https://brand.kidde.com/m/30579f9cf4de6318/original/UG_KN-COB-IC_KN-COP-IC.pdf
+        source_title: "Kidde — KN-COB-IC and KN-COP-IC Carbon Monoxide Alarm User's Guide (PDF)"
+        checked: "2026-11-23"
+      - id: kidde-detect-remote-co
+        value: "Kidde's DETECT user guide splits compatible models into two lists. KN-COB-IC, 20SAR, 30CUA10 and other current models are listed as giving both remote smoke and remote CO alarms. The i12020, i12040, i12060, i12080 (and A versions), i4618A/AC and some others are listed as giving remote smoke alarms but not remote CO alarms."
+        source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+        source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 30CUA10 (PDF)"
+        checked: "2026-11-23"
+      - id: kidde-cob-old-list
+        value: "The KN-COB-IC guide Kidde links is dated 2012, and its own list of directly interconnectable models predates the DETECT line (it names i12020/i12040/i12060, KN-COSM-IB and others). The newer DETECT guide is the one that lists KN-COB-IC alongside DETECT models."
+        source_url: https://brand.kidde.com/m/30579f9cf4de6318/original/UG_KN-COB-IC_KN-COP-IC.pdf
+        source_title: "Kidde — KN-COB-IC and KN-COP-IC Carbon Monoxide Alarm User's Guide (PDF)"
+        checked: "2026-11-23"
+      - id: fa-smart-interconnect
+        value: "First Alert's SMICO100-AC manual says that on its Smart Interconnect system all alarms sound the smoke pattern for smoke, Smart Interconnect alarms sound the CO pattern for CO, and alarms without Smart Interconnect stay silent during a CO alarm. The manual does not say which listed models have Smart Interconnect."
+        source_url: https://digitalassets.resideo.com/damroot/Original/10003/M08-170696.pdf
+        source_title: "First Alert — SMICO100-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with Battery Backup (PDF)"
+        checked: "2026-11-23"
+      - id: fa-compatible-list
+        value: "The same manual's compatible list includes older First Alert smoke alarms such as the 9120B and 7010B, combo models such as the SMCO100V-AC and SMICO105-AC, and the CO-only CO5120BN and CO5120PDBN."
+        source_url: https://digitalassets.resideo.com/damroot/Original/10003/M08-170696.pdf
+        source_title: "First Alert — SMICO100-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with Battery Backup (PDF)"
+        checked: "2026-11-23"
+      - id: brk-co5120-smart
+        value: "The CO5120BN manual says its Smart Interconnect makes it sound the smoke horn pattern when an interconnected smoke alarm goes into alarm."
+        source_url: https://digitalassets.resideo.com/damroot/Original/10000/M08-0002-009.pdf
+        source_title: "BRK / First Alert — CO5120BN and CO5120PDBN User's Manual, AC Powered Carbon Monoxide Alarm (PDF)"
+        checked: "2026-11-23"
+      - id: nfpa-co-interconnect
+        value: "NFPA says that for the best protection, all CO alarms in the home should be interconnected so that when one sounds, they all sound."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/carbon-monoxide
+        source_title: "NFPA — Carbon Monoxide safety"
+        checked: "2026-11-23"
+  - heading: "Does a separate CO alarm count against the interconnect limit?"
+    facts:
+      - id: kidde-limit
+        value: "Yes, per Kidde: the KN-COB-IC guide says up to 24 Kidde devices may be interconnected, but the loop should stay within the NFPA limit of 12 smoke alarms and 18 alarms in total, counting smoke, CO, combination and heat alarms."
+        source_url: https://brand.kidde.com/m/30579f9cf4de6318/original/UG_KN-COB-IC_KN-COP-IC.pdf
+        source_title: "Kidde — KN-COB-IC and KN-COP-IC Carbon Monoxide Alarm User's Guide (PDF)"
+        checked: "2026-11-23"
+      - id: brk-limit
+        value: "The CO5120BN manual sets a maximum of 18 compatible smoke, heat or CO alarms on one interconnect, no more than 12 of them smoke alarms, and says all of them must be on the same fuse or breaker."
+        source_url: https://digitalassets.resideo.com/damroot/Original/10000/M08-0002-009.pdf
+        source_title: "BRK / First Alert — CO5120BN and CO5120PDBN User's Manual, AC Powered Carbon Monoxide Alarm (PDF)"
+        checked: "2026-11-23"
+      - id: kidde-same-brand
+        value: "Kidde's KN-COB-IC guide cautions that Kidde alarms should only be interconnected with other Kidde alarms; mixing makers on one interconnect could cause nuisance alarms, failure to alarm or damage."
+        source_url: https://brand.kidde.com/m/30579f9cf4de6318/original/UG_KN-COB-IC_KN-COP-IC.pdf
+        source_title: "Kidde — KN-COB-IC and KN-COP-IC Carbon Monoxide Alarm User's Guide (PDF)"
+        checked: "2026-11-23"
+  - heading: "How often should CO and smoke alarms be tested and replaced?"
+    facts:
+      - id: nfpa-co-test
+        value: "NFPA says to test CO alarms at least once a month and to replace them according to the manufacturer's instructions."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/carbon-monoxide
+        source_title: "NFPA — Carbon Monoxide safety"
+        checked: "2026-11-23"
+      - id: kidde-co-weekly
+        value: "Kidde's KN-COB-IC guide asks for a weekly test, noting CO alarms have a limited operating life and could fail at any time."
+        source_url: https://brand.kidde.com/m/30579f9cf4de6318/original/UG_KN-COB-IC_KN-COP-IC.pdf
+        source_title: "Kidde — KN-COB-IC and KN-COP-IC Carbon Monoxide Alarm User's Guide (PDF)"
+        checked: "2026-11-23"
+      - id: usfa-smoke-10
+        value: "For hardwired smoke alarms, USFA says to test monthly, replace the backup battery at least once a year and replace the whole alarm every 10 years."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-23"
+      - id: nfpa-co-trouble
+        value: "NFPA says that if a CO alarm's trouble signal sounds, check and replace a low battery, and call the fire department if it keeps sounding."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/carbon-monoxide
+        source_title: "NFPA — Carbon Monoxide safety"
+        checked: "2026-11-23"
+  - heading: "Who should install it, and what about recalls?"
+    facts:
+      - id: nfpa-electrician
+        value: "NFPA says only qualified electricians should install hardwired smoke alarms."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-23"
+      - id: kidde-cob-electrician
+        value: "Kidde's KN-COB-IC guide says all connections should be made by a qualified electrician and follow the National Electrical Code, NFPA 72 and local codes."
+        source_url: https://brand.kidde.com/m/30579f9cf4de6318/original/UG_KN-COB-IC_KN-COP-IC.pdf
+        source_title: "Kidde — KN-COB-IC and KN-COP-IC Carbon Monoxide Alarm User's Guide (PDF)"
+        checked: "2026-11-23"
+      - id: nfpa-co-listed
+        value: "NFPA says to choose a CO alarm that carries the label of a recognized testing laboratory."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/carbon-monoxide
+        source_title: "NFPA — Carbon Monoxide safety"
+        checked: "2026-11-23"
+      - id: cpsc-recalls
+        value: "Search CPSC's recall list for your exact model before buying or reusing an alarm. CPSC's site did not load for us on this check, so this page states no recall either way."
+        source_url: https://www.cpsc.gov/Recalls
+        source_title: "CPSC — Recalls & Product Safety Warnings"
+        checked: "2026-11-23"

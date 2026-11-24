@@ -21,6 +21,7 @@ const asins = {
 const extras = {
   "kidde-ka-b3": { brand: "Kidde", model: "KA-B3" },
   "first-alert-smico105-ac": { brand: "First Alert", model: "SMICO105-AC" },
+  "kidde-kn-cob-ic": { brand: "Kidde", model: "KN-COB-IC" },
 };
 
 // One entry per recommended model. A model that is only the subject of a
@@ -51,6 +52,7 @@ const pages = {
   "first-alert-sc9120b-sc9120lbl-replacement": ["first-alert-smico100-ac", "first-alert-smico105-ac"],
   "firex-i4618ac-replacement": ["kidde-20sar", "kidde-20-9003", "first-alert-adf"],
   "mix-brands-interconnected-alarms": ["kidde-20-9003", "kidde-ka-b3"],
+  "combo-smoke-co-vs-separate-co-alarm": ["kidde-30cua10", "kidde-kn-cob-ic", "first-alert-smico100-ac"],
 };
 
 export function offersFor(slug, models) {
