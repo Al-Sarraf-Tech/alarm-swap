@@ -19,6 +19,7 @@ intro: >-
   Alert print on a combo alarm and on a CO-only alarm, opened on the date
   shown. There is no ranking here, and this is not wiring advice.
 related_guides:
+  - hardwired-smoke-co-alarm-placement
   - ionization-vs-photoelectric-vs-dual-sensor-smoke-alarms
   - mix-brands-interconnected-alarms
   - replace-hardwired-smoke-alarm-with-battery-or-wireless

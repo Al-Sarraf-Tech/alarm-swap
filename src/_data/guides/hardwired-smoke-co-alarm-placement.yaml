@@ -1,0 +1,197 @@
+# Sources (all opened 2026-11-24): USFA smoke-alarms page, USFA carbon monoxide
+# page, NFPA smoke-alarm information page, NFPA "Installing and maintaining
+# smoke alarms" page, NFPA carbon monoxide page. Only NFPA's and USFA's free
+# public pages were used. No NFPA 72 or IRC code text was opened or paraphrased;
+# where NFPA's own public page describes what NFPA 72 has required, the fact
+# says it is NFPA's public summary. CPSC returned 403 during this run, so it is
+# linked only as the place to check.
+slug: hardwired-smoke-co-alarm-placement
+title: "Where should hardwired smoke and CO alarms go, and how many does a home need?"
+short_title: "Where smoke and CO alarms go"
+description: "Where USFA and NFPA say to put smoke and CO alarms (bedrooms, sleeping areas, every level, basement), how high, how far from the stove, and why there is no single count."
+published: "2026-11-24"
+intro: >-
+  There is no single number of alarms that fits every home. USFA and NFPA
+  both describe placement by room and by level instead, so the count comes
+  from your floor plan: how many bedrooms, how many separate sleeping areas,
+  and how many levels. This page lines up what their free public pages say,
+  read on the date shown. Your local fire marshal or building department
+  decides what is required where you live, and a qualified electrician
+  should do the hardwired installation.
+related_guides:
+  - combo-smoke-co-vs-separate-co-alarm
+  - ionization-vs-photoelectric-vs-dual-sensor-smoke-alarms
+  - mix-brands-interconnected-alarms
+  - replace-hardwired-smoke-alarm-with-battery-or-wireless
+sections:
+  - heading: "The short answer: which rooms and levels get a smoke alarm"
+    body: >-
+      USFA and NFPA give the same three placement rules on their public pages.
+      Count one alarm for each spot they name, and you have the starting
+      number for your home.
+    facts:
+      - id: usfa-bedrooms-levels
+        value: "USFA says smoke alarms belong in every bedroom, outside each separate sleeping area, and on every level of the home, basement included."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-24"
+      - id: nfpa-bedrooms-levels
+        value: "NFPA's installing page gives the same list: inside each bedroom, outside each sleeping area, and on every level including the basement."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-24"
+      - id: usfa-closed-door
+        value: "USFA pairs its inside-and-outside-each-bedroom advice with a reminder that a closed door may slow the spread of smoke, heat and fire."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-24"
+  - heading: "So how many smoke alarms does a home need?"
+    body: >-
+      Neither USFA nor NFPA gives a fixed count or a per-square-foot figure on
+      the pages we read. The number follows from the rooms and levels above,
+      plus anything your local code adds.
+    facts:
+      - id: nfpa-enough
+        value: "NFPA says having enough smoke alarms, properly located, matters because fires in homes with modern furnishings can spread much faster than they did when more natural materials were common, which cuts escape time."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-24"
+      - id: nfpa-72-summary
+        value: "NFPA's public installing page summarizes that NFPA 72 has for many years required, as a minimum, an alarm inside every sleeping room (existing homes included), outside each sleeping area, and on every level. This is NFPA's own free summary; we did not open or read the code text itself."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-24"
+      - id: nfpa-larger-homes
+        value: "The same NFPA page adds that larger homes need additional smoke alarms, but it does not say what size counts as larger or how many more. This page does not guess; ask your local fire marshal or building department."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-24"
+      - id: nfpa-older-homes
+        value: "NFPA notes that homes built to earlier standards often fall short of these minimums, and it asks homeowners and enforcement officials to make sure each home has enough alarms."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-24"
+  - heading: "Levels without bedrooms, and the basement"
+    facts:
+      - id: nfpa-no-bedroom-level
+        value: "On a level with no bedrooms, NFPA says to put the alarm in the living room (or den or family room), near the stairway to the level above, or in both places."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-24"
+      - id: nfpa-basement-stairs
+        value: "For the basement, NFPA says the alarm goes on the ceiling at the bottom of the stairs that lead up to the next level."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-24"
+  - heading: "How high, and what to keep it away from"
+    facts:
+      - id: nfpa-high-wall-ceiling
+        value: "NFPA says to mount smoke alarms high on a wall or on the ceiling because smoke rises. A wall-mounted alarm should have its top no more than 12 inches (about 30 cm) below the ceiling."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-24"
+      - id: nfpa-pitched-ceiling
+        value: "On a pitched ceiling, NFPA says to place the alarm within 3 feet of the peak, but not right in the apex; it describes that as staying about four inches down from the peak."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-24"
+      - id: nfpa-10ft-cooking
+        value: "NFPA says to keep smoke alarms at least 10 feet (3 meters) from a stove or other cooking appliance to cut down on false alarms while cooking."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-24"
+      - id: nfpa-not-kitchen-bath
+        value: "NFPA's smoke-alarm page says not to put smoke alarms in the kitchen or bathrooms, and adds that photoelectric alarms are the best type for spots near the kitchen and bathrooms because they cause fewer nuisance alarms."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-24"
+      - id: nfpa-drafts
+        value: "NFPA says not to install smoke alarms near windows, doors or ducts, where drafts can interfere with them, and never to paint an alarm or cover it with stickers or decorations."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-24"
+      - id: usfa-manufacturer
+        value: "USFA says to check the alarm maker's instructions for the best place for your alarm, so the keep-away distances and mounting details for a given model are in its own manual."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-24"
+  - heading: "Where do CO alarms go?"
+    body: >-
+      CO alarm placement is described differently from smoke alarm placement.
+      Neither USFA nor NFPA says on these pages that a CO alarm goes inside
+      each bedroom.
+    facts:
+      - id: nfpa-co-central
+        value: "NFPA says CO alarms should go in a central location outside each sleeping area, on every level of the home, and anywhere else that applicable laws, codes or standards require."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/carbon-monoxide
+        source_title: "NFPA — Carbon monoxide"
+        checked: "2026-11-24"
+      - id: usfa-co-central
+        value: "USFA gives the same placement: a central location outside each separate sleeping area, and on every level of the home."
+        source_url: https://www.usfa.fema.gov/prevention/life-safety-hazards/carbon-monoxide/
+        source_title: "USFA — Carbon Monoxide Poisoning Prevention"
+        checked: "2026-11-24"
+      - id: nfpa-co-height
+        value: "NFPA does not give a mounting height for CO alarms; it says to follow the manufacturer's instructions for placement and mounting height."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/carbon-monoxide
+        source_title: "NFPA — Carbon monoxide"
+        checked: "2026-11-24"
+      - id: nfpa-co-garage
+        value: "NFPA lists fuel-burning heating and cooking equipment, and vehicles or generators running in an attached garage, as home sources of CO. Its page does not give a separate garage placement rule."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/carbon-monoxide
+        source_title: "NFPA — Carbon monoxide"
+        checked: "2026-11-24"
+  - heading: "Should they be interconnected?"
+    facts:
+      - id: usfa-interconnect
+        value: "USFA says smoke alarms should be interconnected, so that when one sounds, they all sound."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-24"
+      - id: nfpa-interconnect-same-maker
+        value: "NFPA says interconnection can be hard-wired or wireless, and that interconnected alarms should all come from the same manufacturer, because alarms that are not compatible may not sound."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-24"
+      - id: nfpa-co-interconnect
+        value: "For CO alarms, NFPA also says the best protection is to interconnect all of them throughout the home."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/carbon-monoxide
+        source_title: "NFPA — Carbon monoxide"
+        checked: "2026-11-24"
+      - id: nfpa-cpsc-survey
+        value: "NFPA cites a CPSC survey (2004–2005 data, published in 2009) in which alarms sounded in about half of fires in homes with interconnected smoke alarms, versus only a small share where alarms were not on every floor. That is NFPA's account of the survey; we did not open the CPSC report itself."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-24"
+  - heading: "Who decides what my home needs, and who installs it?"
+    facts:
+      - id: usfa-local-code
+        value: "USFA says your city, county or state may require a specific type of alarm and tells readers to ask the local fire marshal. Neither USFA nor NFPA lists local requirements on these pages, so this page does not either."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-24"
+      - id: usfa-electrician
+        value: "USFA says only qualified electricians should install hardwired smoke alarms. This page is about where alarms go; it is not wiring advice."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-24"
+      - id: nfpa-electrician
+        value: "NFPA's smoke-alarm page repeats that only qualified electricians should install hardwired smoke alarms."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke Alarm Information"
+        checked: "2026-11-24"
+      - id: nfpa-listed
+        value: "NFPA says to choose smoke alarms that carry the label of a recognized testing laboratory, and its CO page says the same for CO alarms."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-24"
+      - id: usfa-test-replace
+        value: "Once installed, USFA says to test a hardwired alarm monthly, replace its backup battery at least once a year, and replace the whole alarm every 10 years. USFA's page does not separately cover hardwired alarms with a sealed backup battery; for those, follow the model's manual."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-24"
+      - id: cpsc-recalls
+        value: "Search CPSC's recall list for your exact model before buying or reusing an alarm. CPSC's site did not load for us on this check, so this page states no recall either way."
+        source_url: https://www.cpsc.gov/Recalls
+        source_title: "CPSC — Recalls & Product Safety Warnings"
+        checked: "2026-11-24"
