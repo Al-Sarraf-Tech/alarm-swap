@@ -1,0 +1,208 @@
+# Sources (all opened 2026-11-25): NFPA 72 standard-development page, NFPA
+# "Free access" codes page, NFPA smoke-alarm information page, NFPA
+# "Installing and maintaining smoke alarms" page, USFA smoke-alarms page, USFA
+# position statements page (home smoke alarms section). The NFPA 72 code text
+# itself was NOT opened (NFPA's free read-only viewer needs a sign-in), so no
+# section of NFPA 72 or the IRC is quoted or paraphrased. Where a fact says
+# what NFPA 72 has required, it is NFPA's own public summary on its installing
+# page. CPSC returned 403 during this run, so it is linked only as the place
+# to check.
+slug: nfpa-72-usfa-hardwired-interconnected-smoke-alarms
+title: "What public NFPA 72 and USFA guidance says about hardwired, interconnected smoke alarms"
+short_title: "NFPA 72 and USFA on interconnected alarms"
+description: "What NFPA 72 is, what NFPA's free pages say it requires for homes, what NFPA and USFA say about interconnection, testing and 10-year replacement, and where to read the code."
+published: "2026-11-25"
+intro: >-
+  NFPA 72 is NFPA's fire alarm and signaling code, the one NFPA itself cites
+  when it describes smoke alarm minimums. This page does not quote it. It sets out what NFPA says
+  about NFPA 72 on its free public pages, what NFPA and USFA tell
+  homeowners about interconnected and hardwired alarms, and what none of
+  those pages says. Which edition applies in your home, and whether it
+  applies to an existing house, is decided where you live, so your local
+  fire marshal or building department has the final word.
+related_guides:
+  - hardwired-smoke-co-alarm-placement
+  - replace-hardwired-smoke-alarm-with-battery-or-wireless
+  - mix-brands-interconnected-alarms
+  - ionization-vs-photoelectric-vs-dual-sensor-smoke-alarms
+  - smoke-alarm-date-and-expiry
+sections:
+  - heading: "The short answer: what is NFPA 72?"
+    body: >-
+      NFPA 72 is NFPA's fire alarm code. NFPA's page for it describes
+      the code but not which towns or states use which edition.
+    facts:
+      - id: nfpa72-name-edition
+        value: "NFPA 72 is the National Fire Alarm and Signaling Code. NFPA's standard page lists it as active, with the 2025 edition as the current one."
+        source_url: https://www.nfpa.org/codes-and-standards/nfpa-72-standard-development/72
+        source_title: "NFPA — NFPA 72, National Fire Alarm and Signaling Code (standard development page)"
+        checked: "2026-11-25"
+      - id: nfpa72-scope
+        value: "NFPA's summary says the code centers on fire alarm systems and also covers mass notification systems used for emergencies such as severe weather."
+        source_url: https://www.nfpa.org/codes-and-standards/nfpa-72-standard-development/72
+        source_title: "NFPA — NFPA 72, National Fire Alarm and Signaling Code (standard development page)"
+        checked: "2026-11-25"
+      - id: nfpa72-household-committee
+        value: "Home alarms have their own committee in the code's development: the standard page lists one for Single- and Multiple-Station Alarms and Household Signaling Systems (SIG-HOU)."
+        source_url: https://www.nfpa.org/codes-and-standards/nfpa-72-standard-development/72
+        source_title: "NFPA — NFPA 72, National Fire Alarm and Signaling Code (standard development page)"
+        checked: "2026-11-25"
+      - id: nfpa72-no-adoption-list
+        value: "The standard page lists editions, amendments and committee papers. It does not say which edition your city or state has adopted, or whether it applies to a home that already exists. Ask your local fire marshal or building department."
+        source_url: https://www.nfpa.org/codes-and-standards/nfpa-72-standard-development/72
+        source_title: "NFPA — NFPA 72, National Fire Alarm and Signaling Code (standard development page)"
+        checked: "2026-11-25"
+      - id: usfa-local-rules
+        value: "USFA notes that a city, county or state may require a particular type of alarm and points readers to the local fire marshal."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-25"
+  - heading: "What does NFPA say NFPA 72 requires in homes?"
+    body: >-
+      This is NFPA's plain-language summary on its installing page, not the
+      code text. We did not open the code itself.
+    facts:
+      - id: nfpa72-summary-rooms
+        value: "NFPA's installing page says NFPA 72 has for many years set a minimum of a smoke alarm inside every sleeping room, even in existing homes, plus one outside each sleeping area and on every level."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-25"
+      - id: nfpa72-summary-larger
+        value: "The same summary says larger homes need additional alarms, but it does not say what size of home or how many more."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-25"
+      - id: nfpa72-summary-older-homes
+        value: "NFPA adds that homes built to earlier standards often fall short of these minimums, and asks homeowners and enforcement officials to bring homes up to a full set of alarms."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-25"
+      - id: nfpa72-summary-no-hardwire
+        value: "That summary does not say NFPA 72 requires alarms to be hardwired or interconnected. Neither NFPA page we read states a hardwiring rule; whether your home must have hardwired alarms is a local code question."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-25"
+  - heading: "Do NFPA and USFA say smoke alarms should be interconnected?"
+    body: >-
+      Both organizations recommend interconnected alarms. They frame it as
+      the best protection, not as a code citation.
+    facts:
+      - id: nfpa-interconnect-best
+        value: "NFPA calls interconnecting all smoke alarms the best protection, so that when one sounds they all sound, and says interconnection can be done by hard-wiring or wireless."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-25"
+      - id: nfpa-interconnect-same-maker
+        value: "NFPA says interconnected alarms should all come from the same manufacturer, because alarms that are not compatible may not sound."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-25"
+      - id: nfpa-interconnect-tips
+        value: "NFPA's smoke-alarm information page says it is best to use interconnected alarms, and that a qualified electrician can install interconnected combination alarms throughout the home."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke alarm information"
+        checked: "2026-11-25"
+      - id: usfa-interconnect
+        value: "USFA tells readers to choose interconnected smoke alarms and repeats it in its list of key smoke-alarm messages."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-25"
+      - id: nfpa-cpsc-survey
+        value: "NFPA cites a CPSC survey (2004–2005 fires, published 2009): in homes with interconnected alarms, the alarms sounded in 53% of fires and alerted people in 26%. Where alarms were not on every floor, they sounded in only 4% and alerted people in 2%."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-25"
+  - heading: "Who should install a hardwired smoke alarm?"
+    facts:
+      - id: usfa-hardwired-power
+        value: "USFA describes hardwired alarms as ones powered by the home's electrical system, and says they usually have a backup battery that needs replacing once a year."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-25"
+      - id: usfa-electrician
+        value: "USFA says only qualified electricians should install hardwired smoke alarms."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-25"
+      - id: nfpa-electrician
+        value: "NFPA's smoke-alarm information page says the same: only qualified electricians should install hardwired smoke alarms."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke alarm information"
+        checked: "2026-11-25"
+      - id: nfpa-listed-lab
+        value: "NFPA says to choose an alarm listed by a nationally recognized testing laboratory."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke alarm information"
+        checked: "2026-11-25"
+  - heading: "How often should hardwired alarms be tested and replaced?"
+    facts:
+      - id: usfa-hardwired-care
+        value: "For a hardwired alarm, USFA's care list is: test it monthly, replace the backup battery at least once a year, and replace the whole alarm every 10 years. USFA's list does not cover hardwired models with a sealed backup battery separately; follow that model's manual."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-25"
+      - id: usfa-10yr-manufacture
+        value: "USFA says smoke alarms need to be replaced 10 years from their manufacture date."
+        source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+        source_title: "USFA — Smoke alarms"
+        checked: "2026-11-25"
+      - id: nfpa-monthly-test
+        value: "NFPA says to test smoke alarms at least once a month with the test button and to maintain them according to the maker's instructions."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms/installing-and-maintaining-smoke-alarms
+        source_title: "NFPA — Installing and maintaining smoke alarms"
+        checked: "2026-11-25"
+      - id: nfpa-10yr-and-eol-chirp
+        value: "NFPA says every smoke alarm must be replaced 10 years after its manufacturing date, and that chirping which continues after a new battery means the alarm has reached end of life."
+        source_url: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+        source_title: "NFPA — Smoke alarm information"
+        checked: "2026-11-25"
+  - heading: "What does USFA's position statement say about alarm type and location?"
+    body: >-
+      USFA publishes a short position statement on home smoke alarms aimed
+      at the public and at state and local lawmakers.
+    facts:
+      - id: usfa-ps-no-better-type
+        value: "USFA's position statement says it cannot call one type of alarm better than the other, because every fire is different."
+        source_url: https://www.usfa.fema.gov/about/position-statements/
+        source_title: "USFA — Position statements (Home smoke alarms)"
+        checked: "2026-11-25"
+      - id: usfa-ps-both-or-dual
+        value: "It recommends that every home and place where people sleep have both ionization and photoelectric alarms, or dual-sensor alarms that contain both sensors."
+        source_url: https://www.usfa.fema.gov/about/position-statements/
+        source_title: "USFA — Position statements (Home smoke alarms)"
+        checked: "2026-11-25"
+      - id: usfa-ps-location
+        value: "The statement says where an alarm is placed may matter more than which type it is, depending on where a fire starts, and tells users to follow the maker's guidance on location."
+        source_url: https://www.usfa.fema.gov/about/position-statements/
+        source_title: "USFA — Position statements (Home smoke alarms)"
+        checked: "2026-11-25"
+      - id: usfa-ps-no-interconnect
+        value: "The smoke-alarm statement does not mention hardwiring or interconnection. USFA's interconnect advice is on its smoke-alarms page (above)."
+        source_url: https://www.usfa.fema.gov/about/position-statements/
+        source_title: "USFA — Position statements (Home smoke alarms)"
+        checked: "2026-11-25"
+  - heading: "Can I read NFPA 72 for free?"
+    body: >-
+      You can read the code text for free, with limits. We did not use it for
+      this page.
+    facts:
+      - id: nfpa-free-access
+        value: "NFPA says it offers its codes and standards to the public for free online, in a read-only viewer reached from each code's page by choosing an edition and the free-access option."
+        source_url: https://www.nfpa.org/for-professionals/codes-and-standards/list-of-codes-and-standards/free-access
+        source_title: "NFPA — Free access to codes and standards"
+        checked: "2026-11-25"
+      - id: nfpa-free-access-limits
+        value: "NFPA says the free viewer asks you to sign in or create an account and accept its terms, and that free-access documents cannot be downloaded or printed."
+        source_url: https://www.nfpa.org/for-professionals/codes-and-standards/list-of-codes-and-standards/free-access
+        source_title: "NFPA — Free access to codes and standards"
+        checked: "2026-11-25"
+      - id: nfpa-edition-caution
+        value: "The edition you read online may not be the one your jurisdiction adopted. NFPA's pages we read do not list adoptions, so confirm the edition with your local fire marshal or building department."
+        source_url: https://www.nfpa.org/codes-and-standards/nfpa-72-standard-development/72
+        source_title: "NFPA — NFPA 72, National Fire Alarm and Signaling Code (standard development page)"
+        checked: "2026-11-25"
+      - id: cpsc-recalls
+        value: "Search CPSC's recall list for your exact model before buying or reusing an alarm. CPSC's site did not load for us on this check, so this page states no recall either way."
+        source_url: https://www.cpsc.gov/Recalls
+        source_title: "CPSC — Recalls & Product Safety Warnings"
+        checked: "2026-11-25"
