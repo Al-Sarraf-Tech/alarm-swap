@@ -140,7 +140,7 @@ sections:
             source_url: https://brand.kidde.com/m/3974bd48f7311ef4/original/PDS_KN-COB-IC.pdf
             source_title: "Kidde — KN-COB-IC (900-0120) Product Data Sheet (PDF)"
             checked: "2026-11-23"
-        models: [kidde-30cua10, kidde-kn-cosm-iba, kidde-30cuar]
+        models: [kidde-30cua10, kidde-kn-cosm-iba, kidde-30cuar, kidde-kn-cob-ic]
       - brand: First Alert / BRK
         facts:
           - id: fa-smico100-combo

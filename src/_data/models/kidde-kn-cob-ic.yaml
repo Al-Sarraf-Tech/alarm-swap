@@ -1,0 +1,156 @@
+slug: kidde-kn-cob-ic
+brand: Kidde
+model: KN-COB-IC
+aliases: [900-0120]
+kind: Hardwired carbon monoxide alarm (9V backup)
+title: "Kidde KN-COB-IC: age, expiry and what replaces it"
+description: "Kidde KN-COB-IC hardwired carbon monoxide alarm with 9V backup: 7-year vs 10-year life by build date, end-of-life beeps, approved 9V batteries, interconnect limits and the 20-9003 adapter."
+published: "2026-11-25"
+summary: >-
+  The KN-COB-IC is a wired-in Kidde alarm that senses carbon monoxide only,
+  with a 9V battery to keep it running in a power cut. It is not a smoke
+  alarm. Kidde's product page says units built before 2013 do not have a
+  10-year life, and the 2010 data sheet lists 7 years, while the 2012 guide
+  has it beep twice every 30 seconds ten years after first power-up. Kidde's
+  pages we read did not name a replacement model.
+facts:
+  - id: sensor
+    label: Sensor
+    value: "Electrochemical carbon monoxide sensor. It does not sense smoke, fire or any other gas"
+    source_url: https://www.kidde.com/products/carbon-monoxide-alarms/ac-hardwired-carbon-monoxide-alarm
+    source_title: "Kidde — AC Hardwired Operated Carbon Monoxide Alarm KN-COB-IC (product page)"
+    checked: "2026-11-25"
+  - id: not-smoke
+    label: Is it a smoke alarm?
+    value: "No. Kidde's guide says this CO alarm will not sense smoke or fire, that smoke alarms are still needed, and that it only sounds a fire pattern when a wired-in Kidde smoke alarm sends it a signal"
+    source_url: https://brand.kidde.com/m/30579f9cf4de6318/original/UG_KN-COB-IC_KN-COP-IC.pdf
+    source_title: "Kidde — KN-COB-IC and KN-COP-IC Carbon Monoxide Alarm User's Guide (PDF)"
+    checked: "2026-11-25"
+  - id: power
+    label: Power
+    value: "120 V AC, 60 Hz (60 mA maximum per the guide), with a 9V battery that covers short power outages. The guide says it is not a battery-operated alarm"
+    source_url: https://brand.kidde.com/m/30579f9cf4de6318/original/UG_KN-COB-IC_KN-COP-IC.pdf
+    source_title: "Kidde — KN-COB-IC and KN-COP-IC Carbon Monoxide Alarm User's Guide (PDF)"
+    checked: "2026-11-25"
+  - id: battery-types
+    label: Backup battery
+    value: "The guide lists approved 9V cells (Duracell MN1604 or MX1604, Energizer 522, Goldpeak 1604A), says other batteries may hurt operation, and suggests changing the battery at least once a year"
+    source_url: https://brand.kidde.com/m/30579f9cf4de6318/original/UG_KN-COB-IC_KN-COP-IC.pdf
+    source_title: "Kidde — KN-COB-IC and KN-COP-IC Carbon Monoxide Alarm User's Guide (PDF)"
+    checked: "2026-11-25"
+  - id: low-battery
+    label: Low-battery chirp
+    value: "One quick beep and a red LED flash every 60 seconds means the 9V is low or missing. Pressing the button can quiet the chirp for up to 12 hours while you get a new battery"
+    source_url: https://brand.kidde.com/m/30579f9cf4de6318/original/UG_KN-COB-IC_KN-COP-IC.pdf
+    source_title: "Kidde — KN-COB-IC and KN-COP-IC Carbon Monoxide Alarm User's Guide (PDF)"
+    checked: "2026-11-25"
+  - id: error
+    label: Error chirp
+    value: "The guide lists one quick beep with a red flash every 30 seconds as an error/service signal, and a steady red LED with a constant sound as an error. Its advice is to replace the battery first; if the error continues, the unit has failed, will not respond to CO, and should be replaced right away"
+    source_url: https://brand.kidde.com/m/30579f9cf4de6318/original/UG_KN-COB-IC_KN-COP-IC.pdf
+    source_title: "Kidde — KN-COB-IC and KN-COP-IC Carbon Monoxide Alarm User's Guide (PDF)"
+    checked: "2026-11-25"
+  - id: life-by-date
+    label: How long it lasts
+    value: "It depends on when it was made. Kidde's product page says a CO alarm made before 2013 does not have a 10-year life and points you to the user guide that came with it"
+    source_url: https://www.kidde.com/products/carbon-monoxide-alarms/ac-hardwired-carbon-monoxide-alarm
+    source_title: "Kidde — AC Hardwired Operated Carbon Monoxide Alarm KN-COB-IC (product page)"
+    checked: "2026-11-25"
+  - id: old-data-sheet
+    label: Older units (2010 data sheet)
+    value: "The data sheet Kidde still links (part 900-0120, rev. 08-2010) gives a 7-year life and a 5-year limited warranty, and describes a feature that tells you to replace the alarm after 7 years"
+    source_url: https://brand.kidde.com/m/3974bd48f7311ef4/original/PDS_KN-COB-IC.pdf
+    source_title: "Kidde — KN-COB-IC (900-0120) Product Data Sheet (PDF)"
+    checked: "2026-11-25"
+  - id: end-of-life
+    label: End-of-life signal (2012 guide)
+    value: "Ten years after first power-up, two quick beeps and two red LED flashes every 30 seconds. Test/Reset quiets the beeps for up to two days, after which they can no longer be silenced. The guide says replace it right away; one section says it no longer detects CO in this state, while the maintenance section says it still alarms for CO during the two-day quiet period"
+    source_url: https://brand.kidde.com/m/30579f9cf4de6318/original/UG_KN-COB-IC_KN-COP-IC.pdf
+    source_title: "Kidde — KN-COB-IC and KN-COP-IC Carbon Monoxide Alarm User's Guide (PDF)"
+    checked: "2026-11-25"
+  - id: date-location
+    label: Where the date is
+    value: "The guide does not say where the manufacture date is printed. It says a label on the side of the alarm is there for you to write a \"replace by\" date, ten years from power-up"
+    source_url: https://brand.kidde.com/m/30579f9cf4de6318/original/UG_KN-COB-IC_KN-COP-IC.pdf
+    source_title: "Kidde — KN-COB-IC and KN-COP-IC Carbon Monoxide Alarm User's Guide (PDF)"
+    checked: "2026-11-25"
+  - id: alarm-patterns
+    label: What the alarms sound like
+    value: "CO is four quick beeps then five seconds of quiet, repeating. If a wired-in Kidde smoke alarm trips, this unit sounds three long beeps instead, and the smoke pattern takes priority over CO"
+    source_url: https://brand.kidde.com/m/30579f9cf4de6318/original/UG_KN-COB-IC_KN-COP-IC.pdf
+    source_title: "Kidde — KN-COB-IC and KN-COP-IC Carbon Monoxide Alarm User's Guide (PDF)"
+    checked: "2026-11-25"
+  - id: co-reset
+    label: If the CO alarm goes off
+    value: "The guide's steps: press Test/Reset, call 911 or the fire department, and get everyone to fresh air. If it sounds again within six minutes of a reset, it is sensing high CO"
+    source_url: https://brand.kidde.com/m/30579f9cf4de6318/original/UG_KN-COB-IC_KN-COP-IC.pdf
+    source_title: "Kidde — KN-COB-IC and KN-COP-IC Carbon Monoxide Alarm User's Guide (PDF)"
+    checked: "2026-11-25"
+  - id: co-response
+    label: CO response times
+    value: "60 to 240 minutes at 70 ppm, 10 to 50 minutes at 150 ppm, and 4 to 15 minutes at 400 ppm. The data sheet says it will not alarm below 30 ppm"
+    source_url: https://brand.kidde.com/m/3974bd48f7311ef4/original/PDS_KN-COB-IC.pdf
+    source_title: "Kidde — KN-COB-IC (900-0120) Product Data Sheet (PDF)"
+    checked: "2026-11-25"
+  - id: test
+    label: Testing
+    value: "Kidde asks for a weekly test with the Test/Reset button. Pressing it on the CO alarm does not set off wired-in smoke alarms; testing a wired-in smoke alarm makes this unit sound the fire pattern"
+    source_url: https://brand.kidde.com/m/30579f9cf4de6318/original/UG_KN-COB-IC_KN-COP-IC.pdf
+    source_title: "Kidde — KN-COB-IC and KN-COP-IC Carbon Monoxide Alarm User's Guide (PDF)"
+    checked: "2026-11-25"
+  - id: placement
+    label: Where it goes
+    value: "In or near bedrooms and living areas, ideally one per level. Not in kitchens, garages or furnace rooms, and not within 5 feet of heating or cooking appliances (Kidde suggests 15 feet)"
+    source_url: https://brand.kidde.com/m/30579f9cf4de6318/original/UG_KN-COB-IC_KN-COP-IC.pdf
+    source_title: "Kidde — KN-COB-IC and KN-COP-IC Carbon Monoxide Alarm User's Guide (PDF)"
+    checked: "2026-11-25"
+  - id: interconnect
+    label: Interconnect
+    value: "Up to 24 Kidde devices, kept within the NFPA limit of 12 smoke alarms and 18 alarms in total, plus up to six remote signals or relay modules. All on one non-switched, non-GFCI circuit, with no more than 1000 feet of wire between first and last unit"
+    source_url: https://brand.kidde.com/m/30579f9cf4de6318/original/UG_KN-COB-IC_KN-COP-IC.pdf
+    source_title: "Kidde — KN-COB-IC and KN-COP-IC Carbon Monoxide Alarm User's Guide (PDF)"
+    checked: "2026-11-25"
+  - id: other-brands
+    label: Mixing brands
+    value: "Kidde's interconnect page lists the KN-COB-IC among the models tested as compatible with Kidde alarms, and warns that wiring Kidde products to makers it does not specify can cause nuisance alarms, missed alarms or damage. The 2012 guide is stricter: Kidde to Kidde only"
+    source_url: https://www.kidde.com/support/smoke-alarms/kidde-interconnectivity
+    source_title: "Kidde — What Other Products Will Kidde Alarms Interconnect With?"
+    checked: "2026-11-25"
+  - id: remote-co
+    label: Will newer Kidde alarms sound for its CO?
+    value: "Kidde's DETECT guide lists the KN-COB-IC among models that pass both remote smoke and remote CO alarms over the wire. It lists the i12020, i12040, i12060, i12080 and i4618 families as giving remote smoke but not remote CO"
+    source_url: https://brand.kidde.com/m/61163acef513f163/original/UG_DETECT_5in_AC_EN.pdf
+    source_title: "Kidde — DETECT 5-inch AC smoke and smoke/CO alarms User Guide, covers 30CUA10 (PDF)"
+    checked: "2026-11-25"
+  - id: siblings
+    label: Related model
+    value: "The same guide covers the KN-COP-IC, which adds a digital ppm display and peak-level button. This page covers the KN-COB-IC only"
+    source_url: https://brand.kidde.com/m/30579f9cf4de6318/original/UG_KN-COB-IC_KN-COP-IC.pdf
+    source_title: "Kidde — KN-COB-IC and KN-COP-IC Carbon Monoxide Alarm User's Guide (PDF)"
+    checked: "2026-11-25"
+  - id: size
+    label: Size and sound
+    value: "5.75 inches across by 1.8 inches deep, about 1 lb, with an 85 dB alarm at 10 feet. Rated for 40 to 100 degrees F; the product page gives 10 to 95 percent humidity (the 2010 data sheet says 5 to 95)"
+    source_url: https://www.kidde.com/products/carbon-monoxide-alarms/ac-hardwired-carbon-monoxide-alarm
+    source_title: "Kidde — AC Hardwired Operated Carbon Monoxide Alarm KN-COB-IC (product page)"
+    checked: "2026-11-25"
+replacement:
+  - id: named-replacement
+    label: Replacement named by Kidde
+    value: "None named. The KN-COB-IC product page was still up and lists a 10-year limited warranty, but neither it, the user guide nor the data sheet named a replacement or upgrade model when we checked"
+    source_url: https://www.kidde.com/products/carbon-monoxide-alarms/ac-hardwired-carbon-monoxide-alarm
+    source_title: "Kidde — AC Hardwired Operated Carbon Monoxide Alarm KN-COB-IC (product page)"
+    checked: "2026-11-25"
+  - id: adapter
+    label: Wiring adapter
+    value: "Kidde's 20-9003 adapter page lists the KN-COB-IC among the older alarms whose existing harness the adapter can connect to a new compatible Kidde alarm. Check Kidde's compatibility guide before buying"
+    source_url: https://www.kidde.com/products/safety-accessories/quick-connect-adapter-for-hardwired-smoke-carbon-monoxide-alarms
+    source_title: "Kidde — Quick Connect Adapter 20-9003 (product page)"
+    checked: "2026-11-25"
+  - id: recalls
+    label: Recalls
+    value: "Search CPSC's recall list for your exact model before reusing or reselling an alarm. CPSC's site returned HTTP 403 during this check and we read no CPSC notice for the KN-COB-IC, so this page states no recall status"
+    source_url: https://www.cpsc.gov/Recalls
+    source_title: "CPSC — Recalls & Product Safety Warnings"
+    checked: "2026-11-25"
+related: [kidde-kn-cosm-iba, kidde-30cua10, kidde-30cuar, kidde-20-9003]

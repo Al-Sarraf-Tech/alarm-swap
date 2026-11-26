@@ -21,7 +21,6 @@ const asins = {
 const extras = {
   "kidde-ka-b3": { brand: "Kidde", model: "KA-B3" },
   "first-alert-smico105-ac": { brand: "First Alert", model: "SMICO105-AC" },
-  "kidde-kn-cob-ic": { brand: "Kidde", model: "KN-COB-IC" },
 };
 
 // One entry per recommended model. A model that is only the subject of a
@@ -45,6 +44,7 @@ const pages = {
   "kidde-i12020": ["kidde-20sar", "kidde-20-9003"],
   "kidde-i12040": ["kidde-20-9003"],
   "kidde-i12060": ["kidde-20-9003"],
+  "kidde-kn-cob-ic": ["kidde-kn-cob-ic"],
   "kidde-kn-cosm-iba": ["kidde-30cuar", "kidde-20-9003"],
   "kidde-p4010acsco": ["kidde-30cua10"],
   "kidde-20sa10-vs-20sar-vs-30cua10": ["kidde-20sa10", "kidde-20sar", "kidde-30cua10"],
