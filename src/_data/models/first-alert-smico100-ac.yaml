@@ -192,4 +192,4 @@ replacement:
     source_url: https://www.cpsc.gov/Recalls
     source_title: "CPSC — Recalls & Product Safety Warnings"
     checked: "2026-11-22"
-related: [first-alert-smco100v-ac, first-alert-smi100-ac, first-alert-smi105-ac]
+related: [first-alert-smco100v-ac, first-alert-smi100-ac, first-alert-smi105-ac, first-alert-smico105-ac]

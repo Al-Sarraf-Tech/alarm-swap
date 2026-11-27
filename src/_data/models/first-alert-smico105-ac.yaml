@@ -1,0 +1,212 @@
+slug: first-alert-smico105-ac
+brand: First Alert
+model: SMICO105-AC
+aliases: []
+kind: Hardwired smoke + CO alarm
+title: "First Alert SMICO105-AC: sealed 10-year smoke + CO alarm, expiry and what replaces it"
+description: "First Alert SMICO105-AC wired ionization smoke and CO alarm with a sealed 10-year battery: chirp codes, interconnect list, expiry, and the SC2-W10 that replaces it."
+published: "2026-11-26"
+summary: >-
+  The SMICO105-AC is a wired First Alert 2-in-1 alarm with an ionization smoke
+  sensor, an electrochemical carbon monoxide sensor and a lithium backup
+  battery sealed in at the factory. First Alert's specifications say it
+  replaces the BRK SC9120LBL, yet the manual's compatible list leaves the
+  SC9120LBL out. The manual says to replace the whole alarm 10 years after
+  installation, and First Alert's newer SC2-W10 page lists the SMICO105-AC as
+  the model it replaces. When we checked, the SMICO105-AC itself showed as
+  unavailable in First Alert's store.
+facts:
+  - id: sensor
+    label: Sensor type
+    value: "Electrochemical (carbon monoxide) and ionization (smoke), per the specifications. The page also lists First Alert's Precision Detection among its features"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-2-in-1-smoke-co-alarm-with-10-year-battery-backup
+    source_title: "First Alert — Interconnect Hardwire 2-in-1 Smoke and CO Alarm with 10-Year Battery Backup SMICO105-AC (product page)"
+    checked: "2026-11-26"
+  - id: power
+    label: Power
+    value: "Wired to a 24-hour 120 V AC, 60 Hz pure sine wave circuit that no switch, dimmer or ground fault circuit interrupter can turn off; the manual says an arc fault breaker is fine. The rating printed at the end of the manual is 0.09 A, and it says wiring and installation must be done by a licensed electrician"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-178315.pdf
+    source_title: "First Alert — SMICO105-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with 10-Year Battery Backup (PDF)"
+    checked: "2026-11-26"
+  - id: battery-types
+    label: Backup battery
+    value: "A lithium battery locked into the battery drawer at the factory, meant to cover the alarm's whole recommended life. The specifications list it as not replaceable, and the manual says not to replace it: at the low-battery or end-of-life signal you cut the drawer's locking pin and dispose of the battery and the alarm"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-178315.pdf
+    source_title: "First Alert — SMICO105-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with 10-Year Battery Backup (PDF)"
+    checked: "2026-11-26"
+  - id: manual-9v-line
+    label: A 9 V line in the manual
+    value: "The troubleshooting table in this same manual still tells you to make sure a fresh 9 V battery is installed when the alarm will not sound on test. That conflicts with the sealed lithium battery described everywhere else in the manual and on the product page; this page goes by the sealed-battery wording and suggests asking First Alert if in doubt"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-178315.pdf
+    source_title: "First Alert — SMICO105-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with 10-Year Battery Backup (PDF)"
+    checked: "2026-11-26"
+  - id: activation
+    label: Before first use
+    value: "If the alarm has a 'Pull to Activate Battery Back-Up' tab, the manual says to remove it during installation; you do not need to open the battery compartment"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-178315.pdf
+    source_title: "First Alert — SMICO105-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with 10-Year Battery Backup (PDF)"
+    checked: "2026-11-26"
+  - id: outage
+    label: Power cut
+    value: "If AC power fails, the manual says the backup lets the alarm sound for at least 4 minutes, and a weak battery should still give up to 7 days of protection. With AC off and the battery dead or missing, the alarm cannot work"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-178315.pdf
+    source_title: "First Alert — SMICO105-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with 10-Year Battery Backup (PDF)"
+    checked: "2026-11-26"
+  - id: ups-inverter
+    label: Generators, solar and UPS
+    value: "The manual says AC-powered alarms should run only on true or pure sine wave inverters, and that most battery UPS products and square wave or quasi sine wave inverters will damage this one. It also warns that noisy power (a generator, solar power, big appliances or a dimmer on the same circuit) may damage it"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-178315.pdf
+    source_title: "First Alert — SMICO105-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with 10-Year Battery Backup (PDF)"
+    checked: "2026-11-26"
+  - id: alarm-patterns
+    label: Smoke vs CO horn
+    value: "Smoke is 3 beeps and a pause; CO is 4 fast beeps and a pause, each with the red light flashing in time. The weekly test plays the smoke pattern and then the CO pattern. This model has no voice messages"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-178315.pdf
+    source_title: "First Alert — SMICO105-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with 10-Year Battery Backup (PDF)"
+    checked: "2026-11-26"
+  - id: co-threshold
+    label: Low CO levels
+    value: "The manual says the CO sensor is typically not made to react to levels below 30 ppm, so it is not a low-level CO monitor"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-178315.pdf
+    source_title: "First Alert — SMICO105-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with 10-Year Battery Backup (PDF)"
+    checked: "2026-11-26"
+  - id: smart-interconnect
+    label: CO on the interconnect wire
+    value: "The manual calls this Smart Interconnect. When smoke is sensed, every connected First Alert smoke, heat or Smart Interconnect CO alarm sounds the smoke pattern. When CO is sensed, only Smart Interconnect alarms sound the CO pattern; connected alarms without the feature stay silent"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-178315.pdf
+    source_title: "First Alert — SMICO105-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with 10-Year Battery Backup (PDF)"
+    checked: "2026-11-26"
+  - id: silence
+    label: Silence times
+    value: "The test/silence button quiets a smoke alarm for up to 15 minutes and a CO alarm for up to 6 minutes; either starts again if the smoke or CO is still there. On an interconnected loop you press the button on the alarm that started it (its red light is the one flashing). The manual says not to use silence in an emergency"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-178315.pdf
+    source_title: "First Alert — SMICO105-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with 10-Year Battery Backup (PDF)"
+    checked: "2026-11-26"
+  - id: plug
+    label: Wiring plug
+    value: "The page says its Quick Connect Plug lets it go in place of existing hardwired detectors without rewiring. Neither the page nor the manual says which older plugs it fits"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-2-in-1-smoke-co-alarm-with-10-year-battery-backup
+    source_title: "First Alert — Interconnect Hardwire 2-in-1 Smoke and CO Alarm with 10-Year Battery Backup SMICO105-AC (product page)"
+    checked: "2026-11-26"
+  - id: mounting
+    label: Where it can go
+    value: "On a standard wiring junction box up to 4 inches, on the ceiling or on a wall where local code allows. The manual says it is approved for single-family homes and is not designed for boats or RVs, and it has an optional locking pin to discourage removal"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-178315.pdf
+    source_title: "First Alert — SMICO105-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with 10-Year Battery Backup (PDF)"
+    checked: "2026-11-26"
+  - id: date-location
+    label: Where the date is
+    value: "First Alert says to read the manufacture date on the back of its smoke and CO alarms and replace any that are 10 years old or older. The SMICO105-AC manual itself does not say where the date is printed"
+    source_url: https://www.firstalert.com/pages/10year
+    source_title: "First Alert — 10-Year Battery Alarms (How to check your alarms)"
+    checked: "2026-11-26"
+  - id: lifespan
+    label: When to replace
+    value: "The manual's record card says to replace the alarm 10 years after installation, and the alarm gives an end-of-life signal about 10 years after installation. The manual gives one interval for the whole unit and does not state a separate life for the CO sensor"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-178315.pdf
+    source_title: "First Alert — SMICO105-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with 10-Year Battery Backup (PDF)"
+    checked: "2026-11-26"
+  - id: low-battery
+    label: Low-battery / end-of-life chirp
+    value: "The manual groups low battery and end of life together: about 5 chirps a minute. On AC power (and for the first 15 minutes after AC goes off) the green light flashes 2 seconds on and 2 off; after that, on battery alone, it flashes 5 times a minute. The manual says the low-battery warning should last 7 days and that you should replace the alarm, since the battery cannot be changed"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-178315.pdf
+    source_title: "First Alert — SMICO105-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with 10-Year Battery Backup (PDF)"
+    checked: "2026-11-26"
+  - id: eol-hush
+    label: Quieting the chirp
+    value: "Pressing the test/silence button stops the low-battery/end-of-life chirp for up to 48 hours while the green light keeps flashing 5 times a minute. The table says this works for up to 2 days at a time and 14 days in total, and the manual says not to unplug the alarm until you have its replacement"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-178315.pdf
+    source_title: "First Alert — SMICO105-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with 10-Year Battery Backup (PDF)"
+    checked: "2026-11-26"
+  - id: malfunction
+    label: Malfunction signal
+    value: "Three chirps a minute with three green flashes. The manual says the alarm is not working properly and needs replacing, and to contact First Alert consumer support for a warranty replacement if it is still covered"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-178315.pdf
+    source_title: "First Alert — SMICO105-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with 10-Year Battery Backup (PDF)"
+    checked: "2026-11-26"
+  - id: dirty
+    label: Needs cleaning
+    value: "Two green flashes a minute with a silent horn means the alarm needs cleaning; the manual suggests a vacuum's soft brush and no water, cleaners or solvents. If the light keeps flashing afterwards, it says to call First Alert consumer support"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-178315.pdf
+    source_title: "First Alert — SMICO105-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with 10-Year Battery Backup (PDF)"
+    checked: "2026-11-26"
+  - id: latch
+    label: Which alarm went off
+    value: "After an alarm, the unit that sensed it keeps its red light flashing until you clear it: 2 seconds on and 2 off for smoke, 4 on and 4 off for CO. The manual says the latch needs AC power; on battery alone the latches hold for only about 15 minutes"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-178315.pdf
+    source_title: "First Alert — SMICO105-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with 10-Year Battery Backup (PDF)"
+    checked: "2026-11-26"
+  - id: interconnect
+    label: Interconnect limits
+    value: "Up to 18 compatible units on one loop, no more than 12 of them smoke alarms, all on the same fuse or breaker, with under 1,000 feet of interconnect wire in total, and only within one single-family home. During a power cut only units with battery backup keep signaling each other"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-178315.pdf
+    source_title: "First Alert — SMICO105-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with 10-Year Battery Backup (PDF)"
+    checked: "2026-11-26"
+  - id: compatible
+    label: What it links with
+    value: "The manual lists First Alert smoke alarms 7010, 9120, 3120B, 7010B, 7010BSL, 7020B, 7020BSL, 9120B, SA520, SC7010B, SC7010BV, SC9120B, SM100V-AC, SM300-AC, SM500-AC, SMI100-AC, SMI105-AC and SM110LED-AC; smoke + CO models 1039102, 7030BSL, SMCO100V-AC, SMICO100-AC, SMICO105-AC and SMCO110LED-AC; CO alarms CO5120BN and CO5120PDBN; the HD6135FB heat alarm; and the RM4 relay (with the SLED177 strobe through an RM4). No Kidde model is on it"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-178315.pdf
+    source_title: "First Alert — SMICO105-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with 10-Year Battery Backup (PDF)"
+    checked: "2026-11-26"
+  - id: interconnect-count-page
+    label: What the product page says
+    value: "The product page says it works with up to 12 other First Alert or BRK alarms and 6 other compatible devices, points to the manual for which ones, and says it also works with First Alert's SC5 smart alarm"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-2-in-1-smoke-co-alarm-with-10-year-battery-backup
+    source_title: "First Alert — Interconnect Hardwire 2-in-1 Smoke and CO Alarm with 10-Year Battery Backup SMICO105-AC (product page)"
+    checked: "2026-11-26"
+  - id: sound
+    label: Horn loudness and listings
+    value: "85 dB at 10 feet. The label text at the end of the manual says it conforms to UL 217 (smoke) and UL 2034 (CO)"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-178315.pdf
+    source_title: "First Alert — SMICO105-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with 10-Year Battery Backup (PDF)"
+    checked: "2026-11-26"
+  - id: availability
+    label: Maker's store
+    value: "When we checked, First Alert's page showed the SMICO105-AC as unavailable. It lists two UPC numbers (029054022851 and 194160015704) and does not say the model is discontinued"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-2-in-1-smoke-co-alarm-with-10-year-battery-backup
+    source_title: "First Alert — Interconnect Hardwire 2-in-1 Smoke and CO Alarm with 10-Year Battery Backup SMICO105-AC (product page)"
+    checked: "2026-11-26"
+  - id: warranty
+    label: Warranty
+    value: "10-year limited, from the date of purchase, for the original buyer, with proof of purchase. The manual says the warranty does not cover the included battery"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-178315.pdf
+    source_title: "First Alert — SMICO105-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with 10-Year Battery Backup (PDF)"
+    checked: "2026-11-26"
+replacement:
+  - id: named-replacement
+    label: Replacement named by First Alert
+    value: "First Alert's SC2-W10 page lists the SMICO105-AC as the model it replaces. The SC2-W10 is also a wired smoke + CO alarm with a 10-year lithium backup and a quick-connect plug, but its specifications list a photoelectric smoke sensor rather than ionization"
+    source_url: https://www.firstalert.com/products/hardwire-combination-smoke-carbon-monoxide-alarm-with-10-year-battery-backup
+    source_title: "First Alert — Hardwire Combination Smoke & Carbon Monoxide Alarm with 10-Year Battery Backup SC2-W10 (product page)"
+    checked: "2026-11-26"
+  - id: replacement-gaps
+    label: What the SC2-W10 guide leaves out
+    value: "The SC2-W10 installation guide prints the same 18-unit / 12-smoke loop limits but no list of compatible models; it points to a QR code instead. Neither it nor the SC2-W10 page says whether the new plug matches the SMICO105-AC's, so check before mixing an SC2-W10 with older alarms on one wire"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10012/900-00645-001-00.pdf
+    source_title: "First Alert — SM2/SC2 Installation Guide (AC), 900-00645-001-00 Rev B (PDF)"
+    checked: "2026-11-26"
+  - id: replaces
+    label: What it replaces
+    value: "The SMICO105-AC specifications list the SC9120LBL as the model it replaces and name no other"
+    source_url: https://www.firstalert.com/products/interconnect-hardwire-2-in-1-smoke-co-alarm-with-10-year-battery-backup
+    source_title: "First Alert — Interconnect Hardwire 2-in-1 Smoke and CO Alarm with 10-Year Battery Backup SMICO105-AC (product page)"
+    checked: "2026-11-26"
+  - id: sc9120lbl-gap
+    label: SC9120LBL on the same wire
+    value: "The manual's compatible list names the SC9120B but not the SC9120LBL or 9120LBL, even though the product page says the SMICO105-AC replaces the SC9120LBL. If you are swapping one SC9120LBL and keeping others on the loop, ask First Alert first"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-178315.pdf
+    source_title: "First Alert — SMICO105-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with 10-Year Battery Backup (PDF)"
+    checked: "2026-11-26"
+  - id: adapters
+    label: Adapter plugs
+    value: "Apart from the plug in the box, neither the product page nor the manual names an adapter for the SMICO105-AC, so this page does not say whether First Alert's ADK-12 or ADF works with it"
+    source_url: https://digitalassets.resideo.com/damroot/Original/10002/M08-178315.pdf
+    source_title: "First Alert — SMICO105-AC User's Manual, Smoke & Carbon Monoxide Alarm, AC Powered with 10-Year Battery Backup (PDF)"
+    checked: "2026-11-26"
+  - id: recalls
+    label: Recalls
+    value: "Search CPSC's recall list for your exact model before reusing or reselling an alarm. CPSC's site returned an error to this run, so no recall notice was checked for this page"
+    source_url: https://www.cpsc.gov/Recalls
+    source_title: "CPSC — Recalls & Product Safety Warnings"
+    checked: "2026-11-26"
+related: [first-alert-smico100-ac, first-alert-smi105-ac, first-alert-smco100v-ac]

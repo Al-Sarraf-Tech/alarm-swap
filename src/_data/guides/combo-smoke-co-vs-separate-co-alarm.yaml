@@ -167,7 +167,7 @@ sections:
             source_url: https://www.firstalert.com/collections/carbon-monoxide-alarms
             source_title: "First Alert — Carbon Monoxide Alarms (collection page)"
             checked: "2026-11-23"
-        models: [first-alert-smico100-ac, first-alert-smco100v-ac]
+        models: [first-alert-smico100-ac, first-alert-smco100v-ac, first-alert-smico105-ac]
   - heading: "If I add a CO alarm to my old smoke alarms, will the smoke alarms sound for CO?"
     body: >-
       Often not. On both brands, how an alarm reacts to a signal from another

@@ -20,7 +20,7 @@ const asins = {
 // Named on a page, but there is no model file for it.
 const extras = {
   "kidde-ka-b3": { brand: "Kidde", model: "KA-B3" },
-  "first-alert-smico105-ac": { brand: "First Alert", model: "SMICO105-AC" },
+  "first-alert-sc2-w10": { brand: "First Alert", model: "SC2-W10" },
 };
 
 // One entry per recommended model. A model that is only the subject of a
@@ -35,6 +35,7 @@ const pages = {
   "first-alert-sm100v-ac": ["first-alert-sm100v-ac"],
   "first-alert-smco100v-ac": ["first-alert-smco100v-ac"],
   "first-alert-smico100-ac": ["first-alert-smico100-ac"],
+  "first-alert-smico105-ac": ["first-alert-sc2-w10", "first-alert-smico105-ac"],
   "kidde-20-9003": ["kidde-20-9003", "kidde-ka-b3", "first-alert-adk-12"],
   "kidde-20sa10": ["kidde-20sa10"],
   "kidde-20sar": ["kidde-20sar"],

@@ -121,6 +121,7 @@ sections:
             source_url: https://www.firstalert.com/products/interconnect-hardwire-2-in-1-smoke-co-alarm-with-10-year-battery-backup
             source_title: "First Alert — Interconnect Hardwire 2-in-1 Smoke and CO Alarm with 10-Year Battery Backup SMICO105-AC (product page)"
             checked: "2026-11-21"
+        models: [first-alert-smico105-ac]
   - heading: "Can I replace one and leave the other old alarms on the wire?"
     body: >-
       Many homes swap one alarm at a time. The two manuals print the same
