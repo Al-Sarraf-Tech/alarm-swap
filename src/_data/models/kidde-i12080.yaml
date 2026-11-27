@@ -1,0 +1,169 @@
+slug: kidde-i12080
+brand: Kidde
+model: i12080
+aliases: [i12080A]
+kind: Hardwired smoke alarm
+title: "Kidde i12080: safety-light smoke alarm, two 9 V batteries, expiry and what replaces it"
+description: "Kidde i12080 / i12080A hardwired ionization smoke alarm with a safety light: its two 9 V batteries, date code, ten-year replacement, LED codes, the 20SAR upgrade Kidde names and the 20-9003 plug adapter."
+published: "2026-11-27"
+summary: >-
+  The i12080 is a Kidde hardwired ionization smoke alarm with a 9 V backup
+  battery and a built-in safety light that switches on while it sounds. The
+  light runs off its own second 9 V battery, so this alarm takes two. Replace
+  it ten years after the date code on its back. Kidde's i12080 page shows the
+  20SAR under "Upgrade to"; the 20SAR is photoelectric, uses AA backup
+  batteries, and neither its page nor its data sheet lists a safety light. The
+  20-9003 adapter lists both the i12080 and i12080A harnesses.
+facts:
+  - id: status
+    label: Status
+    value: "Kidde's i12080 page is still up and shows the 20SAR under \"Upgrade to\". The page did not say \"discontinued\" when we checked, and the data sheet says it was sold in six-unit cut cases, not as single units"
+    source_url: https://www.kidde.com/products/smoke-alarms/ac-hardwired-interconnect-smoke-alarm-with-safety-light
+    source_title: "Kidde — AC Hardwired Interconnect Smoke Alarm with Safety Light i12080 (product page)"
+    checked: "2026-11-27"
+  - id: versions
+    label: Versions
+    value: "Kidde has two user guides: an older one for the i12020, i12040 and i12080, and a 2015 one for the i12040A and i12080A. The product page text describes the i12080A but titles the page i12080"
+    source_url: https://brand.kidde.com/m/79d343435488dfc/original/Product_UG_i12040A-i12080A-User-Guide_En.pdf
+    source_title: "Kidde — i12040A / i12080A Smoke Alarm User Guide (PDF)"
+    checked: "2026-11-27"
+  - id: sensor
+    label: Sensor type
+    value: "Ionization. Kidde's data sheet says ionization alarms may pick up flaming fires sooner, photoelectric alarms smoldering fires sooner, and recommends having both types in the home"
+    source_url: https://brand.kidde.com/m/22416d3ee877d9e9/original/PDS_i12080.pdf
+    source_title: "Kidde — i12080 120V AC/DC Wire-in Smoke Alarm Safety Light Product Data Sheet (PDF)"
+    checked: "2026-11-27"
+  - id: power
+    label: Power
+    value: "120 V AC, 60 Hz house wiring (80 mA) with a 9 V backup battery included"
+    source_url: https://brand.kidde.com/m/22416d3ee877d9e9/original/PDS_i12080.pdf
+    source_title: "Kidde — i12080 120V AC/DC Wire-in Smoke Alarm Safety Light Product Data Sheet (PDF)"
+    checked: "2026-11-27"
+  - id: two-batteries
+    label: Batteries it takes
+    value: "Two 9 V batteries: one backs up the smoke alarm and a separate alkaline one powers the safety light. The 2015 guide says to replace both at once if the light looks dim during the weekly test"
+    source_url: https://brand.kidde.com/m/79d343435488dfc/original/Product_UG_i12040A-i12080A-User-Guide_En.pdf
+    source_title: "Kidde — i12040A / i12080A Smoke Alarm User Guide (PDF)"
+    checked: "2026-11-27"
+  - id: battery-types
+    label: Which 9 V batteries
+    value: "The i12080A guide lists carbon-zinc or alkaline 9 V types for the alarm backup (for example Energizer 522 or Duracell MN1604/MX1604) and says not to use lithium. The older i12080 guide also allowed one lithium model (Ultralife U9VL-J). Both guides say the safety-light battery must be alkaline"
+    source_url: https://brand.kidde.com/m/79d343435488dfc/original/Product_UG_i12040A-i12080A-User-Guide_En.pdf
+    source_title: "Kidde — i12040A / i12080A Smoke Alarm User Guide (PDF)"
+    checked: "2026-11-27"
+  - id: safety-light
+    label: Safety light
+    value: "Turns on when the alarm senses smoke or is tested, and stays on until the smoke clears. Its battery should last at least a year in standby and give about 15 minutes of light during an alarm. Kidde notes the light does not count as code-approved emergency lighting and thick smoke may hide it"
+    source_url: https://brand.kidde.com/m/79d343435488dfc/original/Product_UG_i12040A-i12080A-User-Guide_En.pdf
+    source_title: "Kidde — i12040A / i12080A Smoke Alarm User Guide (PDF)"
+    checked: "2026-11-27"
+  - id: light-bulb
+    label: If the light fails
+    value: "It depends on the version. On the i12080A the light is an LED that cannot be replaced: if it stays dark on test after a fresh light battery, Kidde says replace the whole alarm. The older i12080 used a small replaceable lamp (6.3 V, 250 mA, average life 50 hours) that the guide says to swap when a fresh battery does not light it"
+    source_url: https://brand.kidde.com/m/597825ea95c0b0c9/original/UG_i12010_i12040_i12080.pdf
+    source_title: "Kidde — i12020 / i12040 / i12080 Smoke Alarm User's Guide (PDF)"
+    checked: "2026-11-27"
+  - id: date-location
+    label: Where the date is
+    value: "Both the model number and the date code are on the back of the alarm"
+    source_url: https://brand.kidde.com/m/79d343435488dfc/original/Product_UG_i12040A-i12080A-User-Guide_En.pdf
+    source_title: "Kidde — i12040A / i12080A Smoke Alarm User Guide (PDF)"
+    checked: "2026-11-27"
+  - id: lifespan
+    label: When to replace
+    value: "Ten years from the date code; the guide says this is what both NFPA and Kidde recommend"
+    source_url: https://brand.kidde.com/m/79d343435488dfc/original/Product_UG_i12040A-i12080A-User-Guide_En.pdf
+    source_title: "Kidde — i12040A / i12080A Smoke Alarm User Guide (PDF)"
+    checked: "2026-11-27"
+  - id: low-battery
+    label: Low-battery chirp
+    value: "A chirp about every 30–40 seconds for at least seven days when the backup battery is low or missing. Pressing Test/Hush quiets that chirp for about 13 hours; it is a reminder window, not a fix"
+    source_url: https://brand.kidde.com/m/79d343435488dfc/original/Product_UG_i12040A-i12080A-User-Guide_En.pdf
+    source_title: "Kidde — i12040A / i12080A Smoke Alarm User Guide (PDF)"
+    checked: "2026-11-27"
+  - id: end-of-life-signal
+    label: End-of-life signal
+    value: "Not stated by the maker. Neither guide nor the data sheet describes a ten-year end-of-life warning, so go by the date code. A chirp about 20 seconds after the red LED flash means the sensing chamber is faulty, and the 2015 guide says to replace the alarm"
+    source_url: https://brand.kidde.com/m/79d343435488dfc/original/Product_UG_i12040A-i12080A-User-Guide_En.pdf
+    source_title: "Kidde — i12040A / i12080A Smoke Alarm User Guide (PDF)"
+    checked: "2026-11-27"
+  - id: leds
+    label: Lights (LEDs)
+    value: "Green means AC power is on. The red LED under Test/Hush flashes in standby, once a second in alarm (only on the alarm that started it), and in longer 1.5-second blinks for alarm memory and Hush. The timings differ by document: the data sheet gives standby every 30–40 s, memory every 16 s and Hush every 8 s; the 2015 i12080A guide gives every 40 s, every 20 s and every 10 s. Use the guide that matches the label on your alarm"
+    source_url: https://brand.kidde.com/m/22416d3ee877d9e9/original/PDS_i12080.pdf
+    source_title: "Kidde — i12080 120V AC/DC Wire-in Smoke Alarm Safety Light Product Data Sheet (PDF)"
+    checked: "2026-11-27"
+  - id: hush
+    label: Hush time
+    value: "The data sheet says about 7 minutes; the 2015 guide says up to about 8 minutes. Dense smoke overrides Hush, per the guide"
+    source_url: https://brand.kidde.com/m/79d343435488dfc/original/Product_UG_i12040A-i12080A-User-Guide_En.pdf
+    source_title: "Kidde — i12040A / i12080A Smoke Alarm User Guide (PDF)"
+    checked: "2026-11-27"
+  - id: interconnect
+    label: Interconnect
+    value: "Up to 24 Kidde devices on one wired loop, of which 18 can start an alarm and no more than 12 may be smoke alarms (the NFPA limit Kidde cites). Interconnect wire is capped at 1,000 ft and all units must be on one circuit"
+    source_url: https://brand.kidde.com/m/22416d3ee877d9e9/original/PDS_i12080.pdf
+    source_title: "Kidde — i12080 120V AC/DC Wire-in Smoke Alarm Safety Light Product Data Sheet (PDF)"
+    checked: "2026-11-27"
+  - id: inverter
+    label: Off-grid power
+    value: "The 2015 guide warns against square-wave, modified square-wave and modified sine-wave inverters, which it says are sometimes used in off-grid homes"
+    source_url: https://brand.kidde.com/m/79d343435488dfc/original/Product_UG_i12040A-i12080A-User-Guide_En.pdf
+    source_title: "Kidde — i12040A / i12080A Smoke Alarm User Guide (PDF)"
+    checked: "2026-11-27"
+  - id: warranty
+    label: Warranty
+    value: "The data sheet, product page and 2015 i12080A guide say 10-year limited. The older i12080 guide's warranty section says five years from purchase, so the term depends on which version you own"
+    source_url: https://brand.kidde.com/m/597825ea95c0b0c9/original/UG_i12010_i12040_i12080.pdf
+    source_title: "Kidde — i12020 / i12040 / i12080 Smoke Alarm User's Guide (PDF)"
+    checked: "2026-11-27"
+  - id: part-number
+    label: Ordering number
+    value: "21006379 (six-unit cut case); UPC 0-47871-40382-0"
+    source_url: https://brand.kidde.com/m/22416d3ee877d9e9/original/PDS_i12080.pdf
+    source_title: "Kidde — i12080 120V AC/DC Wire-in Smoke Alarm Safety Light Product Data Sheet (PDF)"
+    checked: "2026-11-27"
+replacement:
+  - id: named-replacement
+    label: Replacement named by Kidde
+    value: "Kidde's i12080 page lists the 20SAR (\"Smoke Alarm, Hardwired with AA Backup Battery\") under Upgrade to"
+    source_url: https://www.kidde.com/products/smoke-alarms/ac-hardwired-interconnect-smoke-alarm-with-safety-light
+    source_title: "Kidde — AC Hardwired Interconnect Smoke Alarm with Safety Light i12080 (product page)"
+    checked: "2026-11-27"
+  - id: replacement-differs
+    label: How the 20SAR differs
+    value: "The 20SAR is photoelectric rather than ionization, runs on two replaceable AA backup batteries instead of a 9 V, and beeps to signal end of life ten years after it is powered. Its data sheet lists no safety light, so switching gives up the light"
+    source_url: https://brand.kidde.com/m/2e898ca3eaa4d696/original/PDS_20SAR.pdf
+    source_title: "Kidde — DETECT Series Model 20SAR Product Data Sheet (PDF)"
+    checked: "2026-11-27"
+  - id: replacement-page
+    label: 20SAR product page
+    value: "The 20SAR product page did not mention a safety light either when we checked"
+    source_url: https://www.kidde.com/products/smoke-alarms/smoke-alarm-hardwired-with-aa-backup-battery
+    source_title: "Kidde — Smoke Alarm, Hardwired with AA Backup Battery 20SAR (product page)"
+    checked: "2026-11-27"
+  - id: adapter
+    label: Keep the old wiring plug
+    value: "The 20-9003 adapter guide lists i12080 and i12080A among the older Kidde harnesses that a new-connector Kidde alarm can plug into without rewiring. If the ceiling harness matches none of its three pictured harnesses, the guide says the adapter will not work"
+    source_url: https://brand.kidde.com/m/275e008037c43807/original/Product_UG_20-9003.pdf
+    source_title: "Kidde — 20-9003 Wiring Adapter User Guide (PDF)"
+    checked: "2026-11-27"
+  - id: adapter-not-universal
+    label: Check the pairing first
+    value: "Kidde's adapter page says it joins only select Kidde and FireX harnesses to compatible new Kidde alarms, and asks you to check the user or compatibility guide before buying"
+    source_url: https://www.kidde.com/products/safety-accessories/quick-connect-adapter-for-hardwired-smoke-carbon-monoxide-alarms
+    source_title: "Kidde — Quick Connect Adapter 20-9003 (product page)"
+    checked: "2026-11-27"
+  - id: other-brands
+    label: Mixing brands on one loop
+    value: "Kidde says tying its alarms to equipment it has not specified could cause nuisance alarms, failure to alarm, or damage, so check its tested list before mixing brands"
+    source_url: https://www.kidde.com/support/smoke-alarms/kidde-interconnectivity
+    source_title: "Kidde — What Other Products Will Kidde Alarms Interconnect With?"
+    checked: "2026-11-27"
+  - id: recalls
+    label: Recalls
+    value: "Search CPSC's recall list for your exact model before reusing or reselling an alarm. CPSC's site did not load for us on this check, so this page states no recall either way"
+    source_url: https://www.cpsc.gov/Recalls
+    source_title: "CPSC — Recalls & Product Safety Warnings"
+    checked: "2026-11-27"
+related: [kidde-i12040, kidde-i12020, kidde-20sar, kidde-20-9003]
