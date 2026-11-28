@@ -135,7 +135,7 @@ sections:
             source_url: https://www.kidde.com/support/smoke-alarms/kidde-interconnectivity
             source_title: "Kidde — What Other Products Will Kidde Alarms Interconnect With?"
             checked: "2026-10-31"
-        models: [firex-i4618]
+        models: [firex-i4618, kidde-ka-f2]
   - heading: "Can't read the date?"
     body: >-
       Labels fade, get painted over, or were never printed. A fresh battery

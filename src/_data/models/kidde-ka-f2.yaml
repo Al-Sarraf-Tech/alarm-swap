@@ -1,0 +1,126 @@
+slug: kidde-ka-f2
+brand: Kidde
+model: KA-F2
+aliases: []
+kind: Wiring adapter plug (old Firex FADC, ADC or AD harness → listed Kidde alarm), discontinued
+title: "Kidde KA-F2 adapter: which old Firex plugs it fits, and why it is discontinued"
+description: "Kidde's KA-F2 joined pre-2009 Firex FADC, ADC and AD wiring plugs to older Kidde alarms. It is discontinued, its list names no current Kidde alarm, and what to do instead."
+published: "2026-11-28"
+summary: >-
+  The KA-F2 is a small Kidde plug adapter for one job: putting a Kidde alarm
+  onto the ceiling wiring left by an old Firex FADC, ADC or AD alarm. Kidde's
+  page now marks it discontinued. Its user guide lists only older Kidde models
+  as the alarms it was tested with, so check your exact new model before
+  counting on it; Kidde's Firex page says the other route is to wire in the
+  harness that comes with the new alarm.
+facts:
+  - id: status
+    label: Status
+    value: "Kidde's KA-F2 page carries a \"This product has been Discontinued\" banner"
+    source_url: https://www.kidde.com/products/safety-accessories/quick-convert-adapter-ka-f2
+    source_title: "Kidde — Quick Convert Adapter KA-F2 (product page)"
+    checked: "2026-11-28"
+  - id: what-it-does
+    label: What it does
+    value: "It lets a new Kidde alarm plug into the Firex wiring harness already in the ceiling, so the harness packed with the new alarm is not used. You still swap the old Firex mounting plate for the plate that comes with the Kidde alarm"
+    source_url: https://brand.kidde.com/m/6512464e66448ee5/original/UG_KL_KA-F_KA-B2.pdf
+    source_title: "Kidde — KA-F2 / KA-B2 Wiring Adapter User Guide (PDF)"
+    checked: "2026-11-28"
+  - id: old-side
+    label: Old Firex alarms it is for
+    value: "Only the Firex FADC, ADC and AD. The guide and the product page both say the adapter can be used only when replacing those three models"
+    source_url: https://brand.kidde.com/m/6512464e66448ee5/original/UG_KL_KA-F_KA-B2.pdf
+    source_title: "Kidde — KA-F2 / KA-B2 Wiring Adapter User Guide (PDF)"
+    checked: "2026-11-28"
+  - id: new-side
+    label: Kidde alarms it was tested with
+    value: "1235, 1275, 1276, 1285, i12020, i12020A, i12040, i12060, i12060A, i12080, i4618, i4618A, i4618AC, KN-SMFM-I, PE120, Pi2000, KN-COSM-I, KN-COSM-IB, KN-COSM-IBA, KN-COPE-I, i12010S, i12010SCO, P4010ACSCO, P4010ACSCO-W, P4010LACS-W, P4010ACS and P4010ACS-W"
+    source_url: https://brand.kidde.com/m/6512464e66448ee5/original/UG_KL_KA-F_KA-B2.pdf
+    source_title: "Kidde — KA-F2 / KA-B2 Wiring Adapter User Guide (PDF)"
+    checked: "2026-11-28"
+  - id: no-current-model
+    label: Current Kidde alarms on the list?
+    value: "None that we could match. Current models such as the 20SAR, 20SA10 and 30CUA10 are not on the KA-F2 list, and the guide (dated 2018 in its file data) does not say whether newer alarms work with it. Ask Kidde before pairing it with a current alarm"
+    source_url: https://brand.kidde.com/m/6512464e66448ee5/original/UG_KL_KA-F_KA-B2.pdf
+    source_title: "Kidde — KA-F2 / KA-B2 Wiring Adapter User Guide (PDF)"
+    checked: "2026-11-28"
+  - id: list-vs-ka-b2
+    label: Shorter list than its sister adapter
+    value: "The same PDF carries the KA-B2 (for old First Alert / BRK plugs). The KA-B2 list also names i12040A, i12080A, RF-SM-ACDC, P12040, Pi2010 and KN-COPE-IC; the KA-F2 list does not. The guide gives no reason for the difference"
+    source_url: https://brand.kidde.com/m/6512464e66448ee5/original/UG_KL_KA-F_KA-B2.pdf
+    source_title: "Kidde — KA-F2 / KA-B2 Wiring Adapter User Guide (PDF)"
+    checked: "2026-11-28"
+  - id: harness-match
+    label: If your plug looks different
+    value: "The guide shows one Firex harness. If the one in your ceiling does not match it, Kidde says this is the wrong adapter"
+    source_url: https://brand.kidde.com/m/6512464e66448ee5/original/UG_KL_KA-F_KA-B2.pdf
+    source_title: "Kidde — KA-F2 / KA-B2 Wiring Adapter User Guide (PDF)"
+    checked: "2026-11-28"
+  - id: pre-2009
+    label: Why older Firex alarms need it
+    value: "Kidde says no current model fits the harness or mounting bracket of hardwired Firex alarms made before 2009. You change the bracket first, then either change the wiring harness or, for certain Firex models, use the KA-F2"
+    source_url: https://www.kidde.com/support/smoke-alarms/firex-interconnectivity
+    source_title: "Kidde — What Products Will Firex Alarms Interconnect With?"
+    checked: "2026-11-28"
+  - id: replace-all
+    label: Replace one, replace all?
+    value: "Kidde's Firex page says that when you change one of these pre-2009 alarms, every device on the interconnect line has to be replaced. The KA-F2 guide puts it differently: the Kidde and Firex models it lists were tested as interconnect-compatible with or without the adapter. The two pages do not say the same thing; the safer reading is the support page's"
+    source_url: https://www.kidde.com/support/smoke-alarms/firex-interconnectivity
+    source_title: "Kidde — What Products Will Firex Alarms Interconnect With?"
+    checked: "2026-11-28"
+  - id: interconnect-limit
+    label: How many on one loop
+    value: "No more than 12 smoke alarms on the interconnect, the NFPA limit the guide quotes. The product page's specs say the same"
+    source_url: https://brand.kidde.com/m/6512464e66448ee5/original/UG_KL_KA-F_KA-B2.pdf
+    source_title: "Kidde — KA-F2 / KA-B2 Wiring Adapter User Guide (PDF)"
+    checked: "2026-11-28"
+  - id: after
+    label: After fitting it
+    value: "Check that the new alarm's AC power light is on, then press test on each alarm and confirm all the interconnected alarms sound"
+    source_url: https://brand.kidde.com/m/6512464e66448ee5/original/UG_KL_KA-F_KA-B2.pdf
+    source_title: "Kidde — KA-F2 / KA-B2 Wiring Adapter User Guide (PDF)"
+    checked: "2026-11-28"
+  - id: warranty
+    label: Warranty
+    value: "Five-year limited warranty from the date of purchase, per both the product page and the user guide"
+    source_url: https://www.kidde.com/products/safety-accessories/quick-convert-adapter-ka-f2
+    source_title: "Kidde — Quick Convert Adapter KA-F2 (product page)"
+    checked: "2026-11-28"
+  - id: not-20-9003
+    label: Is the 20-9003 the same thing?
+    value: "No. The 20-9003's old-model list covers older Kidde harnesses and Firex i4618-family alarms; it does not name the Firex FADC, ADC or AD"
+    source_url: https://brand.kidde.com/m/275e008037c43807/original/Product_UG_20-9003.pdf
+    source_title: "Kidde — 20-9003 Wiring Adapter User Guide (PDF)"
+    checked: "2026-11-28"
+replacement:
+  - id: named-replacement
+    label: Replacement named by Kidde
+    value: "The KA-F2 page did not name a replacement adapter when we checked, and no other Kidde page we opened lists the FADC, ADC or AD as fitting a current adapter"
+    source_url: https://www.kidde.com/products/safety-accessories/quick-convert-adapter-ka-f2
+    source_title: "Kidde — Quick Convert Adapter KA-F2 (product page)"
+    checked: "2026-11-28"
+  - id: rewire-route
+    label: The other route Kidde gives
+    value: "Fit the new Kidde bracket and wire in the harness that comes with the new alarm instead of using an adapter. Kidde's Firex page then says to restore power and test every alarm, using the new alarm's user guide throughout"
+    source_url: https://www.kidde.com/support/smoke-alarms/firex-interconnectivity
+    source_title: "Kidde — What Products Will Firex Alarms Interconnect With?"
+    checked: "2026-11-28"
+  - id: page-vs-status
+    label: Support page still says to buy one
+    value: "Kidde's Firex page still tells readers to purchase and install a KA-F2, while the KA-F2's own page says it is discontinued. If you cannot find one, use the rewire route or ask Kidde customer care"
+    source_url: https://www.kidde.com/support/smoke-alarms/firex-interconnectivity
+    source_title: "Kidde — What Products Will Firex Alarms Interconnect With?"
+    checked: "2026-11-28"
+  - id: firex-replace
+    label: Kidde's advice for Firex owners
+    value: "Kidde says it bought the maker of Firex alarms in 2009, that Firex alarms are no longer made or supported, and that owners should replace them with a current Kidde model"
+    source_url: https://www.kidde.com/support/smoke-alarms/firex-interconnectivity
+    source_title: "Kidde — What Products Will Firex Alarms Interconnect With?"
+    checked: "2026-11-28"
+  - id: recalls
+    label: Recalls
+    value: "Search CPSC's recall list for your exact alarm models before reusing an old alarm or adapter"
+    source_url: https://www.cpsc.gov/Recalls
+    source_title: "CPSC — Recalls & Product Safety Warnings"
+    checked: "2026-11-28"
+related: [kidde-20-9003, firex-i4618, kidde-20sar]
