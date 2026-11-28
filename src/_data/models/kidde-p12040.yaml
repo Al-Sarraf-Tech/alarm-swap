@@ -1,0 +1,156 @@
+slug: kidde-p12040
+brand: Kidde
+model: P12040
+aliases: []
+kind: Hardwired smoke alarm
+title: "Kidde P12040: photoelectric smoke alarm with Hush, expiry and what replaces it"
+description: "Kidde P12040 hardwired photoelectric smoke alarm with Hush: 9 V backup battery, date code, ten-year replacement, LED and chirp meanings, the 20SAR upgrade and the 20-9003 plug adapter."
+published: "2026-11-27"
+summary: >-
+  The P12040 is a Kidde hardwired photoelectric smoke alarm with a 9 V backup
+  battery and one button for Test and Hush. Its data sheet says it was
+  previously sold as the PE120. Replace it ten years after the date code on
+  its back; the user guide describes no end-of-life warning. Kidde's P12040
+  page shows the 20SAR under "Upgrade to", and the 20-9003 adapter lists the
+  P12040 harness.
+facts:
+  - id: status
+    label: Status
+    value: "Kidde's P12040 page is still up and shows the 20SAR under \"Upgrade to\". The page did not say \"discontinued\" when we checked. The data sheet says the alarm was sold in six-unit cut cases and not as single units"
+    source_url: https://www.kidde.com/products/smoke-alarms/ac-hardwired-interconnect-photoelectric-smoke-alarm-with-hush
+    source_title: "Kidde — AC Hardwired Interconnect Photoelectric Smoke Alarm with Hush P12040 (product page)"
+    checked: "2026-11-27"
+  - id: previous-number
+    label: Earlier model number
+    value: "The data sheet (rev. 07-2011) heads the alarm \"Model P12040 (previously PE120)\". The product page does not mention PE120, and the user guide names PE120 and P12040 as separate entries in its list of battery-backup models, so the two documents do not line up"
+    source_url: https://brand.kidde.com/m/4941f28ebcccba17/original/PDS_P12040.pdf
+    source_title: "Kidde — P12040 120V AC Photoelectric Smoke Alarm Product Data Sheet (PDF)"
+    checked: "2026-11-27"
+  - id: sensor
+    label: Sensor type
+    value: "Photoelectric. Kidde's page says photoelectric alarms may pick up smoldering fires sooner and ionization alarms flaming fires sooner, and it recommends having both types in the home"
+    source_url: https://www.kidde.com/products/smoke-alarms/ac-hardwired-interconnect-photoelectric-smoke-alarm-with-hush
+    source_title: "Kidde — AC Hardwired Interconnect Photoelectric Smoke Alarm with Hush P12040 (product page)"
+    checked: "2026-11-27"
+  - id: power
+    label: Power
+    value: "120 V AC, 60 Hz house wiring (80 mA) with a 9 V backup battery included. The guide says the circuit must not be switchable or on a ground-fault interrupter"
+    source_url: https://brand.kidde.com/m/2065a86ea7679ca8/original/UG_-P.pdf
+    source_title: "Kidde — P12040 Smoke Alarm User's Guide (PDF)"
+    checked: "2026-11-27"
+  - id: battery-types
+    label: Which 9 V battery
+    value: "The guide allows carbon-zinc, alkaline or lithium 9 V batteries, but only the models it lists, for example Energizer 522, Duracell MN1604 or MX1604, or the Ultralife U9VL-J lithium. It expects a fresh battery to last about a year. The battery door will not shut without a battery in place"
+    source_url: https://brand.kidde.com/m/2065a86ea7679ca8/original/UG_-P.pdf
+    source_title: "Kidde — P12040 Smoke Alarm User's Guide (PDF)"
+    checked: "2026-11-27"
+  - id: date-location
+    label: Where the date is
+    value: "The guide says the model number and the date code are both on the back of the alarm"
+    source_url: https://brand.kidde.com/m/2065a86ea7679ca8/original/UG_-P.pdf
+    source_title: "Kidde — P12040 Smoke Alarm User's Guide (PDF)"
+    checked: "2026-11-27"
+  - id: lifespan
+    label: When to replace
+    value: "Ten years from the date code. The guide credits that interval to both NFPA and Kidde"
+    source_url: https://brand.kidde.com/m/2065a86ea7679ca8/original/UG_-P.pdf
+    source_title: "Kidde — P12040 Smoke Alarm User's Guide (PDF)"
+    checked: "2026-11-27"
+  - id: low-battery
+    label: Low-battery chirp
+    value: "A chirp roughly every 30–40 seconds for at least seven days when the backup battery runs low. The guide says this chirp lines up with the red LED flash. It does not describe a way to quiet the low-battery chirp"
+    source_url: https://brand.kidde.com/m/2065a86ea7679ca8/original/UG_-P.pdf
+    source_title: "Kidde — P12040 Smoke Alarm User's Guide (PDF)"
+    checked: "2026-11-27"
+  - id: end-of-life-signal
+    label: End-of-life signal
+    value: "Not stated by the maker. Neither the guide nor the data sheet describes a ten-year end-of-life warning, so go by the date code. A chirp that falls between red LED flashes, rather than with one, means a part of the sensing chamber has failed"
+    source_url: https://brand.kidde.com/m/2065a86ea7679ca8/original/UG_-P.pdf
+    source_title: "Kidde — P12040 Smoke Alarm User's Guide (PDF)"
+    checked: "2026-11-27"
+  - id: leds
+    label: Lights (LEDs)
+    value: "A steady green LED means AC power is on. The red LED under the button flashes every 30–40 seconds in standby, once a second in alarm (only on the unit that sensed smoke or was tested), and every 10 seconds in Hush. The data sheet's specification lists only the standby and alarm patterns for the red LED; the Hush pattern comes from the guide"
+    source_url: https://brand.kidde.com/m/2065a86ea7679ca8/original/UG_-P.pdf
+    source_title: "Kidde — P12040 Smoke Alarm User's Guide (PDF)"
+    checked: "2026-11-27"
+  - id: hush
+    label: Hush time
+    value: "About 10 minutes, per the guide, after which the alarm resets and sounds again if smoke remains. Dense smoke overrides Hush. The data sheet lists a Hush button but gives no time"
+    source_url: https://brand.kidde.com/m/2065a86ea7679ca8/original/UG_-P.pdf
+    source_title: "Kidde — P12040 Smoke Alarm User's Guide (PDF)"
+    checked: "2026-11-27"
+  - id: interconnect
+    label: Interconnect
+    value: "Up to 24 Kidde devices on one wired loop, of which no more than 18 should be alarms and no more than 12 smoke alarms (the NFPA limit Kidde cites); the rest can be strobes or relay modules. All units must share one circuit and the run is capped at 1,000 ft"
+    source_url: https://brand.kidde.com/m/2065a86ea7679ca8/original/UG_-P.pdf
+    source_title: "Kidde — P12040 Smoke Alarm User's Guide (PDF)"
+    checked: "2026-11-27"
+  - id: interconnect-list
+    label: On Kidde's tested list?
+    value: "Kidde's interconnect article lists PE120, the P12040's earlier number, among tested Firex and First Alert/BRK models, but the P12040 number itself does not appear there. The P12040 guide says Kidde alarms connect only to other Kidde gear and the brands and models it specifies"
+    source_url: https://www.kidde.com/support/smoke-alarms/kidde-interconnectivity
+    source_title: "Kidde — What Other Products Will Kidde Alarms Interconnect With?"
+    checked: "2026-11-27"
+  - id: inverter
+    label: Off-grid power
+    value: "The guide warns that square-wave, modified square-wave and modified sine-wave inverters, which it says some solar or wind homes use, will damage the alarm"
+    source_url: https://brand.kidde.com/m/2065a86ea7679ca8/original/UG_-P.pdf
+    source_title: "Kidde — P12040 Smoke Alarm User's Guide (PDF)"
+    checked: "2026-11-27"
+  - id: warranty
+    label: Warranty
+    value: "10-year limited on the alarm (not the battery). The product page, data sheet and guide agree; the guide counts the ten years from the date of purchase"
+    source_url: https://brand.kidde.com/m/2065a86ea7679ca8/original/UG_-P.pdf
+    source_title: "Kidde — P12040 Smoke Alarm User's Guide (PDF)"
+    checked: "2026-11-27"
+  - id: part-number
+    label: Ordering number
+    value: "21006371 (six-unit cut case); UPC 0-47871-40399-8"
+    source_url: https://brand.kidde.com/m/4941f28ebcccba17/original/PDS_P12040.pdf
+    source_title: "Kidde — P12040 120V AC Photoelectric Smoke Alarm Product Data Sheet (PDF)"
+    checked: "2026-11-27"
+replacement:
+  - id: named-replacement
+    label: Replacement named by Kidde
+    value: "Kidde's P12040 page lists the 20SAR (\"Smoke Alarm, Hardwired with AA Backup Battery\") under Upgrade to"
+    source_url: https://www.kidde.com/products/smoke-alarms/ac-hardwired-interconnect-photoelectric-smoke-alarm-with-hush
+    source_title: "Kidde — AC Hardwired Interconnect Photoelectric Smoke Alarm with Hush P12040 (product page)"
+    checked: "2026-11-27"
+  - id: replacement-differs
+    label: How the 20SAR differs
+    value: "The 20SAR is also photoelectric, but it runs on two replaceable AA backup batteries instead of a 9 V, says not to use lithium batteries, and beeps to signal end of life ten years after it is powered. Its Hush lasts about 8–10 minutes with the red LED flashing every 2 seconds, and it adds an amber fault light and alarm memory"
+    source_url: https://brand.kidde.com/m/2e898ca3eaa4d696/original/PDS_20SAR.pdf
+    source_title: "Kidde — DETECT Series Model 20SAR Product Data Sheet (PDF)"
+    checked: "2026-11-27"
+  - id: replacement-page
+    label: 20SAR product page
+    value: "The 20SAR page says to change its AA batteries every six months or when the low-battery chirp starts, and that it links to other Kidde alarms over the house wiring"
+    source_url: https://www.kidde.com/products/smoke-alarms/smoke-alarm-hardwired-with-aa-backup-battery
+    source_title: "Kidde — Smoke Alarm, Hardwired with AA Backup Battery 20SAR (product page)"
+    checked: "2026-11-27"
+  - id: adapter
+    label: Keep the old wiring plug
+    value: "The 20-9003 adapter guide lists the P12040 (and PE120) among the older Kidde harnesses that a new-connector Kidde alarm can plug into without rewiring. If the ceiling harness matches none of its three pictured harnesses, the guide says the adapter will not work"
+    source_url: https://brand.kidde.com/m/275e008037c43807/original/Product_UG_20-9003.pdf
+    source_title: "Kidde — 20-9003 Wiring Adapter User Guide (PDF)"
+    checked: "2026-11-27"
+  - id: adapter-not-universal
+    label: Check the pairing first
+    value: "Kidde's adapter page also lists P12040, but says the adapter works only with the specific old and new model pairings in its user or compatibility guide, so confirm both numbers before buying"
+    source_url: https://www.kidde.com/products/safety-accessories/quick-connect-adapter-for-hardwired-smoke-carbon-monoxide-alarms
+    source_title: "Kidde — Quick Connect Adapter 20-9003 (product page)"
+    checked: "2026-11-27"
+  - id: other-brands
+    label: Mixing brands on one loop
+    value: "Kidde says connecting its alarms to equipment it has not specified could cause nuisance alarms, failure to alarm, or damage, and that a unit missing from its tested list is not compatible"
+    source_url: https://www.kidde.com/support/smoke-alarms/kidde-interconnectivity
+    source_title: "Kidde — What Other Products Will Kidde Alarms Interconnect With?"
+    checked: "2026-11-27"
+  - id: recalls
+    label: Recalls
+    value: "Search CPSC's recall list for your exact model before reusing or reselling an alarm. CPSC's site did not load for us on this check, so this page states no recall either way"
+    source_url: https://www.cpsc.gov/Recalls
+    source_title: "CPSC — Recalls & Product Safety Warnings"
+    checked: "2026-11-27"
+related: [kidde-i12040, kidde-20sar, kidde-20-9003, kidde-i12080]

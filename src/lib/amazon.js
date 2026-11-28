@@ -45,6 +45,7 @@ const pages = {
   "kidde-i12020": ["kidde-20sar", "kidde-20-9003"],
   "kidde-i12040": ["kidde-20-9003"],
   "kidde-i12080": ["kidde-20sar", "kidde-20-9003"],
+  "kidde-p12040": ["kidde-20sar", "kidde-20-9003"],
   "kidde-i12060": ["kidde-20-9003"],
   "kidde-kn-cob-ic": ["kidde-kn-cob-ic"],
   "kidde-kn-cop-ic": ["kidde-kn-cop-ic"],
